@@ -16,45 +16,25 @@
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false
   },
-  "name": "verbalisation électronique - partage",
+  "name": "verbalisation électronique - collaboratif",
+  "description": "Le projet vise à assurer la préparation de données de verbalisation pour les finalités de décisionnel géographique et de corrélation avec l\u0027accidentalité.",
   "shortDesc": "The project *verbalisation électronique - partage* was created by Fabien Antoine on Dec 29th 2016",
   "checklists": {
     "checklists": [
       {
-        "title": "Your new project\u0027s Todo",
+        "title": "Verbalisation : préparation de données",
         "createdOn": 0,
         "items": [
           {
-            "done": true,
-            "text": "Create the project",
+            "done": false,
+            "text": "Préparer les données pour statistiques générales",
             "createdOn": 1483008028381,
             "createdBy": "antoinefa",
             "stateChangedOn": 0
           },
           {
             "done": false,
-            "text": "Set a project image (click on the color next to the project title)",
-            "createdOn": 1483008028381,
-            "createdBy": "antoinefa",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Import your [first dataset](datasets/new/)",
-            "createdOn": 1483008028381,
-            "createdBy": "antoinefa",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Invite [other users](settings/permissions/) to collaborate",
-            "createdOn": 1483008028381,
-            "createdBy": "antoinefa",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Organize your work by replacing this with a real todo",
+            "text": "Préparer les données pour jointures géographiques : aggrégations communes, gps, segments routiers",
             "createdOn": 1483008028381,
             "createdBy": "antoinefa",
             "stateChangedOn": 0
@@ -64,5 +44,5 @@
     ]
   },
   "tags": [],
-  "projectStatus": "Sandbox"
+  "projectStatus": "Draft"
 }
