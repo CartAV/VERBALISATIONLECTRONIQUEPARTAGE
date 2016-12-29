@@ -5,7 +5,7 @@ from dataiku import pandasutils as pdu
 import distance
 
 # Recipe inputs
-ds_in = dataiku.Dataset("20161122_pve_securite_routiere_geocoded")
+ds_in = dataiku.Dataset("20161122_pve_sr")
 df = ds_in.get_dataframe()
 print("chargement initial")    
 
