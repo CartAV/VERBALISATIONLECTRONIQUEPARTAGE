@@ -23,18 +23,19 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {},
+  "shortDesc": "Développement en dummies des valeurs principales en colonnes, pour permettre des aggrégations ultérieures",
   "checklists": {
     "checklists": []
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483012666507
+    "lastModifiedOn": 1483013131886
   },
   "customMeta": {
     "kv": {}
