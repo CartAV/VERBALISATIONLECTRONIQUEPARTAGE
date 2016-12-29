@@ -26,12 +26,36 @@
   "tags": [
     "creator_antoinefa"
   ],
+  "shortDesc": "Données géolocalisées sur la base de la voie via le service adresse.data.gouv.fr (instanciation locale)",
   "checklists": {
-    "checklists": []
+    "checklists": [
+      {
+        "title": "Checklist",
+        "createdOn": 0,
+        "items": [
+          {
+            "done": false,
+            "text": "Analyser (dans charts) la qualité des rectifications (score / type de route identifiée)",
+            "createdOn": 1483012935168,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
+          }
+        ]
+      }
+    ]
   },
   "flowOptions": {
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "versionTag": {
+    "versionNumber": 5,
+    "lastModifiedBy": {
+      "login": "antoinefa",
+      "displayName": "Fabien Antoine",
+      "email": "fabien.antoine@interieur.gouv.fr"
+    },
+    "lastModifiedOn": 1483013054330
   },
   "customMeta": {
     "kv": {}
