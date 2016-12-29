@@ -36,6 +36,13 @@
             "createdOn": 1483012743472,
             "createdBy": "antoinefa",
             "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Ajouter un traitement des coordonnées GPS déjà existantes",
+            "createdOn": 1483012774283,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
           }
         ]
       }
@@ -43,13 +50,13 @@
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483012846293
+    "lastModifiedOn": 1483012877146
   },
   "customMeta": {
     "kv": {}
