@@ -23,6 +23,1434 @@
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "COMMUNE_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "DUM_REGROUPEMENT_GENRE AUTRE_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_REGROUPEMENT_GENRE CAMION_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_REGROUPEMENT_GENRE MOTO_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_REGROUPEMENT_GENRE TCP_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_REGROUPEMENT_GENRE VL_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 1_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 2_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 3_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 4_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 5_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 6_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 7_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 8_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 9_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 10_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 11_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MOIS_INFRACTION 12_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MNT_AF 4_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MNT_AF 11_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MNT_AF 35_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MNT_AF 68_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MNT_AF 135_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Agglomération_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Autoroute_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Autre Route_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Chemin Communal_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE NR_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Ouvrage d\u0027Art_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Route Départementale_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Route Express_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Route Nationale_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Route Secondaire_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_TYPE_VOIE Voie Spécialisée_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_STATUT_DOSSIER ACO DAC Envoyé_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_STATUT_DOSSIER ACO envoyé_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_STATUT_DOSSIER Dossier transmis_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_STATUT_DOSSIER Fin de traitement au CNT_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_STATUT_DOSSIER Infraction constatée_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_CLASSE Classe 1_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_CLASSE Classe 2_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_CLASSE Classe 3_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_CLASSE Classe 4_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT -1_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 0_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 1_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 2_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 3_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 4_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 5_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 6_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 7_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 8_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 9_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 10_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 11_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 12_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 13_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 14_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 15_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 16_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 17_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 18_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 19_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 20_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 21_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 22_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 23_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 24_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 25_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 26_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 27_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 28_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 29_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 30_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 31_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 32_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 33_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 34_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 35_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 36_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 37_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 38_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 39_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 40_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 41_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 42_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 43_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 44_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 45_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 46_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 47_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 48_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 49_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 50_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 51_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 52_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 53_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 54_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 55_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 56_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 57_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 58_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 59_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 60_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 61_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 62_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 63_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 64_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 65_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 66_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 67_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 68_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 69_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 70_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 71_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 72_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 73_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 74_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 75_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 76_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 77_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 78_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 79_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 80_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 81_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 82_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 83_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 84_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 85_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 86_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 87_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 88_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 89_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 90_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 91_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 92_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 93_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 94_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 95_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 96_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 97_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 98_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 99_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 100_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 101_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 102_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 103_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 104_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 105_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 106_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 107_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 108_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 109_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 110_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 111_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 112_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 113_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 114_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_AGE_CONTREVENANT 115_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_SEXE_CONTREVENANT Femme_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_SEXE_CONTREVENANT Homme_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_SEXE_CONTREVENANT Non defini_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Alcool_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Autres infractions à la circulation routière_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Ceinture et casque_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Croisements et dépassements_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Eclairage et signalisation_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Etat ou équipement des utilisateurs et des véhicules_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Priorité de passage - intersections_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Règles de conduite_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_FAMILLE Vitesse_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_JOUR_INFRACTION DIMANCHE_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_JOUR_INFRACTION JEUDI_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_JOUR_INFRACTION LUNDI_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_JOUR_INFRACTION MARDI_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_JOUR_INFRACTION MERCREDI_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_JOUR_INFRACTION SAMEDI_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_JOUR_INFRACTION VENDREDI_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NUIT Jour_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NUIT Nuit_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 00 - 01 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 01 - 02 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 02 - 03 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 03 - 04 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 04 - 05 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 05 - 06 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 06 - 07 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 07 - 08 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 08 - 09 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 09 - 10 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 10 - 11 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 11 - 12 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 12 - 13 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 13 - 14 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 14 - 15 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 15 - 16 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 16 - 17 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 17 - 18 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 18 - 19 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 19 - 20 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 20 - 21 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 21 - 22 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 22 - 23 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_PLAGE_HORAIRE 23 - 24 h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIB_TRANCHE_DEPASSEMENT \u003c 20 km/h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIB_TRANCHE_DEPASSEMENT \u003e\u003d 20 et \u003c 30 km/h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIB_TRANCHE_DEPASSEMENT \u003e\u003d 30 et \u003c 40 km/h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIB_TRANCHE_DEPASSEMENT \u003e\u003d 40 et \u003c 50 km/h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIB_TRANCHE_DEPASSEMENT \u003e\u003d 50 km/h_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIB_TRANCHE_DEPASSEMENT NR_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE CIRCULATION D\u0027UN VEHICULE A MOTEUR OU D\u0027UNE REMORQUE MUNI DE PNEUMATIQUE LISSE, DECHIRE OU DONT LA TOILE _sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE CIRCULATION D\u0027UN VEHICULE NON AUTORISE SUR UNE VOIE RESERVEE AUX VEHICULES DE TRANSPORT PUBLIC DE VOYAGEU_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE CONDUITE D\u0027UN VEHICULE A UNE VITESSE EXCESSIVE EU EGARD AUX CIRCONSTANCES_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE CONDUITE D\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027ALCOOL PAR LITRE D\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE CONDUITE D\u0027UN VEHICULE DANS DES CONDITIONS NE PERMETTANT PAS AU CONDUCTEUR DE MANOEUVRER AISEMENT_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE CONDUITE DE VEHICULE SANS RESPECT D\u0027INDICATIONS RESULTANT DE LA SIGNALISATION ROUTIERE_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE CONDUITE, SANS PORT DE LA CEINTURE DE SECURITE, D\u0027UN VEHICULE A MOTEUR RECEPTIONNE AVEC CET EQUIPEMENT_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE EXCES DE VITESSE D\u0027AU MOINS 20 KM/H ET INFERIEUR A 30 KM/H PAR CONDUCTEUR DE VEHICULE A MOTEUR_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE EXCES DE VITESSE D\u0027AU MOINS 30 KM/H ET INFERIEUR A 40 KM/H PAR CONDUCTEUR DE VEHICULE A MOTEUR_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE EXCES DE VITESSE INFERIEUR A 20 KM/H PAR CONDUCTEUR DE VEHICULE A MOTEUR - VITESSE MAXIMALE AUTORISEE INF_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE EXCES DE VITESSE INFERIEUR A 20 KM/H PAR CONDUCTEUR DE VEHICULE A MOTEUR - VITESSE MAXIMALE AUTORISEE SUP_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE FRANCHISSEMENT D\u0027UNE LIGNE CONTINUE PAR LE CONDUCTEUR D\u0027UN VEHICULE_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE INOBSERVATION, PAR CONDUCTEUR DE VEHICULE, DE L\u0027ARRET IMPOSE PAR UN FEU ROUGE_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE INOBSERVATION, PAR CONDUCTEUR, DE L\u0027ARRET ABSOLU IMPOSE PAR LE PANNEAU \"STOP\" A UNE INTERSECTION DE ROUTE_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_LIBELLE_NATURE USAGE D\u0027UN TELEPHONE TENU EN MAIN PAR LE CONDUCTEUR D\u0027UN VEHICULE EN CIRCULATION_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE AUDI_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE BMW_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE CITROEN_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE FIAT_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE FORD_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE MERCEDES BENZ_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE OPEL_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE PEUGEOT_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE RENAULT_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_MARQUE VOLKSWAGEN_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DUM_NATIONALITE_PLAQUE FRANCE_sum",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "count",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
       }
     ]
   },
@@ -39,6 +1467,15 @@
   "flowOptions": {
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa",
+      "displayName": "Fabien Antoine",
+      "email": "fabien.antoine@interieur.gouv.fr"
+    },
+    "lastModifiedOn": 1483033983590
   },
   "customMeta": {
     "kv": {}
