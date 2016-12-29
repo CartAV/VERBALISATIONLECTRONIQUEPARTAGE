@@ -501,12 +501,36 @@
   "tags": [
     "creator_antoinefa"
   ],
+  "description": "Données de l\u0027année 2015 de verbalisation issues de l\u0027infocentre ICARE du PVE (procès verbal électronique) après filtrage (données liées à la sécurité routière), et de certains champs (notamment unité de police/gendarmerie).\nEnviron 2,4M d\u0027enregistrements.",
   "checklists": {
-    "checklists": []
+    "checklists": [
+      {
+        "title": "Checklist",
+        "createdOn": 0,
+        "items": [
+          {
+            "done": false,
+            "text": "Préparer des exploitations graphiques dans l\u0027onglet charts",
+            "createdOn": 1483012340838,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
+          }
+        ]
+      }
+    ]
   },
   "flowOptions": {
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "versionTag": {
+    "versionNumber": 4,
+    "lastModifiedBy": {
+      "login": "antoinefa",
+      "displayName": "Fabien Antoine",
+      "email": "fabien.antoine@interieur.gouv.fr"
+    },
+    "lastModifiedOn": 1483012443779
   },
   "customMeta": {
     "kv": {}
