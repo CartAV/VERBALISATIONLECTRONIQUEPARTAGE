@@ -24,7 +24,7 @@
   "optionalDependencies": false,
   "params": {},
   "shortDesc": "Développement en dummies des valeurs principales en colonnes, pour permettre des aggrégations ultérieures",
-  "description": "Liste des développements complets\n- complets: \u0027REGROUPEMENT_GENRE\u0027,\nMOIS_INFRACTION\u0027,\u0027MNT_AF\u0027,\u0027LIBELLE_TYPE_VOIE\u0027,\u0027LIBELLE_STATUT_DOSSIER\u0027,\u0027LIBELLE_CLASSE\u0027,\u0027AGE_CONTREVENANT\u0027,\u0027SEXE_CONTREVENANT\u0027,\u0027LIBELLE_FAMILLE\u0027,\u0027LIBELLE_JOUR_INFRACTION\u0027,\u0027LIBELLE_NUIT\u0027,\u0027LIBELLE_PLAGE_HORAIRE\u0027,\u0027LIB_TRANCHE_DEPASSEMENT\u0027",
+  "description": "Développements complets pour certaines colonnes et des catégories les plus représentées (\u003e2%) : marques de véhicules, NATINF, ...",
   "checklists": {
     "checklists": [
       {
@@ -44,13 +44,13 @@
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483013198345
+    "lastModifiedOn": 1483013258319
   },
   "customMeta": {
     "kv": {}
