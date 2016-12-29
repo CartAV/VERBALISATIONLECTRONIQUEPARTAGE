@@ -23,18 +23,19 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {},
+  "description": "Process de géocodage à partir de l\u0027adresse (champ adr).\nBasé sur le requêtage par API du service addok/BAN (clône de adresse.data.gouv.fr).\nRequêtage parallèle à améliorer",
   "checklists": {
     "checklists": []
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483012518222
+    "lastModifiedOn": 1483012820774
   },
   "customMeta": {
     "kv": {}
