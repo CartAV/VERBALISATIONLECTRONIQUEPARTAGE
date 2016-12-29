@@ -25,17 +25,31 @@
   "params": {},
   "description": "Process de géocodage à partir de l\u0027adresse (champ adr).\nBasé sur le requêtage par API du service addok/BAN (clône de adresse.data.gouv.fr).\nRequêtage parallèle à améliorer",
   "checklists": {
-    "checklists": []
+    "checklists": [
+      {
+        "title": "Checklist",
+        "createdOn": 0,
+        "items": [
+          {
+            "done": false,
+            "text": "Améliorer la conservation des types de données, perturbées par le passage CSV à l\u0027API",
+            "createdOn": 1483012743472,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
+          }
+        ]
+      }
+    ]
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483012820774
+    "lastModifiedOn": 1483012846293
   },
   "customMeta": {
     "kv": {}
