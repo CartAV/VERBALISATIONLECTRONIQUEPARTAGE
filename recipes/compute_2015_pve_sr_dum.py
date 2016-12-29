@@ -11,7 +11,7 @@ print("chargement initial")
 
 
 nrows=len(df.index)
-threshold=0.05*float(nrows)
+threshold=0.04*float(nrows)
 
 
 
