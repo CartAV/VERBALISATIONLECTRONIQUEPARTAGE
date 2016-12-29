@@ -32,5 +32,5 @@ for key in liste:
 print("écriture finale")    
 
 # Recipe outputs
-ds_out = dataiku.Dataset("20161122_pve_sr_geo_dum")
+ds_out = dataiku.Dataset("20161122_pve_sr_geo")
 ds_out.write_with_schema(df)
