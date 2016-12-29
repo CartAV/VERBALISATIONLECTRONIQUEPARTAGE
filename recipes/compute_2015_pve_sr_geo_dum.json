@@ -25,17 +25,31 @@
   "params": {},
   "shortDesc": "Développement en dummies des valeurs principales en colonnes, pour permettre des aggrégations ultérieures",
   "checklists": {
-    "checklists": []
+    "checklists": [
+      {
+        "title": "Checklist",
+        "createdOn": 0,
+        "items": [
+          {
+            "done": false,
+            "text": "Valider la liste des développements utiles avec la DSCR",
+            "createdOn": 1483013053268,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
+          }
+        ]
+      }
+    ]
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483013131886
+    "lastModifiedOn": 1483013156084
   },
   "customMeta": {
     "kv": {}
