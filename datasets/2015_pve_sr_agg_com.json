@@ -19,16 +19,34 @@
     "userModified": false,
     "columns": [
       {
+        "name": "COMMUNE_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
         "name": "CODE_INSEE_INFRACTION",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "COMMUNE_INFRACTION",
+        "name": "SEMAINE_INFRAC",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "ANNEE_INFRACTION",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "NUM_ANNEE_MOIS_INFRACTION",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
       },
       {
         "name": "DUM_REGROUPEMENT_GENRE AUTRE_sum",
@@ -1469,13 +1487,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483033983590
+    "lastModifiedOn": 1483034602193
   },
   "customMeta": {
     "kv": {}
