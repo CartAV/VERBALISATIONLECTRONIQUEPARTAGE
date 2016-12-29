@@ -31,12 +31,6 @@
         "maxLength": 16200
       },
       {
-        "name": "SEMAINE_INFRAC",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
         "name": "ANNEE_INFRACTION",
         "type": "bigint",
         "timestampNoTzAsDate": false,
@@ -47,6 +41,12 @@
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
+      },
+      {
+        "name": "SEMAINE_INFRAC",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
       },
       {
         "name": "DUM_REGROUPEMENT_GENRE AUTRE_sum",
@@ -1309,31 +1309,7 @@
         "maxLength": -1
       },
       {
-        "name": "DUM_LIBELLE_NATURE CIRCULATION D\u0027UN VEHICULE A MOTEUR OU D\u0027UNE REMORQUE MUNI DE PNEUMATIQUE LISSE, DECHIRE OU DONT LA TOILE _sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DUM_LIBELLE_NATURE CIRCULATION D\u0027UN VEHICULE NON AUTORISE SUR UNE VOIE RESERVEE AUX VEHICULES DE TRANSPORT PUBLIC DE VOYAGEU_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "DUM_LIBELLE_NATURE CONDUITE D\u0027UN VEHICULE A UNE VITESSE EXCESSIVE EU EGARD AUX CIRCONSTANCES_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DUM_LIBELLE_NATURE CONDUITE D\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027ALCOOL PAR LITRE D\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DUM_LIBELLE_NATURE CONDUITE D\u0027UN VEHICULE DANS DES CONDITIONS NE PERMETTANT PAS AU CONDUCTEUR DE MANOEUVRER AISEMENT_sum",
         "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -1363,24 +1339,6 @@
         "maxLength": -1
       },
       {
-        "name": "DUM_LIBELLE_NATURE EXCES DE VITESSE INFERIEUR A 20 KM/H PAR CONDUCTEUR DE VEHICULE A MOTEUR - VITESSE MAXIMALE AUTORISEE INF_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DUM_LIBELLE_NATURE EXCES DE VITESSE INFERIEUR A 20 KM/H PAR CONDUCTEUR DE VEHICULE A MOTEUR - VITESSE MAXIMALE AUTORISEE SUP_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DUM_LIBELLE_NATURE FRANCHISSEMENT D\u0027UNE LIGNE CONTINUE PAR LE CONDUCTEUR D\u0027UN VEHICULE_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "DUM_LIBELLE_NATURE INOBSERVATION, PAR CONDUCTEUR DE VEHICULE, DE L\u0027ARRET IMPOSE PAR UN FEU ROUGE_sum",
         "type": "double",
         "timestampNoTzAsDate": false,
@@ -1399,43 +1357,13 @@
         "maxLength": -1
       },
       {
-        "name": "DUM_MARQUE AUDI_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DUM_MARQUE BMW_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "DUM_MARQUE CITROEN_sum",
         "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "DUM_MARQUE FIAT_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DUM_MARQUE FORD_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "DUM_MARQUE MERCEDES BENZ_sum",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DUM_MARQUE OPEL_sum",
         "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -1487,13 +1415,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483034602193
+    "lastModifiedOn": 1483036208042
   },
   "customMeta": {
     "kv": {}
