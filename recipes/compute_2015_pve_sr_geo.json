@@ -45,7 +45,7 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Améliorer le géocodage par rectification préalable des données d\u0027adresse (regexp) et utilisation des champs de voie",
             "createdOn": 1483012844862,
             "createdBy": "antoinefa",
@@ -57,13 +57,13 @@
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483012947724
+    "lastModifiedOn": 1483012964154
   },
   "customMeta": {
     "kv": {}
