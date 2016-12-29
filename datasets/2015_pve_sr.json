@@ -43,31 +43,7 @@
         "maxLength": 16200
       },
       {
-        "name": "REGION_CONTREVENANT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
         "name": "DEPARTEMENT_CONTREVENANT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "COMMUNE_CONTREVENANT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "CODE_POSTAL_CONTREVENANT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "CODE_INSEE_CONTREVENANT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
@@ -101,12 +77,6 @@
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
-      },
-      {
-        "name": "COD_DISPOSITIF",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
       },
       {
         "name": "ID_FAMILLE",
@@ -361,102 +331,6 @@
         "maxLength": -1
       },
       {
-        "name": "COD_UNITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_UNITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "COD_ENTITE",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "LIB_ENTITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIB_COURT_ENTITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "COD_CORPS",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "LIBELLE_CORPS",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIB_COURT_CORPS",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIB_ETAT_UNITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIB_TYPE_UNITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "COD_UNITE_PN",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "COD_DEPARTEMENT_UNITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIB_DEPARTEMENT_UNITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIB_REGION_UNITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIB_ZONE_CRS",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIB_ZONE_PAF",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
         "name": "MARQUE",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -524,13 +398,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483012443779
+    "lastModifiedOn": 1483012711347
   },
   "customMeta": {
     "kv": {}
