@@ -39,7 +39,7 @@
           },
           {
             "done": false,
-            "text": "Ajouter un traitement des coordonnées GPS déjà existantes",
+            "text": "Ajouter un traitement des coordonnées GPS déjà existantes (système de projection variable à analyser)",
             "createdOn": 1483012774283,
             "createdBy": "antoinefa",
             "stateChangedOn": 0
@@ -50,13 +50,13 @@
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1483012881853
+    "lastModifiedOn": 1483012907036
   },
   "customMeta": {
     "kv": {}
