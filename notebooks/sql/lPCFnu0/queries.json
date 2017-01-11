@@ -1,0 +1,25 @@
+{
+  "queries": {
+    "k89h3s9br2": [
+      {
+        "mode": "SQL",
+        "id": "0p4x2xitR0nr",
+        "runOn": 1484141712625,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "TaL8A8imH8Gof68m",
+        "hash": "8f89ee33ff86fe2c1646176e4249baa8",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "extraConf": [],
+          "addDkuUdf": false
+        },
+        "sql": "select count(*), LIBELLE_NATURE from 2010-2015_pve_sr group by LIBELLE_NATURE",
+        "expandedSql": "select count(*), LIBELLE_NATURE from 2010-2015_pve_sr group by LIBELLE_NATURE"
+      }
+    ]
+  }
+}
