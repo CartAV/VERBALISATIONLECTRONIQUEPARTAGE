@@ -57,6 +57,25 @@
         },
         "sql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" group by LIBELLE_NATURE order by count desc",
         "expandedSql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" group by LIBELLE_NATURE order by count desc"
+      },
+      {
+        "mode": "SQL",
+        "id": "L98oxe2ywXUK",
+        "runOn": 1484141911781,
+        "runIn": 434,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "icK0xsS5hxBenvNp",
+        "hash": "96c7ea88e1d87d3d0a54a78feba35ebe",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "extraConf": [],
+          "addDkuUdf": false
+        },
+        "sql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n\norder by count desc",
+        "expandedSql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n\norder by count desc"
       }
     ]
   }
