@@ -24,9 +24,9 @@
   "optionalDependencies": false,
   "params": {
     "selection": {
-      "samplingMethod": "HEAD_SEQUENTIAL",
+      "samplingMethod": "RANDOM_FIXED_NB",
       "partitionSelectionMethod": "ALL",
-      "maxRecords": 100000,
+      "maxRecords": 10000,
       "targetRatio": 0.02
     }
   },
@@ -35,13 +35,13 @@
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1484161046535
+    "lastModifiedOn": 1484161059007
   },
   "customMeta": {
     "kv": {}
