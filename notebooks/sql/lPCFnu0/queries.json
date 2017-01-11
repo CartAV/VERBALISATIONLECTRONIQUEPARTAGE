@@ -19,6 +19,25 @@
         },
         "sql": "select count(*), LIBELLE_NATURE from 2010-2015_pve_sr group by LIBELLE_NATURE",
         "expandedSql": "select count(*), LIBELLE_NATURE from 2010-2015_pve_sr group by LIBELLE_NATURE"
+      },
+      {
+        "mode": "SQL",
+        "id": "93YptpAV1phP",
+        "runOn": 1484141719306,
+        "runIn": 48,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "aRyfBy2VhzJC9SOv",
+        "hash": "3dd68e1cc79b8a59f43849961e4323a8",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "extraConf": [],
+          "addDkuUdf": false
+        },
+        "sql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" group by LIBELLE_NATURE",
+        "expandedSql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" group by LIBELLE_NATURE"
       }
     ]
   }
