@@ -365,6 +365,12 @@
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "PVE_ID",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
       }
     ]
   },
@@ -381,6 +387,15 @@
   "flowOptions": {
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa",
+      "displayName": "Fabien Antoine",
+      "email": "fabien.antoine@interieur.gouv.fr"
+    },
+    "lastModifiedOn": 1484160931737
   },
   "customMeta": {
     "kv": {}
