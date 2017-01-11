@@ -1,17 +1,4 @@
 # -*- coding: utf-8 -*-
-import dataiku
-import pandas as pd, numpy as np
-from dataiku import pandasutils as pdu
-
-# Recipe inputs
-2010_2015_pve_sr = dataiku.Dataset("2010_2015_pve_sr")
-2010_2015_pve_sr_df = 2010_2015_pve_sr.get_dataframe()
-
-# Recipe outputs
-2010_2015_pve_sr_geocoded = dataiku.Dataset("2010_2015_pve_sr_geocoded")
-2010_2015_pve_sr_geocoded.write_with_schema(pandas_dataframe)
-
-# -*- coding: utf-8 -*-
 import dataiku as d
 import os.path
 import codecs, io, StringIO, requests
@@ -30,7 +17,7 @@ futures=[]
 split=500
 verbosechunksize=2000
 maxtries=4
-nthreads=3
+nthreads=2
 j=0
 
 # Recipe outputs
@@ -44,7 +31,7 @@ def adresse_submit(df):
         print("geocoding chunk %r to %r" %(i-verbosechunksize,i))
     t=1
     while (t<=maxtries):
-        df_adr=df[["Num_Acc","adr","city_code"]]
+        df_adr=df[["PVE_ID","VOIE_INFRACTION","CODE_POSTAL_INFRACTION"]]
         df_adr.to_csv(s,sep=",", quotechar='"',encoding="utf8",index=False)
         requests_session = requests.Session()
         kwargs = {
@@ -52,23 +39,24 @@ def adresse_submit(df):
             #        ('columns', 'adr'), 
             #        ('citycode', 'city_code')
             #  ]),
-            'data': {                     
-                        'columns':'adr', 
-                        'citycode':'city_code'
-            },
+            'data': OrderedDict({                     
+                        'columns':'VOIE_INFRACTION', 
+                        'citycode':'CODE_POSTAL_INFRACTION'
+            }),
             'method': 'post',
             'files': OrderedDict([
                 ('data', s.getvalue())
             ]),
             'stream': True,
             'timeout':500,
-            'url': 'http://fa-srv-1/search/csv/'
+            'url': 'http://api-adresse.data.gouv.fr/search/csv/',
+            'proxies': {'http': 'http://proxy-1:3128'}
         }
     
         response = requests_session.request(**kwargs)
         if (response.status_code == 200):
             res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar='"')
-            res=pd.merge(df,res,how='left',on=['Num_Acc','adr','city_code'])
+            res=pd.merge(df,res,how='left',on=['PVE_ID','VOIE_INFRACTION','CODE_POSTAL_INFRACTION'])
             #print(res)
             t=maxtries+1
         elif (response.status_code == 400):
