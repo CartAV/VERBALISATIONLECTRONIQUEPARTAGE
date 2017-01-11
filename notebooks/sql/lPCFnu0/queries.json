@@ -76,6 +76,25 @@
         },
         "sql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n\norder by count desc",
         "expandedSql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n\norder by count desc"
+      },
+      {
+        "mode": "SQL",
+        "id": "X1h78EOcbuy8",
+        "runOn": 1484141927213,
+        "runIn": 48,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "gn2KidLIowMUtFRJ",
+        "hash": "d58ef1028864fdf285a70cba3f5b03e9",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "extraConf": [],
+          "addDkuUdf": false
+        },
+        "sql": "select count(*) from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n",
+        "expandedSql": "select count(*) from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n"
       }
     ]
   }
