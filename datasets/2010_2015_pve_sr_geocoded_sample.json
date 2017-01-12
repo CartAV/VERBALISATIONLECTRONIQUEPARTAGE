@@ -19,175 +19,7 @@
     "userModified": false,
     "columns": [
       {
-        "name": "AGE_CONTREVENANT",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "ANNEE_INFRACTION",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "ANNEE_INTEGRATION",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "ANNEE_NAISSANCE",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "ANNEE_PERMIS_CONTREVENANT",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "CODE_INSEE_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "CODE_NATURE_INFRA",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "CODE_POSTAL_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "COD_GENRE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "COMMUNE_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "DATE_JOUR_REEL_INFRACTION",
-        "type": "date",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DATE_JOUR_REEL_INTEGRATION",
-        "type": "date",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DEPARTEMENT_CONTREVENANT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "DEPARTEMENT_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "EST_TITULAIRE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "GENRE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "ID_CLASSE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "ID_FAMILLE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_CLASSE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_ECHANGE_PERMIS",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_ENLEVEMENT_DEMANDE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_FAMILLE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_FICHE_IMMO_ETABLIE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_INTERCEPTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_JOUR_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_NATURE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_NPAI",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_NUIT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "LIBELLE_PLAGE_HORAIRE",
+        "name": "MOTIF_STATUT_DOSSIER",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
@@ -199,28 +31,100 @@
         "maxLength": 16200
       },
       {
-        "name": "LIBELLE_TYPE_VOIE",
+        "name": "ANNEE_PERMIS_CONTREVENANT",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "PAYS_RESIDENCE_CONTREVENANT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "LIB_LOCALITE_INFRACTION",
+        "name": "DEPARTEMENT_CONTREVENANT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "LIB_TRANCHE_DEPASSEMENT",
+        "name": "LIBELLE_NPAI",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "MARQUE",
+        "name": "EST_TITULAIRE",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "SEXE_CONTREVENANT",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "AGE_CONTREVENANT",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "ANNEE_NAISSANCE",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "ID_FAMILLE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIBELLE_FAMILLE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "ID_CLASSE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIBELLE_CLASSE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "CODE_NATURE_INFRA",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIBELLE_NATURE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "NBR_POINTS_RETIRES",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "MNT_AF_MINOREE",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
       },
       {
         "name": "MNT_AF",
@@ -235,7 +139,109 @@
         "maxLength": -1
       },
       {
-        "name": "MNT_AF_MINOREE",
+        "name": "REGION_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "DEPARTEMENT_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "COMMUNE_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "CODE_INSEE_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "CODE_POSTAL_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "NUM_ARRONDISSEMENT",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIBELLE_TYPE_VOIE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "VOIE_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIB_LOCALITE_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIBELLE_ENLEVEMENT_DEMANDE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIBELLE_FICHE_IMMO_ETABLIE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIBELLE_ECHANGE_PERMIS",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "LIBELLE_INTERCEPTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "VAL_VITESSE_RETENUE",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "VAL_VITESSE_VLA",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIB_TRANCHE_DEPASSEMENT",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "DATE_JOUR_REEL_INFRACTION",
+        "type": "date",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "ANNEE_INFRACTION",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -247,70 +253,10 @@
         "maxLength": -1
       },
       {
-        "name": "MOIS_INTEGRATION",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "MOTIF_STATUT_DOSSIER",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "NATIONALITE_PLAQUE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "NBR_POINTS_RETIRES",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "NUM_ANNEE_MOIS_INFRACTION",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
-      },
-      {
-        "name": "NUM_ARRONDISSEMENT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "PAYS_RESIDENCE_CONTREVENANT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "PVE_ID",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "REGION_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "REGROUPEMENT_GENRE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "SEMAINE_INFRAC",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
       },
       {
         "name": "SEMAINE_INFRACTION",
@@ -319,19 +265,19 @@
         "maxLength": -1
       },
       {
-        "name": "SEMAINE_INTEGRATION",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "SEXE_CONTREVENANT",
+        "name": "LIBELLE_JOUR_INFRACTION",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "TYPE_PLAQUE",
+        "name": "LIBELLE_NUIT",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "SEMAINE_INFRAC",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
@@ -355,19 +301,73 @@
         "maxLength": 16200
       },
       {
-        "name": "VAL_VITESSE_RETENUE",
+        "name": "LIBELLE_PLAGE_HORAIRE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "DATE_JOUR_REEL_INTEGRATION",
+        "type": "date",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "ANNEE_INTEGRATION",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "VAL_VITESSE_VLA",
+        "name": "MOIS_INTEGRATION",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "VOIE_INFRACTION",
+        "name": "SEMAINE_INTEGRATION",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "MARQUE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "TYPE_PLAQUE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "NATIONALITE_PLAQUE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "COD_GENRE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "GENRE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "REGROUPEMENT_GENRE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "PVE_ID",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
@@ -385,19 +385,25 @@
         "maxLength": -1
       },
       {
-        "name": "result_city",
+        "name": "result_label",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "result_citycode",
+        "name": "result_score",
         "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "result_context",
+        "name": "result_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "result_id",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
@@ -409,46 +415,10 @@
         "maxLength": -1
       },
       {
-        "name": "result_id",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "result_label",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
         "name": "result_name",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
-      },
-      {
-        "name": "result_postcode",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "result_score",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "result_score_x",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "result_score_y",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
       },
       {
         "name": "result_street",
@@ -457,10 +427,34 @@
         "maxLength": -1
       },
       {
-        "name": "result_type",
+        "name": "result_postcode",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "result_city",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "result_context",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "result_citycode",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "chunk",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
       }
     ]
   },
@@ -479,12 +473,12 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "DSS",
       "displayName": "DSS"
     },
-    "lastModifiedOn": 1484161719831
+    "lastModifiedOn": 1484208433227
   },
   "customMeta": {
     "kv": {}
