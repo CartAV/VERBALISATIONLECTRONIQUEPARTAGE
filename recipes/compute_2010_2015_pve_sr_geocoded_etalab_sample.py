@@ -32,6 +32,7 @@ def adresse_submit(df):
     t=1
     while (t<=maxtries):
         df_adr=df[["PVE_ID","VOIE_INFRACTION","CODE_POSTAL_INFRACTION"]]
+        df_adr.fillna("NA")
         df_adr.to_csv(s,sep=",", quotechar='"',encoding="utf8",index=False)
         requests_session = requests.Session()
         kwargs = {
@@ -51,7 +52,7 @@ def adresse_submit(df):
     
         response = requests_session.request(**kwargs)
         if (response.status_code == 200):
-            res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar='"',dtype=object)
+            res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar=None,dtype=object)
             del res['CODE_POSTAL_INFRACTION']
             del res['VOIE_INFRACTION']
             res=pd.merge(df,res,how='left',on='PVE_ID')
