@@ -26,7 +26,7 @@
         "createdOn": 0,
         "items": [
           {
-            "done": false,
+            "done": true,
             "text": "Préparer les données pour statistiques générales",
             "createdOn": 1483008028381,
             "createdBy": "antoinefa",
@@ -36,6 +36,34 @@
             "done": false,
             "text": "Préparer les données pour jointures géographiques : aggrégations communes, gps, segments routiers",
             "createdOn": 1483008028381,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Gps via etalab",
+            "createdOn": 1484247338417,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Déboguer addok/BAN interne",
+            "createdOn": 1484247346226,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Statistiques qualité BAN / verbalisation",
+            "createdOn": 1484247360380,
+            "createdBy": "antoinefa",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Segment routier via ES/route500",
+            "createdOn": 1484247440111,
             "createdBy": "antoinefa",
             "stateChangedOn": 0
           }
