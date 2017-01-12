@@ -18,11 +18,11 @@
     "chart": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Count by result_postcode",
+      "name": "Count by result_citycode",
       "userEditedName": false,
       "genericDimension0": [
         {
-          "column": "result_postcode",
+          "column": "result_citycode",
           "type": "NUMERICAL",
           "numParams": {
             "mode": "FIXED_NB",
@@ -234,12 +234,12 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAzUlEQVRoge2PQQ7CMAwE+xLSvoEzd3gC70AFpL6KKlzha5wsekgItqg3RDuSLytn4+k6QghZgX6cjzLoW1wIl/iUQd/iAoVbh8KgDjcoDOpwg8KgDjdyx2okKFwzFC7kmo4qoXAh13RUCYULuaYDyvKo5WEU/pBrO6BQOJHn9q0dUCicyHP71g4oFE7kuX1rBxQKJ/LcvrVjVYlhjLtvd5sT3pziVsZ6LFS4v9724RwfMiXhXxzrJjxM9yDzLpwPpY+qF9Y8pvA/CpPGeAFhOZiUB65B3AAAAABJRU5ErkJggg\u003d\u003d",
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAxUlEQVRoge2QwQ2DMAxF2SQwSO9lBAah6TIdoihnWI1TJA5xQiywTfSf5MuX+fGj6wAA4Ab6eZniaN8igvNhi6N9iwgQbh0It84Vwo/6aRBW6hADwkodYlDHOh9+cbgdJskIn5aAsGUgXMhrOkwC4UJe02ESCGfyY0blkrdnqT0WwowOVSCcyKl9bocqEE7k1D63QxUIJ3Jqn9uhShPCx4eGObzO7poX7r//t/uENU5J+IpjVYWdX8bSQ+aFaz6G8BOFQWPseYprVi0rpJwAAAAASUVORK5CYII\u003d",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Count by result_postcode",
+  "name": "Count by result_citycode",
   "type": "CHART",
   "miniature": {
     "type": "chart",
