@@ -383,8 +383,41 @@
         "column": "result_score",
         "params": {
           "type": "DoubleMeaning",
-          "ok": false,
-          "nok": false,
+          "ok": true,
+          "nok": true,
+          "empty": true
+        }
+      }
+    },
+    {
+      "column": "chunk",
+      "type": "columnFilter",
+      "currentMode": "FACET",
+      "active": true,
+      "facet": {
+        "type": "facet",
+        "column": "chunk",
+        "columnType": "NUMERICAL",
+        "currentMode": "NUMERICAL",
+        "sort": "count",
+        "selectedValues": {}
+      },
+      "alphanumFilter": {
+        "type": "alphanum",
+        "column": "chunk",
+        "values": [],
+        "params": {
+          "mode": "full_string",
+          "normalization": "exact"
+        }
+      },
+      "validityFilter": {
+        "type": "validity",
+        "column": "chunk",
+        "params": {
+          "type": "LongMeaning",
+          "ok": true,
+          "nok": true,
           "empty": true
         }
       }
