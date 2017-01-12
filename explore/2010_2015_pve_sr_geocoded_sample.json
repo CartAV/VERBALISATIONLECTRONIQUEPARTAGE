@@ -293,6 +293,14 @@
         "d": true
       },
       {
+        "name": "result_chunk",
+        "d": true
+      },
+      {
+        "name": "result_success",
+        "d": true
+      },
+      {
         "name": "chunk",
         "d": true
       }
@@ -383,8 +391,8 @@
         "column": "result_score",
         "params": {
           "type": "DoubleMeaning",
-          "ok": true,
-          "nok": true,
+          "ok": false,
+          "nok": false,
           "empty": true
         }
       }
@@ -414,6 +422,41 @@
       "validityFilter": {
         "type": "validity",
         "column": "chunk",
+        "params": {
+          "type": "LongMeaning",
+          "ok": true,
+          "nok": true,
+          "empty": true
+        }
+      }
+    },
+    {
+      "column": "result_chunk",
+      "type": "columnFilter",
+      "currentMode": "FACET",
+      "active": true,
+      "facet": {
+        "type": "facet",
+        "column": "result_chunk",
+        "columnType": "NUMERICAL",
+        "currentMode": "ALPHANUM",
+        "sort": "count",
+        "selectedValues": {
+          "1500": true
+        }
+      },
+      "alphanumFilter": {
+        "type": "alphanum",
+        "column": "result_chunk",
+        "values": [],
+        "params": {
+          "mode": "full_string",
+          "normalization": "exact"
+        }
+      },
+      "validityFilter": {
+        "type": "validity",
+        "column": "result_chunk",
         "params": {
           "type": "LongMeaning",
           "ok": true,
