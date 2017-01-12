@@ -32,6 +32,7 @@ def adresse_submit(df):
     t=1
     while (t<=maxtries):
         df_adr=df[["PVE_ID","VOIE_INFRACTION","CODE_POSTAL_INFRACTION"]]
+        df_adr.fillna("NA")
         df_adr.to_csv(s,sep=",", quotechar='"',encoding="utf8",index=False)
         requests_session = requests.Session()
         kwargs = {
