@@ -58,7 +58,7 @@ def adresse_submit(df):
             res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar='"')
             del res['CODE_POSTAL_INFRACTION']
             del res['VOIE_INFRACTION']
-            res=pd.merge(df,res,how='left',on=['PVE_ID'])
+            res=pd.merge(df,res,how='left',on='PVE_ID')
             #print(res)
             t=maxtries+1
         elif (response.status_code == 400):
