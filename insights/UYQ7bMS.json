@@ -18,8 +18,8 @@
     "chart": {
       "type": "stacked_columns",
       "variant": "normal",
-      "name": "Count by result_score",
-      "userEditedName": false,
+      "name": "distribution des scores et type de voie (geoloc etalab)",
+      "userEditedName": true,
       "genericDimension0": [
         {
           "column": "result_score",
@@ -165,7 +165,7 @@
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Count by result_score",
+  "name": "distribution des scores et type de voie (geoloc etalab)",
   "type": "CHART",
   "miniature": {
     "type": "chart",
