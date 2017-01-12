@@ -41,7 +41,7 @@ def adresse_submit(df):
             #  ]),
             'data': OrderedDict({                     
                         'columns':'VOIE_INFRACTION', 
-                        'citycode':'CODE_POSTAL_INFRACTION'
+            #            'citycode':'CODE_POSTAL_INFRACTION'
             }),
             'method': 'post',
             'files': OrderedDict([
@@ -55,7 +55,7 @@ def adresse_submit(df):
     
         response = requests_session.request(**kwargs)
         if (response.status_code == 200):
-            res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar='"')
+            res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar='"',dtype=object)
             del res['CODE_POSTAL_INFRACTION']
             del res['VOIE_INFRACTION']
             res=pd.merge(df,res,how='left',on='PVE_ID')
