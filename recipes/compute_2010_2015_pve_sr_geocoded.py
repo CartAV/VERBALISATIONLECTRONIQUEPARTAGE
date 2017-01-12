@@ -35,13 +35,9 @@ def adresse_submit(df):
         df_adr.to_csv(s,sep=",", quotechar='"',encoding="utf8",index=False)
         requests_session = requests.Session()
         kwargs = {
-            #'data': OrderedDict([                     
-            #        ('columns', 'adr'), 
-            #        ('citycode', 'city_code')
-            #  ]),
             'data': OrderedDict({                     
                         'columns':'VOIE_INFRACTION', 
-                        'citycode':'CODE_POSTAL_INFRACTION'
+                        'postcode':'CODE_POSTAL_INFRACTION'
             }),
             'method': 'post',
             'files': OrderedDict([
@@ -55,20 +51,28 @@ def adresse_submit(df):
     
         response = requests_session.request(**kwargs)
         if (response.status_code == 200):
-            res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar='"')
-            res=pd.merge(df,res,how='left',on=['PVE_ID','VOIE_INFRACTION','CODE_POSTAL_INFRACTION'])
+            res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar='"',dtype=object)
+            del res['CODE_POSTAL_INFRACTION']
+            del res['VOIE_INFRACTION']
+            res=pd.merge(df,res,how='left',on='PVE_ID')
+            res['result_chunk']=i
+            res['result_success']="success"
             #print(res)
             t=maxtries+1
         elif (response.status_code == 400):
             print("chunk %r to %r generated an exception, try #%r" %(i-split,i,t))
             res=df
             res['result_score']=-1
+            res['result_chunk']=i
+            res['result_success']="failed err 400" 
             df_adr=shuffle(df_adr)
             t=maxtries+1
         else:
             print("chunk %r to %r generated an exception, try #%r" %(i-split,i,t))
             res=df
             res['result_score']=-0.5
+            res['result_chunk']=i
+            res['result_success']="failed err 400"             
             t+=1
         
         
