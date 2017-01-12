@@ -183,6 +183,7 @@
       {
         "name": "LIBELLE_TYPE_VOIE",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -395,13 +396,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1484241353030
+    "lastModifiedOn": 1484241358054
   },
   "customMeta": {
     "kv": {}
