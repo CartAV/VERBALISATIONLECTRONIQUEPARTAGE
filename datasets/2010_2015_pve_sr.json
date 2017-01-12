@@ -21,6 +21,7 @@
       {
         "name": "MOTIF_STATUT_DOSSIER",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -390,13 +391,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1484241299222
+    "lastModifiedOn": 1484241315200
   },
   "customMeta": {
     "kv": {}
