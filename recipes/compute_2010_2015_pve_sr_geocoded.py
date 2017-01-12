@@ -14,10 +14,10 @@ f = d.Dataset("2010_2015_pve_sr")
 i=0
 liste=[]
 futures=[]
-split=500
+split=1000
 verbosechunksize=2000
 maxtries=4
-nthreads=2
+nthreads=3
 j=0
 
 # Recipe outputs
@@ -45,7 +45,7 @@ def adresse_submit(df):
                 ('data', s.getvalue())
             ]),
             'stream': True,
-            'timeout':500,
+            'timeout':1000,
             'url': 'http://api-adresse.data.gouv.fr/search/csv/',
             'proxies': {'http': 'http://proxy-1:3128'}
         }
