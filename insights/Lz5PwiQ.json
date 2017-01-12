@@ -18,14 +18,14 @@
     "chart": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Count by result_citycode",
-      "userEditedName": false,
+      "name": "Count by DEPARTEMENT_INFRACTION",
+      "userEditedName": true,
       "genericDimension0": [
         {
-          "column": "result_citycode",
+          "column": "DEPARTEMENT_INFRACTION",
           "type": "NUMERICAL",
           "numParams": {
-            "mode": "FIXED_NB",
+            "mode": "TREAT_AS_ALPHANUM",
             "nbBins": 10,
             "binSize": 100,
             "emptyBinsMode": "ZEROS"
@@ -54,9 +54,9 @@
             }
           ],
           "sort": {
-            "type": "NATURAL",
-            "label": "Natural ordering",
-            "sortAscending": true
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Count of records, descending"
           }
         }
       ],
@@ -234,12 +234,12 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAxUlEQVRoge2QwQ2DMAxF2SQwSO9lBAah6TIdoihnWI1TJA5xQiywTfSf5MuX+fGj6wAA4Ab6eZniaN8igvNhi6N9iwgQbh0It84Vwo/6aRBW6hADwkodYlDHOh9+cbgdJskIn5aAsGUgXMhrOkwC4UJe02ESCGfyY0blkrdnqT0WwowOVSCcyKl9bocqEE7k1D63QxUIJ3Jqn9uhShPCx4eGObzO7poX7r//t/uENU5J+IpjVYWdX8bSQ+aFaz6G8BOFQWPseYprVi0rpJwAAAAASUVORK5CYII\u003d",
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABHElEQVRoge3Sv2rCUBTH8Sx9ACcn70kmH6Cjk1OHPkC3ju5S9Bykm1OXPkKLk9ChEPO7KVhLXsCHciiVG/qHBo0XjucLGXI5hPNJkiSWZamJGFXsHU6agbVnYO0ZWHsG1h4xqrNCG1h7BtaegbVnYO2dLZgYFU0xjL1P69XAjOtslndj79RqIdhxeav+9/4JrBr9G1gt+i9wyv6BuHiKveNR+w9Y1RdvAibGxt3hMvbOB9UU3GNc1WZkNY5taNShYMd+kYpfhDPZ9K1PjMoJ8ti+b7UJDq53YizDs+79KiPGZn8mHsR+7gSdrysZbS+coKMW7MQ/1549yQeOsQ7OXonxGM70pLxJ2e9nUilfSIrJ533xcdSXZVmWdYp2UN258EFd/WMAAAAASUVORK5CYII\u003d",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Count by result_citycode",
+  "name": "Count by DEPARTEMENT_INFRACTION",
   "type": "CHART",
   "miniature": {
     "type": "chart",
