@@ -15,9 +15,9 @@ i=0
 liste=[]
 futures=[]
 split=1000
-verbosechunksize=3000
+verbosechunksize=2000
 maxtries=4
-nthreads=3
+nthreads=1
 j=0
 
 # Recipe outputs
