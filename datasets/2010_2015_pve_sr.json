@@ -240,6 +240,7 @@
       {
         "name": "LIB_TRANCHE_DEPASSEMENT",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -398,13 +399,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1484241368994
+    "lastModifiedOn": 1484241375653
   },
   "customMeta": {
     "kv": {}
