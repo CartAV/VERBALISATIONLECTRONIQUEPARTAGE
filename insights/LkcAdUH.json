@@ -18,11 +18,11 @@
     "chart": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Count by result_citycode",
+      "name": "Count by DEPARTEMENT_INFRACTION",
       "userEditedName": false,
       "genericDimension0": [
         {
-          "column": "result_citycode",
+          "column": "DEPARTEMENT_INFRACTION",
           "type": "NUMERICAL",
           "numParams": {
             "mode": "TREAT_AS_ALPHANUM",
@@ -234,12 +234,12 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAK0lEQVRoge3OMQEAAAQAMFlkkE0z/cRw2BIsAgAAAAAAAICXsqeuDwDwxAJdyAGCSx5agQAAAABJRU5ErkJggg\u003d\u003d",
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABHUlEQVRoge2UsUoDQRCG8wAp0tgEs7NaprOxCD6EYIpUVlb22ZnrfAFTBVNYCJYpNHHmEjDgvZpNTjaCYAi5hdn5YIqZY9n/u+Gu1TIMQw2AUqXO0CgmrB0T1o4Ja8eEtWPC2jFh7QBKBSiT1DkaYyucz5azFfYP753UWRqhFs5my1kLnwa+TJ3n6MTCMC7v1G/ahLV/z38Jq5U24bhHfgSUJ1UvYB9hQKkc8lXqzAexrzDQx03cnyHfepTRyf28ndrlXxwq7AK/OuLZzyzIF9DyIno+A+SpJ0FXLPquWPRVC29rA1Q+75wjOQeUze6sfHEky7p64bPrC75WLRz3XZQBBFlHszdAmfy6fwhYrure02oOxGNVP1rDMPLiG5g3wc6RXxGZAAAAAElFTkSuQmCC",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Count by result_citycode",
+  "name": "Count by DEPARTEMENT_INFRACTION",
   "type": "CHART",
   "miniature": {
     "type": "chart",
