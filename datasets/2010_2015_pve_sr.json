@@ -16,7 +16,7 @@
   },
   "managed": false,
   "schema": {
-    "userModified": false,
+    "userModified": true,
     "columns": [
       {
         "name": "MOTIF_STATUT_DOSSIER",
@@ -45,6 +45,7 @@
       {
         "name": "DEPARTEMENT_CONTREVENANT",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -389,13 +390,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1484160931737
+    "lastModifiedOn": 1484241299222
   },
   "customMeta": {
     "kv": {}
