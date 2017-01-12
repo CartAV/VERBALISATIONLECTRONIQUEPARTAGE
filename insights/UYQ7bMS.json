@@ -16,10 +16,96 @@
     },
     "dataset": "2010_2015_pve_sr_geocoded_etalab_sample",
     "chart": {
-      "type": "grouped_columns",
+      "type": "stacked_columns",
       "variant": "normal",
-      "name": "Chart",
+      "name": "Count by result_score",
       "userEditedName": false,
+      "genericDimension0": [
+        {
+          "column": "result_score",
+          "type": "NUMERICAL",
+          "numParams": {
+            "mode": "FIXED_SIZE",
+            "nbBins": 10,
+            "binSize": "0.05",
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 100,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [
+        {
+          "column": "result_type",
+          "type": "ALPHANUM",
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Count of records, descending"
+          }
+        }
+      ],
+      "genericMeasures": [
+        {
+          "function": "COUNT",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -37,10 +123,11 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "axis1LogScale": false,
       "axis2LogScale": false,
       "includeZero": true,
-      "hexbinRadius": 0,
+      "hexbinRadius": 20,
       "smoothing": false,
       "showLegend": true,
       "showXAxis": false,
@@ -73,11 +160,12 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABDUlEQVRoge2SvQqCUBiGnZpsioYWJYgaGpwSgi6hsWvRaqgDQW5eRVNQQYoNGmerKwm6gqbgNB0ICw3Tfj7eB144nMP38T6oooD/ZXM47WW+3eUj6LbPZb7d5SNAmDoQpg6EqQNh6kCYOhCmDoSpA2HqQJg6EKYOhKkDYepAmDoQpg6E82R9PHOZ3JdnpBDhK6uEV1YJf/H3ya2TmJa5mJa5YOrgfmk8bbYsZdl/cQ3z4hrmWyWVjMIiHHIRDrlg6kSK9hy+7Tl8251H/TRhee7MIk/mvkTSvMmiZnxGt/xFocJyQLP9SbyQZnmpXzjpPU24bu1aD/eWv0ia0cer2rP7xiioNkZB9WVxQIQbGha7vgDR9pAAAAAASUVORK5CYII\u003d",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Chart",
+  "name": "Count by result_score",
   "type": "CHART",
   "miniature": {
     "type": "chart",
