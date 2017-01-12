@@ -59,18 +59,21 @@ def adresse_submit(df):
             del res['CODE_POSTAL_INFRACTION']
             del res['VOIE_INFRACTION']
             res=pd.merge(df,res,how='left',on='PVE_ID')
+            res['chunk']=i
             #print(res)
             t=maxtries+1
         elif (response.status_code == 400):
             print("chunk %r to %r generated an exception, try #%r" %(i-split,i,t))
             res=df
             res['result_score']=-1
+            res['chunk']=i
             df_adr=shuffle(df_adr)
             t=maxtries+1
         else:
             print("chunk %r to %r generated an exception, try #%r" %(i-split,i,t))
             res=df
             res['result_score']=-0.5
+            res['chunk']=i
             t+=1
         
         
