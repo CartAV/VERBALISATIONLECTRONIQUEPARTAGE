@@ -16,7 +16,7 @@ liste=[]
 futures=[]
 split=100
 verbosechunksize=2000
-maxtries=1
+maxtries=4
 nthreads=2
 j=0
 
