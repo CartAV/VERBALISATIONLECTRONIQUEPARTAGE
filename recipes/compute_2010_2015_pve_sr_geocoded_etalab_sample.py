@@ -53,7 +53,7 @@ def adresse_submit(df):
         response = requests_session.request(**kwargs)
         if (response.status_code == 200):
             print "response ok"
-            print response.content.decode('utf-8')
+            print response.content.decode('latin9')
             res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar=None,dtype=object)
             print "got res"
             del res['CODE_POSTAL_INFRACTION']
