@@ -53,8 +53,10 @@ def adresse_submit(df):
         response = requests_session.request(**kwargs)
         if (response.status_code == 200):
             print "response ok"
+            content = response.content.decode('utf-8')
+            print "content ok"
             
-            res=pd.read_csv(StringIO.StringIO(response.content),sep=",",quotechar=None,dtype=object)
+            res=pd.read_csv(StringIO.StringIO(content),sep=",",quotechar=None,dtype=object)
             print "got res"
             del res['CODE_POSTAL_INFRACTION']
             del res['VOIE_INFRACTION']
