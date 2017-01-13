@@ -56,7 +56,7 @@ def adresse_submit(df):
             content = response.content.decode('utf-8')
             print "content ok"
             
-            res=pd.read_csv(StringIO.StringIO(content),sep=",",quotechar=None,dtype=object)
+            res=pd.read_csv(StringIO.StringIO(content),sep=",",quotechar='"',dtype=object)
             print "got res"
             del res['CODE_POSTAL_INFRACTION']
             del res['VOIE_INFRACTION']
