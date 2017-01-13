@@ -49,6 +49,8 @@ def adresse_submit(df):
             'url': 'http://api-adresse.data.gouv.fr/search/csv/',
             'proxies': {'http': 'http://proxy-1:3128'}
         }
+        
+        print kwargs
     
         response = requests_session.request(**kwargs)
         if (response.status_code == 200):
