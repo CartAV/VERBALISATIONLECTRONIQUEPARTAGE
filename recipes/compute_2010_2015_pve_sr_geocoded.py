@@ -10,7 +10,7 @@ from collections import OrderedDict
 
 
 # Recipe inputs
-f = d.Dataset("2010_2015_pve_sr")
+f = d.Dataset("2010_2015_pve_sr_prepared")
 i=0
 liste=[]
 futures=[]
