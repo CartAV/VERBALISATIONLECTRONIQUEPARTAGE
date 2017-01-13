@@ -1,6 +1,30 @@
 {
-  "steps": [],
+  "steps": [
+    {
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "normalization": "EXACT",
+        "matching": "SUBSTRING",
+        "stopAfterFirstMatch": false,
+        "mapping": [
+          {
+            "to": "-1"
+          }
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "ANNEE_NAISSANCE"
+        ]
+      },
+      "metaType": "PROCESSOR",
+      "preview": true,
+      "disabled": false,
+      "alwaysShowComment": false
+    }
+  ],
   "tags": [],
+  "origin": "PREPARE_RECIPE",
   "columnsSelection": {
     "mode": "ALL"
   },
@@ -24,11 +48,14 @@
     "autoRefreshSample": false,
     "_refreshTrigger": 0
   },
-  "exploreUIParams": {},
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "globalSearchQuery": "",
   "explorationFilters": [
     {
-      "type": "global_search"
+      "type": "global_search",
+      "$$hashKey": "618"
     }
   ],
   "previewMode": "ALL_ROWS",
