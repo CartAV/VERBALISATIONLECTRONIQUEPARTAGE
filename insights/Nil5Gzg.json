@@ -5140,7 +5140,7 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAsElEQVRoge3UsQrCMBDG8Ru6ODsqvWd0yenW53GwQ67g0ubVHBQRCVgljfrx/eCWXin5D6kIEdGPU/Ok5unb56iGwegYjI7B6BiMjsHoGIyOwegYjI7B6BiMjsG55eZwWlc+12IYnFsy+I/ND+5SI11qKp+vuNnBKL/zt4Nz8/hua36+T3Brg1vVoheKB3+y1/0Qi30z+KTBp+3uuFKLo1ocsYNvcw1+fj70KFeTiEQuioqIu5A2CVIAAAAASUVORK5CYII\u003d",
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA1ElEQVRoge3UMQ6CMBTG8YZISFjcGYAQFmdWL+BFmGT1OZleg9HRjlKaOHE0HQxKFBVJBHn5fslbSNv03wEhAAD+XEhahaTV2PcYTEC6CkhXY99jMAjmDsHcIZg7BHOHYO4QzB2CuUMwdx+D6wU+FcsB7/UzCH61AMET9VUwhz9cr+C28cnsHr81999ma9b3PeWhnojUPCI1F7KaebJwPVm4cWacODOOEEIkaW4naW4LebauI63JBbfPcdXlnJDKfePhTk/nbPTi3Tl9HgsAAAAAuroA6cssXGo67aIAAAAASUVORK5CYII\u003d",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
