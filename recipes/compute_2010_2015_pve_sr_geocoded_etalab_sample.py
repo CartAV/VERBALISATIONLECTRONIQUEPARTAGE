@@ -52,10 +52,14 @@ def adresse_submit(df):
     
         response = requests_session.request(**kwargs)
         if (response.status_code == 200):
+            print "response ok"
             res=pd.read_csv(StringIO.StringIO(response.content.decode('utf-8')),sep=",",quotechar=None,dtype=object)
+            print "got res"
             del res['CODE_POSTAL_INFRACTION']
             del res['VOIE_INFRACTION']
+            print "deleted"
             res=pd.merge(df,res,how='left',on='PVE_ID')
+            print "data merged"
             res['result_chunk']=i
             res['result_success']="success"
             #print(res)
