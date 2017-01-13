@@ -19,6 +19,25 @@
         },
         "sql": "select count(1) from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;",
         "expandedSql": "select count(1) from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;"
+      },
+      {
+        "mode": "SQL",
+        "id": "XGFMWMuqzkFM",
+        "runOn": 1484311744913,
+        "runIn": 97,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "JrRHUbjERlN3HqLN",
+        "hash": "706940ab37257632f807fc6e46eefdde",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "extraConf": [],
+          "addDkuUdf": false
+        },
+        "sql": "select * from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;",
+        "expandedSql": "select * from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;"
       }
     ]
   }
