@@ -1,0 +1,25 @@
+{
+  "queries": {
+    "e454pzwh3do": [
+      {
+        "mode": "SQL",
+        "id": "XZ6MNsb7GAj7",
+        "runOn": 1484311660963,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "IKe9NC0zrO7cBsMD",
+        "hash": "b35b429f14a6921c5ec8897134f8b74a",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "extraConf": [],
+          "addDkuUdf": false
+        },
+        "sql": "select count(1) from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;",
+        "expandedSql": "select count(1) from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;"
+      }
+    ]
+  }
+}
