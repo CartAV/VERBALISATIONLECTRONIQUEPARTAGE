@@ -1,7 +1,13 @@
 {
   "tags": {
-    "creator_antoinefa": {},
-    "creator_chabouisfr": {},
-    "creator_grabenertr": {}
+    "creator_antoinefa": {
+      "color": "#1ac2ab"
+    },
+    "creator_chabouisfr": {
+      "color": "#a088bd"
+    },
+    "creator_grabenertr": {
+      "color": "#a088bd"
+    }
   }
 }
