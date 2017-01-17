@@ -12,7 +12,18 @@
   "tutorialProject": false,
   "settings": {
     "flowAnchorSourcesAndSinks": true,
-    "exposedComputables": [],
+    "exposedComputables": [
+      {
+        "type": "DATASET",
+        "localName": "2010_2015_pve_sr",
+        "rules": [
+          {
+            "targetProject": "CROISEMENTACCIDENTSVERBALISATION",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ],
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false
   },
