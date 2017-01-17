@@ -1,0 +1,7 @@
+{
+  "endpoints": [],
+  "publicAccess": true,
+  "authRealm": {
+    "queryKeys": []
+  }
+}
