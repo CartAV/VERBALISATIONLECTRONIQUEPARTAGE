@@ -164,6 +164,14 @@
           "isA": "filter",
           "excludedValues": {},
           "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "DEPARTEMENT_INFRACTION",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
         }
       ],
       "axis1LogScale": false,
