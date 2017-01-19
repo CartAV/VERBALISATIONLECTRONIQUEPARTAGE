@@ -18,7 +18,7 @@
     "chart": {
       "type": "stacked_columns",
       "variant": "normal",
-      "name": "Count by DATE_JOUR_REEL_INFRACTION",
+      "name": "Infractions par mois de l\u0027année",
       "userEditedName": true,
       "genericDimension0": [
         {
@@ -120,7 +120,20 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
-      "filters": [],
+      "filters": [
+        {
+          "filterType": "DATE_FACET",
+          "column": "DATE_JOUR_REEL_INFRACTION",
+          "columnType": "DATE",
+          "dateFilterType": "YEAR",
+          "isA": "filter",
+          "excludedValues": {
+            "2010": true,
+            "2011": true
+          },
+          "explicitExclude": false
+        }
+      ],
       "axis1LogScale": false,
       "axis2LogScale": false,
       "includeZero": true,
@@ -157,12 +170,12 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAC6ElEQVRoge2Yz2sTURDH5yw0Jy8W+uNWSzaxFyGHgnoSD717stRCKRWJRckGWWqOtghtsU03tZo2JoQQTNpkt2mSrS+H0lZELwb1UhKKSP4IIZ4mgZf3ZJMmmwbfwPcww7yZ+UzeLksAhPWGbc0ZSVS3Z7HEvo9cJ6huz9IRO797L4cCAFBLSwRlyQBV1U9QVvSjAaVtiaCs6M/ccCtL2HxCdgPuQibgLmQ23YWbvLyxkDOPAugC8K34OEFhjF7CD8mRQ2FOev3zIgoAIL36MJpanoqllqdieysPnAAA6pyxi8JzNGA17yUoS4BZG6ZjrFvwzSmlUAAAanlJx5w3pUUXAMCnifEQCs/RgJYD/8nLH1E8YNZSGp7FHUnHnNHgqIuVwwR+0UdQmPPzxhhBtR2YtWE6ZuYWnB08Ttakzzt456r6owiKB9zRNzeroZlrx8jR6zGPCwBgOno7iOL1Y/Vv24usqvqV2hs4sO7lAtNDZZ8dopoBZi6qBeCNWSO3MWscbswah4GZg2tcQPorRi0vKXhVAqWX5oFN5dj0WsxnuxAwfS67cH8blX41c5ULTD8L9nd2BTfnCDo6D9xq7a07IRQAgH3bbuDcI29H+rnA9NW4jMCJkwpB8XJMAzc+Z7JSj8ldAaYBzQBX87JRmzvnaQLYZ1PqQ/V5eQ2/xNeiqEsBvGAz6rWv/AOYPmgS2MxQdCx5WtHRT51WBHAztY8T7+OongJuV+2WgT+cVJRasdNKzwAXwz6jGPaRYthHvkZ9fGD6YK8CJ04qBvrRo/PeAh6SNYJi+R0HZjU0M9TEyjFB/RfADTnefR39Yc++CwBgp/Arjmqmduzot4a6EPDrzNn8WrYcWcuWI6uZ0kyngdtV2zRwY3FdQX9Q1jv+C7ettqwZ6A949gSwABbAAlgAC2ABfBmBB2VNRQEADHm06VrMo02yclgxMznDXn0V/YHnmtTO2kOy5ke//2ma/zetMGHCesb+AlqLdKVYZONSAAAAAElFTkSuQmCC",
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAC2UlEQVRoge2Uz2vTYBjHH/AmricvDrYOmdbR7uahMC+9CLuI/gWCMi+iKIOkaNCBILYgIpttqsxOL2HFbrRNStemzcC6RtCTtOxkZQfJybOnxsN4Wnjzprxr01+YB76H9+Gb5/t+8r4JgFuTUR/vFz6hhhJY3alfQQ0jT3pWe4sCAGj4LmmoYeRTAz+nGzdQg84Tm1EN5XQWtWiB5Ka+7P64irKbU80cXkbVU/UzrHmBrYCGcpLLtmiB5KZot0DPNS6gAAAaF31K2zc/H2TNGwtgssdyC8RfUQU975qRIADA0fJyFmU32yyFNdRQgGmBLKdguZofAgp6FpILQZqHljcWwGSP5RbQgGnPWYCfTmko9KRXlSTKeWBKIMspUK6m0vFx9sBEHi2/cvfaJupEMKlU6hQKAMAUY4IpxjRTjGlm4k3YFpjcVImvoLq8FAsw9fYwAD/+/iCJOhEw5cci4DeVaL5gB6Z5ipyKOvZ4lLZvzdMXcM9/7ngzWkYBAPjf+wUctJhc7A/Y4qEA9zqbeFGt2PpeK76htuIbqpl4dc4WmHxTkwos/oyoeDPXDyPTtsBG4WEOdTyIFzrD+LEA3qkZGsrO49/yq3hQvk2fPbDlx7LmETqbmgrbBf59fl5BOQ1M5rEA35FC6ooU0lakkHZLWuoCTG6KEZjsHWS3t1GjADZLvNo+vCI3eGAWz65uKLjO6oazwE88amffp8cX+M/LpQxqJMDFyleuUNYzhbKe2dv/dm/QwE7NZgYmH0zXDKHd042Bn7ALTOldXz/Iobrkq7iWqkf9AXt5WUPhc2QvVf2dR/ULTM6m5Y8cmMkTziu4nuPy/ydwr7ND0f0Sqi9gL68IOHyWV8YWmOwxA1uHTyawl5dVXM9wGRfYBXaBXWAX2AV2gccReJaXRRQAgJeTb7d7nHyT5qH1WDxzYeU1rmceyQEnZ3t5OYbr6dXcWVtgt9xya2LqH3TLq+w9cIMlAAAAAElFTkSuQmCC",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Count by DATE_JOUR_REEL_INFRACTION",
+  "name": "Infractions par mois de l\u0027année",
   "type": "CHART",
   "miniature": {
     "type": "chart",
