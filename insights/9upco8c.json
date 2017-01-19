@@ -148,6 +148,22 @@
           "isA": "filter",
           "excludedValues": {},
           "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "LIBELLE_NATURE",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "CODE_NATURE_INFRA",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
         }
       ],
       "axis1LogScale": false,
