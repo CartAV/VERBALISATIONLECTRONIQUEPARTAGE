@@ -266,41 +266,7 @@
     "autoRefresh": true
   },
   "globalSearchQuery": "",
-  "explorationFilters": [
-    {
-      "column": "LIBELLE_NATURE",
-      "type": "columnFilter",
-      "currentMode": "SIMPLE_ALPHANUM",
-      "active": true,
-      "facet": {
-        "type": "facet",
-        "column": "LIBELLE_NATURE",
-        "columnType": "ALPHANUM",
-        "currentMode": "ALPHANUM",
-        "sort": "count",
-        "selectedValues": {}
-      },
-      "alphanumFilter": {
-        "type": "alphanum",
-        "column": "LIBELLE_NATURE",
-        "values": [],
-        "params": {
-          "mode": "substring",
-          "normalization": "normalized"
-        }
-      },
-      "validityFilter": {
-        "type": "validity",
-        "column": "LIBELLE_NATURE",
-        "params": {
-          "type": "FreeText",
-          "ok": true,
-          "nok": true,
-          "empty": true
-        }
-      }
-    }
-  ],
+  "explorationFilters": [],
   "previewMode": "ALL_ROWS",
   "charts": [],
   "chartsEngine": "LINO"
