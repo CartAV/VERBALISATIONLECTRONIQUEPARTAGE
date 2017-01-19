@@ -18,7 +18,7 @@
     "chart": {
       "type": "stacked_columns",
       "variant": "normal",
-      "name": "Count by DATE_JOUR_REEL_INFRACTION",
+      "name": "Infractions par famille et heure du jour (2012-2015)",
       "userEditedName": true,
       "genericDimension0": [
         {
@@ -133,6 +133,14 @@
             "2012": true
           },
           "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "COMMUNE_INFRACTION",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
         }
       ],
       "axis1LogScale": false,
@@ -171,12 +179,12 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAADlUlEQVRoge2Zy0sbURTG7z+gG9uVxbgQlRjEItWI0qDdZOHGltouBDc+cKFoU5MRSY2CKKaRgouIj1SJj/iIo04S85xRaU3Bx0ZRFB+ICnEngrqIcLvJjWF0xom2SUbzwYEwcwa+3z1nTi53AIgq8jRRZxqfqDONh9tHyNR90EF1H3RQ4fYRMlUvlY9UL5WPhNtHyCQaEFGiAdHTr7BXq3V6tVrnswFG7y50YBR0YE8fGFX2+QE3xVCwKYZay810reVmusLti7Nw2SyBy2YJrvmosgi4a7fV2rXbav2fHv+pNNsqs2ZbZeaaD9VJk1CdNImAeTe8gjWMQFEUDecQRcM5nDsk7EItuot9z9zDNP17mKafNZ8GzLvhBfvyKdiXT70zSt4UGCV4gVGCs+bTgdviZ2Fb/Gyo/D5ayHj6z3Qxl/a+BeyLUPl9tG5aUy7m0p68BR5bbTONrbaZ/KZVsWIu5onFHSuxuGOdcnuoKbeHP8D0DQQb8KmmZ/pU0zMNAAAIlHfAqH39xlmAs0ezXNmjWS4A+AzsM8oF2OuQk16HnATgNjCK0BMEKTqw8ZdHzGQ+cCGiwL6I+CMfumE24Iv2ZPtFe7IdAAAEChMlUJhuAUf8nhoZHZw/sgzOH1nYgAOvI+C8dmoir52a8M+ASN9iIqMIIFhgeqUjdlpXLJRaKhZKLXTgRLlFjH7Tn+E1MP3/lwtw4HU6MB089ET3CFWCbjgQuHBGOlM4I51Bz/AamF7Zu4AhUTUOiSr/Z5SnD+zrghWlrmZFqasJFrjWXWmodVcawkvqExdg/yCyyQhokxFcgANzYK9kHPZKbn1oO1co9OcKhR4AADZTUqnNlFTmjtgSihxbQpHjIZAfbUXYZ9t7wyf7hy9MRu8Cpi8OV2AruUxZyWU/zKVarb9Uq/VnNpn9zCazA3AzPBlNw5Y4ErbEkQ8Bht9ilb42beUCjCKlcY5MaZwjgwVGC3Vlr3dd2etd9KNdAADAl05c+NIJ83m2//0yluigsUS33okXr3fixWygh1Lp0KFUOoT/OVVOuT2U8bcnKOC7YILJ2e8t69vvLetj65R7gVEMLRyTQwvH5LXqhf66Oc7pVb18u5EmdG6kCZ3rIqFjXSR0ZDQ7pzOandMCzKL0PRdSYC45jMAJcsJwVyRi5h8JcsLwqsGczZjTYK5JkBMGgcL0lSlHgFleM91DwebjoTlsHRpVVFHxQ38BMdBZmgwby0gAAAAASUVORK5CYII\u003d",
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAADUklEQVRoge2YPUjjYBjHM7mdg4PTXevWcrRFHJrI4SQ4ungKcg4Ot5zcIERNr1hbqp6ooAdVKVKNH0VttX41bdOmNYt459K6xFEFxY9VKKIOuSVvCa8mpveRNrV/eCAkzwP/X57nffMSBCmr+BTsptaD3dR6oX2oJu/pGOs9HWML7UM14YddAfywK1BoH6rJtGBiTQum0u9w1uOlsx4v/WqAwdrlGRvLM7bSBwadfX3Azjcs73zDHhuM7LHBqB3wTTw8v4mH55Xmg84CYM19nmZORtiZkxHFhgEoCM1tXvkahoGxxdo9bLF27396/KcCI/ow9QN9mJpMPExNJmTzIWDNbV78crOfX272o2soVr9m3a1fs+7K5sPAQqjl968FDFtIC6ZkvEsGmGf6MCXjqVlgf4oI+VNEKGfaVYkpMb/585oVh2aA4QOEHPBRz7TvqGfahyAaBgbjmzMuA9y01bjRtNW4gSBaBhaMKgEWr20YGIT6BHkKBg7tX2NS5sUvogwsRNGfqWHDcsDZUVMwO2oKIgiC6AmK1RPUE+CiP1MDo4H9y0hg/zIiByy+D4DR4SSFDiep3B5Q7EdMYBQA5AsMd7pod+tOtj3YybYHYeD3jjhq6I/FDf2xOFyjaWD4+wuM1/RFMXAN14jvw8AwuPpELwh0AjYsBkZXrSl01ZoCNZoGhjv7HDBP4zs8je+AmtIHFqYgaQ+4k/aAO19gZwYnnRmcLCypICXAuY0o0cvyiV5WCbA4h59tIPnZhifAt3YbeWu3kQiCIJzBuMcZjNK/hl5MkNGnxEe8g2mb72Bav0oZfQ4YfjlKgWk2vU2z6W3OxVVwLq7ibtC1cjfoWhF/q/kEkeITRErSNBiz8wlf1fmEryofYH6g0iHUDysBloNRkgMfRvgYzvAxnHl0VzOP7mpGnCNpOre+hH9QV+NzbVfjc21yoBetLeRFawsZ+nXj2Di4ToYObtxqAINrzj+wxPkHluQm5UVgEB76jPHQZ8z9UM3C/dC72ON33YdMnTmaqTNH01ZzJG01RyzOeNjijIf1tqhDqFOlw/nkSALrCMr7XOi/RQZ1BOXV94brJHNskc86gvLWENQXqZy3RMQs9QyEnI8/zZGb0LLKKksb+g2DWl9YM9EbrQAAAABJRU5ErkJggg\u003d\u003d",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Count by DATE_JOUR_REEL_INFRACTION",
+  "name": "Infractions par famille et heure du jour (2012-2015)",
   "type": "CHART",
   "miniature": {
     "type": "chart",
