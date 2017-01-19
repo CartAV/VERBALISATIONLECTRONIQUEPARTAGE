@@ -16,10 +16,93 @@
     },
     "dataset": "2010_2015_pve_sr",
     "chart": {
-      "type": "grouped_columns",
+      "type": "stacked_columns",
       "variant": "normal",
-      "name": "Chart",
-      "userEditedName": false,
+      "name": "Count by DATE_JOUR_REEL_INFRACTION",
+      "userEditedName": true,
+      "genericDimension0": [
+        {
+          "column": "DATE_JOUR_REEL_INFRACTION",
+          "type": "DATE",
+          "dateParams": {
+            "mode": "MONTH_OF_YEAR"
+          },
+          "maxValues": 0,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [
+        {
+          "column": "LIBELLE_FAMILLE",
+          "type": "ALPHANUM",
+          "maxValues": 20,
+          "generateOthersCategory": false,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Count of records, descending"
+          }
+        }
+      ],
+      "genericMeasures": [
+        {
+          "function": "COUNT",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -37,10 +120,11 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "axis1LogScale": false,
       "axis2LogScale": false,
       "includeZero": true,
-      "hexbinRadius": 0,
+      "hexbinRadius": 20,
       "smoothing": false,
       "showLegend": true,
       "showXAxis": false,
@@ -73,11 +157,12 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAC6ElEQVRoge2Yz2sTURDH5yw0Jy8W+uNWSzaxFyGHgnoSD717stRCKRWJRckGWWqOtghtsU03tZo2JoQQTNpkt2mSrS+H0lZELwb1UhKKSP4IIZ4mgZf3ZJMmmwbfwPcww7yZ+UzeLksAhPWGbc0ZSVS3Z7HEvo9cJ6huz9IRO797L4cCAFBLSwRlyQBV1U9QVvSjAaVtiaCs6M/ccCtL2HxCdgPuQibgLmQ23YWbvLyxkDOPAugC8K34OEFhjF7CD8mRQ2FOev3zIgoAIL36MJpanoqllqdieysPnAAA6pyxi8JzNGA17yUoS4BZG6ZjrFvwzSmlUAAAanlJx5w3pUUXAMCnifEQCs/RgJYD/8nLH1E8YNZSGp7FHUnHnNHgqIuVwwR+0UdQmPPzxhhBtR2YtWE6ZuYWnB08Ttakzzt456r6owiKB9zRNzeroZlrx8jR6zGPCwBgOno7iOL1Y/Vv24usqvqV2hs4sO7lAtNDZZ8dopoBZi6qBeCNWSO3MWscbswah4GZg2tcQPorRi0vKXhVAqWX5oFN5dj0WsxnuxAwfS67cH8blX41c5ULTD8L9nd2BTfnCDo6D9xq7a07IRQAgH3bbuDcI29H+rnA9NW4jMCJkwpB8XJMAzc+Z7JSj8ldAaYBzQBX87JRmzvnaQLYZ1PqQ/V5eQ2/xNeiqEsBvGAz6rWv/AOYPmgS2MxQdCx5WtHRT51WBHAztY8T7+OongJuV+2WgT+cVJRasdNKzwAXwz6jGPaRYthHvkZ9fGD6YK8CJ04qBvrRo/PeAh6SNYJi+R0HZjU0M9TEyjFB/RfADTnefR39Yc++CwBgp/Arjmqmduzot4a6EPDrzNn8WrYcWcuWI6uZ0kyngdtV2zRwY3FdQX9Q1jv+C7ettqwZ6A949gSwABbAAlgAC2ABfBmBB2VNRQEADHm06VrMo02yclgxMznDXn0V/YHnmtTO2kOy5ke//2ma/zetMGHCesb+AlqLdKVYZONSAAAAAElFTkSuQmCC",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Chart",
+  "name": "Count by DATE_JOUR_REEL_INFRACTION",
   "type": "CHART",
   "miniature": {
     "type": "chart",
