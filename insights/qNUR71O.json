@@ -17,7 +17,7 @@
     "dataset": "2010_2015_pve_sr",
     "chart": {
       "type": "stacked_columns",
-      "variant": "normal",
+      "variant": "stacked_100",
       "name": "Infractions par famille et heure du jour (2012-2015)",
       "userEditedName": true,
       "genericDimension0": [
@@ -127,16 +127,28 @@
           "columnType": "DATE",
           "dateFilterType": "YEAR",
           "isA": "filter",
-          "excludedValues": {
-            "2010": true,
-            "2011": true,
-            "2012": true
-          },
+          "excludedValues": {},
           "explicitExclude": false
         },
         {
           "filterType": "ALPHANUM_FACET",
-          "column": "COMMUNE_INFRACTION",
+          "column": "LIBELLE_FAMILLE",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "LIBELLE_NATURE",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "CODE_NATURE_INFRA",
           "columnType": "ALPHANUM",
           "isA": "filter",
           "excludedValues": {},
@@ -179,7 +191,7 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAADUklEQVRoge2YPUjjYBjHM7mdg4PTXevWcrRFHJrI4SQ4ungKcg4Ot5zcIERNr1hbqp6ooAdVKVKNH0VttX41bdOmNYt459K6xFEFxY9VKKIOuSVvCa8mpveRNrV/eCAkzwP/X57nffMSBCmr+BTsptaD3dR6oX2oJu/pGOs9HWML7UM14YddAfywK1BoH6rJtGBiTQum0u9w1uOlsx4v/WqAwdrlGRvLM7bSBwadfX3Azjcs73zDHhuM7LHBqB3wTTw8v4mH55Xmg84CYM19nmZORtiZkxHFhgEoCM1tXvkahoGxxdo9bLF27396/KcCI/ow9QN9mJpMPExNJmTzIWDNbV78crOfX272o2soVr9m3a1fs+7K5sPAQqjl968FDFtIC6ZkvEsGmGf6MCXjqVlgf4oI+VNEKGfaVYkpMb/585oVh2aA4QOEHPBRz7TvqGfahyAaBgbjmzMuA9y01bjRtNW4gSBaBhaMKgEWr20YGIT6BHkKBg7tX2NS5sUvogwsRNGfqWHDcsDZUVMwO2oKIgiC6AmK1RPUE+CiP1MDo4H9y0hg/zIiByy+D4DR4SSFDiep3B5Q7EdMYBQA5AsMd7pod+tOtj3YybYHYeD3jjhq6I/FDf2xOFyjaWD4+wuM1/RFMXAN14jvw8AwuPpELwh0AjYsBkZXrSl01ZoCNZoGhjv7HDBP4zs8je+AmtIHFqYgaQ+4k/aAO19gZwYnnRmcLCypICXAuY0o0cvyiV5WCbA4h59tIPnZhifAt3YbeWu3kQiCIJzBuMcZjNK/hl5MkNGnxEe8g2mb72Bav0oZfQ4YfjlKgWk2vU2z6W3OxVVwLq7ibtC1cjfoWhF/q/kEkeITRErSNBiz8wlf1fmEryofYH6g0iHUDysBloNRkgMfRvgYzvAxnHl0VzOP7mpGnCNpOre+hH9QV+NzbVfjc21yoBetLeRFawsZ+nXj2Di4ToYObtxqAINrzj+wxPkHluQm5UVgEB76jPHQZ8z9UM3C/dC72ON33YdMnTmaqTNH01ZzJG01RyzOeNjijIf1tqhDqFOlw/nkSALrCMr7XOi/RQZ1BOXV94brJHNskc86gvLWENQXqZy3RMQs9QyEnI8/zZGb0LLKKksb+g2DWl9YM9EbrQAAAABJRU5ErkJggg\u003d\u003d",
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACu0lEQVRoge3VPU/bQBgH8GfyUlcdqqje6IISybAxsDB1ZeNLVIo6dED2gnpLGSIYEHVhSylMBplGIZHABjMUN+rAZoYwZImAsvAFkNyl5zr34pwbBxJ6lv6Sdc/l7vmdnQTgf76izc9+TyxLpcb+hDn/7+c0fL/ZqfRNqOtKWCydhMXSCR47MhaqR8ZCFQDgoljyk4n32bBMbg+cngcC36+vuffray7ZUKjrGol633r7FYesoRApvMMAAODVNjoV83xuxj+fm/HJHnoOhgdmNK6yFroolnzWfNyI1aloU1+mfNHoSFd4NQAAXm26Om3iPXl9kj3nCo4BVZ0CR64ZJ08wvheB5wbGm7HASSg3NlJ4NQAA3kElwSSc9/XouRg/JkJg6olVdU0ImhFMx8gXbIVIJcfSwO1m2Wk3y85l810hburDc35YYGJOPzDv6fO+Hj0XOSErOG6ksailQskgUHg1AADuQSXAIvC+YN3SVXKMBaaeDno2XDDO0gszWp10otVJh/UG5AJm/T/SgAcEU0+dHwpMTfKRyju15AGNBFgAToPJD3968zLannei7XkHjw0DbNuh4vy48ZP5Z3BK+oNRQSXHRME8QDK4NtJg5v+jADgtWcHf63s4DwBmNEIBft4ODMZh9YVre60bM+0N6gveD7reftD17lZmd+5WZneSYPc48NzjwHtMMFkbGEw14t+qIq/asMG8mig4udaTBrPWygxmNTJhHPgTxkEuYHItUbBIKDDeDKeAbJUcGwYYkK2I7PMoYJxxAid7HghMju0G195ucO3VWr9ekZuxMPFaDDDrYLOCWWvlCsZ5vdjQeDXmWhKcDl6utevLtXb947fLMp5nn10d2mdXh6n7jAsY32+ddhtbp91GvI/RMDPtM25gah8JlmAJlmAJlmAJlmAJluARAcvrCV6/AQV14DcJlDRnAAAAAElFTkSuQmCC",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
