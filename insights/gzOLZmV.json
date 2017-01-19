@@ -17,8 +17,8 @@
     "dataset": "2010_2015_pve_sr",
     "chart": {
       "type": "stacked_columns",
-      "variant": "normal",
-      "name": "Infractions semaine de l\u0027année (2012-2015)",
+      "variant": "stacked_100",
+      "name": "Infractions par jour de la semaine (2012-2015)",
       "userEditedName": true,
       "genericDimension0": [
         {
@@ -194,12 +194,12 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABNklEQVRoge2YIQ7CQBBFewHOgATRU9CjgMPgwOFRKNKgsCS0iqSChFEEhQQLEsEdip2UkOlmZpltmZ989ZP2v+3uZtIoMunr1usDtnafqExXgF3NT/l1gO36/PS+AGyZ1gxRhagvVKwvW+xqHm9iwPbFUVtUIe6CNA6YuyCtA6by8jADbF8ctUUVovLggB9JssN2LcTO5x3AliP7IuqMUYXKZZxhf+ShAZNbjgL2nIvr74C5W655wMUkw5YuzM1fo2GGzWGt9cL8/ARsaSAqF5+1ucC+c/FJzIB/DEQeGelJTBuIC5yO4YjdfGBiBzr/MdEG4gI73+LaQFxg50uNemF3ugfs0ICdLzUusO9cfDT9O2BtIO6RMWADDgzIgB1zakEMWLuw79yAtQsZsAEbsAE7AZtapDcE/hm9WGrovwAAAABJRU5ErkJggg\u003d\u003d",
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA+0lEQVRoge3SMQrCQBAF0FxAPIKlFrmCZS4h3kM7rS3ERkhpFbtAwC6YaQRvYCdaegghtrPLEBhYZdz8gV/9CewbkiSYJLmNJ8QTun9mWcGj/f692xKP37f5vvHTCc4fG+Kx1msPLu04kx5S4rHWaw/y92DtQaSjODMrpjWPNZC2l3acaesl8Vjry2p+5IkerO2lHfeD1YB4zPW9AysPEj/Y66Ud0w8GODS4vL6I59c9wLGDQx8EYGsggL2pLvczT/Rg7R8QP3g9bPx0gkeLE/FYA2l7aUcF/nbfO3DogwBsDRS6l3ZMPxhggAEGGGDLDwYYYIABBhgT6XwAmGzhnDmrHg8AAAAASUVORK5CYII\u003d",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true
     }
   },
-  "name": "Infractions semaine de l\u0027année (2012-2015)",
+  "name": "Infractions par jour de la semaine (2012-2015)",
   "type": "CHART",
   "miniature": {
     "type": "chart",
