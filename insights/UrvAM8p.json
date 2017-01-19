@@ -16,14 +16,35 @@
     },
     "dataset": "2010_2015_pve_sr",
     "chart": {
-      "type": "grouped_columns",
+      "type": "scatter",
       "variant": "normal",
       "name": "Chart",
       "userEditedName": false,
+      "genericDimension0": [],
+      "genericDimension1": [],
+      "genericMeasures": [],
       "xDimension": [],
       "yDimension": [],
-      "uaXDimension": [],
-      "uaYDimension": [],
+      "uaXDimension": [
+        {
+          "column": "LIBELLE_NATURE",
+          "type": "ALPHANUM",
+          "treatAsAlphanum": false,
+          "sortBy": "COUNT",
+          "sortAscending": false,
+          "isA": "ua"
+        }
+      ],
+      "uaYDimension": [
+        {
+          "column": "MNT_AF",
+          "type": "NUMERICAL",
+          "treatAsAlphanum": false,
+          "sortBy": "NATURAL",
+          "sortAscending": false,
+          "isA": "ua"
+        }
+      ],
       "uaSize": [],
       "uaShape": [],
       "uaColor": [],
@@ -37,10 +58,11 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "axis1LogScale": false,
       "axis2LogScale": false,
       "includeZero": true,
-      "hexbinRadius": 0,
+      "hexbinRadius": 20,
       "smoothing": false,
       "showLegend": true,
       "showXAxis": false,
