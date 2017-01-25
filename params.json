@@ -7,12 +7,6 @@
       "type": "ADMIN",
       "runJob": false,
       "downloadData": true
-    },
-    {
-      "group": "data_team",
-      "type": "ADMIN",
-      "runJob": false,
-      "downloadData": true
     }
   ],
   "tutorialProject": false,
