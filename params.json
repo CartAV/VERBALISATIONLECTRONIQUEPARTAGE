@@ -1,14 +1,7 @@
 {
   "projectType": "REGULAR",
   "owner": "antoinefa",
-  "permissions": [
-    {
-      "group": "DSCR",
-      "type": "ADMIN",
-      "runJob": false,
-      "downloadData": true
-    }
-  ],
+  "permissions": [],
   "tutorialProject": false,
   "settings": {
     "flowAnchorSourcesAndSinks": true,
