@@ -31,13 +31,13 @@
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "chabouisfr",
       "displayName": "Francis Chabouis",
       "email": "francis.chabouis@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1486637649512
+    "lastModifiedOn": 1486637818823
   },
   "customMeta": {
     "kv": {}
