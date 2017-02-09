@@ -4,6 +4,7 @@
     "connection": "el",
     "index": "es2_2010_2015_pve_sr",
     "type": "es2_2010_2015_pve_sr",
+    "rawCopyColumns": "*",
     "frameSize": 10000,
     "partitioned": false
   },
@@ -391,6 +392,15 @@
   "flowOptions": {
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr",
+      "displayName": "Francis Chabouis",
+      "email": "francis.chabouis@interieur.gouv.fr"
+    },
+    "lastModifiedOn": 1486634920075
   },
   "customMeta": {
     "kv": {}
