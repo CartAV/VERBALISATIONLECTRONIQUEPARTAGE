@@ -1,0 +1,419 @@
+{
+  "virtualInputs": [
+    {
+      "index": 0
+    },
+    {
+      "index": 1
+    }
+  ],
+  "joins": [
+    {
+      "table1": 0,
+      "outerJoinOnTheLeft": true,
+      "table2": 1,
+      "conditionsMode": "AND",
+      "on": [],
+      "type": "LEFT"
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "hiveconf": [],
+      "addDkuUdf": false,
+      "useGlobalMetastore": false
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "sparkSQL": {
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      },
+      "overwriteOutputSchema": true,
+      "readParams": {
+        "map": {}
+      }
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true
+  },
+  "selectedColumns": [
+    {
+      "name": "MOTIF_STATUT_DOSSIER",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_STATUT_DOSSIER",
+      "table": 0
+    },
+    {
+      "name": "ANNEE_PERMIS_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "PAYS_RESIDENCE_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "REGION_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "DEPARTEMENT_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "COMMUNE_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "CODE_POSTAL_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "CODE_INSEE_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_NPAI",
+      "table": 0
+    },
+    {
+      "name": "EST_TITULAIRE",
+      "table": 0
+    },
+    {
+      "name": "SEXE_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "AGE_CONTREVENANT",
+      "table": 0
+    },
+    {
+      "name": "ANNEE_NAISSANCE",
+      "table": 0
+    },
+    {
+      "name": "COD_DISPOSITIF",
+      "table": 0
+    },
+    {
+      "name": "ID_FAMILLE",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_FAMILLE",
+      "table": 0
+    },
+    {
+      "name": "ID_CLASSE",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_CLASSE",
+      "table": 0
+    },
+    {
+      "name": "CODE_NATURE_INFRA",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_NATURE",
+      "table": 0
+    },
+    {
+      "name": "NBR_POINTS_RETIRES",
+      "table": 0
+    },
+    {
+      "name": "MNT_AF_MINOREE",
+      "table": 0
+    },
+    {
+      "name": "MNT_AF",
+      "table": 0
+    },
+    {
+      "name": "MNT_AF_MAJOREE",
+      "table": 0
+    },
+    {
+      "name": "REGION_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "DEPARTEMENT_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "COMMUNE_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "CODE_INSEE_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "CODE_POSTAL_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "NUM_ARRONDISSEMENT",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_TYPE_VOIE",
+      "table": 0
+    },
+    {
+      "name": "VOIE_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "LIB_LOCALITE_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_ENLEVEMENT_DEMANDE",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_FICHE_IMMO_ETABLIE",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_ECHANGE_PERMIS",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_INTERCEPTION",
+      "table": 0
+    },
+    {
+      "name": "VAL_VITESSE_RETENUE",
+      "table": 0
+    },
+    {
+      "name": "VAL_VITESSE_VLA",
+      "table": 0
+    },
+    {
+      "name": "LIB_TRANCHE_DEPASSEMENT",
+      "table": 0
+    },
+    {
+      "name": "DATE_JOUR_REEL_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "ANNEE_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "MOIS_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "NUM_ANNEE_MOIS_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "SEMAINE_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_JOUR_INFRACTION",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_NUIT",
+      "table": 0
+    },
+    {
+      "name": "SEMAINE_INFRAC",
+      "table": 0
+    },
+    {
+      "name": "VACS_ZONE_A",
+      "table": 0
+    },
+    {
+      "name": "VACS_ZONE_B",
+      "table": 0
+    },
+    {
+      "name": "VACS_ZONE_C",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_PLAGE_HORAIRE",
+      "table": 0
+    },
+    {
+      "name": "DATE_JOUR_REEL_INTEGRATION",
+      "table": 0
+    },
+    {
+      "name": "ANNEE_INTEGRATION",
+      "table": 0
+    },
+    {
+      "name": "MOIS_INTEGRATION",
+      "table": 0
+    },
+    {
+      "name": "SEMAINE_INTEGRATION",
+      "table": 0
+    },
+    {
+      "name": "COD_UNITE",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_UNITE",
+      "table": 0
+    },
+    {
+      "name": "COD_ENTITE",
+      "table": 0
+    },
+    {
+      "name": "LIB_ENTITE",
+      "table": 0
+    },
+    {
+      "name": "LIB_COURT_ENTITE",
+      "table": 0
+    },
+    {
+      "name": "COD_CORPS",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_CORPS",
+      "table": 0
+    },
+    {
+      "name": "LIB_COURT_CORPS",
+      "table": 0
+    },
+    {
+      "name": "LIB_ETAT_UNITE",
+      "table": 0
+    },
+    {
+      "name": "LIB_TYPE_UNITE",
+      "table": 0
+    },
+    {
+      "name": "COD_UNITE_PN",
+      "table": 0
+    },
+    {
+      "name": "COD_DEPARTEMENT_UNITE",
+      "table": 0
+    },
+    {
+      "name": "LIB_DEPARTEMENT_UNITE",
+      "table": 0
+    },
+    {
+      "name": "LIB_REGION_UNITE",
+      "table": 0
+    },
+    {
+      "name": "LIB_ZONE_CRS",
+      "table": 0
+    },
+    {
+      "name": "LIB_ZONE_PAF",
+      "table": 0
+    },
+    {
+      "name": "MARQUE",
+      "table": 0
+    },
+    {
+      "name": "TYPE_PLAQUE",
+      "table": 0
+    },
+    {
+      "name": "NATIONALITE_PLAQUE",
+      "table": 0
+    },
+    {
+      "name": "COD_GENRE",
+      "table": 0
+    },
+    {
+      "name": "GENRE",
+      "table": 0
+    },
+    {
+      "name": "REGROUPEMENT_GENRE",
+      "table": 0
+    },
+    {
+      "name": "PVE_ID",
+      "table": 0
+    },
+    {
+      "name": "lon",
+      "table": 0
+    },
+    {
+      "name": "CODE_REG",
+      "table": 0
+    },
+    {
+      "name": "X_CHF_LIEU",
+      "table": 0
+    },
+    {
+      "name": "NOM_CHF",
+      "table": 0
+    },
+    {
+      "name": "Y_CHF_LIEU",
+      "table": 0
+    },
+    {
+      "name": "ID_GEOFLA",
+      "table": 0
+    },
+    {
+      "name": "CODE_CHF",
+      "table": 0
+    },
+    {
+      "name": "NOM_DEPT",
+      "table": 0
+    },
+    {
+      "name": "CODE_DEPT",
+      "table": 0
+    },
+    {
+      "name": "NOM_REG",
+      "table": 0
+    },
+    {
+      "name": "Y_CENTROID",
+      "table": 0
+    },
+    {
+      "name": "X_CENTROID",
+      "table": 0
+    },
+    {
+      "name": "lat",
+      "table": 0
+    },
+    {
+      "name": "chef_lieu_geo",
+      "table": 0
+    }
+  ]
+}
