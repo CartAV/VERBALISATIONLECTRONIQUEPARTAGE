@@ -23,6 +23,7 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
+    "pipeIn": "2010_2015_pve_sr_regions",
     "autoInferSchema": false,
     "expectHeaders": false,
     "sendHeaders": false
@@ -32,13 +33,13 @@
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1487785361411
+    "lastModifiedOn": 1487786266930
   },
   "customMeta": {
     "kv": {}
