@@ -26,20 +26,20 @@
     "pipeIn": "2010_2015_pve_sr_regions",
     "autoInferSchema": false,
     "expectHeaders": false,
-    "sendHeaders": false
+    "sendHeaders": true
   },
   "checklists": {
     "checklists": []
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1487786270241
+    "lastModifiedOn": 1487786280950
   },
   "customMeta": {
     "kv": {}
