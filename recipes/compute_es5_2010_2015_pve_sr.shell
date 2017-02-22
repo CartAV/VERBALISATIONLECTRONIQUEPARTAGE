@@ -17,8 +17,28 @@ curl -s -XPUT $server/$dataset
 #refresh_interval : pour accélérer l'indexation ; number_of_replicas : ralentit l'indexation, accélère la recherche après
 curl -s -XPUT $server/$dataset/_settings -d '{"index":{"refresh_interval": "'"$refresh_interval"'","number_of_replicas" :'$number_of_replicas'}}'
 
-#curl -s -XPUT $serveur/$dataset/_mapping -d'{"mappings": {"properties": .... # ajout d'un mapping (exemple à produire)
-
+curl -s -XPUT $server/$dataset -H 'Content-Type: application/json' -d'
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "my_analyzer": {
+          "tokenizer": "my_tokenizer"
+        }
+      },
+      "tokenizer": {
+        "my_tokenizer": {
+          "type": "edge_ngram",
+          "min_gram": 2,
+          "max_gram": 10,
+          "token_chars": [
+            "letter"
+          ]
+        }
+      }
+    }
+  }
+}'
 
 #########
 #variante 1 process passant par le buffer mémoire 
@@ -36,6 +56,7 @@ PID=$!
 #test parsing
 #head -2 bulk/$dataset.ES.json.0000 | tail -1 | jq '.'
 #exit
+sleep 5
 
 # en parallèle de la préparation des bulks, commence à insérer dans ES les bulks déjà préparés
 cd bulk
