@@ -4,7 +4,7 @@
 
 dataset=2010_2015_pve_sr # nom de l'index ES 
 type=event #type du document
-server=http://fa-srv-2:9200 # ip du serveur d'injection 
+server=http://fa-srv-5:9200 # ip du serveur d'injection 
 split=10000 # taille des bulks (peut ralentir ou accélérer la recherche ; diviser par deux pour la véritable taille des bulks e.g 10000 lignes = 5000 documents insérés
 refresh_interval="10s" #pour accélérer l'indexation (latence de l'actualisation de la recherche après l'indexation - valeur de base "1s"
 number_of_replicas=5  #plus de replicas accélère la recherche mais ralentit l'indexation de base 2; 5 max (nombre de noeuds du cluster actuel)
@@ -62,7 +62,7 @@ sleep 5
 cd bulk
 while (ps -p $PID > /dev/null)
 do echo "loop"
-for file in $dataset.ES.json.????? 
+for file in $dataset.ES.json.?????
 do test=`wc -l $file| awk '{printf $1}'`
 if [[ $test -eq $split ]]
 then
