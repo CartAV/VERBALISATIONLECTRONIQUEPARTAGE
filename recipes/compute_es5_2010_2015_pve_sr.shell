@@ -62,7 +62,7 @@ sleep 5
 cd bulk
 while (ps -p $PID > /dev/null)
 do echo "loop"
-for file in $dataset.ES.json.?????
+for file in $dataset.ES.json.*
 do test=`wc -l $file| awk '{printf $1}'`
 if [[ $test -eq $split ]]
 then
