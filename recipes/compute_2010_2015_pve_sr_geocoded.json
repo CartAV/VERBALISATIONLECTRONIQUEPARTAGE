@@ -1,0 +1,51 @@
+{
+  "type": "CustomCode_geocoding-ban",
+  "inputs": {
+    "input": {
+      "items": [
+        {
+          "ref": "2010_2015_pve_sr_prepared",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "output": {
+      "items": [
+        {
+          "ref": "2010_2015_pve_sr_geocoded",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "customConfig": {
+      "server_address": "http://api-adresse.data.gouv.fr",
+      "concurent_requests": 1.0,
+      "prefix": "result_",
+      "timeout": 1000.0,
+      "lines_per_request": 1000.0
+    }
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "tags": [],
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr",
+      "displayName": "Tristam Gräbener",
+      "email": "tristam.grabener@interieur.gouv.fr"
+    },
+    "lastModifiedOn": 1488201981419
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false
+}
