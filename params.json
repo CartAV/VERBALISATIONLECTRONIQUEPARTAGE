@@ -1,18 +1,20 @@
 {
-  "projectType": "REGULAR",
-  "owner": "antoinefa",
-  "permissions": [
-    {
-      "group": "eig",
-      "type": "ADMIN",
-      "runJob": false,
-      "downloadData": true
-    }
-  ],
-  "tutorialProject": false,
-  "settings": {
-    "flowAnchorSourcesAndSinks": true,
-    "exposedComputables": [
+  "dashboardAuthorizations": {
+    "allAuthorized": false,
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "2010_2015_pve_sr",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  "exposedObjects": {
+    "objects": [
       {
         "type": "DATASET",
         "localName": "2010_2015_pve_sr",
@@ -23,13 +25,69 @@
           }
         ]
       }
-    ],
+    ]
+  },
+  "projectType": "REGULAR",
+  "owner": "antoinefa",
+  "permissions": [
+    {
+      "group": "eig",
+      "admin": true,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false
+    }
+  ],
+  "tutorialProject": false,
+  "settings": {
+    "flowAnchorSourcesAndSinks": true,
     "gitCommitMode": "AUTO",
-    "disableAutomaticTriggers": false
+    "disableAutomaticTriggers": false,
+    "integrations": {
+      "integrations": []
+    },
+    "flowBuildSettings": {
+      "mergeSparkPipelines": false,
+      "pruneBeforeSparkPipelines": true
+    },
+    "limitsSettings": {
+      "memSampleBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "shakerMemTableBytes": {
+        "soft": -1,
+        "hard": -1
+      }
+    },
+    "relocationSettings": {
+      "sqlLikeRecipesInitializationMode": "RESOLVED_TABLE_REFERENCES"
+    },
+    "recipeEnginesPreferences": {
+      "forbiddenEngines": [],
+      "enginesPreferenceOrder": [],
+      "forbiddenByRecipeType": {},
+      "preferenceByRecipeType": {}
+    }
   },
   "name": "verbalisation électronique - geo",
+  "projectStatus": "Draft",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1488448548187
+  },
   "description": "Le projet vise à assurer la préparation de données de verbalisation pour les finalités de décisionnel géographique et de corrélation avec l\u0027accidentalité.",
   "shortDesc": "The project *verbalisation électronique - partage* was created by Fabien Antoine on Dec 29th 2016",
+  "tags": [],
   "checklists": {
     "checklists": [
       {
@@ -81,7 +139,5 @@
         ]
       }
     ]
-  },
-  "tags": [],
-  "projectStatus": "Draft"
+  }
 }
