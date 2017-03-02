@@ -26,7 +26,7 @@
                 "operator": "\u003e\u003d [date]",
                 "col": "LIBELLE_STATUT_DOSSIER",
                 "num": 0.0,
-                "date": "2015-01-01",
+                "date": "2015-11-01",
                 "time": "00:00"
               }
             ]
@@ -41,7 +41,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1
+      "_refreshTrigger": 2
     },
     "vizSampling": {
       "autoRefreshSample": false,
