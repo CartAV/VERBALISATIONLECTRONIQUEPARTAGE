@@ -1,0 +1,77 @@
+{
+  "type": "sync",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "schemaMode": "STRICT_SYNC",
+    "engineParams": {
+      "maxThreads": 4,
+      "sparkSQL": {
+        "overwriteOutputSchema": false,
+        "useGlobalMetastore": false,
+        "sparkConfig": {
+          "inheritConf": "default",
+          "conf": []
+        },
+        "readParams": {
+          "map": {}
+        },
+        "pipelineAllowMerge": true,
+        "pipelineAllowStart": true
+      },
+      "impala": {
+        "forceStreamMode": true
+      },
+      "hive": {
+        "inheritConf": "default",
+        "hiveconf": [],
+        "executionEngine": "HIVECLI_LOCAL",
+        "addDkuUdf": false,
+        "skipPrerunValidate": false
+      },
+      "lowerCaseSchemaIfEngineRequiresIt": false
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "2010_2015_pve_sr_regions",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "es5_2010_2015_pve_sr_regions",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1488441134650
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1488441134650
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
