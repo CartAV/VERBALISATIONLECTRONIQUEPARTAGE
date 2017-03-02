@@ -36,11 +36,11 @@
   "name": "Default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1488448548322
+    "lastModifiedOn": 1488448549609
   },
   "creationTag": {
     "versionNumber": 0,
