@@ -1,0 +1,56 @@
+{
+  "pages": [
+    {
+      "id": "BJJGtXc",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 2,
+              "height": 2
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showXAxis": false,
+              "showYAxis": false,
+              "showLegend": false,
+              "showTooltips": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "E0A3UB3",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImage": false
+          }
+        ]
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "admin",
+  "listed": true,
+  "name": "Default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1488448548322
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1488448548322
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "2010_2015_pve_sr",
+    "engineType": "SQL",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "samplingMethod": "FULL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 1
+    },
+    "def": {
+      "type": "stacked_columns",
+      "variant": "normal",
+      "name": "Infractions par famille et heure du jour (2012-2015)",
+      "userEditedName": true,
+      "genericDimension0": [
+        {
+          "column": "DATE_JOUR_REEL_INFRACTION",
+          "type": "DATE",
+          "dateParams": {
+            "mode": "WEEK_OF_YEAR"
+          },
+          "maxValues": 0,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [
+        {
+          "column": "LIBELLE_FAMILLE",
+          "type": "ALPHANUM",
+          "maxValues": 20,
+          "generateOthersCategory": false,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Count of records, descending"
+          }
+        }
+      ],
+      "genericMeasures": [
+        {
+          "function": "COUNT",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [
+        {
+          "filterType": "DATE_FACET",
+          "column": "DATE_JOUR_REEL_INFRACTION",
+          "columnType": "DATE",
+          "dateFilterType": "YEAR",
+          "isA": "filter",
+          "excludedValues": {
+            "2010": true,
+            "2011": true
+          },
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "LIBELLE_FAMILLE",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "LIBELLE_NATURE",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "column": "CODE_NATURE_INFRA",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "excludedValues": {},
+          "explicitExclude": false
+        }
+      ],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": false,
+      "showLegend": true,
+      "showXAxis": false,
+      "strokeWidth": 1,
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "colorOptions": {
+        "singleColor": "#659a88",
+        "transparency": 0.75,
+        "colorPalette": "default",
+        "ccScaleMode": "NORMAL"
+      },
+      "colorPaletteType": "LINEAR",
+      "bubblesOptions": {
+        "defaultRadius": 5.0
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 50.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.6,
+        "gridLatDeg": 0.6
+      },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAE0ElEQVRoge3Vz2/bVBwAcIsbRSkLcEAVNL0lbRyIKJW2SzgAUigSAg1O2aRe2tLBhkBq7SBGXIa0xIcemJO6wIg70R+riLM09prMWV/XrU3F2IH9CAiovAroj8E/wAEeh8rm5cVOnGxNR5cnfRXLfvb3+3nva4cgGuP+HgWnC+x2DXUbkI8BXmV3D8z1zwOtEIIgiInhpa93Is9VZvoM1z8PeJUF1LVjZ39+vmtWy1m3sSQWJgtOF/gn+lmWV1lQcLpAuXbTFqeWkRgfmCg4XYBXWUAKJOBVtr47reG0xGig8yAfA4vf3HhGu6eWXFoba1hSIMH+qa5078LhqbrtMl4AGvg8dHEm35uTtGt/vt17ODYg2aO9F7zauTsjXyWMcqHPhwqtH9dtl42gWqA7ie48WiDkY5nR1UhAGnjVDo50ewmCIPhjCzIK0J6DgqFCA6jQ4Oj0S9mfzr8jfnojmCYIgviLDc/uCFRrIbwAqNDgdPKtJFRoHfXHoUNJfDG0HefVSKZD6AjE1k7aP1dZL+S5sNYFKJTrny/JA0M2/ZgUSKB9zHYEy6ssgHysuAAsSIEE2lyjVuRVFpBxMtMhdAQ8MY/dHXd7eTUSRrvg+xNTKVIggXwyMFcEDtmKwFChweUe/6yW855jtYKKCpj7IIX+6ih8Z5B3j4yTmaPTL+pgd9wdRhdnoe+VVFGukA3AE0/M6WAEjtYlvJsVa8Fx2nG0P+e/krz5Sclu4YmxIvR53HNpvBW3FyKYgdmhAJRoO7zwoQ4u6gL0tTHLNfF6Er3veuezyYLTBX4/eDBbcLoAHI2GKoL526wOXujvfrngdCbxtrQCNix07n1xewGCGTjcXATGu8BSLux9xv8iR1cjlcFuwc0tz9x6DEL40Gtytz+gvDlp+OGwUITptY+bt8H0o3bI7PPCHB0u6YKIQ7KcC+ss5NWxBr7e3u77rqWlyR13+0mBTJZ8Ia0WYRY4ONY1/F+bvjFVLte5K7eVsouMxI/ywEcVwTAX5LomunwHZg48DHO0HyrBpCVkNYGDGVvYyoKJ+U0g5jeBdOlmxhI6O1R5h2EuyLV/2e7rHOts0sEmhYv5TZBTFoGY36yIVC4u5yyDTaB4WFhYC2CmmYNZygfTTBNkmv0wZCsBmxWAF4GeK7pWBXjxfCplNd99A8avXxW/GBfzW5bA5XIZLmZNYGafDzItJWA0gRW02fXE8kZGzG8FJi6v2ZNLv3khYwurYz2njQrfUXDB6QJG4EpJqw0cnMhvhM0Q1T4bMrZ5/f5KYFIgwd/M46c0sLi87k+sbO0a+K7zLG2E4NgpD4xGnzQE7x/3KuLKFrfb4HIRn//1YjXgkR+Oe9hbjDEYKjQQV7a4xNK6L51erwh2UFLR7wuRS2fN5vbGr525G/CYspZzUBJAw9IOK5QHgkETcMhmCYwnNisCPeegJDAi/VIT2Go+Q7Dc54HykdrAI/KqUqkAFGgWrZSUcQylA620ZG8blHWwEcBqLlPwcbsHMo9UB66UtNrAwa1DUtgMUe2zqwY7KFkHtw3Kfgcl1x18z/IMpcuDt1dU5p6mUr6WvvSeAJ9b3vTMfHunAX4wwdsT9xb4KUr2tA3KDXAD3AD/z8GQsfU8UOC2QbkBboy9OP4FkvoDGz2ezGoAAAAASUVORK5CYII\u003d",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true
+    }
+  },
+  "owner": "antoinefa",
+  "listed": false,
+  "name": "Infractions par famille et heure du jour (2012-2015) on 2010_2015_pve_sr",
+  "dashboardCreationId": "LnE0G9b",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1488448548318
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1488448548318
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
