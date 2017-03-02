@@ -1,0 +1,58 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": -1,
+        "filter": {
+          "distinct": false,
+          "enabled": true,
+          "uiData": {
+            "mode": "\u0026\u0026",
+            "conditions": [
+              {
+                "input": "DATE_JOUR_REEL_INFRACTION",
+                "operator": "\u003e\u003d [date]",
+                "col": "LIBELLE_STATUT_DOSSIER",
+                "num": 0.0,
+                "date": "2015-01-01",
+                "time": "00:00"
+              }
+            ]
+          }
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "samplingMethod": "RANDOM_FIXED_NB_EXACT",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 1
+    },
+    "vizSampling": {
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": []
+}
