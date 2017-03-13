@@ -550,6 +550,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u0027NR\u0027)\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select * from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u0027NR\u0027)\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "DvkIlzDiW8dM",
+        "runOn": 1489419776460,
+        "runIn": 216,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "iVWwgaNEmQ7RNOjn",
+        "hash": "c665efea60ca24876117d69467592f80",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select commune_infraction from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u0027NR\u0027)\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select commune_infraction from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u0027NR\u0027)\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ],
     "iy2e671qkn": [
