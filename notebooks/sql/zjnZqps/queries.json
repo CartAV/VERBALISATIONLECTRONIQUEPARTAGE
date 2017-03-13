@@ -708,6 +708,28 @@
         },
         "sql": "select DEPARTEMENT_INFRACTION, count(1) \nfrom \"2010_2015_pve_sr\"\ngroup by DEPARTEMENT_INFRACTION ",
         "expandedSql": "select DEPARTEMENT_INFRACTION, count(1) \nfrom \"2010_2015_pve_sr\"\ngroup by DEPARTEMENT_INFRACTION "
+      },
+      {
+        "mode": "SQL",
+        "id": "UuQ0FMLuuZOF",
+        "runOn": 1489417671227,
+        "runIn": 54,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "5gu702ticSJPBNjS",
+        "hash": "1be64cad8f301e10d149e5356b729142",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select DEPARTEMENT_INFRACTION, count(1) \nfrom \"public\".\"2015_pve_sr\"\ngroup by DEPARTEMENT_INFRACTION ",
+        "expandedSql": "select DEPARTEMENT_INFRACTION, count(1) \nfrom \"public\".\"2015_pve_sr\"\ngroup by DEPARTEMENT_INFRACTION "
       }
     ]
   }
