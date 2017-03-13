@@ -682,6 +682,28 @@
         },
         "sql": "select commune_infraction, count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\ngroup by commune_infraction\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select commune_infraction, count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\ngroup by commune_infraction\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "Bxt7HFRZYmKl",
+        "runOn": 1489420080598,
+        "runIn": 263,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "lv0eSCP06r8iCFdC",
+        "hash": "6a4899f828ecc2bbfaa64d90e516dc35",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select commune_infraction, * from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\n--group by commune_infraction\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select commune_infraction, * from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\n--group by commune_infraction\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ],
     "iy2e671qkn": [
