@@ -14,8 +14,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select count(1) from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;",
         "expandedSql": "select count(1) from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;"
@@ -33,8 +36,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;",
         "expandedSql": "select * from \"2010-2015_pve_sr\" where \"AGE_CONTREVENANT\" is null;"
@@ -52,8 +58,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010-2015_pve_sr\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION\n",
         "expandedSql": "select * from \"2010-2015_pve_sr\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION\n"
@@ -71,8 +80,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010-2015_pve_sr\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION is null or\n",
         "expandedSql": "select * from \"2010-2015_pve_sr\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION is null or\n"
@@ -90,8 +102,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010-2015_pve_sr\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION",
         "expandedSql": "select * from \"2010-2015_pve_sr\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION"
@@ -109,8 +124,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010-2015_pve_sr\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null",
         "expandedSql": "select * from \"2010-2015_pve_sr\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null"
@@ -128,8 +146,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010-2015_pve_sr_prepared\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null",
         "expandedSql": "select * from \"2010-2015_pve_sr_prepared\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null"
@@ -147,8 +168,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null"
@@ -166,8 +190,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\n--ANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\n--ANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null"
@@ -185,8 +212,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where\n--\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\n--ANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where\n--\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\n--ANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null"
@@ -204,8 +234,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "/*select * from \"2010_2015_pve_sr_prepared\" where\n--\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null*/\n\nupdate \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "/*select * from \"2010_2015_pve_sr_prepared\" where\n--\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null*/\n\nupdate \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
@@ -223,8 +256,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where\n--\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null\n\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where\n--\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null\n\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
@@ -242,11 +278,36 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null\n\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where\n\"AGE_CONTREVENANT\" is null or\n\"ANNEE_PERMIS_CONTREVENANT\" is null or\nANNEE_NAISSANCE is null or\nID_FAMILLE is null or\nID_CLASSE is null or\nCODE_NATURE_INFRA is null or\nNBR_POINTS_RETIRES is null or\nMNT_AF_MINOREE is null or\nMNT_AF is null or\nMNT_AF_MAJOREE is null or\nVAL_VITESSE_RETENUE is null or\nVAL_VITESSE_VLA is null or\nANNEE_INFRACTION is null or\nMOIS_INFRACTION is null or\nSEMAINE_INFRAC is null or\nNUM_ANNEE_MOIS_INFRACTION is null or\nSEMAINE_INFRACTION is null or\nANNEE_INTEGRATION is null or\nMOIS_INTEGRATION is null or\nSEMAINE_INTEGRATION  is null\n\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "aE4rqxSV8fOE",
+        "runOn": 1489413615084,
+        "runIn": 1066,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "d3k8F9SCmV2k7lpe",
+        "hash": "41506873b85e6c71cb568c328eabf42d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"DEPARTEMENT_CONTREVENANT\", count(1) from \"2010_2015_pve_sr_regions\"\ngroup by \"DEPARTEMENT_CONTREVENANT\"\n\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select \"DEPARTEMENT_CONTREVENANT\", count(1) from \"2010_2015_pve_sr_regions\"\ngroup by \"DEPARTEMENT_CONTREVENANT\"\n\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ]
   }

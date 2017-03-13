@@ -1,20 +1,6 @@
 {
-  "creator": "grabenertr",
-  "versionTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "grabenertr",
-      "displayName": "Tristam Gräbener",
-      "email": "tristam.grabener@interieur.gouv.fr"
-    },
-    "lastModifiedOn": 1484311590293
-  },
   "connection": "datalabmaster",
   "name": "Bidouilles à Tristram",
-  "checklists": {
-    "checklists": []
-  },
-  "tags": [],
   "cells": [
     {
       "id": "e454pzwh3do",
@@ -22,15 +8,24 @@
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
+        "inheritConf": "default",
         "extraConf": [],
-        "addDkuUdf": false
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
       }
     }
   ],
   "automationLocal": false,
-  "createdBy": {},
-  "createdOn": 0,
-  "lastModifiedBy": {},
-  "lastModifiedOn": 0,
-  "allContributors": []
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1484311590293
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
 }
