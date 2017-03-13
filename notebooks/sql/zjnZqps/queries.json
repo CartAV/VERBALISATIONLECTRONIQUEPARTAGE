@@ -506,6 +506,28 @@
         },
         "sql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d 2013\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d 2013\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "dvtz9htQXD8h",
+        "runOn": 1489413954984,
+        "runIn": 224,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "cDNtLJSacRSlidA1",
+        "hash": "946e4c7eca71603585375f3f00f473c8",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003d 2013\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003d 2013\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ]
   }
