@@ -462,6 +462,28 @@
         },
         "sql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d \"2013\"\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d \"2013\"\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "P3U0cVl6Bfwv",
+        "runOn": 1489413944802,
+        "runIn": 45,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "ThQ5gzsZCxpHjFUF",
+        "hash": "9405d87c0bdb94a1b1c534f48f693a96",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d \u00272013\u0027\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d \u00272013\u0027\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ]
   }
