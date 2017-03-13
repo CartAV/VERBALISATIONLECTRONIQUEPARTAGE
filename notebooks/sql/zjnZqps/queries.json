@@ -574,6 +574,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\"\nwhere \"REGION_INFRACTION\" \u003d \u0027Corse\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\"\nwhere \"REGION_INFRACTION\" \u003d \u0027Corse\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "fUdw8lCw7zDi",
+        "runOn": 1489417196837,
+        "runIn": 321,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "7jOKLKsU5Xr4hHHI",
+        "hash": "0e0ec1b5bde2a449fb25021b3a4744fd",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr\"\nwhere \"REGION_INFRACTION\" \u003d \u0027Corse\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr\"\nwhere \"REGION_INFRACTION\" \u003d \u0027Corse\u0027"
       }
     ]
   }
