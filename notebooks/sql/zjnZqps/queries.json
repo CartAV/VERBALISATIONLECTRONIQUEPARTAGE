@@ -726,6 +726,28 @@
         },
         "sql": "select LIB_LOCALITE_INFRACTION, count(*) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\ngroup by LIB_LOCALITE_INFRACTION\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select LIB_LOCALITE_INFRACTION, count(*) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\ngroup by LIB_LOCALITE_INFRACTION\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "1zKNPzOUpCln",
+        "runOn": 1489420116982,
+        "runIn": 286,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "b6IZEk87HgWuCYer",
+        "hash": "617d7df27f1d31565feab630ec929509",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select LIB_LOCALITE_INFRACTION, count(*) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\ngroup by LIB_LOCALITE_INFRACTION\norder by count desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select LIB_LOCALITE_INFRACTION, count(*) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\ngroup by LIB_LOCALITE_INFRACTION\norder by count desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ],
     "iy2e671qkn": [
