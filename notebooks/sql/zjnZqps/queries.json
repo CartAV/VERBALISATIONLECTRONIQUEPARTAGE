@@ -308,6 +308,28 @@
         },
         "sql": "select \"DEPARTEMENT_CONTREVENANT\", count(1) from \"2010_2015_pve_sr_regions\"\ngroup by \"DEPARTEMENT_CONTREVENANT\"\n\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select \"DEPARTEMENT_CONTREVENANT\", count(1) from \"2010_2015_pve_sr_regions\"\ngroup by \"DEPARTEMENT_CONTREVENANT\"\n\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "v21y2KKLzhwG",
+        "runOn": 1489413635539,
+        "runIn": 590,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "yVYcmEpoGm579XNi",
+        "hash": "69931a91a0536fc37ead4bc7db30ff0d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"DEPARTEMENT_CONTREVENANT\", count(1) from \"2010_2015_pve_sr_regions\"\ngroup by \"DEPARTEMENT_CONTREVENANT\"\norder by \"DEPARTEMENT_CONTREVENANT\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select \"DEPARTEMENT_CONTREVENANT\", count(1) from \"2010_2015_pve_sr_regions\"\ngroup by \"DEPARTEMENT_CONTREVENANT\"\norder by \"DEPARTEMENT_CONTREVENANT\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ]
   }
