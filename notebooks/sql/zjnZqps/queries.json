@@ -640,6 +640,28 @@
         },
         "sql": "select LIB_ENTITE, count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"REGION_INFRACTION\" \u003d \u0027Corse\u0027\ngroup by LIB_ENTITE",
         "expandedSql": "select LIB_ENTITE, count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"REGION_INFRACTION\" \u003d \u0027Corse\u0027\ngroup by LIB_ENTITE"
+      },
+      {
+        "mode": "SQL",
+        "id": "F88rDN1UkPm1",
+        "runOn": 1489417465439,
+        "runIn": 185,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "rg3pQLgYmt4UsjFb",
+        "hash": "bc841a33e6a25c9450c8156baca39ae2",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select REGION_INFRACTION, count(1) from \"2010_2015_pve_sr_regions\"\ngroup by REGION_INFRACTION",
+        "expandedSql": "select REGION_INFRACTION, count(1) from \"2010_2015_pve_sr_regions\"\ngroup by REGION_INFRACTION"
       }
     ]
   }
