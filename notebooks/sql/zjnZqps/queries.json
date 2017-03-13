@@ -557,10 +557,10 @@
         "mode": "SQL",
         "id": "SWPptPiK0ggb",
         "runOn": 1489417097037,
-        "runIn": 54,
+        "runIn": 321,
         "runBy": "chabouisfr",
         "connection": "datalabmaster",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "8MTmr1kGhswUGTF8",
         "hash": "62cfceaa6456ec1a223f68deceec51a6",
         "querySettings": {
