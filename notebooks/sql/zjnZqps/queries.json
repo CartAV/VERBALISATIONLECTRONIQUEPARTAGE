@@ -663,6 +663,30 @@
         "sql": "select REGION_INFRACTION, count(1) from \"2010_2015_pve_sr_regions\"\ngroup by REGION_INFRACTION",
         "expandedSql": "select REGION_INFRACTION, count(1) from \"2010_2015_pve_sr_regions\"\ngroup by REGION_INFRACTION"
       }
+    ],
+    "8oasg70u6af": [
+      {
+        "mode": "SQL",
+        "id": "NwrQL5ha1T8z",
+        "runOn": 1489417608786,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "kjawASmFlDcfd0Ml",
+        "hash": "6242d58e2bb9ab6a25f308a414d20e14",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select DEPARTEMENT_INFRACTION, count(1) \nfrom 2010_2015_pve_sr\ngroup by DEPARTEMENT_INFRACTION ",
+        "expandedSql": "select DEPARTEMENT_INFRACTION, count(1) \nfrom 2010_2015_pve_sr\ngroup by DEPARTEMENT_INFRACTION "
+      }
     ]
   }
 }
