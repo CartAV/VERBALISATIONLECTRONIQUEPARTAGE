@@ -440,6 +440,28 @@
         },
         "sql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d 2013\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d 2013\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "UDc6n3kowJ9m",
+        "runOn": 1489413935303,
+        "runIn": 231,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "111D7pvZNrXoHKwP",
+        "hash": "67131890d4b0575b6f6faea2e5311484",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d \"2013\"\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select \"LIBELLE_FAMILLE\", count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_CONTREVENANT\" in (\u00272A\u0027, \u00272B\u0027)\nAND \"ANNEE_INFRACTION\" \u003e\u003d \"2013\"\ngroup by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ]
   }
