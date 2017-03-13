@@ -660,6 +660,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\n--group by commune_infraction\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select * from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\n--group by commune_infraction\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "e4mUU5mrO9J9",
+        "runOn": 1489420058115,
+        "runIn": 191,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "J8ttfhXQODDNm0HM",
+        "hash": "393f6b2e36490c629e90757812ceda85",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select commune_infraction, count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\ngroup by commune_infraction\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select commune_infraction, count(1) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u0027NR\u0027)\ngroup by commune_infraction\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ],
     "iy2e671qkn": [
