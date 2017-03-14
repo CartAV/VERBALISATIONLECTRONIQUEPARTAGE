@@ -1,5 +1,38 @@
 {
   "type": "Vertica",
+  "managed": false,
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 12,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1489509108478
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1489509108484
+  },
+  "tags": [
+    "creator_antoinefa"
+  ],
   "params": {
     "connection": "datalabmaster",
     "mode": "table",
@@ -14,7 +47,6 @@
     "hasColsWithUnknownTz": false,
     "readColsWithUnknownTzAsDates": false
   },
-  "managed": false,
   "schema": {
     "userModified": false,
     "columns": [
@@ -110,7 +142,7 @@
       },
       {
         "name": "ID_FAMILLE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -122,7 +154,7 @@
       },
       {
         "name": "ID_CLASSE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -134,7 +166,7 @@
       },
       {
         "name": "CODE_NATURE_INFRA",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -200,7 +232,7 @@
       },
       {
         "name": "NUM_ARRONDISSEMENT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -497,34 +529,20 @@
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "NOM_REG",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "chef_lieu_geo",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
       }
     ]
-  },
-  "partitioning": {
-    "ignoreNonMatchingFile": false,
-    "dimensions": []
-  },
-  "tags": [
-    "creator_antoinefa"
-  ],
-  "checklists": {
-    "checklists": []
-  },
-  "flowOptions": {
-    "rebuildBehavior": "NORMAL",
-    "crossProjectBuildBehavior": "DEFAULT"
-  },
-  "versionTag": {
-    "versionNumber": 11,
-    "lastModifiedBy": {
-      "login": "chabouisfr",
-      "displayName": "Francis Chabouis",
-      "email": "francis.chabouis@interieur.gouv.fr"
-    },
-    "lastModifiedOn": 1486637981054
-  },
-  "customMeta": {
-    "kv": {}
   },
   "metrics": {
     "probes": [

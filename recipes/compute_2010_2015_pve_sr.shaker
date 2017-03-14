@@ -1,0 +1,53 @@
+{
+  "explorationFilters": [],
+  "maxProcessedMemTableBytes": -1,
+  "analysisColumnData": {},
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "globalSearchQuery": "",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "sorting": [],
+  "coloring": {
+    "individualColumns": [],
+    "scheme": "MEANING_AND_STATUS",
+    "valueColoringMode": "HASH"
+  },
+  "steps": [],
+  "exploreUIParams": {},
+  "previewMode": "ALL_ROWS",
+  "explorationSampling": {
+    "_refreshTrigger": 2,
+    "autoRefreshSample": false,
+    "selection": {
+      "targetRatio": 0.02,
+      "maxRecords": 100000,
+      "maxStoredBytes": -1,
+      "partitionSelectionMethod": "ALL",
+      "withinFirstN": -1,
+      "samplingMethod": "RANDOM_FIXED_NB_EXACT",
+      "latestPartitionsN": 1,
+      "maxReadUncompressedBytes": -1,
+      "filter": {
+        "enabled": true,
+        "uiData": {
+          "conditions": [
+            {
+              "time": "00:00",
+              "num": 0.0,
+              "col": "LIBELLE_STATUT_DOSSIER",
+              "input": "DATE_JOUR_REEL_INFRACTION",
+              "date": "2015-11-01",
+              "operator": "\u003e\u003d [date]"
+            }
+          ],
+          "mode": "\u0026\u0026"
+        },
+        "distinct": false
+      }
+    }
+  }
+}
