@@ -1,5 +1,39 @@
 {
   "type": "ElasticSearch",
+  "managed": true,
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1489510151362
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1489510151405
+  },
+  "tags": [
+    "creator_chabouisfr"
+  ],
   "params": {
     "connection": "el",
     "index": "es2_2010_2015_pve_sr",
@@ -8,8 +42,6 @@
     "frameSize": 10000,
     "partitioned": false
   },
-  "checks": [],
-  "managed": true,
   "schema": {
     "userModified": false,
     "columns": [
@@ -105,7 +137,7 @@
       },
       {
         "name": "ID_FAMILLE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -117,7 +149,7 @@
       },
       {
         "name": "ID_CLASSE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -129,7 +161,7 @@
       },
       {
         "name": "CODE_NATURE_INFRA",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -195,7 +227,7 @@
       },
       {
         "name": "NUM_ARRONDISSEMENT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -506,32 +538,6 @@
         "maxLength": 16200
       }
     ]
-  },
-  "partitioning": {
-    "ignoreNonMatchingFile": false,
-    "dimensions": []
-  },
-  "tags": [
-    "creator_chabouisfr"
-  ],
-  "checklists": {
-    "checklists": []
-  },
-  "flowOptions": {
-    "rebuildBehavior": "NORMAL",
-    "crossProjectBuildBehavior": "DEFAULT"
-  },
-  "versionTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "chabouisfr",
-      "displayName": "Francis Chabouis",
-      "email": "francis.chabouis@interieur.gouv.fr"
-    },
-    "lastModifiedOn": 1486998858899
-  },
-  "customMeta": {
-    "kv": {}
   },
   "metrics": {
     "probes": [
