@@ -1,5 +1,24 @@
 {
   "type": "CustomCode_geocoding-ban",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "customConfig": {
+      "server_address": "http://datalab-ban",
+      "concurent_requests": 8.0,
+      "prefix": "result_",
+      "columns": [
+        "VOIE_INFRACTION"
+      ],
+      "city_code": "CODE_INSEE_INFRACTION",
+      "timeout": 2000.0,
+      "lines_per_request": 5000.0
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
   "inputs": {
     "input": {
       "items": [
@@ -20,36 +39,15 @@
       ]
     }
   },
-  "neverRecomputeExistingPartitions": false,
-  "optionalDependencies": false,
-  "params": {
-    "customConfig": {
-      "server_address": "http://datalab-ban",
-      "concurent_requests": 8.0,
-      "prefix": "result_",
-      "columns": [
-        "VOIE_INFRACTION"
-      ],
-      "city_code": "CODE_INSEE_INFRACTION",
-      "timeout": 1000.0,
-      "lines_per_request": 1000.0
-    }
-  },
-  "checklists": {
-    "checklists": []
+  "versionTag": {
+    "versionNumber": 3,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1489573113467
   },
   "tags": [],
-  "versionTag": {
-    "versionNumber": 2,
-    "lastModifiedBy": {
-      "login": "grabenertr",
-      "displayName": "Tristam Gräbener",
-      "email": "tristam.grabener@interieur.gouv.fr"
-    },
-    "lastModifiedOn": 1488205282918
-  },
-  "customMeta": {
-    "kv": {}
-  },
-  "redispatchPartitioning": false
+  "checklists": {
+    "checklists": []
+  }
 }
