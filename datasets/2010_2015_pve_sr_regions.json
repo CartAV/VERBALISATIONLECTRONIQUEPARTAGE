@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1489678200993
+    "lastModifiedOn": 1489678924531
   },
   "creationTag": {
     "versionNumber": 0,
@@ -142,7 +142,7 @@
       },
       {
         "name": "ID_FAMILLE",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -154,7 +154,7 @@
       },
       {
         "name": "ID_CLASSE",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -166,7 +166,7 @@
       },
       {
         "name": "CODE_NATURE_INFRA",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -232,7 +232,7 @@
       },
       {
         "name": "NUM_ARRONDISSEMENT",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -460,9 +460,9 @@
       },
       {
         "name": "COD_DEPARTEMENT_UNITE",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "LIB_DEPARTEMENT_UNITE",
