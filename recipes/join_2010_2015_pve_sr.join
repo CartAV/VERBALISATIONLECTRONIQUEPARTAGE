@@ -13,6 +13,9 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
         {
           "maxDistance": 1,
@@ -27,9 +30,6 @@
           }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "LEFT"
     }
   ],
@@ -135,7 +135,7 @@
     {
       "name": "ID_FAMILLE",
       "table": 0,
-      "type": "bigint"
+      "type": "string"
     },
     {
       "name": "LIBELLE_FAMILLE",
@@ -145,7 +145,7 @@
     {
       "name": "ID_CLASSE",
       "table": 0,
-      "type": "bigint"
+      "type": "string"
     },
     {
       "name": "LIBELLE_CLASSE",
@@ -155,7 +155,7 @@
     {
       "name": "CODE_NATURE_INFRA",
       "table": 0,
-      "type": "bigint"
+      "type": "string"
     },
     {
       "name": "LIBELLE_NATURE",
@@ -210,7 +210,7 @@
     {
       "name": "NUM_ARRONDISSEMENT",
       "table": 0,
-      "type": "bigint"
+      "type": "string"
     },
     {
       "name": "LIBELLE_TYPE_VOIE",
@@ -400,7 +400,7 @@
     {
       "name": "COD_DEPARTEMENT_UNITE",
       "table": 0,
-      "type": "bigint"
+      "type": "string"
     },
     {
       "name": "LIB_DEPARTEMENT_UNITE",
