@@ -47,11 +47,11 @@
   },
   "previewMode": "ALL_ROWS",
   "explorationSampling": {
-    "_refreshTrigger": 2,
+    "_refreshTrigger": 3,
     "autoRefreshSample": false,
     "selection": {
       "targetRatio": 0.02,
-      "maxRecords": 100000,
+      "maxRecords": 10000,
       "maxStoredBytes": -1,
       "partitionSelectionMethod": "ALL",
       "withinFirstN": -1,
