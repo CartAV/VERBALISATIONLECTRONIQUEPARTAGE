@@ -1,5 +1,39 @@
 {
   "type": "Vertica",
+  "managed": true,
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1489678200993
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1489678201001
+  },
+  "tags": [
+    "creator_grabenertr"
+  ],
   "params": {
     "connection": "datalabmaster",
     "mode": "table",
@@ -13,8 +47,6 @@
     "hasColsWithUnknownTz": false,
     "readColsWithUnknownTzAsDates": false
   },
-  "checks": [],
-  "managed": true,
   "schema": {
     "userModified": false,
     "columns": [
@@ -110,7 +142,7 @@
       },
       {
         "name": "ID_FAMILLE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -122,7 +154,7 @@
       },
       {
         "name": "ID_CLASSE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -134,7 +166,7 @@
       },
       {
         "name": "CODE_NATURE_INFRA",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -200,7 +232,7 @@
       },
       {
         "name": "NUM_ARRONDISSEMENT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -511,32 +543,6 @@
         "maxLength": 16200
       }
     ]
-  },
-  "partitioning": {
-    "ignoreNonMatchingFile": false,
-    "dimensions": []
-  },
-  "tags": [
-    "creator_grabenertr"
-  ],
-  "checklists": {
-    "checklists": []
-  },
-  "flowOptions": {
-    "rebuildBehavior": "NORMAL",
-    "crossProjectBuildBehavior": "DEFAULT"
-  },
-  "versionTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "grabenertr",
-      "displayName": "Tristam Gräbener",
-      "email": "tristam.grabener@interieur.gouv.fr"
-    },
-    "lastModifiedOn": 1486996641696
-  },
-  "customMeta": {
-    "kv": {}
   },
   "metrics": {
     "probes": [
