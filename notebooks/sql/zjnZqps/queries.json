@@ -792,6 +792,28 @@
         },
         "sql": "select LIB_LOCALITE_INFRACTION, count(*) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u00272B\u0027)\ngroup by LIB_LOCALITE_INFRACTION\norder by count Desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select LIB_LOCALITE_INFRACTION, count(*) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u00272B\u0027)\ngroup by LIB_LOCALITE_INFRACTION\norder by count Desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "9hocWcids56v",
+        "runOn": 1490030684723,
+        "runIn": 308,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "LdfbjuSFjyU67rHu",
+        "hash": "a9aed9d4d08755f1922fc947c5d7cf82",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select LIB_LOCALITE_INFRACTION, count(*) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u00272A\u0027)\ngroup by LIB_LOCALITE_INFRACTION\norder by count Desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select LIB_LOCALITE_INFRACTION, count(*) from \"2010_2015_pve_sr_regions\"\nwhere \"DEPARTEMENT_INFRACTION\" in (\u00272A\u0027)\ngroup by LIB_LOCALITE_INFRACTION\norder by count Desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ],
     "iy2e671qkn": [
