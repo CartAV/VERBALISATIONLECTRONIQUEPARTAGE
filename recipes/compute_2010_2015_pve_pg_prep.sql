@@ -1,5 +1,5 @@
 SELECT
-    "PVE_ID",
+    pve.*,
     nearest_route."INSEE_COM",
     nearest_route.num_route_or_id,
     distance
