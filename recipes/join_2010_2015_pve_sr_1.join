@@ -5,7 +5,6 @@
       "index": 0
     },
     {
-      "autoSelectColumns": false,
       "index": 1
     }
   ],
@@ -15,6 +14,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -22,26 +22,13 @@
             "name": "DEPARTEMENT_INFRACTION",
             "table": 0
           },
-          "caseInsensitive": false,
           "type": "EQ",
-          "strict": false,
           "column2": {
             "name": "CODE_DEPT",
             "table": 1
-          },
-          "normalizeText": false,
-          "maxMatches": 1,
-          "dateDiffUnit": "DAY"
+          }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {
-          "table": 0
-        },
-        "enabled": false,
-        "strict": false,
-        "maxMatches": 0
-      },
       "type": "LEFT"
     }
   ],
@@ -373,14 +360,69 @@
       "type": "string"
     },
     {
-      "name": "NOM_REG",
+      "name": "the_geom",
       "table": 1,
       "type": "string"
     },
     {
-      "name": "chef_lieu_geo",
+      "name": "lon",
+      "table": 1,
+      "type": "double"
+    },
+    {
+      "name": "CODE_REG",
       "table": 1,
       "type": "string"
+    },
+    {
+      "name": "X_CHF_LIEU",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "NOM_CHF",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "Y_CHF_LIEU",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "ID_GEOFLA",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "CODE_CHF",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "NOM_DEPT",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "CODE_DEPT",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "Y_CENTROID",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "X_CENTROID",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "lat",
+      "table": 1,
+      "type": "double"
     }
   ]
 }

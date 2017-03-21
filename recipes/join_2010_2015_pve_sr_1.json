@@ -14,7 +14,7 @@
           "deps": []
         },
         {
-          "ref": "DATAPREPOPENDATAGEO.departements_wgs84_prep",
+          "ref": "DATAPREPOPENDATAGEO.departements_wgs84_postgis",
           "deps": []
         }
       ]
@@ -31,11 +31,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1490114730008
+    "lastModifiedOn": 1490114979192
   },
   "creationTag": {
     "versionNumber": 0,
