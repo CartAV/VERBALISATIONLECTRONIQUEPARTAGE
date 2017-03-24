@@ -16,6 +16,10 @@
             "2010_2015_pve_sr_regions": {
               "repartition": 10,
               "cache": false
+            },
+            "2010_2015_pve_sr_regions_postgis": {
+              "repartition": 10,
+              "cache": false
             }
           }
         }
@@ -49,11 +53,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1490348467820
+    "lastModifiedOn": 1490348881943
   },
   "creationTag": {
     "versionNumber": 0,
