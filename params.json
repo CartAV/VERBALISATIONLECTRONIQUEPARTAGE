@@ -17,13 +17,8 @@
     "objects": [
       {
         "type": "DATASET",
-        "localName": "2010_2015_pve_sr",
-        "rules": [
-          {
-            "targetProject": "CROISEMENTACCIDENTSVERBALISATION",
-            "appearOnFlow": true
-          }
-        ]
+        "localName": "2010_2015_pve_sr_regions",
+        "rules": []
       }
     ]
   },
@@ -41,9 +36,13 @@
       "moderateDashboards": false,
       "runScenarios": false,
       "manageDashboardAuthorizations": false,
-      "manageExposedElements": false
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
     }
   ],
+  "additionalDashboardUsers": {
+    "users": []
+  },
   "tutorialProject": false,
   "settings": {
     "flowAnchorSourcesAndSinks": true,
@@ -79,11 +78,11 @@
   "name": "verbalisation électronique - geo",
   "projectStatus": "Draft",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1488448548187
+    "lastModifiedOn": 1490722796011
   },
   "description": "Le projet vise à assurer la préparation de données de verbalisation pour les finalités de décisionnel géographique et de corrélation avec l\u0027accidentalité.",
   "shortDesc": "The project *verbalisation électronique - partage* was created by Fabien Antoine on Dec 29th 2016",
