@@ -14,7 +14,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -29,6 +28,7 @@
           }
         }
       ],
+      "rightLimit": {},
       "type": "LEFT"
     }
   ],
@@ -406,6 +406,11 @@
     },
     {
       "name": "CODE_DEPT",
+      "table": 1,
+      "type": "string"
+    },
+    {
+      "name": "NOM_REG",
       "table": 1,
       "type": "string"
     },
