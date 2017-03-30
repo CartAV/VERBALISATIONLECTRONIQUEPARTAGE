@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490106921676
+    "lastModifiedOn": 1490888817464
   },
   "creationTag": {
     "versionNumber": 0,
@@ -498,6 +498,12 @@
       {
         "name": "distance",
         "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geojson",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       }
