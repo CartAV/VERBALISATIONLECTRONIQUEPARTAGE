@@ -6,6 +6,9 @@
     },
     {
       "index": 1
+    },
+    {
+      "index": 2
     }
   ],
   "joins": [
@@ -13,6 +16,28 @@
       "table1": 0,
       "outerJoinOnTheLeft": true,
       "table2": 1,
+      "conditionsMode": "AND",
+      "on": [
+        {
+          "maxDistance": 1,
+          "column1": {
+            "name": "DEPARTEMENT_INFRACTION",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "CODE_DEPT",
+            "table": 1
+          }
+        }
+      ],
+      "rightLimit": {},
+      "type": "LEFT"
+    },
+    {
+      "table1": 0,
+      "outerJoinOnTheLeft": true,
+      "table2": 2,
       "conditionsMode": "AND",
       "rightLimit": {},
       "on": [
@@ -25,7 +50,7 @@
           "type": "EQ",
           "column2": {
             "name": "CODE_DEPT",
-            "table": 1
+            "table": 2
           }
         }
       ],
@@ -423,6 +448,11 @@
       "name": "lat",
       "table": 1,
       "type": "double"
+    },
+    {
+      "name": "NOM_REG",
+      "table": 2,
+      "type": "string"
     }
   ]
 }
