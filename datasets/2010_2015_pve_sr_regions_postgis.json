@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490874032345
+    "lastModifiedOn": 1490885653697
   },
   "creationTag": {
     "versionNumber": 0,
@@ -459,12 +459,6 @@
       },
       {
         "name": "CODE_DEPT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "NOM_REG",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
