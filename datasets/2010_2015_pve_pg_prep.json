@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490950531260
+    "lastModifiedOn": 1490950539034
   },
   "creationTag": {
     "versionNumber": 0,
@@ -201,6 +201,7 @@
       {
         "name": "CODE_POSTAL_INFRACTION",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
