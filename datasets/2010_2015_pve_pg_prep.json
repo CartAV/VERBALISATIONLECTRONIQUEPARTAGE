@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490950544460
+    "lastModifiedOn": 1490950559208
   },
   "creationTag": {
     "versionNumber": 0,
@@ -269,6 +269,7 @@
       {
         "name": "LIB_TRANCHE_DEPASSEMENT",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
