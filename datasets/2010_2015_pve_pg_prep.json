@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490950559208
+    "lastModifiedOn": 1490950576941
   },
   "creationTag": {
     "versionNumber": 0,
@@ -420,6 +420,7 @@
       {
         "name": "result_citycode",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
