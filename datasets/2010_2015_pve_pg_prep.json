@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490950502962
+    "lastModifiedOn": 1490950521936
   },
   "creationTag": {
     "versionNumber": 0,
@@ -181,6 +181,7 @@
       {
         "name": "DEPARTEMENT_INFRACTION",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
