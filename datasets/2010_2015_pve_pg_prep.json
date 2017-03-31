@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490950539034
+    "lastModifiedOn": 1490950544460
   },
   "creationTag": {
     "versionNumber": 0,
@@ -214,6 +214,7 @@
       {
         "name": "LIBELLE_TYPE_VOIE",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
