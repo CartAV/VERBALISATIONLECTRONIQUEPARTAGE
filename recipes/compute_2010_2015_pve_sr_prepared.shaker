@@ -1,86 +1,95 @@
 {
-  "steps": [
+  "explorationFilters": [
     {
-      "type": "FindReplace",
-      "params": {
-        "output": "",
-        "normalization": "EXACT",
-        "matching": "SUBSTRING",
-        "stopAfterFirstMatch": false,
-        "mapping": [
-          {
-            "to": "-1"
-          }
-        ],
-        "appliesTo": "SINGLE_COLUMN",
-        "columns": [
-          "ANNEE_NAISSANCE"
-        ]
-      },
-      "metaType": "PROCESSOR",
-      "preview": false,
-      "disabled": false,
-      "alwaysShowComment": false
-    },
-    {
-      "type": "FindReplace",
-      "params": {
-        "output": "",
-        "normalization": "EXACT",
-        "matching": "SUBSTRING",
-        "stopAfterFirstMatch": false,
-        "mapping": [
-          {
-            "to": "-1"
-          }
-        ],
-        "appliesTo": "SINGLE_COLUMN",
-        "columns": [
-          "AGE_CONTREVENANT"
-        ]
-      },
-      "metaType": "PROCESSOR",
-      "preview": true,
-      "disabled": false,
-      "alwaysShowComment": false
+      "$$hashKey": "618",
+      "type": "global_search"
     }
   ],
-  "tags": [],
-  "origin": "PREPARE_RECIPE",
+  "maxProcessedMemTableBytes": -1,
+  "analysisColumnData": {},
   "columnsSelection": {
     "mode": "ALL"
   },
+  "globalSearchQuery": "",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "origin": "PREPARE_RECIPE",
+  "sorting": [],
   "coloring": {
-    "scheme": "MEANING_AND_STATUS",
     "individualColumns": [],
+    "scheme": "MEANING_AND_STATUS",
     "valueColoringMode": "HASH"
   },
-  "analysisColumnData": {},
-  "explorationSampling": {
-    "selection": {
-      "samplingMethod": "HEAD_SEQUENTIAL",
-      "partitionSelectionMethod": "ALL",
-      "maxRecords": 10000,
-      "targetRatio": 0.02
+  "steps": [
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "matching": "SUBSTRING",
+        "stopAfterFirstMatch": false,
+        "appliesTo": "SINGLE_COLUMN",
+        "normalization": "EXACT",
+        "columns": [
+          "ANNEE_NAISSANCE"
+        ],
+        "mapping": [
+          {
+            "to": "-1",
+            "from": ""
+          }
+        ],
+        "output": ""
+      },
+      "type": "FindReplace",
+      "disabled": false,
+      "metaType": "PROCESSOR"
     },
-    "autoRefreshSample": false,
-    "_refreshTrigger": 0
-  },
-  "vizSampling": {
-    "autoRefreshSample": false,
-    "_refreshTrigger": 0
-  },
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "matching": "SUBSTRING",
+        "stopAfterFirstMatch": false,
+        "appliesTo": "SINGLE_COLUMN",
+        "normalization": "EXACT",
+        "columns": [
+          "AGE_CONTREVENANT"
+        ],
+        "mapping": [
+          {
+            "to": "-1",
+            "from": ""
+          }
+        ],
+        "output": ""
+      },
+      "type": "FindReplace",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    }
+  ],
   "exploreUIParams": {
     "autoRefresh": true
   },
-  "globalSearchQuery": "",
-  "explorationFilters": [
-    {
-      "type": "global_search",
-      "$$hashKey": "618"
-    }
-  ],
   "previewMode": "ALL_ROWS",
-  "charts": [],
-  "chartsEngine": "LINO"
+  "explorationSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false,
+    "selection": {
+      "targetRatio": 0.02,
+      "maxRecords": 10000,
+      "maxStoredBytes": -1,
+      "partitionSelectionMethod": "ALL",
+      "withinFirstN": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "latestPartitionsN": 1,
+      "maxReadUncompressedBytes": -1,
+      "filter": {
+        "enabled": false,
+        "distinct": false
+      }
+    }
+  }
 }

@@ -1,5 +1,34 @@
 {
   "type": "shaker",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "engineType": "DSS",
+    "engineParams": {
+      "spark": {
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true,
+        "sparkConfig": {
+          "inheritConf": "default",
+          "conf": []
+        },
+        "readParams": {
+          "map": {
+            "2010_2015_pve_sr": {
+              "repartition": 10,
+              "cache": false
+            }
+          }
+        }
+      },
+      "hadoopConfigKeys": [],
+      "maxThreads": 8
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
   "inputs": {
     "main": {
       "items": [
@@ -20,27 +49,15 @@
       ]
     }
   },
-  "neverRecomputeExistingPartitions": false,
-  "optionalDependencies": false,
-  "params": {
-    "engine": "DSS_STREAM",
-    "hadoopConfigKeys": []
-  },
-  "checklists": {
-    "checklists": []
+  "versionTag": {
+    "versionNumber": 6,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1491213487335
   },
   "tags": [],
-  "versionTag": {
-    "versionNumber": 5,
-    "lastModifiedBy": {
-      "login": "grabenertr",
-      "displayName": "Tristam Gräbener",
-      "email": "tristam.grabener@interieur.gouv.fr"
-    },
-    "lastModifiedOn": 1484559708416
-  },
-  "customMeta": {
-    "kv": {}
-  },
-  "redispatchPartitioning": false
+  "checklists": {
+    "checklists": []
+  }
 }
