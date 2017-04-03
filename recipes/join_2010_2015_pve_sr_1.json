@@ -16,10 +16,6 @@
         {
           "ref": "DATAPREPOPENDATAGEO.departements_wgs84_postgis",
           "deps": []
-        },
-        {
-          "ref": "DATAPREPOPENDATAGEO.departements_wgs84_prep",
-          "deps": []
         }
       ]
     }
@@ -35,11 +31,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490950633870
+    "lastModifiedOn": 1491210214555
   },
   "creationTag": {
     "versionNumber": 0,

@@ -6,9 +6,6 @@
     },
     {
       "index": 1
-    },
-    {
-      "index": 2
     }
   ],
   "joins": [
@@ -17,6 +14,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -28,29 +26,6 @@
           "column2": {
             "name": "CODE_DEPT",
             "table": 1
-          }
-        }
-      ],
-      "rightLimit": {},
-      "type": "LEFT"
-    },
-    {
-      "table1": 0,
-      "outerJoinOnTheLeft": true,
-      "table2": 2,
-      "conditionsMode": "AND",
-      "rightLimit": {},
-      "on": [
-        {
-          "maxDistance": 1,
-          "column1": {
-            "name": "DEPARTEMENT_INFRACTION",
-            "table": 0
-          },
-          "type": "EQ",
-          "column2": {
-            "name": "CODE_DEPT",
-            "table": 2
           }
         }
       ],
@@ -385,11 +360,6 @@
       "type": "string"
     },
     {
-      "name": "the_geom",
-      "table": 1,
-      "type": "string"
-    },
-    {
       "name": "lon",
       "table": 1,
       "type": "double"
@@ -397,12 +367,12 @@
     {
       "name": "CODE_REG",
       "table": 1,
-      "type": "string"
+      "type": "bigint"
     },
     {
       "name": "X_CHF_LIEU",
       "table": 1,
-      "type": "string"
+      "type": "bigint"
     },
     {
       "name": "NOM_CHF",
@@ -412,7 +382,7 @@
     {
       "name": "Y_CHF_LIEU",
       "table": 1,
-      "type": "string"
+      "type": "bigint"
     },
     {
       "name": "ID_GEOFLA",
@@ -422,7 +392,7 @@
     {
       "name": "CODE_CHF",
       "table": 1,
-      "type": "string"
+      "type": "bigint"
     },
     {
       "name": "NOM_DEPT",
@@ -435,24 +405,24 @@
       "type": "string"
     },
     {
-      "name": "Y_CENTROID",
+      "name": "NOM_REG",
       "table": 1,
       "type": "string"
     },
     {
+      "name": "Y_CENTROID",
+      "table": 1,
+      "type": "bigint"
+    },
+    {
       "name": "X_CENTROID",
       "table": 1,
-      "type": "string"
+      "type": "bigint"
     },
     {
       "name": "lat",
       "table": 1,
       "type": "double"
-    },
-    {
-      "name": "NOM_REG",
-      "table": 2,
-      "type": "string"
     }
   ]
 }
