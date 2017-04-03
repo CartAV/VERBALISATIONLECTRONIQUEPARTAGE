@@ -17,7 +17,7 @@
         "maxStoredBytes": -1,
         "filter": {
           "distinct": false,
-          "enabled": true,
+          "enabled": false,
           "uiData": {
             "mode": "\u0026\u0026",
             "conditions": [
@@ -35,13 +35,13 @@
         "partitionSelectionMethod": "ALL",
         "latestPartitionsN": 1,
         "samplingMethod": "RANDOM_FIXED_NB_EXACT",
-        "maxRecords": 100000,
+        "maxRecords": 1000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 2
+      "_refreshTrigger": 5
     },
     "vizSampling": {
       "autoRefreshSample": false,
