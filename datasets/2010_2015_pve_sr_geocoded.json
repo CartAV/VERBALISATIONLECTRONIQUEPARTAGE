@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "chabouisfr"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1491220972810
+    "lastModifiedOn": 1491225381577
   },
   "tags": [
     "creator_antoinefa"
@@ -463,9 +463,10 @@
       },
       {
         "name": "COD_DEPARTEMENT_UNITE",
-        "type": "bigint",
+        "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "LIB_DEPARTEMENT_UNITE",
