@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1490886244438
+    "lastModifiedOn": 1491210187158
   },
   "creationTag": {
     "versionNumber": 0,
@@ -404,12 +404,6 @@
         "maxLength": -1
       },
       {
-        "name": "the_geom",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "lon",
         "type": "double",
         "timestampNoTzAsDate": false,
@@ -417,13 +411,13 @@
       },
       {
         "name": "CODE_REG",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "X_CHF_LIEU",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -435,7 +429,7 @@
       },
       {
         "name": "Y_CHF_LIEU",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -447,7 +441,7 @@
       },
       {
         "name": "CODE_CHF",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -464,26 +458,26 @@
         "maxLength": -1
       },
       {
-        "name": "Y_CENTROID",
+        "name": "NOM_REG",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
+        "name": "Y_CENTROID",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "X_CENTROID",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "lat",
         "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "NOM_REG",
-        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       }
