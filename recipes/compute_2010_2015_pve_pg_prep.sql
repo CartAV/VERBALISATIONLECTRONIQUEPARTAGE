@@ -3,11 +3,11 @@ SELECT
     nearest_route."INSEE_COM",
     nearest_route.num_route_or_id,
     distance,
-    nearest_route.the_geom as geojson
+    nearest_route.geojson
 FROM "2010_2015_pve_sr_pg" as pve
 
-LEFT JOIN LATERAL (SELECT "INSEE_COM", num_route_or_id, st_distance(st_point(result_longitude, result_latitude), the_geom) as distance, the_geom
-     FROM "osm_routes_par_commune"  as routes
+LEFT JOIN LATERAL (SELECT "INSEE_COM", num_route_or_id, st_distance(st_point(result_longitude, result_latitude), the_geom) as distance, geojson
+     FROM "osm_routes_par_commune_geojson"  as routes
      where routes.the_geom && st_point(result_longitude, result_latitude)
      ORDER BY distance
     LIMIT 1) as nearest_route
