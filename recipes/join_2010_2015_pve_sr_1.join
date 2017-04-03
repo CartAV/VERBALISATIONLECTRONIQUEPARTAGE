@@ -14,7 +14,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -29,6 +28,7 @@
           }
         }
       ],
+      "rightLimit": {},
       "type": "LEFT"
     }
   ],
@@ -356,6 +356,16 @@
     },
     {
       "name": "PVE_ID",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "num_route_or_id",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "geojson",
       "table": 0,
       "type": "string"
     },
