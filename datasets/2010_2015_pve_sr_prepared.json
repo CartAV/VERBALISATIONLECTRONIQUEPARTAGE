@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1491213486442
+    "lastModifiedOn": 1491221417432
   },
   "creationTag": {
     "versionNumber": 0,
@@ -470,9 +470,10 @@
       },
       {
         "name": "COD_DEPARTEMENT_UNITE",
-        "type": "bigint",
+        "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "LIB_DEPARTEMENT_UNITE",
