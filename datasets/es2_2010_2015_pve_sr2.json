@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1491210709051
+    "lastModifiedOn": 1491222480907
   },
   "creationTag": {
     "versionNumber": 0,
@@ -395,6 +395,18 @@
       },
       {
         "name": "PVE_ID",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "num_route_or_id",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geojson",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
