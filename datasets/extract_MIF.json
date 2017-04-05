@@ -47,11 +47,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1491407952049
+    "lastModifiedOn": 1491407956298
   },
   "creationTag": {
     "versionNumber": 0,
@@ -230,6 +230,7 @@
       {
         "name": "MIFVAO_EquipementId",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
