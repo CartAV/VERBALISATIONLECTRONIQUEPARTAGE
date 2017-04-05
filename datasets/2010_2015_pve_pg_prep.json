@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1491320064396
+    "lastModifiedOn": 1491379470807
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,6 +43,7 @@
     "normalizeDoubles": true,
     "table": "2010_2015_pve_pg_prep",
     "tableCreationMode": "auto",
+    "customPostWriteStatements": "CREATE index pve_pg_prep_departement_idx on 2010_2015_pve_pg_prep(\"DEPARTEMENT_INFRACTION\")",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
     "hasColsWithUnknownTz": false,
