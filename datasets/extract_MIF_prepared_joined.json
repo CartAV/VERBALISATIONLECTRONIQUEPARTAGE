@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1491408430673
+    "lastModifiedOn": 1491408934039
   },
   "creationTag": {
     "versionNumber": 0,
@@ -160,9 +160,9 @@
       },
       {
         "name": "MI_CodeInsee",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "MI_SensCirculation",
