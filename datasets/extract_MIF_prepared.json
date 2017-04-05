@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1491408001606
+    "lastModifiedOn": 1491408389092
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,6 +91,12 @@
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "MI_DateHeureInfraction_parsed",
+        "type": "date",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
       },
       {
         "name": "MI_CodePostal",
