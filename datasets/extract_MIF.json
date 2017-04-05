@@ -47,11 +47,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1491407915075
+    "lastModifiedOn": 1491407928864
   },
   "creationTag": {
     "versionNumber": 0,
@@ -167,6 +167,7 @@
       {
         "name": "MI_Departement",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
