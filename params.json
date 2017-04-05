@@ -83,11 +83,11 @@
   "name": "verbalisation électronique - geo",
   "projectStatus": "Draft",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 4,
     "lastModifiedBy": {
-      "login": "antoinefa"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1490722841862
+    "lastModifiedOn": 1491393482970
   },
   "description": "Le projet vise à assurer la préparation de données de verbalisation pour les finalités de décisionnel géographique et de corrélation avec l\u0027accidentalité.",
   "shortDesc": "The project *verbalisation électronique - partage* was created by Fabien Antoine on Dec 29th 2016",
@@ -113,7 +113,7 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Gps via etalab",
             "createdOn": 1484247338417,
             "createdBy": "antoinefa",
@@ -134,7 +134,7 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Segment routier via ES/route500",
             "createdOn": 1484247440111,
             "createdBy": "antoinefa",
