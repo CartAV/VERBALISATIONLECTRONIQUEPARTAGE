@@ -14,7 +14,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -29,6 +28,7 @@
           }
         }
       ],
+      "rightLimit": {},
       "type": "LEFT"
     }
   ],
@@ -85,7 +85,27 @@
       "type": "string"
     },
     {
+      "name": "REGION_CONTREVENANT",
+      "table": 0,
+      "type": "string"
+    },
+    {
       "name": "DEPARTEMENT_CONTREVENANT",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "COMMUNE_CONTREVENANT",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "CODE_POSTAL_CONTREVENANT",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "CODE_INSEE_CONTREVENANT",
       "table": 0,
       "type": "string"
     },
@@ -113,6 +133,11 @@
       "name": "ANNEE_NAISSANCE",
       "table": 0,
       "type": "bigint"
+    },
+    {
+      "name": "COD_DISPOSITIF",
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "ID_FAMILLE",
@@ -325,6 +350,86 @@
       "type": "bigint"
     },
     {
+      "name": "COD_UNITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIBELLE_UNITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "COD_ENTITE",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "LIB_ENTITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIB_COURT_ENTITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "COD_CORPS",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "LIBELLE_CORPS",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIB_COURT_CORPS",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIB_ETAT_UNITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIB_TYPE_UNITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "COD_UNITE_PN",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "COD_DEPARTEMENT_UNITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIB_DEPARTEMENT_UNITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIB_REGION_UNITE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIB_ZONE_CRS",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIB_ZONE_PAF",
+      "table": 0,
+      "type": "string"
+    },
+    {
       "name": "MARQUE",
       "table": 0,
       "type": "string"
@@ -360,9 +465,84 @@
       "type": "string"
     },
     {
+      "name": "result_city",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_citycode",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_context",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_housenumber",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_id",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_label",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_latitude",
+      "table": 0,
+      "type": "float"
+    },
+    {
+      "name": "result_longitude",
+      "table": 0,
+      "type": "float"
+    },
+    {
+      "name": "result_name",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_postcode",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_score",
+      "table": 0,
+      "type": "float"
+    },
+    {
+      "name": "result_street",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "result_type",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "INSEE_COM",
+      "table": 0,
+      "type": "string"
+    },
+    {
       "name": "num_route_or_id",
       "table": 0,
       "type": "string"
+    },
+    {
+      "name": "distance",
+      "table": 0,
+      "type": "double"
     },
     {
       "name": "geojson",
