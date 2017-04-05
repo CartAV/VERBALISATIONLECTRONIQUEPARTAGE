@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "maxDistance": 1,
@@ -51,11 +48,11 @@
           }
         },
         {
-          "caseInsensitive": true,
           "column1": {
             "name": "MIFVAO_VehiculeMarque",
             "table": 0
           },
+          "caseInsensitive": true,
           "type": "EQ",
           "column2": {
             "name": "MARQUE",
@@ -63,6 +60,9 @@
           }
         }
       ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "INNER"
     }
   ],
@@ -188,7 +188,7 @@
     {
       "name": "MI_CodeInsee",
       "table": 0,
-      "type": "bigint"
+      "type": "string"
     },
     {
       "name": "MI_SensCirculation",
