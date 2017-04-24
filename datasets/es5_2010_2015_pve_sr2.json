@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "chabouisfr"
+      "login": "antoinefa"
     },
-    "lastModifiedOn": 1491488472499
+    "lastModifiedOn": 1493027467883
   },
   "creationTag": {
     "versionNumber": 0,
@@ -35,7 +35,7 @@
     "creator:chabouisfr"
   ],
   "params": {
-    "connection": "es5",
+    "connection": "es5-test",
     "index": "es5_2010_2015_pve_sr2",
     "type": "es5_2010_2015_pve_sr2",
     "rawCopyColumns": "*",
