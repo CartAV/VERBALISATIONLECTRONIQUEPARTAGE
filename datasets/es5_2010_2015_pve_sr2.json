@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
-      "login": "antoinefa"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1493027467883
+    "lastModifiedOn": 1493285664820
   },
   "creationTag": {
     "versionNumber": 0,
@@ -77,7 +77,7 @@
       },
       {
         "name": "DEPARTEMENT_CONTREVENANT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -89,7 +89,7 @@
       },
       {
         "name": "CODE_POSTAL_CONTREVENANT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -455,7 +455,7 @@
       },
       {
         "name": "COD_DEPARTEMENT_UNITE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -533,7 +533,7 @@
       },
       {
         "name": "result_citycode",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -563,13 +563,13 @@
       },
       {
         "name": "result_latitude",
-        "type": "float",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "result_longitude",
-        "type": "float",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -581,13 +581,13 @@
       },
       {
         "name": "result_postcode",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "result_score",
-        "type": "float",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -605,7 +605,7 @@
       },
       {
         "name": "INSEE_COM",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -677,7 +677,7 @@
       },
       {
         "name": "CODE_DEPT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
