@@ -379,23 +379,21 @@
     "globalSearchQuery": "",
     "explorationFilters": [
       {
-        "column": "LIBELLE_NATURE",
+        "column": "COD_DISPOSITIF",
         "type": "columnFilter",
         "currentMode": "FACET",
         "active": true,
         "facet": {
           "type": "facet",
-          "column": "LIBELLE_NATURE",
+          "column": "COD_DISPOSITIF",
           "columnType": "ALPHANUM",
           "currentMode": "ALPHANUM",
           "sort": "count",
-          "selectedValues": {
-            "EXCES DE VITESSE D\u0027AU MOINS 20 KM/H ET INFERIEUR A 30 KM/H PAR CONDUCTEUR DE VEHICULE A MOTEUR": true
-          }
+          "selectedValues": {}
         },
         "alphanumFilter": {
           "type": "alphanum",
-          "column": "LIBELLE_NATURE",
+          "column": "COD_DISPOSITIF",
           "values": [],
           "params": {
             "mode": "full_string",
@@ -404,9 +402,9 @@
         },
         "validityFilter": {
           "type": "validity",
-          "column": "LIBELLE_NATURE",
+          "column": "COD_DISPOSITIF",
           "params": {
-            "type": "FreeText",
+            "type": "Text",
             "ok": true,
             "nok": true,
             "empty": true
