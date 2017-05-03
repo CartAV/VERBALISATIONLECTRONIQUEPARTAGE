@@ -1,0 +1,759 @@
+{
+  "virtualInputs": [
+    {
+      "autoSelectColumns": false,
+      "index": 0,
+      "preFilter": {
+        "enabled": false,
+        "distinct": false
+      }
+    },
+    {
+      "autoSelectColumns": false,
+      "index": 1,
+      "preFilter": {
+        "enabled": false,
+        "distinct": false
+      }
+    }
+  ],
+  "joins": [
+    {
+      "table1": 0,
+      "outerJoinOnTheLeft": true,
+      "table2": 1,
+      "conditionsMode": "AND",
+      "on": [],
+      "type": "LEFT"
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL",
+      "inheritConf": "default"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      },
+      "pipelineAllowStart": true,
+      "overwriteOutputSchema": false,
+      "readParams": {
+        "map": {}
+      },
+      "useGlobalMetastore": false
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true
+  },
+  "enableAutoCastInJoinConditions": false,
+  "selectedColumns": [
+    {
+      "name": "MI_Id",
+      "table": 0
+    },
+    {
+      "name": "MI_FamilleInfraction",
+      "table": 0
+    },
+    {
+      "name": "MI_Version",
+      "table": 0
+    },
+    {
+      "name": "MI_DateHeureIntegration",
+      "table": 0
+    },
+    {
+      "name": "MI_NumeroET",
+      "table": 0
+    },
+    {
+      "name": "MI_DateHeureInfraction",
+      "table": 0
+    },
+    {
+      "name": "MI_CodePostal",
+      "table": 0
+    },
+    {
+      "name": "MI_Ville",
+      "table": 0
+    },
+    {
+      "name": "MI_NomVoie",
+      "table": 0
+    },
+    {
+      "name": "MI_RepereKilometrique",
+      "table": 0
+    },
+    {
+      "name": "MI_NombreRecherchesRepereKilometrique",
+      "table": 0
+    },
+    {
+      "name": "MI_Numero",
+      "table": 0
+    },
+    {
+      "name": "MI_BisTer",
+      "table": 0
+    },
+    {
+      "name": "MI_NatureVoie",
+      "table": 0
+    },
+    {
+      "name": "MI_Arrondissement",
+      "table": 0
+    },
+    {
+      "name": "MI_Departement",
+      "table": 0
+    },
+    {
+      "name": "MI_CodeInsee",
+      "table": 0
+    },
+    {
+      "name": "MI_SensCirculation",
+      "table": 0
+    },
+    {
+      "name": "MI_Pays",
+      "table": 0
+    },
+    {
+      "name": "MI_DateVerificationInstallation",
+      "table": 0
+    },
+    {
+      "name": "MI_DateVersement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CorpsId",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_GenreVehiculeId",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_EquipementId",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_AgentVideocodeurId",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_AgentOperateurId",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_FamilleInfraction",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_EligibleAUneDemandeDeSaisine",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DateSaisieInfraction",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DecalageHeureSaisie",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DecalageHeureInfraction",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_NumeroLocal",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CasInfraction",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_Qualification",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ResponsabilitePenaleRecherchee",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DebutInfractionHorodate",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_FinInfractionHorodate",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_FicheImmobilisationEtablie",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_EnlevementDemande",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_AutorisationCirculationProvisoire",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_RepresentationVehiculeAuPlusTardLe",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_RetentionPermisDeConduire",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ContrevenantAbsent",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_Complement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_TexteArretePrevuPar",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_TexteArreteReprimePar",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_TexteArreteLocalType",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_TexteArreteLocalReference",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_TexteArreteLocalDate",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_EchangePermisConduire",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_RenseignementComplementaire",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_VehiculeMarque",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_VehiculeModele",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_VehiculePaysImmatriculation",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_VehiculePaysImmatriculationSaisi",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_Doublon",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_VerificationXades",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_Verifie",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DateVerification",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ValeurProbante",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CommentaireVerification",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ContientPaiement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DesignationComplement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_NatureVoieComplement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_LibelleVoieComplement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordSite",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordGPSLatitude",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordGPSLongitude",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordUTM",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordAltitude",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordComplement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DomaineDEB",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ThemeDEB",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ActionDEB",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ChainageIdLocalEquipement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ChainageNoDossierCNT",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ChainageAutreReferenceExterne",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ChainageNoInfractionChainee",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_ChainageTotalInfractionsChainees",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_IdPaiement",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DateEntreeQuarantaine",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DateSortieQuarantaine",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_MotifEntreeQuarantaine",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_DoublonSaisie",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_NumeroDoublonEnSaisie",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_VitesseMesuree",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_VitesseRetenue",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_VitesseLegaleAutorisee",
+      "table": 0
+    },
+    {
+      "name": "APPAREILCONTROLE_Id",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_ModeleAppareil",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_TypeAppareil",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_NumeroSerieAppareil",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_DateDerniereVerifAppareil",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_OrganismeVerificateurAppareil",
+      "table": 0
+    },
+    {
+      "name": "MIFVAOVIT_TypeVoieId",
+      "table": 0
+    },
+    {
+      "name": "MOTIF_STATUT_DOSSIER",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_STATUT_DOSSIER",
+      "table": 1
+    },
+    {
+      "name": "ANNEE_PERMIS_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "PAYS_RESIDENCE_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "REGION_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "DEPARTEMENT_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "COMMUNE_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "CODE_POSTAL_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "CODE_INSEE_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_NPAI",
+      "table": 1
+    },
+    {
+      "name": "EST_TITULAIRE",
+      "table": 1
+    },
+    {
+      "name": "SEXE_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "AGE_CONTREVENANT",
+      "table": 1
+    },
+    {
+      "name": "ANNEE_NAISSANCE",
+      "table": 1
+    },
+    {
+      "name": "COD_DISPOSITIF",
+      "table": 1
+    },
+    {
+      "name": "ID_FAMILLE",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_FAMILLE",
+      "table": 1
+    },
+    {
+      "name": "ID_CLASSE",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_CLASSE",
+      "table": 1
+    },
+    {
+      "name": "CODE_NATURE_INFRA",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_NATURE",
+      "table": 1
+    },
+    {
+      "name": "NBR_POINTS_RETIRES",
+      "table": 1
+    },
+    {
+      "name": "MNT_AF_MINOREE",
+      "table": 1
+    },
+    {
+      "name": "MNT_AF",
+      "table": 1
+    },
+    {
+      "name": "MNT_AF_MAJOREE",
+      "table": 1
+    },
+    {
+      "name": "REGION_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "DEPARTEMENT_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "COMMUNE_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "CODE_INSEE_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "CODE_POSTAL_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "NUM_ARRONDISSEMENT",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_TYPE_VOIE",
+      "table": 1
+    },
+    {
+      "name": "VOIE_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "LIB_LOCALITE_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_ENLEVEMENT_DEMANDE",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_FICHE_IMMO_ETABLIE",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_ECHANGE_PERMIS",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_INTERCEPTION",
+      "table": 1
+    },
+    {
+      "name": "VAL_VITESSE_RETENUE",
+      "table": 1
+    },
+    {
+      "name": "VAL_VITESSE_VLA",
+      "table": 1
+    },
+    {
+      "name": "LIB_TRANCHE_DEPASSEMENT",
+      "table": 1
+    },
+    {
+      "name": "DATE_JOUR_REEL_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "ANNEE_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "MOIS_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "NUM_ANNEE_MOIS_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "SEMAINE_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_JOUR_INFRACTION",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_NUIT",
+      "table": 1
+    },
+    {
+      "name": "SEMAINE_INFRAC",
+      "table": 1
+    },
+    {
+      "name": "VACS_ZONE_A",
+      "table": 1
+    },
+    {
+      "name": "VACS_ZONE_B",
+      "table": 1
+    },
+    {
+      "name": "VACS_ZONE_C",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_PLAGE_HORAIRE",
+      "table": 1
+    },
+    {
+      "name": "DATE_JOUR_REEL_INTEGRATION",
+      "table": 1
+    },
+    {
+      "name": "ANNEE_INTEGRATION",
+      "table": 1
+    },
+    {
+      "name": "MOIS_INTEGRATION",
+      "table": 1
+    },
+    {
+      "name": "SEMAINE_INTEGRATION",
+      "table": 1
+    },
+    {
+      "name": "COD_UNITE",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_UNITE",
+      "table": 1
+    },
+    {
+      "name": "COD_ENTITE",
+      "table": 1
+    },
+    {
+      "name": "LIB_ENTITE",
+      "table": 1
+    },
+    {
+      "name": "LIB_COURT_ENTITE",
+      "table": 1
+    },
+    {
+      "name": "COD_CORPS",
+      "table": 1
+    },
+    {
+      "name": "LIBELLE_CORPS",
+      "table": 1
+    },
+    {
+      "name": "LIB_COURT_CORPS",
+      "table": 1
+    },
+    {
+      "name": "LIB_ETAT_UNITE",
+      "table": 1
+    },
+    {
+      "name": "LIB_TYPE_UNITE",
+      "table": 1
+    },
+    {
+      "name": "COD_UNITE_PN",
+      "table": 1
+    },
+    {
+      "name": "COD_DEPARTEMENT_UNITE",
+      "table": 1
+    },
+    {
+      "name": "LIB_DEPARTEMENT_UNITE",
+      "table": 1
+    },
+    {
+      "name": "LIB_REGION_UNITE",
+      "table": 1
+    },
+    {
+      "name": "LIB_ZONE_CRS",
+      "table": 1
+    },
+    {
+      "name": "LIB_ZONE_PAF",
+      "table": 1
+    },
+    {
+      "name": "MARQUE",
+      "table": 1
+    },
+    {
+      "name": "TYPE_PLAQUE",
+      "table": 1
+    },
+    {
+      "name": "NATIONALITE_PLAQUE",
+      "table": 1
+    },
+    {
+      "name": "COD_GENRE",
+      "table": 1
+    },
+    {
+      "name": "GENRE",
+      "table": 1
+    },
+    {
+      "name": "REGROUPEMENT_GENRE",
+      "table": 1
+    },
+    {
+      "name": "PVE_ID",
+      "table": 1
+    }
+  ]
+}
