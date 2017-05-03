@@ -23,19 +23,10 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
-        {
-          "maxDistance": 1,
-          "column1": {
-            "name": "MI_FamilleInfraction",
-            "table": 0
-          },
-          "type": "EQ",
-          "column2": {
-            "name": "ID_FAMILLE",
-            "table": 1
-          }
-        },
         {
           "column1": {
             "name": "MI_DateHeureInfraction_parsed",
@@ -60,9 +51,6 @@
           }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "INNER"
     }
   ],
