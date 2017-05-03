@@ -55,6 +55,30 @@
       "type": "DateParser",
       "disabled": false,
       "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "outputColumn": "key",
+        "columns": [
+          "MI_Id",
+          "MI_FamilleInfraction",
+          "MI_Version",
+          "MI_DateHeureIntegration",
+          "MI_DateHeureIntegration_parsed",
+          "MI_NumeroET",
+          "MI_DateHeureInfraction",
+          "MI_CodePostal",
+          "MI_Ville",
+          "MI_RepereKilometrique",
+          "MI_NomVoie"
+        ],
+        "join": "-"
+      },
+      "type": "ColumnsConcat",
+      "disabled": false,
+      "metaType": "PROCESSOR"
     }
   ],
   "exploreUIParams": {
