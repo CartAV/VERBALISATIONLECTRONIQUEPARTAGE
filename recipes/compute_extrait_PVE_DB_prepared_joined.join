@@ -23,7 +23,122 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "on": [],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "on": [
+        {
+          "maxDistance": 1,
+          "column1": {
+            "name": "MI_FamilleInfraction",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "ID_FAMILLE",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MI_DateHeureIntegration_parsed",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "DATE_JOUR_REEL_INTEGRATION",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MI_DateHeureInfraction_parsed",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "DATE_JOUR_REEL_INFRACTION",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MI_CodePostal",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "CODE_POSTAL_INFRACTION",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MI_Ville",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "LIB_LOCALITE_INFRACTION",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MI_NumeroET",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "COD_DISPOSITIF",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MI_NomVoie",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "VOIE_INFRACTION",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MIFVAO_Qualification",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "LIBELLE_NATURE",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MIFVAO_VehiculeMarque",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "MARQUE",
+            "table": 1
+          }
+        },
+        {
+          "column1": {
+            "name": "MIFVAOVIT_VitesseRetenue",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "VAL_VITESSE_RETENUE",
+            "table": 1
+          }
+        }
+      ],
       "type": "LEFT"
     }
   ],
@@ -53,715 +168,893 @@
     },
     "lowerCaseSchemaIfEngineRequiresIt": true
   },
+  "postFilter": {},
   "enableAutoCastInJoinConditions": false,
   "selectedColumns": [
     {
       "name": "MI_Id",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MI_FamilleInfraction",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MI_Version",
-      "table": 0
+      "table": 0,
+      "type": "double"
     },
     {
       "name": "MI_DateHeureIntegration",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_DateHeureIntegration_parsed",
-      "table": 0
+      "table": 0,
+      "type": "date"
     },
     {
       "name": "MI_NumeroET",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_DateHeureInfraction",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_DateHeureInfraction_parsed",
-      "table": 0
+      "table": 0,
+      "type": "date"
     },
     {
       "name": "MI_CodePostal",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MI_Ville",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_NomVoie",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_RepereKilometrique",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_NombreRecherchesRepereKilometrique",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_Numero",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_BisTer",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_NatureVoie",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_Arrondissement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_Departement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_CodeInsee",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_SensCirculation",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_Pays",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_DateVerificationInstallation",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MI_DateVersement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_CorpsId",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_GenreVehiculeId",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_EquipementId",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_AgentVideocodeurId",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_AgentOperateurId",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_FamilleInfraction",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_EligibleAUneDemandeDeSaisine",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_DateSaisieInfraction",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_DecalageHeureSaisie",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_DecalageHeureInfraction",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_NumeroLocal",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_CasInfraction",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_Qualification",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ResponsabilitePenaleRecherchee",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_DebutInfractionHorodate",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_FinInfractionHorodate",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_FicheImmobilisationEtablie",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_EnlevementDemande",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_AutorisationCirculationProvisoire",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_RepresentationVehiculeAuPlusTardLe",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_RetentionPermisDeConduire",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ContrevenantAbsent",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_Complement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_TexteArretePrevuPar",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_TexteArreteReprimePar",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_TexteArreteLocalType",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_TexteArreteLocalReference",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_TexteArreteLocalDate",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_EchangePermisConduire",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_RenseignementComplementaire",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_VehiculeMarque",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_VehiculeModele",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_VehiculePaysImmatriculation",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_VehiculePaysImmatriculationSaisi",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_Doublon",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_VerificationXades",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_Verifie",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_DateVerification",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ValeurProbante",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_CommentaireVerification",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ContientPaiement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_DesignationComplement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_NatureVoieComplement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_LibelleVoieComplement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_CoordSite",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_CoordGPSLatitude",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_CoordGPSLongitude",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_CoordUTM",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_CoordAltitude",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_CoordComplement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_DomaineDEB",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ThemeDEB",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ActionDEB",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ChainageIdLocalEquipement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ChainageNoDossierCNT",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ChainageAutreReferenceExterne",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ChainageNoInfractionChainee",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_ChainageTotalInfractionsChainees",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_IdPaiement",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_DateEntreeQuarantaine",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_DateSortieQuarantaine",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_MotifEntreeQuarantaine",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAO_DoublonSaisie",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAO_NumeroDoublonEnSaisie",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAOVIT_VitesseMesuree",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAOVIT_VitesseRetenue",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAOVIT_VitesseLegaleAutorisee",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "APPAREILCONTROLE_Id",
-      "table": 0
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MIFVAOVIT_ModeleAppareil",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAOVIT_TypeAppareil",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAOVIT_NumeroSerieAppareil",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAOVIT_DateDerniereVerifAppareil",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAOVIT_OrganismeVerificateurAppareil",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MIFVAOVIT_TypeVoieId",
-      "table": 0
+      "table": 0,
+      "type": "string"
     },
     {
       "name": "MOTIF_STATUT_DOSSIER",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_STATUT_DOSSIER",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "ANNEE_PERMIS_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "PAYS_RESIDENCE_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "REGION_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "DEPARTEMENT_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "COMMUNE_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "CODE_POSTAL_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "CODE_INSEE_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_NPAI",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "EST_TITULAIRE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "SEXE_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "AGE_CONTREVENANT",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "ANNEE_NAISSANCE",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "COD_DISPOSITIF",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "ID_FAMILLE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_FAMILLE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "ID_CLASSE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_CLASSE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "CODE_NATURE_INFRA",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_NATURE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "NBR_POINTS_RETIRES",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "MNT_AF_MINOREE",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "MNT_AF",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "MNT_AF_MAJOREE",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "REGION_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "DEPARTEMENT_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "COMMUNE_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "CODE_INSEE_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "CODE_POSTAL_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "NUM_ARRONDISSEMENT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_TYPE_VOIE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "VOIE_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_LOCALITE_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_ENLEVEMENT_DEMANDE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_FICHE_IMMO_ETABLIE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_ECHANGE_PERMIS",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_INTERCEPTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "VAL_VITESSE_RETENUE",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "VAL_VITESSE_VLA",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "LIB_TRANCHE_DEPASSEMENT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "DATE_JOUR_REEL_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "date"
     },
     {
       "name": "ANNEE_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "MOIS_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "NUM_ANNEE_MOIS_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "SEMAINE_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "LIBELLE_JOUR_INFRACTION",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_NUIT",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "SEMAINE_INFRAC",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "VACS_ZONE_A",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "VACS_ZONE_B",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "VACS_ZONE_C",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_PLAGE_HORAIRE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "DATE_JOUR_REEL_INTEGRATION",
-      "table": 1
+      "table": 1,
+      "type": "date"
     },
     {
       "name": "ANNEE_INTEGRATION",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "MOIS_INTEGRATION",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "SEMAINE_INTEGRATION",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "COD_UNITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIBELLE_UNITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "COD_ENTITE",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "LIB_ENTITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_COURT_ENTITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "COD_CORPS",
-      "table": 1
+      "table": 1,
+      "type": "bigint"
     },
     {
       "name": "LIBELLE_CORPS",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_COURT_CORPS",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_ETAT_UNITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_TYPE_UNITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "COD_UNITE_PN",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "COD_DEPARTEMENT_UNITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_DEPARTEMENT_UNITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_REGION_UNITE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_ZONE_CRS",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "LIB_ZONE_PAF",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "MARQUE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "TYPE_PLAQUE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "NATIONALITE_PLAQUE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "COD_GENRE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "GENRE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "REGROUPEMENT_GENRE",
-      "table": 1
+      "table": 1,
+      "type": "string"
     },
     {
       "name": "PVE_ID",
-      "table": 1
+      "table": 1,
+      "type": "string"
     }
   ]
 }
