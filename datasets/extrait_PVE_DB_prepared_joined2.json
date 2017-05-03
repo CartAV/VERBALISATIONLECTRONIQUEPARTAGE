@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1493824259903
+    "lastModifiedOn": 1493825921065
   },
   "creationTag": {
     "versionNumber": 0,
@@ -51,10 +51,52 @@
     "userModified": false,
     "columns": [
       {
+        "name": "MI_NumeroET",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "MI_DateHeureInfraction_parsed",
+        "type": "date",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "MI_CodePostal",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "MI_Ville",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "VOIE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
         "name": "key",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "MIFVAO_VehiculeMarque",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "MIFVAOVIT_VitesseRetenue",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
       },
       {
         "name": "MOTIF_STATUT_DOSSIER",
