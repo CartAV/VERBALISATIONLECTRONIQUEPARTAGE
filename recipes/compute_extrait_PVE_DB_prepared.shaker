@@ -58,7 +58,7 @@
     },
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "outputColumn": "key",
         "columns": [
@@ -75,6 +75,44 @@
           "MI_NomVoie"
         ],
         "join": "-"
+      },
+      "type": "ColumnsConcat",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "matching": "FULL_STRING",
+        "stopAfterFirstMatch": false,
+        "appliesTo": "SINGLE_COLUMN",
+        "normalization": "EXACT",
+        "columns": [
+          "MI_NatureVoie"
+        ],
+        "mapping": [
+          {
+            "to": "",
+            "from": "NULL"
+          }
+        ],
+        "output": ""
+      },
+      "type": "FindReplace",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "outputColumn": "VOIE",
+        "columns": [
+          "MI_NatureVoie",
+          "MI_NomVoie"
+        ],
+        "join": " "
       },
       "type": "ColumnsConcat",
       "disabled": false,
