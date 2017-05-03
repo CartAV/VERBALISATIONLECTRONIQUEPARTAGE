@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1493826184284
+    "lastModifiedOn": 1493826818303
   },
   "creationTag": {
     "versionNumber": 0,
@@ -82,6 +82,24 @@
       },
       {
         "name": "key",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "MI_RepereKilometrique",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "MI_Numero",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "MI_BisTer",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
