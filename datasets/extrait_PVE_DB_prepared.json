@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1493816361235
+    "lastModifiedOn": 1493816910254
   },
   "creationTag": {
     "versionNumber": 0,
@@ -75,6 +75,12 @@
         "maxLength": 16200
       },
       {
+        "name": "MI_DateHeureIntegration_parsed",
+        "type": "date",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "MI_NumeroET",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -85,6 +91,12 @@
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
+      },
+      {
+        "name": "MI_DateHeureInfraction_parsed",
+        "type": "date",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
       },
       {
         "name": "MI_CodePostal",
