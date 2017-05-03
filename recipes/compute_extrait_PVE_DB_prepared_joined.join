@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "maxDistance": 1,
@@ -139,6 +136,9 @@
           }
         }
       ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "LEFT"
     }
   ],
@@ -188,6 +188,11 @@
     },
     {
       "name": "MI_NomVoie",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "key",
       "table": 0,
       "type": "string"
     },
