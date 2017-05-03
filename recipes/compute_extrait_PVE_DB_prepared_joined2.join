@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "column1": {
@@ -89,16 +86,19 @@
         {
           "maxDistance": 1,
           "column1": {
-            "name": "MIFVAO_Qualification",
+            "name": "MIFVAO_VehiculeMarque",
             "table": 0
           },
           "type": "EQ",
           "column2": {
-            "name": "LIBELLE_NATURE",
+            "name": "MARQUE",
             "table": 1
           }
         }
       ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "INNER"
     }
   ],
