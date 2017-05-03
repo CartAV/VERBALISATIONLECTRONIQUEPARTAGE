@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "maxDistance": 1,
@@ -53,16 +50,19 @@
         {
           "maxDistance": 1,
           "column1": {
-            "name": "MI_CodePostal",
+            "name": "MI_Ville",
             "table": 0
           },
           "type": "EQ",
           "column2": {
-            "name": "CODE_POSTAL_INFRACTION",
+            "name": "LIB_LOCALITE_INFRACTION",
             "table": 1
           }
         }
       ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "INNER"
     }
   ],
