@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "column1": {
@@ -111,7 +108,10 @@
           }
         }
       ],
-      "type": "INNER"
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "type": "LEFT"
     }
   ],
   "engineParams": {
@@ -144,9 +144,44 @@
   "enableAutoCastInJoinConditions": false,
   "selectedColumns": [
     {
+      "name": "MI_NumeroET",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MI_DateHeureInfraction_parsed",
+      "table": 0,
+      "type": "date"
+    },
+    {
+      "name": "MI_CodePostal",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MI_Ville",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "VOIE",
+      "table": 0,
+      "type": "string"
+    },
+    {
       "name": "key",
       "table": 0,
       "type": "string"
+    },
+    {
+      "name": "MIFVAO_VehiculeMarque",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MIFVAOVIT_VitesseRetenue",
+      "table": 0,
+      "type": "bigint"
     },
     {
       "name": "MOTIF_STATUT_DOSSIER",
