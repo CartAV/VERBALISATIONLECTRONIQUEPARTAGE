@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "column1": {
@@ -111,6 +108,9 @@
           }
         }
       ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "LEFT"
     }
   ],
@@ -170,6 +170,21 @@
     },
     {
       "name": "key",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MI_RepereKilometrique",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MI_Numero",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MI_BisTer",
       "table": 0,
       "type": "string"
     },
