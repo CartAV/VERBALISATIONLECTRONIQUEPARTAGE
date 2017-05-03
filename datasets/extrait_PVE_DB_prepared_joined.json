@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1493819056032
+    "lastModifiedOn": 1493819363494
   },
   "creationTag": {
     "versionNumber": 0,
@@ -70,6 +70,12 @@
       },
       {
         "name": "MI_NomVoie",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "key",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
