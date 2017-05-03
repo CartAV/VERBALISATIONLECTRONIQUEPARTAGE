@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1493816969130
+    "lastModifiedOn": 1493818706608
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,9 +58,9 @@
       },
       {
         "name": "MI_FamilleInfraction",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "MI_Version",
@@ -100,9 +100,9 @@
       },
       {
         "name": "MI_CodePostal",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "MI_Ville",
