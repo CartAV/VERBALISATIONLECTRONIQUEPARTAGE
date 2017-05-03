@@ -37,7 +37,7 @@
     "exploreUIParams": {
       "autoRefresh": true
     },
-    "globalSearchQuery": "",
+    "globalSearchQuery": "11301",
     "explorationFilters": [
       {
         "column": "MIFVAOVIT_VitesseRetenue",
