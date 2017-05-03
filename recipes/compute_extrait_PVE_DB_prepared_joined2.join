@@ -23,6 +23,9 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
         {
           "column1": {
@@ -58,11 +61,20 @@
             "name": "CODE_POSTAL_INFRACTION",
             "table": 1
           }
+        },
+        {
+          "maxDistance": 1,
+          "column1": {
+            "name": "MI_NumeroET",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "COD_DISPOSITIF",
+            "table": 1
+          }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "INNER"
     }
   ],
