@@ -40,23 +40,21 @@
     "globalSearchQuery": "",
     "explorationFilters": [
       {
-        "column": "MI_NomVoie",
+        "column": "MIFVAOVIT_VitesseRetenue",
         "type": "columnFilter",
         "currentMode": "FACET",
         "active": true,
         "facet": {
           "type": "facet",
-          "column": "MI_NomVoie",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
+          "column": "MIFVAOVIT_VitesseRetenue",
+          "columnType": "NUMERICAL",
+          "currentMode": "NUMERICAL",
           "sort": "count",
-          "selectedValues": {
-            "SAINT-GERMAIN": true
-          }
+          "selectedValues": {}
         },
         "alphanumFilter": {
           "type": "alphanum",
-          "column": "MI_NomVoie",
+          "column": "MIFVAOVIT_VitesseRetenue",
           "values": [],
           "params": {
             "mode": "full_string",
@@ -65,9 +63,9 @@
         },
         "validityFilter": {
           "type": "validity",
-          "column": "MI_NomVoie",
+          "column": "MIFVAOVIT_VitesseRetenue",
           "params": {
-            "type": "Text",
+            "type": "LongMeaning",
             "ok": true,
             "nok": true,
             "empty": true
