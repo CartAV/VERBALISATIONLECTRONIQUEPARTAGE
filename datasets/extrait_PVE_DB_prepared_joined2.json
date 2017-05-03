@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1493825921065
+    "lastModifiedOn": 1493826184284
   },
   "creationTag": {
     "versionNumber": 0,
@@ -82,6 +82,12 @@
       },
       {
         "name": "key",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "MIFVAO_Qualification",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
