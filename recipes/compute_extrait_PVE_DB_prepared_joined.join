@@ -23,6 +23,9 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
         {
           "maxDistance": 1,
@@ -136,9 +139,6 @@
           }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "LEFT"
     }
   ],
@@ -171,6 +171,16 @@
   "postFilter": {},
   "enableAutoCastInJoinConditions": false,
   "selectedColumns": [
+    {
+      "name": "MI_Id",
+      "table": 0,
+      "type": "bigint"
+    },
+    {
+      "name": "MI_DateHeureInfraction",
+      "table": 0,
+      "type": "string"
+    },
     {
       "name": "MI_Ville",
       "table": 0,
