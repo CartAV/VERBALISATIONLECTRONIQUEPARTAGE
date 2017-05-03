@@ -43,7 +43,7 @@
         "column": "key",
         "type": "columnFilter",
         "currentMode": "FACET",
-        "active": true,
+        "active": false,
         "facet": {
           "type": "facet",
           "column": "key",
