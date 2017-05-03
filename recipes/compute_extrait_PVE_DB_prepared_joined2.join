@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "column1": {
@@ -109,19 +106,11 @@
             "name": "MARQUE",
             "table": 1
           }
-        },
-        {
-          "column1": {
-            "name": "MIFVAOVIT_VitesseRetenue",
-            "table": 0
-          },
-          "type": "EQ",
-          "column2": {
-            "name": "VAL_VITESSE_RETENUE",
-            "table": 1
-          }
         }
       ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "INNER"
     }
   ],
