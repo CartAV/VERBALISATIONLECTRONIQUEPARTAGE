@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "maxDistance": 1,
@@ -95,8 +92,9 @@
           }
         },
         {
+          "maxDistance": 1,
           "column1": {
-            "name": "MI_NomVoie",
+            "name": "VOIE",
             "table": 0
           },
           "type": "EQ",
@@ -139,6 +137,9 @@
           }
         }
       ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "LEFT"
     }
   ],
