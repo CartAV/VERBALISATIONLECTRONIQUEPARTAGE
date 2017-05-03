@@ -38,48 +38,7 @@
       "autoRefresh": true
     },
     "globalSearchQuery": "",
-    "explorationFilters": [
-      {
-        "column": "key",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "key",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {
-            "551249-3-2.20-02/01/2015 17:19-2015-01-02T00:00:00.000Z-I003257-02/01/2015 14:15-79200-PARTHENAY-NULL-D949 BIS": true,
-            "551722-3-2.20-02/01/2015 17:33-2015-01-02T00:00:00.000Z-P432004-02/01/2015 16:03-34520-LE CAYLAR-270.000-A75": true,
-            "551726-3-2.20-02/01/2015 17:33-2015-01-02T00:00:00.000Z-P432004-02/01/2015 16:44-34520-LE CAYLAR-270.000-A75": true,
-            "551880-3-2.20-02/01/2015 12:48-2015-01-02T00:00:00.000Z-P438567-02/01/2015 08:10-14600-HONFLEUR-002.700-D513": true,
-            "551881-3-2.20-02/01/2015 12:48-2015-01-02T00:00:00.000Z-P438567-02/01/2015 08:35-14600-HONFLEUR-002.700-D513": true,
-            "551989-3-2.20-02/01/2015 17:14-2015-01-02T00:00:00.000Z-I003257-02/01/2015 14:00-79200-PARTHENAY-NULL-D949 BIS": true
-          }
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "key",
-          "values": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "key",
-          "params": {
-            "type": "DateSource",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      }
-    ],
+    "explorationFilters": [],
     "previewMode": "ALL_ROWS"
   },
   "charts": []
