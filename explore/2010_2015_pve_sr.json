@@ -22,7 +22,23 @@
           "d": true
         },
         {
+          "name": "REGION_CONTREVENANT",
+          "d": true
+        },
+        {
           "name": "DEPARTEMENT_CONTREVENANT",
+          "d": true
+        },
+        {
+          "name": "COMMUNE_CONTREVENANT",
+          "d": true
+        },
+        {
+          "name": "CODE_POSTAL_CONTREVENANT",
+          "d": true
+        },
+        {
+          "name": "CODE_INSEE_CONTREVENANT",
           "d": true
         },
         {
@@ -43,6 +59,10 @@
         },
         {
           "name": "ANNEE_NAISSANCE",
+          "d": true
+        },
+        {
+          "name": "COD_DISPOSITIF",
           "d": true
         },
         {
@@ -214,6 +234,70 @@
           "d": true
         },
         {
+          "name": "COD_UNITE",
+          "d": true
+        },
+        {
+          "name": "LIBELLE_UNITE",
+          "d": true
+        },
+        {
+          "name": "COD_ENTITE",
+          "d": true
+        },
+        {
+          "name": "LIB_ENTITE",
+          "d": true
+        },
+        {
+          "name": "LIB_COURT_ENTITE",
+          "d": true
+        },
+        {
+          "name": "COD_CORPS",
+          "d": true
+        },
+        {
+          "name": "LIBELLE_CORPS",
+          "d": true
+        },
+        {
+          "name": "LIB_COURT_CORPS",
+          "d": true
+        },
+        {
+          "name": "LIB_ETAT_UNITE",
+          "d": true
+        },
+        {
+          "name": "LIB_TYPE_UNITE",
+          "d": true
+        },
+        {
+          "name": "COD_UNITE_PN",
+          "d": true
+        },
+        {
+          "name": "COD_DEPARTEMENT_UNITE",
+          "d": true
+        },
+        {
+          "name": "LIB_DEPARTEMENT_UNITE",
+          "d": true
+        },
+        {
+          "name": "LIB_REGION_UNITE",
+          "d": true
+        },
+        {
+          "name": "LIB_ZONE_CRS",
+          "d": true
+        },
+        {
+          "name": "LIB_ZONE_PAF",
+          "d": true
+        },
+        {
           "name": "MARQUE",
           "d": true
         },
@@ -276,7 +360,43 @@
       "autoRefresh": true
     },
     "globalSearchQuery": "",
-    "explorationFilters": [],
+    "explorationFilters": [
+      {
+        "column": "LIBELLE_NATURE",
+        "type": "columnFilter",
+        "currentMode": "FACET",
+        "active": true,
+        "facet": {
+          "type": "facet",
+          "column": "LIBELLE_NATURE",
+          "columnType": "ALPHANUM",
+          "currentMode": "ALPHANUM",
+          "sort": "count",
+          "selectedValues": {
+            "EXCES DE VITESSE D\u0027AU MOINS 20 KM/H ET INFERIEUR A 30 KM/H PAR CONDUCTEUR DE VEHICULE A MOTEUR": true
+          }
+        },
+        "alphanumFilter": {
+          "type": "alphanum",
+          "column": "LIBELLE_NATURE",
+          "values": [],
+          "params": {
+            "mode": "full_string",
+            "normalization": "exact"
+          }
+        },
+        "validityFilter": {
+          "type": "validity",
+          "column": "LIBELLE_NATURE",
+          "params": {
+            "type": "FreeText",
+            "ok": true,
+            "nok": true,
+            "empty": true
+          }
+        }
+      }
+    ],
     "previewMode": "ALL_ROWS"
   },
   "charts": [
