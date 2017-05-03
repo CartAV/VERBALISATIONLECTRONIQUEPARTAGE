@@ -23,9 +23,6 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "on": [
         {
           "column1": {
@@ -49,8 +46,23 @@
             "name": "LIB_LOCALITE_INFRACTION",
             "table": 1
           }
+        },
+        {
+          "maxDistance": 1,
+          "column1": {
+            "name": "MI_CodePostal",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "CODE_POSTAL_INFRACTION",
+            "table": 1
+          }
         }
       ],
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "INNER"
     }
   ],
