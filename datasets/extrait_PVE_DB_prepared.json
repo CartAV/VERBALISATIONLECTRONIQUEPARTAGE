@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1493816910254
+    "lastModifiedOn": 1493818608388
   },
   "creationTag": {
     "versionNumber": 0,
@@ -48,7 +48,7 @@
     "readColsWithUnknownTzAsDates": false
   },
   "schema": {
-    "userModified": false,
+    "userModified": true,
     "columns": [
       {
         "name": "MI_Id",
@@ -58,7 +58,7 @@
       },
       {
         "name": "MI_FamilleInfraction",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
