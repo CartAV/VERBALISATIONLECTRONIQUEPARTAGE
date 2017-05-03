@@ -23,6 +23,9 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
         {
           "column1": {
@@ -108,9 +111,6 @@
           }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "LEFT"
     }
   ],
@@ -170,6 +170,11 @@
     },
     {
       "name": "key",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MIFVAO_Qualification",
       "table": 0,
       "type": "string"
     },
