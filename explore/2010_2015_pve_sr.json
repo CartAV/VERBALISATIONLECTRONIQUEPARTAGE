@@ -340,7 +340,7 @@
         "filter": {
           "distinct": false,
           "expression": "\"MOTIF_STATUT_DOSSIER\" LIKE CONCAT(\u0027%\u0027, NULL, \u0027%\u0027)",
-          "enabled": false,
+          "enabled": true,
           "uiData": {
             "mode": "\u0026\u0026",
             "conditions": [
@@ -367,7 +367,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 3
+      "_refreshTrigger": 2
     },
     "vizSampling": {
       "autoRefreshSample": false,
