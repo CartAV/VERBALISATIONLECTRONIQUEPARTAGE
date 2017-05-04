@@ -340,7 +340,7 @@
         "filter": {
           "distinct": false,
           "expression": "\"MOTIF_STATUT_DOSSIER\" LIKE CONCAT(\u0027%\u0027, NULL, \u0027%\u0027)",
-          "enabled": true,
+          "enabled": false,
           "uiData": {
             "mode": "\u0026\u0026",
             "conditions": [
@@ -367,7 +367,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 2
+      "_refreshTrigger": 3
     },
     "vizSampling": {
       "autoRefreshSample": false,
@@ -377,142 +377,7 @@
       "autoRefresh": true
     },
     "globalSearchQuery": "",
-    "explorationFilters": [
-      {
-        "column": "COD_DISPOSITIF",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "COD_DISPOSITIF",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {}
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "COD_DISPOSITIF",
-          "values": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "COD_DISPOSITIF",
-          "params": {
-            "type": "Text",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      },
-      {
-        "column": "LIB_LOCALITE_INFRACTION",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "LIB_LOCALITE_INFRACTION",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {}
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "LIB_LOCALITE_INFRACTION",
-          "values": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "LIB_LOCALITE_INFRACTION",
-          "params": {
-            "type": "Text",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      },
-      {
-        "column": "VOIE_INFRACTION",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "VOIE_INFRACTION",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {
-            "DEPARTEMENTALE D2": true
-          }
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "VOIE_INFRACTION",
-          "values": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "VOIE_INFRACTION",
-          "params": {
-            "type": "Text",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      },
-      {
-        "column": "CODE_POSTAL_INFRACTION",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "CODE_POSTAL_INFRACTION",
-          "columnType": "NUMERICAL",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {}
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "CODE_POSTAL_INFRACTION",
-          "values": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "CODE_POSTAL_INFRACTION",
-          "params": {
-            "type": "LongMeaning",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      }
-    ],
+    "explorationFilters": [],
     "previewMode": "ALL_ROWS"
   },
   "charts": [
