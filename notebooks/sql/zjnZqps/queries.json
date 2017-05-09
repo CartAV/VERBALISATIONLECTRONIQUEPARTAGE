@@ -951,10 +951,10 @@
         "mode": "SQL",
         "id": "R07cHQe56AMH",
         "runOn": 1494323137118,
-        "runIn": 370,
+        "runIn": 54,
         "runBy": "grabenertr",
         "connection": "datalabmaster",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "Ld7iFBcq1WxEoI04",
         "hash": "17c0c81f538244b5fc681d2c59319dd0",
         "querySettings": {
