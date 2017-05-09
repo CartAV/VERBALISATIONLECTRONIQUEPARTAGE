@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "eewdg8oi1uo": [
+      {
+        "mode": "SQL",
+        "id": "8q7wzN0Qi49u",
+        "runOn": 1494324184770,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "yyfyIsMSkRHdHxmO",
+        "hash": "5e3333b42e45310cb34385416b384d66",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select  \"result_street\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr\norder by count Desc\n",
+        "expandedSql": "select  \"result_street\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr\norder by count Desc\n"
+      }
+    ]
+  }
+}
