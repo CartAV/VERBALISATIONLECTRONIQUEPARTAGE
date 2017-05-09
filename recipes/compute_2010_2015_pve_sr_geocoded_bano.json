@@ -1,0 +1,50 @@
+{
+  "type": "CustomCode_geocoding-ban",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "customConfig": {}
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "inputs": {
+    "input": {
+      "items": [
+        {
+          "ref": "2010_2015_pve_sr_prepared",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "output": {
+      "items": [
+        {
+          "ref": "2010_2015_pve_sr_geocoded_bano",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1494332979762
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1494332979762
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
