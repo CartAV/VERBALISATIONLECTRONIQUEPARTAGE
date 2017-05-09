@@ -23,6 +23,30 @@
         "sql": "select  \"result_street\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr\norder by count Desc\n",
         "expandedSql": "select  \"result_street\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr\norder by count Desc\n"
       }
+    ],
+    "9vf923rlqfr": [
+      {
+        "mode": "SQL",
+        "id": "kcdABTi4mOAD",
+        "runOn": 1494329911501,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "8zSaIVjlEr5UoO1i",
+        "hash": "e914d05d480f7cde2d15f27ced62d072",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "create index pve_regions_postgis_insee_index on \"public\".\"2010_2015_pve_sr_regions_postgis\"(\"CODE_INSEE_INFRACTION\")\n",
+        "expandedSql": "create index pve_regions_postgis_insee_index on \"public\".\"2010_2015_pve_sr_regions_postgis\"(\"CODE_INSEE_INFRACTION\")\n"
+      }
     ]
   }
 }
