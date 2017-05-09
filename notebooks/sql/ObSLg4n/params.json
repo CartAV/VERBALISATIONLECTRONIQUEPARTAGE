@@ -1,0 +1,24 @@
+{
+  "connection": "postgis",
+  "name": "grabenertr\u0027s notebook on postgis",
+  "cells": [],
+  "automationLocal": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1494324125933
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1494324125933
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
