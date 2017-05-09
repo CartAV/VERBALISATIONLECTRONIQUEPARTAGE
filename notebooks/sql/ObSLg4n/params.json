@@ -1,14 +1,28 @@
 {
   "connection": "postgis",
   "name": "grabenertr\u0027s notebook on postgis",
-  "cells": [],
+  "cells": [
+    {
+      "id": "eewdg8oi1uo",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1494324125933
+    "lastModifiedOn": 1494324129235
   },
   "creationTag": {
     "versionNumber": 0,
