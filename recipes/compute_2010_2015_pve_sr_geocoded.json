@@ -12,7 +12,7 @@
       ],
       "city_code": "CODE_INSEE_INFRACTION",
       "timeout": 2000.0,
-      "lines_per_request": 5000.0
+      "lines_per_request": 1000.0
     }
   },
   "customMeta": {
@@ -40,11 +40,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1494333066927
+    "lastModifiedOn": 1494335482212
   },
   "tags": [],
   "checklists": {
