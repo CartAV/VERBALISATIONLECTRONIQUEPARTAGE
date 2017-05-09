@@ -6,7 +6,7 @@
     "customConfig": {
       "server_address": "http://datalab-ban",
       "concurent_requests": 8.0,
-      "prefix": "result_",
+      "prefix": "ban_",
       "columns": [
         "VOIE_INFRACTION"
       ],
@@ -33,18 +33,18 @@
     "output": {
       "items": [
         {
-          "ref": "2010_2015_pve_sr_geocoded",
+          "ref": "2010_2015_pve_sr_geocoded_ban",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1491227593046
+    "lastModifiedOn": 1494333063468
   },
   "tags": [],
   "checklists": {
