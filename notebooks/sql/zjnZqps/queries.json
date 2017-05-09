@@ -1012,6 +1012,28 @@
         },
         "sql": "select  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\nwhere VOIE_INFRACTION like \u0027BONIE\u0027\ngroup by gr\norder by count Desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\nwhere VOIE_INFRACTION like \u0027BONIE\u0027\ngroup by gr\norder by count Desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "rLlXkSyVtOpH",
+        "runOn": 1494323167258,
+        "runIn": 256,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "EOgWjBy0WC5ZZKcR",
+        "hash": "64c63de69ce47b518623c745d05babd3",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\nwhere VOIE_INFRACTION like \u0027%BONIE%\u0027\ngroup by gr\norder by count Desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "select  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\nwhere VOIE_INFRACTION like \u0027%BONIE%\u0027\ngroup by gr\norder by count Desc\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ],
     "iy2e671qkn": [
