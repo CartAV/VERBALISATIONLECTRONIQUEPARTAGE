@@ -3,7 +3,17 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {}
+    "customConfig": {
+      "server_address": "http://datalab-bano",
+      "concurent_requests": 8.0,
+      "prefix": "bano_",
+      "columns": [
+        "VOIE_INFRACTION"
+      ],
+      "city_code": "CODE_INSEE_INFRACTION",
+      "timeout": 1000.0,
+      "lines_per_request": 5000.0
+    }
   },
   "customMeta": {
     "kv": {}
@@ -30,11 +40,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1494332979762
+    "lastModifiedOn": 1494333022737
   },
   "creationTag": {
     "versionNumber": 0,
