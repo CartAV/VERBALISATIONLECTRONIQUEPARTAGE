@@ -88,6 +88,28 @@
         },
         "sql": "select  \"result_name\", \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr, result_name\norder by count Desc\n",
         "expandedSql": "select  \"result_name\", \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr, result_name\norder by count Desc\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "5zhK9V92Zi6s",
+        "runOn": 1494332682151,
+        "runIn": 508,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "3O7MaJ1ehTsxf4Kq",
+        "hash": "a4b62c4f936b38b0749ae25c1a0bfcc9",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select  \"result_name\", avg(result_score), min(result_score) \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr, result_name\norder by count Desc\n",
+        "expandedSql": "select  \"result_name\", avg(result_score), min(result_score) \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr, result_name\norder by count Desc\n"
       }
     ],
     "9vf923rlqfr": [
