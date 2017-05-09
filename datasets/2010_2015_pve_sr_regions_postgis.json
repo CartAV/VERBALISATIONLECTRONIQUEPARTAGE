@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1491380516892
+    "lastModifiedOn": 1494329938751
   },
   "creationTag": {
     "versionNumber": 0,
@@ -41,6 +41,7 @@
     "normalizeDoubles": true,
     "table": "2010_2015_pve_sr_regions_postgis",
     "tableCreationMode": "auto",
+    "customPostWriteStatements": "create index pve_regions_postgis_insee_index on \"public\".\"2010_2015_pve_sr_regions_postgis\"(\"CODE_INSEE_INFRACTION\");",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
     "hasColsWithUnknownTz": false,
