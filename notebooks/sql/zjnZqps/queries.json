@@ -1056,6 +1056,28 @@
         },
         "sql": "select  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\ngroup by gr\norder by count Desc\n\n--select  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\n--where VOIE_INFRACTION like \u0027%BONIE%\u0027\n--group by gr\n--order by count Desc\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "select  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\ngroup by gr\norder by count Desc\n\n--select  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\n--where VOIE_INFRACTION like \u0027%BONIE%\u0027\n--group by gr\n--order by count Desc\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "SG7hVKvPebCG",
+        "runOn": 1494324238697,
+        "runIn": 3417,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "rLlYWTAiswWux8cp",
+        "hash": "19c098426f963040b638be087109c4fb",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "\n\nselect  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\nwhere VOIE_INFRACTION like \u0027%BONIE%\u0027\nand \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr\norder by count Desc\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "\n\nselect  \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions\"\nwhere VOIE_INFRACTION like \u0027%BONIE%\u0027\nand \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr\norder by count Desc\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ],
     "iy2e671qkn": [
