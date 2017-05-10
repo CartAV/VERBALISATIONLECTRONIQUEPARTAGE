@@ -8,11 +8,12 @@
       "concurent_requests": 8.0,
       "prefix": "bano_",
       "columns": [
-        "VOIE_INFRACTION"
+        "VOIE_INFRACTION",
+        "LIB_LOCALITE_INFRACTION"
       ],
-      "city_code": "CODE_INSEE_INFRACTION",
+      "city_code": "",
       "timeout": 1000.0,
-      "lines_per_request": 1000.0
+      "lines_per_request": 500.0
     }
   },
   "customMeta": {
@@ -40,11 +41,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1494409878954
+    "lastModifiedOn": 1494418312872
   },
   "creationTag": {
     "versionNumber": 0,
