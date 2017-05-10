@@ -157,6 +157,30 @@
         "sql": "create index pve_regions_postgis_insee_index on \"public\".\"2010_2015_pve_sr_regions_postgis\"(\"CODE_INSEE_INFRACTION\")\n",
         "expandedSql": "create index pve_regions_postgis_insee_index on \"public\".\"2010_2015_pve_sr_regions_postgis\"(\"CODE_INSEE_INFRACTION\")\n"
       }
+    ],
+    "9i3e2ubpwgk": [
+      {
+        "mode": "SQL",
+        "id": "goDwyGjI9gMN",
+        "runOn": 1494419821542,
+        "runIn": -1,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "ysoFHIV30ixuAlka",
+        "hash": "b60aa26b7293d61d0863dd79fa08b233",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select  count(*) from \"2010_2015_pve_sr_regions_postgis\"",
+        "expandedSql": "select  count(*) from \"2010_2015_pve_sr_regions_postgis\""
+      }
     ]
   }
 }
