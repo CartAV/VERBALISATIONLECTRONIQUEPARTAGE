@@ -13,7 +13,7 @@
       ],
       "city_code": "",
       "timeout": 2000.0,
-      "lines_per_request": 1000.0
+      "lines_per_request": 100.0
     }
   },
   "customMeta": {
@@ -41,11 +41,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 30,
+    "versionNumber": 31,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1494599708346
+    "lastModifiedOn": 1494841741458
   },
   "creationTag": {
     "versionNumber": 0,
