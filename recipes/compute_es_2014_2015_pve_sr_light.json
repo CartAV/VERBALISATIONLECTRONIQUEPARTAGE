@@ -1,0 +1,77 @@
+{
+  "type": "sync",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "schemaMode": "STRICT_SYNC",
+    "engineParams": {
+      "maxThreads": 4,
+      "sparkSQL": {
+        "overwriteOutputSchema": false,
+        "useGlobalMetastore": false,
+        "sparkConfig": {
+          "inheritConf": "default",
+          "conf": []
+        },
+        "readParams": {
+          "map": {}
+        },
+        "pipelineAllowMerge": true,
+        "pipelineAllowStart": true
+      },
+      "impala": {
+        "forceStreamMode": true
+      },
+      "hive": {
+        "inheritConf": "default",
+        "hiveconf": [],
+        "executionEngine": "HIVECLI_LOCAL",
+        "addDkuUdf": false,
+        "skipPrerunValidate": false
+      },
+      "lowerCaseSchemaIfEngineRequiresIt": false
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "2010_2015_pve_sr_regions_postgis_light",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "es_2014_2015_pve_sr_light",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr"
+    },
+    "lastModifiedOn": 1494852585019
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr"
+    },
+    "lastModifiedOn": 1494852585019
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
