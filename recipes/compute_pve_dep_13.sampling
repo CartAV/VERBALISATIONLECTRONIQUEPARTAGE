@@ -1,4 +1,16 @@
 {
-  "enabled": false,
+  "enabled": true,
+  "uiData": {
+    "conditions": [
+      {
+        "num": 0,
+        "col": "LIBELLE_STATUT_DOSSIER",
+        "input": "DEPARTEMENT_INFRACTION",
+        "string": "13",
+        "operator": "contains"
+      }
+    ],
+    "mode": "\u0026\u0026"
+  },
   "distinct": false
 }
