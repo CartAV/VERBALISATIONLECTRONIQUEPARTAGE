@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1494852962481
+    "lastModifiedOn": 1494852983304
   },
   "creationTag": {
     "versionNumber": 0,
@@ -38,6 +38,7 @@
     "connection": "el",
     "index": "es2_2014_2015_pve_sr_light",
     "type": "es2_2014_2015_pve_sr_light",
+    "rawCopyColumns": "*",
     "frameSize": 10000,
     "partitioned": false
   },
