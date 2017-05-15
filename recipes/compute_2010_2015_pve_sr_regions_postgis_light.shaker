@@ -95,7 +95,7 @@
       "alwaysShowComment": false,
       "preview": true,
       "params": {
-        "min": "2014-01-01",
+        "min": "2015-06-01",
         "max": "2020-01-01",
         "booleanMode": "AND",
         "appliesTo": "SINGLE_COLUMN",
