@@ -27,12 +27,10 @@
           "LIBELLE_FAMILLE",
           "NOM_REG",
           "DEPARTEMENT_INFRACTION",
-          "MOTIF_STATUT_DOSSIER",
           "num_route_or_id",
           "CODE_INSEE_INFRACTION",
           "geojson",
           "ANNEE_INFRACTION",
-          "LIBELLE_STATUT_DOSSIER",
           "LIBELLE_JOUR_INFRACTION",
           "DATE_JOUR_REEL_INFRACTION"
         ],
