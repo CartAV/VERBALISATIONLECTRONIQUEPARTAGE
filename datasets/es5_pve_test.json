@@ -17,18 +17,20 @@
     "ignoreNonMatchingFile": false,
     "dimensions": [
       {
-        "name": "DEPARTEMENT_INFRACTION",
-        "type": "value",
-        "params": {}
+        "name": "ANNEE_INFRACTION",
+        "type": "time",
+        "params": {
+          "period": "YEAR"
+        }
       }
     ]
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1494936087098
+    "lastModifiedOn": 1494938641148
   },
   "creationTag": {
     "versionNumber": 0,
