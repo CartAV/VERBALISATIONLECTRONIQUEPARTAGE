@@ -21,7 +21,7 @@
         }
       },
       "hadoopConfigKeys": [],
-      "maxThreads": 8
+      "maxThreads": 1
     }
   },
   "customMeta": {
@@ -49,11 +49,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1494937405053
+    "lastModifiedOn": 1494938779173
   },
   "creationTag": {
     "versionNumber": 0,
