@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1494935519519
+    "lastModifiedOn": 1494935863375
   },
   "creationTag": {
     "versionNumber": 0,
@@ -65,12 +65,14 @@
       {
         "name": "DEPARTEMENT_INFRACTION",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "CODE_INSEE_INFRACTION",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -82,7 +84,8 @@
       },
       {
         "name": "ANNEE_INFRACTION",
-        "type": "bigint",
+        "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
