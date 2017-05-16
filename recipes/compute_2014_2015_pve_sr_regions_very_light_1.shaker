@@ -1,0 +1,86 @@
+{
+  "explorationFilters": [],
+  "maxProcessedMemTableBytes": -1,
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "analysisColumnData": {},
+  "globalSearchQuery": "",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "origin": "PREPARE_RECIPE",
+  "coloring": {
+    "individualColumns": [],
+    "scheme": "MEANING_AND_STATUS",
+    "valueColoringMode": "HASH"
+  },
+  "sorting": [],
+  "steps": [
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "appliesTo": "COLUMNS",
+        "columns": [
+          "LIBELLE_FAMILLE",
+          "NOM_REG",
+          "DEPARTEMENT_INFRACTION",
+          "MOTIF_STATUT_DOSSIER",
+          "num_route_or_id",
+          "CODE_INSEE_INFRACTION",
+          "geojson",
+          "ANNEE_INFRACTION",
+          "LIBELLE_STATUT_DOSSIER",
+          "LIBELLE_JOUR_INFRACTION",
+          "DATE_JOUR_REEL_INFRACTION"
+        ],
+        "keep": true
+      },
+      "type": "ColumnsSelector",
+      "metaType": "PROCESSOR",
+      "disabled": false
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "min": "2015-06-01",
+        "max": "2017-01-01",
+        "booleanMode": "AND",
+        "appliesTo": "SINGLE_COLUMN",
+        "action": "KEEP_ROW",
+        "columns": [
+          "DATE_JOUR_REEL_INFRACTION"
+        ],
+        "timezone_id": "UTC"
+      },
+      "type": "FilterOnDateRange",
+      "metaType": "PROCESSOR",
+      "disabled": false
+    }
+  ],
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "previewMode": "ALL_ROWS",
+  "explorationSampling": {
+    "_refreshTrigger": 2,
+    "selection": {
+      "maxStoredBytes": -1,
+      "maxRecords": 100,
+      "targetRatio": 0.02,
+      "partitionSelectionMethod": "ALL",
+      "withinFirstN": -1,
+      "latestPartitionsN": 1,
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxReadUncompressedBytes": -1,
+      "filter": {
+        "enabled": false,
+        "distinct": false
+      }
+    },
+    "autoRefreshSample": false
+  }
+}
