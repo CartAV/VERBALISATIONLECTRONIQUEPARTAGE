@@ -10,14 +10,60 @@
     "_refreshTrigger": 0,
     "autoRefreshSample": false
   },
+  "origin": "PREPARE_RECIPE",
   "sorting": [],
   "coloring": {
     "individualColumns": [],
     "scheme": "MEANING_AND_STATUS",
     "valueColoringMode": "HASH"
   },
-  "steps": [],
-  "exploreUIParams": {},
+  "steps": [
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "appliesTo": "COLUMNS",
+        "columns": [
+          "LIBELLE_FAMILLE",
+          "NOM_REG",
+          "DEPARTEMENT_INFRACTION",
+          "MOTIF_STATUT_DOSSIER",
+          "num_route_or_id",
+          "CODE_INSEE_INFRACTION",
+          "geojson",
+          "ANNEE_INFRACTION",
+          "LIBELLE_STATUT_DOSSIER",
+          "LIBELLE_JOUR_INFRACTION",
+          "DATE_JOUR_REEL_INFRACTION"
+        ],
+        "keep": true
+      },
+      "type": "ColumnsSelector",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "min": "2015-06-01",
+        "max": "2017-01-01",
+        "booleanMode": "AND",
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "DATE_JOUR_REEL_INFRACTION"
+        ],
+        "action": "KEEP_ROW",
+        "timezone_id": "UTC"
+      },
+      "type": "FilterOnDateRange",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    }
+  ],
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "previewMode": "ALL_ROWS",
   "explorationSampling": {
     "_refreshTrigger": 2,
