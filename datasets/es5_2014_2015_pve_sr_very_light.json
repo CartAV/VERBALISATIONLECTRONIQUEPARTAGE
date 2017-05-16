@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1494942225084
+    "lastModifiedOn": 1494942263967
   },
   "creationTag": {
     "versionNumber": 0,
@@ -38,6 +38,7 @@
     "connection": "es5-test",
     "index": "es5_2014_2015_pve_sr_very_light",
     "type": "es5_2014_2015_pve_sr_very_light",
+    "rawCopyColumns": "DEPARTEMENT_INFRACTION, DATE_JOUR_REEL_INFRACTION, NOM_REG, CODE_INSEE_INFRACTION, ANNEE_INFRACTION, LIBELLE_FAMILLE, LIBELLE_JOUR_INFRACTION, num_route_or_id",
     "frameSize": 10000,
     "partitioned": false
   },
