@@ -15,14 +15,20 @@
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
-    "dimensions": []
+    "dimensions": [
+      {
+        "name": "DEPARTEMENT_INFRACTION",
+        "type": "value",
+        "params": {}
+      }
+    ]
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1494935863375
+    "lastModifiedOn": 1494936087098
   },
   "creationTag": {
     "versionNumber": 0,
@@ -38,8 +44,9 @@
     "connection": "es5-test",
     "index": "es5_pve_test",
     "type": "es5_pve_test",
+    "rawCopyColumns": "*",
     "frameSize": 10000,
-    "partitioned": false
+    "partitioned": true
   },
   "schema": {
     "userModified": false,
@@ -65,14 +72,12 @@
       {
         "name": "DEPARTEMENT_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "CODE_INSEE_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -84,8 +89,7 @@
       },
       {
         "name": "ANNEE_INFRACTION",
-        "type": "string",
-        "meaning": "Text",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -134,6 +138,16 @@
         "meta": {
           "name": "Record count",
           "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "partitioning",
+        "enabled": true,
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "meta": {
+          "name": "Partitioning statistics",
+          "level": 1
         },
         "configuration": {}
       }
