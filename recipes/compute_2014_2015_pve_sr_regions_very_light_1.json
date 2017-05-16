@@ -27,7 +27,7 @@
   "customMeta": {
     "kv": {}
   },
-  "redispatchPartitioning": false,
+  "redispatchPartitioning": true,
   "inputs": {
     "main": {
       "items": [
@@ -49,11 +49,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1494935900324
+    "lastModifiedOn": 1494936735681
   },
   "creationTag": {
     "versionNumber": 0,
