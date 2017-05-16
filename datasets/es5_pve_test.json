@@ -26,11 +26,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1494938827659
+    "lastModifiedOn": 1494958450056
   },
   "creationTag": {
     "versionNumber": 0,
@@ -53,18 +53,6 @@
   "schema": {
     "userModified": false,
     "columns": [
-      {
-        "name": "MOTIF_STATUT_DOSSIER",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "LIBELLE_STATUT_DOSSIER",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
       {
         "name": "LIBELLE_FAMILLE",
         "type": "string",
