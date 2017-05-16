@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1494923375922
+    "lastModifiedOn": 1494940547350
   },
   "creationTag": {
     "versionNumber": 0,
@@ -51,18 +51,6 @@
   "schema": {
     "userModified": false,
     "columns": [
-      {
-        "name": "MOTIF_STATUT_DOSSIER",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "LIBELLE_STATUT_DOSSIER",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
       {
         "name": "LIBELLE_FAMILLE",
         "type": "string",
