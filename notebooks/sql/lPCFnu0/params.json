@@ -1,20 +1,6 @@
 {
-  "creator": "chabouisfr",
-  "versionTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "chabouisfr",
-      "displayName": "Francis Chabouis",
-      "email": "francis.chabouis@interieur.gouv.fr"
-    },
-    "lastModifiedOn": 1484141569250
-  },
   "connection": "datalabmaster",
   "name": "chabouisfr\u0027s notebook on datalabmaster",
-  "checklists": {
-    "checklists": []
-  },
-  "tags": [],
   "cells": [
     {
       "id": "k89h3s9br2",
@@ -22,15 +8,37 @@
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
+        "inheritConf": "default",
         "extraConf": [],
-        "addDkuUdf": false
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    },
+    {
+      "id": "umki0jih5wc",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
       }
     }
   ],
   "automationLocal": false,
-  "createdBy": {},
-  "createdOn": 0,
-  "lastModifiedBy": {},
-  "lastModifiedOn": 0,
-  "allContributors": []
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1495036895455
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
 }
