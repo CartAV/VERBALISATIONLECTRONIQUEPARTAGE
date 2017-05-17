@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "sfg3qut9uwo": [
+      {
+        "mode": "SQL",
+        "id": "ZQpkHNBNCC6p",
+        "runOn": 1495037096436,
+        "runIn": -1,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "8L9pb57JYkc1OBmj",
+        "hash": "4064d543b5a9bd235640fce29169a9da",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "    select \n        num_route_or_id,\n        count (*) as count,\n        first (geojson) as geojson,\n    from\n         2010_2015_pve_sr_regions_postgis  \n    group by num_route_or_id",
+        "expandedSql": "    select \n        num_route_or_id,\n        count (*) as count,\n        first (geojson) as geojson,\n    from\n         2010_2015_pve_sr_regions_postgis  \n    group by num_route_or_id"
+      }
+    ]
+  }
+}
