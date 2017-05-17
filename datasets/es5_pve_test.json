@@ -26,11 +26,11 @@
     ]
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1494958942018
+    "lastModifiedOn": 1495020358234
   },
   "creationTag": {
     "versionNumber": 0,
@@ -48,7 +48,7 @@
     "type": "es5_pve_test",
     "rawCopyColumns": "*",
     "frameSize": 2000,
-    "partitioned": true
+    "partitioned": false
   },
   "schema": {
     "userModified": false,
