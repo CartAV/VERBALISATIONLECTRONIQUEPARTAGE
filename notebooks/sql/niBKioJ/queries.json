@@ -110,6 +110,28 @@
         },
         "sql": "select \n        num_route_or_id,\n        count(*) as count,\n        first(geojson) as geojson\nfrom\n         \"2014_2015_pve_sr_regions_very_light\"\n    group by num_route_or_id",
         "expandedSql": "select \n        num_route_or_id,\n        count(*) as count,\n        first(geojson) as geojson\nfrom\n         \"2014_2015_pve_sr_regions_very_light\"\n    group by num_route_or_id"
+      },
+      {
+        "mode": "SQL",
+        "id": "WhFAIlW4NlIM",
+        "runOn": 1495037155742,
+        "runIn": 87,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "SaEJR0zCW8Y9V3vD",
+        "hash": "384df49a3fa461e2aa885c669a9ef0a8",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \n        num_route_or_id,\n        count(*) as count,\n        max(geojson) as geojson\nfrom\n         \"2014_2015_pve_sr_regions_very_light\"\n    group by num_route_or_id",
+        "expandedSql": "select \n        num_route_or_id,\n        count(*) as count,\n        max(geojson) as geojson\nfrom\n         \"2014_2015_pve_sr_regions_very_light\"\n    group by num_route_or_id"
       }
     ]
   }
