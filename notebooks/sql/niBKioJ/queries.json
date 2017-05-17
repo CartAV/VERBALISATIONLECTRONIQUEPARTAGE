@@ -115,10 +115,10 @@
         "mode": "SQL",
         "id": "WhFAIlW4NlIM",
         "runOn": 1495037155742,
-        "runIn": 87,
+        "runIn": 15072,
         "runBy": "antoinefa",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "ABORTED",
         "futureId": "SaEJR0zCW8Y9V3vD",
         "hash": "384df49a3fa461e2aa885c669a9ef0a8",
         "querySettings": {
