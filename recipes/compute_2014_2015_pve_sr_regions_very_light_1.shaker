@@ -1,22 +1,22 @@
 {
   "explorationFilters": [],
   "maxProcessedMemTableBytes": -1,
+  "analysisColumnData": {},
   "columnsSelection": {
     "mode": "ALL"
   },
-  "analysisColumnData": {},
   "globalSearchQuery": "",
   "vizSampling": {
     "_refreshTrigger": 0,
     "autoRefreshSample": false
   },
   "origin": "PREPARE_RECIPE",
+  "sorting": [],
   "coloring": {
     "individualColumns": [],
     "scheme": "MEANING_AND_STATUS",
     "valueColoringMode": "HASH"
   },
-  "sorting": [],
   "steps": [
     {
       "alwaysShowComment": false,
@@ -37,26 +37,26 @@
         "keep": true
       },
       "type": "ColumnsSelector",
-      "metaType": "PROCESSOR",
-      "disabled": false
+      "disabled": false,
+      "metaType": "PROCESSOR"
     },
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "min": "2015-06-01",
         "max": "2017-01-01",
         "booleanMode": "AND",
         "appliesTo": "SINGLE_COLUMN",
-        "action": "KEEP_ROW",
         "columns": [
           "DATE_JOUR_REEL_INFRACTION"
         ],
+        "action": "KEEP_ROW",
         "timezone_id": "UTC"
       },
       "type": "FilterOnDateRange",
-      "metaType": "PROCESSOR",
-      "disabled": false
+      "disabled": true,
+      "metaType": "PROCESSOR"
     }
   ],
   "exploreUIParams": {
@@ -65,20 +65,20 @@
   "previewMode": "ALL_ROWS",
   "explorationSampling": {
     "_refreshTrigger": 2,
+    "autoRefreshSample": false,
     "selection": {
-      "maxStoredBytes": -1,
-      "maxRecords": 100,
       "targetRatio": 0.02,
+      "maxRecords": 100,
+      "maxStoredBytes": -1,
       "partitionSelectionMethod": "ALL",
       "withinFirstN": -1,
-      "latestPartitionsN": 1,
       "samplingMethod": "HEAD_SEQUENTIAL",
+      "latestPartitionsN": 1,
       "maxReadUncompressedBytes": -1,
       "filter": {
         "enabled": false,
         "distinct": false
       }
-    },
-    "autoRefreshSample": false
+    }
   }
 }
