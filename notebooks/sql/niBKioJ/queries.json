@@ -93,10 +93,10 @@
         "mode": "SQL",
         "id": "lNegKVIfdfIi",
         "runOn": 1495037147243,
-        "runIn": 99,
+        "runIn": 87,
         "runBy": "antoinefa",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "mdl9Igp15r50vOK4",
         "hash": "ebfc6e1e6b1ef09dcae80c4564e4cff3",
         "querySettings": {
