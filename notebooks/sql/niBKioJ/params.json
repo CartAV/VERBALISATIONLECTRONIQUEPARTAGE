@@ -1,14 +1,28 @@
 {
   "connection": "postgis",
   "name": "antoinefa\u0027s notebook on postgis",
-  "cells": [],
+  "cells": [
+    {
+      "id": "sfg3qut9uwo",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1495036905262
+    "lastModifiedOn": 1495036908559
   },
   "creationTag": {
     "versionNumber": 0,
