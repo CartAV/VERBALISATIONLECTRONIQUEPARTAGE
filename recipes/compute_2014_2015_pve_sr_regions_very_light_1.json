@@ -43,17 +43,17 @@
       "items": [
         {
           "ref": "es5_pve_test",
-          "appendMode": true
+          "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1494959189230
+    "lastModifiedOn": 1495003992493
   },
   "creationTag": {
     "versionNumber": 0,
