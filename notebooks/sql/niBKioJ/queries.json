@@ -44,6 +44,28 @@
         },
         "sql": "    select \n        num_route_or_id,\n        count (*) as count,\n        first (geojson) as geojson\n    from\n         2010_2015_pve_sr_regions_postgis  \n    group by num_route_or_id",
         "expandedSql": "    select \n        num_route_or_id,\n        count (*) as count,\n        first (geojson) as geojson\n    from\n         2010_2015_pve_sr_regions_postgis  \n    group by num_route_or_id"
+      },
+      {
+        "mode": "SQL",
+        "id": "zYAPck5joAog",
+        "runOn": 1495037111988,
+        "runIn": 44,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "TOMWzSWuWDXC9Te1",
+        "hash": "06fdb39463ded84cd6ab689a26f06db5",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "    select \n        num_route_or_id,\n        count(*) as count,\n        first (geojson) as geojson\n    from\n         2010_2015_pve_sr_regions_postgis  \n    group by num_route_or_id",
+        "expandedSql": "    select \n        num_route_or_id,\n        count(*) as count,\n        first (geojson) as geojson\n    from\n         2010_2015_pve_sr_regions_postgis  \n    group by num_route_or_id"
       }
     ]
   }
