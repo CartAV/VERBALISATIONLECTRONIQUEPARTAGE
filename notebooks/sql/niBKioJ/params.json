@@ -1,0 +1,24 @@
+{
+  "connection": "postgis",
+  "name": "antoinefa\u0027s notebook on postgis",
+  "cells": [],
+  "automationLocal": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1495036905262
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1495036905262
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
