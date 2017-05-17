@@ -176,6 +176,28 @@
         },
         "sql": "select \n        num_route_or_id,\n        count(*) as count,\n        lead(geojson over DATE_JOUR_REEL_INFRACTION) as geojson\nfrom\n         \"2014_2015_pve_sr_regions_very_light\"\n    group by num_route_or_id",
         "expandedSql": "select \n        num_route_or_id,\n        count(*) as count,\n        lead(geojson over DATE_JOUR_REEL_INFRACTION) as geojson\nfrom\n         \"2014_2015_pve_sr_regions_very_light\"\n    group by num_route_or_id"
+      },
+      {
+        "mode": "SQL",
+        "id": "Oy9CnuNoHYUC",
+        "runOn": 1495037276622,
+        "runIn": 105,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "fyy7XZVIZ5ZvokHq",
+        "hash": "5ca847f8e756909ff22c7b8f54528df0",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \n        num_route_or_id,\n        count(*) as count,\n        first_value(geojson) over DATE_JOUR_REEL_INFRACTION) as geojson\nfrom\n         \"2014_2015_pve_sr_regions_very_light\"\n    group by num_route_or_id",
+        "expandedSql": "select \n        num_route_or_id,\n        count(*) as count,\n        first_value(geojson) over DATE_JOUR_REEL_INFRACTION) as geojson\nfrom\n         \"2014_2015_pve_sr_regions_very_light\"\n    group by num_route_or_id"
       }
     ]
   }
