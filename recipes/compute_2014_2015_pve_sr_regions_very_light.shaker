@@ -42,7 +42,7 @@
     },
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "min": "2015-06-01",
         "max": "2017-01-01",
@@ -55,6 +55,53 @@
         "timezone_id": "UTC"
       },
       "type": "FilterOnDateRange",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "matching": "SUBSTRING",
+        "stopAfterFirstMatch": false,
+        "appliesTo": "SINGLE_COLUMN",
+        "normalization": "EXACT",
+        "columns": [
+          "LIBELLE_JOUR_INFRACTION"
+        ],
+        "mapping": [
+          {
+            "to": "Lundi",
+            "from": "LUNDI"
+          },
+          {
+            "to": "Mardi",
+            "from": "MARDI"
+          },
+          {
+            "to": "Mercredi",
+            "from": "MERCREDI"
+          },
+          {
+            "to": "Jeudi",
+            "from": "JEUDI"
+          },
+          {
+            "to": "Vendredi",
+            "from": "VENDREDI"
+          },
+          {
+            "to": "Samedi",
+            "from": "SAMEDI"
+          },
+          {
+            "to": "Dimanche",
+            "from": "DIMANCHE"
+          }
+        ],
+        "output": ""
+      },
+      "type": "FindReplace",
       "disabled": false,
       "metaType": "PROCESSOR"
     }
