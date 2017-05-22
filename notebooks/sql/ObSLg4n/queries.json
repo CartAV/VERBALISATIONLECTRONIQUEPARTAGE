@@ -248,6 +248,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\ncreate index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--select count(*), \"num_route_or_id\" from \"2010_2015_pve_sr_regions_postgis\"\n--where \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027\n--group by \"num_route_or_id\"",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\ncreate index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--select count(*), \"num_route_or_id\" from \"2010_2015_pve_sr_regions_postgis\"\n--where \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027\n--group by \"num_route_or_id\""
+      },
+      {
+        "mode": "SQL",
+        "id": "OLEHWKf3fqWc",
+        "runOn": 1495453899793,
+        "runIn": 299661,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "f9MV2H0jPzIYHhUU",
+        "hash": "641000a28dc38b4ff800fe61a21b9db6",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\nselect count(*), \"num_route_or_id\" from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027\ngroup by \"num_route_or_id\"",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\nselect count(*), \"num_route_or_id\" from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027\ngroup by \"num_route_or_id\""
       }
     ]
   }
