@@ -16,6 +16,14 @@
         {
           "ref": "equipements_20170518_172536_427",
           "deps": []
+        },
+        {
+          "ref": "equipements_ETD_20170518_172107_2003562",
+          "deps": []
+        },
+        {
+          "ref": "equipements_ETVM_20170518_172426_2003562",
+          "deps": []
         }
       ]
     }
@@ -31,11 +39,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495467475058
+    "lastModifiedOn": 1495467582058
   },
   "creationTag": {
     "versionNumber": 0,
