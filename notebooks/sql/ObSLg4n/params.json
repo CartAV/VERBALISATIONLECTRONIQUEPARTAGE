@@ -44,7 +44,7 @@
     {
       "id": "fw4w4w13zfg",
       "type": "QUERY",
-      "name": "Test perf posti",
+      "name": "Test perf postgis-pve",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
@@ -62,7 +62,7 @@
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495452276744
+    "lastModifiedOn": 1495452279625
   },
   "creationTag": {
     "versionNumber": 0,
