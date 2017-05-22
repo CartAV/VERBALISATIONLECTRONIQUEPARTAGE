@@ -1,0 +1,24 @@
+{
+  "connection": "postgis",
+  "name": "chabouisfr\u0027s notebook on postgis",
+  "cells": [],
+  "automationLocal": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr"
+    },
+    "lastModifiedOn": 1495446568312
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr"
+    },
+    "lastModifiedOn": 1495446568312
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
