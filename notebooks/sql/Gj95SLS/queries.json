@@ -22,6 +22,28 @@
         },
         "sql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\"",
         "expandedSql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\""
+      },
+      {
+        "mode": "SQL",
+        "id": "RnXAP7P83lvB",
+        "runOn": 1495446728963,
+        "runIn": 33539,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "WAC0Uh7oVfEzqxqO",
+        "hash": "690f18787138715cc0b5ef743fe8f545",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"ANNEE_INFRACTION\"\u003d\u00272015\u0027",
+        "expandedSql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"ANNEE_INFRACTION\"\u003d\u00272015\u0027"
       }
     ]
   }
