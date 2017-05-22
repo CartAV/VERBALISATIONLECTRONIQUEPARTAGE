@@ -43,7 +43,7 @@
     },
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "matching": "SUBSTRING",
         "stopAfterFirstMatch": false,
@@ -85,6 +85,24 @@
         "output": ""
       },
       "type": "FindReplace",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "min": "2015-01-01T00:00:00",
+        "max": "2030-01-01",
+        "booleanMode": "AND",
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "DATE_JOUR_REEL_INFRACTION"
+        ],
+        "action": "KEEP_ROW",
+        "timezone_id": "UTC"
+      },
+      "type": "FilterOnDateRange",
       "disabled": false,
       "metaType": "PROCESSOR"
     }
