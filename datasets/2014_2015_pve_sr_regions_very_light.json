@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1494940547350
+    "lastModifiedOn": 1495442130054
   },
   "creationTag": {
     "versionNumber": 0,
@@ -83,6 +83,12 @@
       },
       {
         "name": "LIBELLE_JOUR_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIBELLE_CORPS",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
