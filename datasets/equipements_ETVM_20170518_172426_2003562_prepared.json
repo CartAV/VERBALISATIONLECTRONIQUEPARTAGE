@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495468207553
+    "lastModifiedOn": 1495468342864
   },
   "creationTag": {
     "versionNumber": 0,
@@ -279,43 +279,43 @@
         "maxLength": -1
       },
       {
-        "name": "Nature voie (PE)",
+        "name": "Nature voie",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "Adresse (PE)",
+        "name": "Adresse",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "Commune (PE)",
+        "name": "Commune",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "Code INSEE (PE)",
+        "name": "Code INSEE",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "Code Postal (PE)",
+        "name": "Code Postal",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "Numéro\ndépartement (PE)",
+        "name": "Numérodépartement",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "Département (PE)",
+        "name": "Département",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
