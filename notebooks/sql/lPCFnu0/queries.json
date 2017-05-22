@@ -14,8 +14,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select count(*), LIBELLE_NATURE from 2010-2015_pve_sr group by LIBELLE_NATURE",
         "expandedSql": "select count(*), LIBELLE_NATURE from 2010-2015_pve_sr group by LIBELLE_NATURE"
@@ -33,8 +36,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" group by LIBELLE_NATURE",
         "expandedSql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" group by LIBELLE_NATURE"
@@ -52,8 +58,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" group by LIBELLE_NATURE order by count desc",
         "expandedSql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" group by LIBELLE_NATURE order by count desc"
@@ -71,8 +80,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n\norder by count desc",
         "expandedSql": "select count(*), LIBELLE_NATURE from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n\norder by count desc"
@@ -90,8 +102,11 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select count(*) from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n",
         "expandedSql": "select count(*) from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\n"
@@ -109,11 +124,36 @@
         "querySettings": {
           "addLimitToStatement": true,
           "statementsOutOfTransaction": false,
+          "inheritConf": "default",
           "extraConf": [],
-          "addDkuUdf": false
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
         },
         "sql": "select count(*), MARQUE from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\ngroup by marque\norder by count desc",
         "expandedSql": "select count(*), MARQUE from \"2010-2015_pve_sr\" \nwhere LIBELLE_NATURE\u003d\u0027CONDUITE D\u0027\u0027UN VEHICULE AVEC UNE CONCENTRATION D\u0027\u0027ALCOOL PAR LITRE D\u0027\u0027AU MOINS 0,50 GRAMME DANS LE SANG OU 0,25 MILLIGRAMME DANS L\u0027\u0027AIR EXPIRE\u0027\ngroup by marque\norder by count desc"
+      },
+      {
+        "mode": "SQL",
+        "id": "vOBnXzJGz9Ko",
+        "runOn": 1495446406209,
+        "runIn": 324,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "t1HxvEy6i2EENnBP",
+        "hash": "628eabe4f5a4152920c0534015f9469b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\"",
+        "expandedSql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\""
       }
     ]
   }
