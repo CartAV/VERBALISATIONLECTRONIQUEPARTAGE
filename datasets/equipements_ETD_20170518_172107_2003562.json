@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495467176201
+    "lastModifiedOn": 1495467189648
   },
   "creationTag": {
     "versionNumber": 0,
@@ -423,6 +423,7 @@
       {
         "name": "Coordonnées GPS cabine - longitude",
         "type": "string",
+        "meaning": "Longitude",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
