@@ -181,6 +181,30 @@
         "sql": "select  count(*) from \"2010_2015_pve_sr_regions_postgis\"",
         "expandedSql": "select  count(*) from \"2010_2015_pve_sr_regions_postgis\""
       }
+    ],
+    "fw4w4w13zfg": [
+      {
+        "mode": "SQL",
+        "id": "pdD6TenzQZ1q",
+        "runOn": 1495452347068,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "zsRkBBoEHMg9F9AX",
+        "hash": "1cfd649a30832afe557c50dba8aaf592",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*), \"num_route_or_id\" from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027\ngroup by \"num_route_or_id\"",
+        "expandedSql": "select count(*), \"num_route_or_id\" from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027\ngroup by \"num_route_or_id\""
+      }
     ]
   }
 }
