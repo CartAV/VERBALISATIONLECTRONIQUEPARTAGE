@@ -10,14 +10,57 @@
     "_refreshTrigger": 0,
     "autoRefreshSample": false
   },
+  "origin": "PREPARE_RECIPE",
   "sorting": [],
   "coloring": {
     "individualColumns": [],
     "scheme": "MEANING_AND_STATUS",
     "valueColoringMode": "HASH"
   },
-  "steps": [],
-  "exploreUIParams": {},
+  "steps": [
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "renamings": [
+          {
+            "to": "Département",
+            "from": "Département (PE)"
+          },
+          {
+            "to": "Commune",
+            "from": "Commune (PE)"
+          },
+          {
+            "to": "Nature voie",
+            "from": "Nature voie (PE)"
+          },
+          {
+            "to": "Adresse",
+            "from": "Adresse (PE)"
+          },
+          {
+            "to": "Code INSEE",
+            "from": "Code INSEE (PE)"
+          },
+          {
+            "to": "Code Postal",
+            "from": "Code Postal (PE)"
+          },
+          {
+            "to": "Numérodépartement",
+            "from": "Numéro\ndépartement (PE)"
+          }
+        ]
+      },
+      "type": "ColumnRenamer",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    }
+  ],
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "previewMode": "ALL_ROWS",
   "explorationSampling": {
     "_refreshTrigger": 0,
