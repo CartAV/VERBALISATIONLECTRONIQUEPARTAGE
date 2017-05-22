@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1495447291473
+    "lastModifiedOn": 1495447307661
   },
   "creationTag": {
     "versionNumber": 0,
@@ -38,6 +38,7 @@
     "connection": "es5-test",
     "index": "es5_2015_pve_sr_regions_custom_mapping",
     "type": "es5_2015_pve_sr_regions_custom_mapping",
+    "customMapping": "{\n  \"date_detection\": false,\n  \"_all\": {\"enabled\": false},\n  \"properties\": {\n    \"DEPARTEMENT_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"NOM_REG\": {\n      \"type\": \"keyword\"\n    },\n    \"CODE_INSEE_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"ANNEE_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_FAMILLE\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_JOUR_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"num_route_or_id\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_CORPS\": {\n      \"type\": \"keyword\"\n    }\n  }\n}",
     "frameSize": 10000,
     "partitioned": false
   },
