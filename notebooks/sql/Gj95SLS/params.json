@@ -1,14 +1,28 @@
 {
   "connection": "postgis",
   "name": "chabouisfr\u0027s notebook on postgis",
-  "cells": [],
+  "cells": [
+    {
+      "id": "ynuvjv3qd7",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1495446568312
+    "lastModifiedOn": 1495446576772
   },
   "creationTag": {
     "versionNumber": 0,
