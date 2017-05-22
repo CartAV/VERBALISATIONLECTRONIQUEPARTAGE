@@ -66,6 +66,28 @@
         },
         "sql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\" group by \"ANNEE_INFRACTION\"",
         "expandedSql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\" group by \"ANNEE_INFRACTION\""
+      },
+      {
+        "mode": "SQL",
+        "id": "T1lWoyuxpPvj",
+        "runOn": 1495446876653,
+        "runIn": 38739,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "w33sylecmInKGr1O",
+        "hash": "acfc38b476562804a233e3818c2f8930",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"ANNEE_INFRACTION\", count(*) from \"2014_2015_pve_sr_regions_very_light\" group by \"ANNEE_INFRACTION\"",
+        "expandedSql": "select \"ANNEE_INFRACTION\", count(*) from \"2014_2015_pve_sr_regions_very_light\" group by \"ANNEE_INFRACTION\""
       }
     ]
   }
