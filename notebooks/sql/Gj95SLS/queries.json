@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "ynuvjv3qd7": [
+      {
+        "mode": "SQL",
+        "id": "s9C8AlalzdDh",
+        "runOn": 1495446670067,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "gylGUqjGzIuYMVMI",
+        "hash": "3afe86a0b148a563729cd953d290af49",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\"",
+        "expandedSql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\""
+      }
+    ]
+  }
+}
