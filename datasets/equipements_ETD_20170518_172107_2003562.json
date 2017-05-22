@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495467114437
+    "lastModifiedOn": 1495467176201
   },
   "creationTag": {
     "versionNumber": 0,
@@ -45,7 +45,7 @@
   ],
   "params": {},
   "schema": {
-    "userModified": false,
+    "userModified": true,
     "columns": [
       {
         "name": "Equipement",
@@ -416,6 +416,7 @@
       {
         "name": "Coordonnées GPS cabine - latitude",
         "type": "string",
+        "meaning": "Latitude",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
