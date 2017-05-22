@@ -32,29 +32,12 @@
           "geojson",
           "ANNEE_INFRACTION",
           "LIBELLE_JOUR_INFRACTION",
-          "DATE_JOUR_REEL_INFRACTION"
+          "DATE_JOUR_REEL_INFRACTION",
+          "LIBELLE_CORPS"
         ],
         "keep": true
       },
       "type": "ColumnsSelector",
-      "disabled": false,
-      "metaType": "PROCESSOR"
-    },
-    {
-      "alwaysShowComment": false,
-      "preview": false,
-      "params": {
-        "min": "2015-06-01",
-        "max": "2017-01-01",
-        "booleanMode": "AND",
-        "appliesTo": "SINGLE_COLUMN",
-        "columns": [
-          "DATE_JOUR_REEL_INFRACTION"
-        ],
-        "action": "KEEP_ROW",
-        "timezone_id": "UTC"
-      },
-      "type": "FilterOnDateRange",
       "disabled": false,
       "metaType": "PROCESSOR"
     },
