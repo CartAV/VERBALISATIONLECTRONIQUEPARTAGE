@@ -23,7 +23,7 @@
     },
     {
       "index": 3,
-      "originLabel": "equipements_ETVM_20170518_172426_2003562",
+      "originLabel": "equipements_ETVM_20170518_172426_2003562_prepared",
       "preFilter": {}
     }
   ],
@@ -53,11 +53,11 @@
     },
     "lowerCaseSchemaIfEngineRequiresIt": true
   },
-  "originColumnName": "original_dataset",
   "postFilter": {
     "enabled": false,
     "distinct": false
   },
+  "originColumnName": "original_dataset",
   "selectedColumns": [
     "Equipement",
     "Type",
@@ -77,6 +77,11 @@
     "Date pose cabine",
     "Date infraction dernier MIF",
     "Date réception dernier MIF",
+    "Commune",
+    "Code INSEE",
+    "Code Postal",
+    "Département",
+    "Nature voie",
     "Libellé voie",
     "Coordonnées GPS cabine - latitude",
     "Coordonnées GPS cabine - longitude",
