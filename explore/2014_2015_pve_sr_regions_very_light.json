@@ -41,21 +41,42 @@
   },
   "charts": [
     {
-      "copySelectionFromScript": true,
-      "engineType": "LINO",
+      "copySelectionFromScript": false,
+      "engineType": "SQL",
+      "refreshableSelection": {
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "samplingMethod": "FULL",
+          "maxRecords": 10000,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        },
+        "autoRefreshSample": false,
+        "_refreshTrigger": 1
+      },
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "Count by DATE_JOUR_REEL_INFRACTION",
+        "name": "Count by ANNEE_INFRACTION",
         "userEditedName": false,
         "genericDimension0": [
           {
-            "column": "DATE_JOUR_REEL_INFRACTION",
-            "type": "DATE",
-            "dateParams": {
-              "mode": "WEEK"
+            "column": "ANNEE_INFRACTION",
+            "type": "NUMERICAL",
+            "numParams": {
+              "mode": "FIXED_NB",
+              "nbBins": 10,
+              "binSize": 100,
+              "emptyBinsMode": "ZEROS"
             },
-            "maxValues": 0,
+            "maxValues": 100,
             "generateOthersCategory": true,
             "oneTickPerBin": false,
             "filters": [],
@@ -137,6 +158,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
@@ -154,7 +176,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABBklEQVRoge3TPw6CMBQGcFZHV0zbgWO4eQUPQkxs68LE5Bm8gYmLfZI49WpOJARb/mitCt+XvIU0771fgSRBEAQJGKHJcm3u394jWiYPFppsu6KChSYbbVjSD/74PgC/2auvH8BTArsuwAeuzzWfh9rraUmuzMk1QGiyaW74mF6xwC9fShPMpCmZNGVzaBvMZJUxWWVjwEKTTXbnhQvbBe5CBQG7Ks0N9yF8by8meDR8KNhXrgWYooIpKkKBh/wa0cBDFg0JTmW1ZoouswGv9tfN0M9+0mChyXJ5OwL8z2ChyQIM8MzA/EDLWYHrPrMCC3nbeuEAAwwwwAADDDDA0cAIgiC/nAcLhA7HDslQbwAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABYElEQVRoge3WQUsCURDA8fkSpejO+Ak69gW89DEWgsKTIemMBIEEnYNACDx1CgJBfbOFJ79ah3yxWZlKqDvN//R4D3bnd9l9AJ7neZ7neX8Ysaa7nmGrOdhayHoNAFATnQF8Bcd9M+XByDok1hR5XInnJsHIOnQwvGMdXPTMgFcd1MGsKXLWiM/YG3SpNToC+Bm2bEgSfY7rQoLjQImEs3ge90n0HuDzhaKQ4PLl6zHA5uB44TAJTljPCwVOOGt+DNvJHgHWAyNnjb0H10Sf4nodcOUikDkwip4sA+cHXQTP934FI2t/J+DDq3FpFTCyDs2Ba6KzPJhEH9YBR9gmYOzq6VbBJDpaBUwceoUFYydrOdgKuNqe1P8lmCRMTYPjJ7/antSJVUjCdP4Se+D8P840GEXbC0PdmQLnbyoHnaz8HTjhrFk4MHJ4IQ4DZO0vgonDAEVviTXFrt6YAHvGegM16+1AGiFa/QAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true
       }
