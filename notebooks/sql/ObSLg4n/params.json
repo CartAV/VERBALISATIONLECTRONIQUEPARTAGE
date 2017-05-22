@@ -44,7 +44,7 @@
     {
       "id": "fw4w4w13zfg",
       "type": "QUERY",
-      "name": "Test perf",
+      "name": "Test perf posti",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
@@ -62,7 +62,7 @@
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495452273271
+    "lastModifiedOn": 1495452276744
   },
   "creationTag": {
     "versionNumber": 0,
