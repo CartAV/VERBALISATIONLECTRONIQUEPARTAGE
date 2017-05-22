@@ -44,6 +44,7 @@
     {
       "id": "fw4w4w13zfg",
       "type": "QUERY",
+      "name": "Test perf",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
@@ -61,7 +62,7 @@
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495452269244
+    "lastModifiedOn": 1495452273271
   },
   "creationTag": {
     "versionNumber": 0,
