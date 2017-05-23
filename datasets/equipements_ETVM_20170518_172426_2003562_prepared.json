@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495526529773
+    "lastModifiedOn": 1495529333534
   },
   "creationTag": {
     "versionNumber": 0,
@@ -311,10 +311,10 @@
       },
       {
         "name": "Numéro département",
-        "type": "bigint",
+        "type": "string",
         "meaning": "Text",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "Département",
