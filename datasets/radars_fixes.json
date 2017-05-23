@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495526291430
+    "lastModifiedOn": 1495527069838
   },
   "creationTag": {
     "versionNumber": 0,
@@ -124,7 +124,7 @@
       },
       {
         "name": "Code INSEE",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -160,12 +160,6 @@
       },
       {
         "name": "Coordonnées GPS cabine - longitude",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Version logiciel",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
