@@ -1,0 +1,147 @@
+{
+  "virtualInputs": [
+    {
+      "index": 0,
+      "originLabel": "radars_fixes_prepared",
+      "preFilter": {
+        "enabled": false,
+        "distinct": false
+      }
+    },
+    {
+      "index": 1,
+      "originLabel": "equipements_ETVM_20170518_172426_2003562_prepared",
+      "preFilter": {
+        "enabled": false,
+        "distinct": false
+      }
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL",
+      "inheritConf": "default"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      },
+      "pipelineAllowStart": true,
+      "overwriteOutputSchema": false,
+      "readParams": {
+        "map": {}
+      },
+      "useGlobalMetastore": false
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true
+  },
+  "postFilter": {
+    "enabled": false,
+    "distinct": false
+  },
+  "originColumnName": "original_dataset",
+  "selectedColumns": [
+    "Equipement",
+    "Type",
+    "Titulaire",
+    "Etat",
+    "Etat Maintenance",
+    "Etat fonctionnel",
+    "Date de création",
+    "Date modification",
+    "Date de mise en service",
+    "Date arrêt définitif",
+    "Date pose cabine",
+    "Commune",
+    "Code INSEE",
+    "num_dep",
+    "Département",
+    "Nature voie",
+    "Libellé voie",
+    "Coordonnées GPS cabine - latitude",
+    "Coordonnées GPS cabine - longitude",
+    "Marché",
+    "Lot",
+    "Constructeur",
+    "Phase",
+    "Version XSD",
+    "Catégorie Miffeur",
+    "Etat\nDécentralisation",
+    "Date\nDécentralisation",
+    "Complétude",
+    "Marque\ncinémomètre",
+    "Modèle\ncinémomètre",
+    "Référence\ncinémomètre",
+    "ET discriminant les voies",
+    "Version MIF",
+    "Date infraction dernier MIF",
+    "Date réception dernier MIF",
+    "Zone",
+    "Organisme vérificateur",
+    "Date dernière vérification",
+    "Date d\u0027expiration de la dernière vérification",
+    "Type de vérification",
+    "Sens circulation",
+    "Lieu(ETVM)",
+    "Distance(ETVM)",
+    "Repère kilométrique (PE)",
+    "Nbr voies contrôlées (PE)",
+    "Adresse",
+    "Code Postal",
+    "Numéro\\ndépartement",
+    "Repère kilométrique (PS)",
+    "Nbr voies contrôlées (PS)",
+    "Nature voie (PS)",
+    "Adresse (PS)",
+    "Commune (PS)",
+    "Code INSEE (PS)",
+    "Code Postal (PS)",
+    "Numéro\ndépartement (PS)",
+    "Département (PS)",
+    "Environnement de la voie",
+    "Gestionnaire voirie",
+    "Nom société\ngestionnaire voirie",
+    "Emplacement",
+    "Nécessité balisage",
+    "Option mât",
+    "Num voies surveillées",
+    "Sens détection",
+    "Condition prise de vue",
+    "Nbr de panneaux",
+    "Id Agent",
+    "Axe routier",
+    "Texte arrêté",
+    "VLA",
+    "Version logiciel",
+    "Adresse IP",
+    "Numéro usine",
+    "Date de vérification d\u0027installation",
+    "Organisme vérificateur de l\u0027installation",
+    "Date de dépôt du \ncertificat d\u0027installation",
+    "Date exp. certif\nauthentification",
+    "Date exp. certif\nchiffrement",
+    "Energie\nPoint de livraison",
+    "Energie\nRéférence client",
+    "Energie\nCoordonnées GPS Logette - latitude",
+    "Energie\nCoordonnées GPS Logette - longitude",
+    "Télécom\nNuméro Tel. ET",
+    "Télécom\nRéférence contrat",
+    "Télécom\nType réseau",
+    "Télécom\nEtat ligne FT",
+    "Télécom\nEtat ligne Réseau",
+    "Télécom\nNuméro série routeur",
+    "Télécom\nNom Routeur",
+    "Télécom\nCoordonnées GPS Logette - latitude",
+    "Télécom\nCoordonnées GPS Logette - longitude"
+  ],
+  "addOriginColumn": false,
+  "mode": "UNION"
+}
