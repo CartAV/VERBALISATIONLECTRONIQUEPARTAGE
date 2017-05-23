@@ -20,10 +20,6 @@
         {
           "ref": "equipements_ETD_20170518_172107_2003562",
           "deps": []
-        },
-        {
-          "ref": "equipements_ETVM_20170518_172426_2003562_prepared",
-          "deps": []
         }
       ]
     }
@@ -39,11 +35,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495529494584
+    "lastModifiedOn": 1495529938198
   },
   "creationTag": {
     "versionNumber": 0,
