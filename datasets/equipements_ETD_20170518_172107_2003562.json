@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495467189648
+    "lastModifiedOn": 1495527020723
   },
   "creationTag": {
     "versionNumber": 0,
@@ -260,6 +260,7 @@
       {
         "name": "Code INSEE",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
