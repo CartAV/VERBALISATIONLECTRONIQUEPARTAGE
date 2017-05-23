@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495467379479
+    "lastModifiedOn": 1495526958423
   },
   "creationTag": {
     "versionNumber": 0,
@@ -45,7 +45,7 @@
   ],
   "params": {},
   "schema": {
-    "userModified": false,
+    "userModified": true,
     "columns": [
       {
         "name": "Equipement",
@@ -260,6 +260,7 @@
       {
         "name": "Code INSEE",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
