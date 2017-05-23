@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495530120424
+    "lastModifiedOn": 1495530688151
   },
   "creationTag": {
     "versionNumber": 0,
@@ -131,6 +131,7 @@
       {
         "name": "num_dep",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
