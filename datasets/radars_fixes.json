@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495529494319
+    "lastModifiedOn": 1495529937296
   },
   "creationTag": {
     "versionNumber": 0,
@@ -160,12 +160,6 @@
       },
       {
         "name": "Coordonnées GPS cabine - longitude",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Numéro département",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
