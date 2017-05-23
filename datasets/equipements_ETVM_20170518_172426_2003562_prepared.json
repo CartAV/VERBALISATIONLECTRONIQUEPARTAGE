@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495529751323
+    "lastModifiedOn": 1495529900792
   },
   "creationTag": {
     "versionNumber": 0,
@@ -310,7 +310,7 @@
         "maxLength": -1
       },
       {
-        "name": "Numérodépartement",
+        "name": "Numéro\\ndépartement",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
