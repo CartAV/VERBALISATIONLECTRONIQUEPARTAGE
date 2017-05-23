@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495468488625
+    "lastModifiedOn": 1495526291430
   },
   "creationTag": {
     "versionNumber": 0,
@@ -69,24 +69,6 @@
         "maxLength": 16200
       },
       {
-        "name": "Marché",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Lot",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Constructeur",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
         "name": "Etat",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -100,18 +82,6 @@
       },
       {
         "name": "Etat fonctionnel",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Catégorie Miffeur",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Complétude",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
@@ -147,18 +117,6 @@
         "maxLength": 16200
       },
       {
-        "name": "Date infraction dernier MIF",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Date réception dernier MIF",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
         "name": "Commune",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -166,12 +124,12 @@
       },
       {
         "name": "Code INSEE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
-        "name": "Code Postal",
+        "name": "Numéro\ndépartement",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
@@ -213,112 +171,10 @@
         "maxLength": 16200
       },
       {
-        "name": "Date de vérification d\u0027installation",
-        "type": "string",
+        "name": "Numéro département",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Organisme vérificateur de l\u0027installation",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Date de dépôt du \ncertificat d\u0027installation",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Date exp. certif\nauthentification",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Date exp. certif\nchiffrement",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Energie\nPoint de livraison",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Energie\nRéférence client",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Energie\nCoordonnées GPS Logette - latitude",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Energie\nCoordonnées GPS Logette - longitude",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nNuméro Tel. ET",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nRéférence contrat",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nType réseau",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nEtat ligne FT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nEtat ligne Réseau",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nNuméro série routeur",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nNom Routeur",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nCoordonnées GPS Logette - latitude",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "Télécom\nCoordonnées GPS Logette - longitude",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       }
     ]
   },
