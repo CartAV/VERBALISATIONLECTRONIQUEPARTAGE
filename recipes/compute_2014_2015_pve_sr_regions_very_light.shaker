@@ -33,7 +33,10 @@
           "ANNEE_INFRACTION",
           "LIBELLE_JOUR_INFRACTION",
           "DATE_JOUR_REEL_INFRACTION",
-          "LIBELLE_CORPS"
+          "LIBELLE_CORPS",
+          "COD_GENRE",
+          "LIB_COURT_CORPS",
+          "LIBELLE_UNITE"
         ],
         "keep": true
       },
