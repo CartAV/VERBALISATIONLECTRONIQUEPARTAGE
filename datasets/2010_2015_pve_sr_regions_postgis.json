@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1495632954903
+    "lastModifiedOn": 1495640644947
   },
   "creationTag": {
     "versionNumber": 0,
@@ -711,7 +711,7 @@
         "maxLength": -1
       },
       {
-        "name": "nom_circo",
+        "name": "nom_circonscription_police",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
