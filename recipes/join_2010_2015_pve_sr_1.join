@@ -6,6 +6,9 @@
     },
     {
       "index": 1
+    },
+    {
+      "index": 2
     }
   ],
   "joins": [
@@ -14,6 +17,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -28,7 +32,28 @@
           }
         }
       ],
+      "type": "LEFT"
+    },
+    {
+      "table1": 0,
+      "outerJoinOnTheLeft": true,
+      "table2": 2,
+      "conditionsMode": "AND",
       "rightLimit": {},
+      "on": [
+        {
+          "maxDistance": 1,
+          "column1": {
+            "name": "CODE_INSEE_INFRACTION",
+            "table": 0
+          },
+          "type": "EQ",
+          "column2": {
+            "name": "n°_commune_insee_long",
+            "table": 2
+          }
+        }
+      ],
       "type": "LEFT"
     }
   ],
@@ -613,6 +638,11 @@
       "name": "lat",
       "table": 1,
       "type": "double"
+    },
+    {
+      "name": "nom_circo",
+      "table": 2,
+      "type": "string"
     }
   ]
 }

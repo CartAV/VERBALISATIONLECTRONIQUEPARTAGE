@@ -16,6 +16,10 @@
         {
           "ref": "DATAPREPOPENDATAGEO.departements_wgs84_postgis",
           "deps": []
+        },
+        {
+          "ref": "BRICBRACPROPITAIRE.Liste_communes_police_prepared",
+          "deps": []
         }
       ]
     }
@@ -31,11 +35,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1491380519655
+    "lastModifiedOn": 1495632957395
   },
   "creationTag": {
     "versionNumber": 0,
