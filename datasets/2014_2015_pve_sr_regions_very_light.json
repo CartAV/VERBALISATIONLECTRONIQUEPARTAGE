@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1495619575904
+    "lastModifiedOn": 1495621215236
   },
   "creationTag": {
     "versionNumber": 0,
@@ -83,6 +83,12 @@
       },
       {
         "name": "LIBELLE_JOUR_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIBELLE_PLAGE_HORAIRE",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
