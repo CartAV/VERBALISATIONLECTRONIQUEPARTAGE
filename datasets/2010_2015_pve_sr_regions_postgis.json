@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1494329938751
+    "lastModifiedOn": 1495632954903
   },
   "creationTag": {
     "versionNumber": 0,
@@ -707,6 +707,12 @@
       {
         "name": "lat",
         "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "nom_circo",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       }
