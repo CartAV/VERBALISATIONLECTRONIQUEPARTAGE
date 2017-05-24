@@ -36,7 +36,8 @@
           "LIBELLE_CORPS",
           "COD_GENRE",
           "LIB_COURT_CORPS",
-          "LIBELLE_UNITE"
+          "LIBELLE_UNITE",
+          "LIBELLE_PLAGE_HORAIRE"
         ],
         "keep": true
       },
