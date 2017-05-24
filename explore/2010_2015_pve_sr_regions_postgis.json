@@ -37,7 +37,7 @@
     "exploreUIParams": {
       "autoRefresh": true
     },
-    "globalSearchQuery": "",
+    "globalSearchQuery": "tcp",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
   },
