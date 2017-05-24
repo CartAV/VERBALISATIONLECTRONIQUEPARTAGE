@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1495442130054
+    "lastModifiedOn": 1495619575904
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,7 +88,25 @@
         "maxLength": -1
       },
       {
+        "name": "LIBELLE_UNITE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "LIBELLE_CORPS",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIB_COURT_CORPS",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "COD_GENRE",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
