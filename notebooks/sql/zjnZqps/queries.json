@@ -1619,10 +1619,10 @@
         "mode": "SQL",
         "id": "TEiyFGA0UDuN",
         "runOn": 1496048495618,
-        "runIn": 253,
+        "runIn": 347,
         "runBy": "grabenertr",
         "connection": "datalabmaster",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "E6DVP3i2NxP3ZXeg",
         "hash": "b1f3f4830682ee12e8ee35e25f235897",
         "querySettings": {
