@@ -57,6 +57,7 @@
     {
       "id": "cpvy6hvjesq",
       "type": "QUERY",
+      "name": "Analyse vélo",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
@@ -74,7 +75,7 @@
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1496047922165
+    "lastModifiedOn": 1496047928055
   },
   "tags": [],
   "checklists": {
