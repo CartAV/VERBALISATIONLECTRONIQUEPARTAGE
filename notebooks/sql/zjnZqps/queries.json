@@ -1547,6 +1547,30 @@
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\nand \"VOIE_INFRACTION\" like \u0027%VERTE%\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\nand \"VOIE_INFRACTION\" like \u0027%VERTE%\u0027"
       }
+    ],
+    "cpvy6hvjesq": [
+      {
+        "mode": "SQL",
+        "id": "Y7xC1QRbqr7y",
+        "runOn": 1496048187890,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "iIh7BVh0V6yD6Wlm",
+        "hash": "ecb7026e0bd9749795545be7267d5860",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select distinct(GENRE) \nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027",
+        "expandedSql": "select distinct(GENRE) \nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027"
+      }
     ]
   }
 }
