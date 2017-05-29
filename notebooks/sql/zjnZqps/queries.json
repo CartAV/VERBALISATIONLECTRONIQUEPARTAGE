@@ -1414,6 +1414,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "68Q4OHdJkrjY",
+        "runOn": 1496047174233,
+        "runIn": 1527,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "qkNUJmAuZPpLxrny",
+        "hash": "4f3db04c379cc7c83880e310d230a753",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\nand \"VOIE_INFRACTION\" like \u0027%Verte%\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\nand \"VOIE_INFRACTION\" like \u0027%Verte%\u0027"
       }
     ]
   }
