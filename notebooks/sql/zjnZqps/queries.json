@@ -1614,6 +1614,28 @@
         },
         "sql": "select distinct(\"GENRE\")  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027",
         "expandedSql": "select distinct(\"GENRE\")  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "TEiyFGA0UDuN",
+        "runOn": 1496048495618,
+        "runIn": 253,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "E6DVP3i2NxP3ZXeg",
+        "hash": "b1f3f4830682ee12e8ee35e25f235897",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select *  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027\nand \"GENRE\" \u003d \u0027Bicyclette\u0027",
+        "expandedSql": "select *  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027\nand \"GENRE\" \u003d \u0027Bicyclette\u0027"
       }
     ]
   }
