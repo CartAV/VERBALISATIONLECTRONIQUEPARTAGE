@@ -3,11 +3,11 @@
   "uiData": {
     "conditions": [
       {
-        "input": "CODE_INSEE_INFRACTION",
-        "col": "LIBELLE_STATUT_DOSSIER",
         "num": 0,
-        "string": "13001",
-        "operator": "contains"
+        "col": "LIBELLE_STATUT_DOSSIER",
+        "input": "CODE_INSEE_INFRACTION",
+        "string": "76165",
+        "operator": "\u003d\u003d [string]"
       }
     ],
     "mode": "\u0026\u0026"
