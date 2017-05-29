@@ -1502,6 +1502,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\nand \"VOIE_INFRACTION\" like \u0027%rue%\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\nand \"VOIE_INFRACTION\" like \u0027%rue%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "f1lkgBwp3zbN",
+        "runOn": 1496047209896,
+        "runIn": 204,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "Aj0SYfTBMda0KtWb",
+        "hash": "aedc8fc5719bb9909d3829885e05f89d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\n--and \"VOIE_INFRACTION\" like \u0027%rue%\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\n--and \"VOIE_INFRACTION\" like \u0027%rue%\u0027"
       }
     ]
   }
