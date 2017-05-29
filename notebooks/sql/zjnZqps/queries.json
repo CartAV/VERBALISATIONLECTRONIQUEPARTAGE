@@ -1570,6 +1570,28 @@
         },
         "sql": "select distinct(GENRE) \nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027",
         "expandedSql": "select distinct(GENRE) \nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "bqYyjC9bEr8Z",
+        "runOn": 1496048194516,
+        "runIn": 43,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "uuVC97KBzwDDvcwE",
+        "hash": "f3a0ba48c4c5ceb09fc3b9c0944c675b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select distinct(\"GENRE\") \nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027",
+        "expandedSql": "select distinct(\"GENRE\") \nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027"
       }
     ]
   }
