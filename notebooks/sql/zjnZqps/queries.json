@@ -1658,6 +1658,28 @@
         },
         "sql": "select count(*), \"VOIE_INFRACTION\"  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027\nand \"GENRE\" \u003d \u0027Bicyclette\u0027\ngroup by \"VOIE_INFRACTION\"",
         "expandedSql": "select count(*), \"VOIE_INFRACTION\"  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027\nand \"GENRE\" \u003d \u0027Bicyclette\u0027\ngroup by \"VOIE_INFRACTION\""
+      },
+      {
+        "mode": "SQL",
+        "id": "QGvbgH3ajUT5",
+        "runOn": 1496048548207,
+        "runIn": 433,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "RCdsNgfDtUWnuYbi",
+        "hash": "94dc53703aee4651a5de85c5ea40628b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*), \"VOIE_INFRACTION\"  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027\nand \"GENRE\" \u003d \u0027Bicyclette\u0027\ngroup by \"VOIE_INFRACTION\"\norder by count desc",
+        "expandedSql": "select count(*), \"VOIE_INFRACTION\"  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027\nand \"GENRE\" \u003d \u0027Bicyclette\u0027\ngroup by \"VOIE_INFRACTION\"\norder by count desc"
       }
     ]
   }
