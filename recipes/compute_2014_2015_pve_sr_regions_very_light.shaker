@@ -37,7 +37,8 @@
           "COD_GENRE",
           "LIB_COURT_CORPS",
           "LIBELLE_UNITE",
-          "LIBELLE_PLAGE_HORAIRE"
+          "LIBELLE_PLAGE_HORAIRE",
+          "nom_circonscription_police"
         ],
         "keep": true
       },
