@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1496050373571
+    "lastModifiedOn": 1496765395463
   },
   "creationTag": {
     "versionNumber": 0,
@@ -38,7 +38,7 @@
     "connection": "es5",
     "index": "es5_2014_2015_pve",
     "type": "es5_2014_2015_pve",
-    "customMapping": "{\n  \"date_detection\": false,\n  \"_all\": {\"enabled\": false},\n  \"properties\": {\n    \"DEPARTEMENT_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"NOM_REG\": {\n      \"type\": \"keyword\"\n    },\n    \"CODE_INSEE_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"ANNEE_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_FAMILLE\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_JOUR_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"num_route_or_id\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_CORPS\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_UNITE\": {\n      \"type\": \"keyword\"\n    },\n    \"COD_GENRE\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_PLAGE_HORAIRE\": {\n      \"type\": \"keyword\"\n    }\n  }\n}",
+    "customMapping": "{\n  \"date_detection\": false,\n  \"_all\": {\"enabled\": false},\n  \"properties\": {\n    \"DEPARTEMENT_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"NOM_REG\": {\n      \"type\": \"keyword\"\n    },\n    \"CODE_INSEE_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"ANNEE_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_FAMILLE\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_JOUR_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"num_route_or_id\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_CORPS\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_UNITE\": {\n      \"type\": \"keyword\"\n    },\n    \"COD_GENRE\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_PLAGE_HORAIRE\": {\n      \"type\": \"keyword\"\n    },\n    \"nom_circonscription_police\": {\n      \"type\": \"keyword\"\n    }\n  }\n}",
     "frameSize": 10000,
     "partitioned": false
   },
