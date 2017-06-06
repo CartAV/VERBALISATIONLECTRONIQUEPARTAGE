@@ -3,9 +3,9 @@
   "uiData": {
     "conditions": [
       {
-        "input": "CODE_INSEE_INFRACTION",
-        "col": "LIBELLE_STATUT_DOSSIER",
         "num": 0,
+        "col": "LIBELLE_STATUT_DOSSIER",
+        "input": "CODE_INSEE_INFRACTION",
         "string": "95637",
         "operator": "\u003d\u003d [string]"
       }
