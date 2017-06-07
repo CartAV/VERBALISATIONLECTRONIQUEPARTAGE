@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1496838192154
+    "lastModifiedOn": 1496838228134
   },
   "creationTag": {
     "versionNumber": 0,
@@ -38,6 +38,7 @@
     "connection": "es5-test",
     "index": "es5dev_2014_2015_pve",
     "type": "es5dev_2014_2015_pve",
+    "customMapping": "{\n  \"date_detection\": false,\n  \"_all\": {\"enabled\": false},\n  \"properties\": {\n    \"DEPARTEMENT_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"NOM_REG\": {\n      \"type\": \"keyword\"\n    },\n    \"CODE_INSEE_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"ANNEE_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_FAMILLE\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_JOUR_INFRACTION\": {\n      \"type\": \"keyword\"\n    },\n    \"num_route_or_id\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_CORPS\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_UNITE\": {\n      \"type\": \"keyword\"\n    },\n    \"COD_GENRE\": {\n      \"type\": \"keyword\"\n    },\n    \"LIBELLE_PLAGE_HORAIRE\": {\n      \"type\": \"keyword\"\n    },\n    \"nom_circonscription_police\": {\n      \"type\": \"keyword\"\n    }\n  }\n}",
     "frameSize": 10000,
     "partitioned": false
   },
