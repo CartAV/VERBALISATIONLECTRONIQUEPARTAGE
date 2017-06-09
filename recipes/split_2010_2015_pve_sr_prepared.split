@@ -26,8 +26,64 @@
     "lowerCaseSchemaIfEngineRequiresIt": false
   },
   "defaultOutputIndex": -1,
-  "valueSplits": [],
+  "valueSplits": [
+    {
+      "outputIndex": 0,
+      "value": 1
+    },
+    {
+      "outputIndex": 1,
+      "value": 2
+    },
+    {
+      "outputIndex": 2,
+      "value": 3
+    },
+    {
+      "outputIndex": 3,
+      "value": 4
+    },
+    {
+      "outputIndex": 4,
+      "value": 5
+    },
+    {
+      "outputIndex": 5,
+      "value": 6
+    },
+    {
+      "outputIndex": 6,
+      "value": 7
+    },
+    {
+      "outputIndex": 7,
+      "value": 8
+    },
+    {
+      "outputIndex": 8,
+      "value": 9
+    },
+    {
+      "outputIndex": 9,
+      "value": 10
+    },
+    {
+      "outputIndex": 10,
+      "value": 11
+    },
+    {
+      "outputIndex": 11,
+      "value": 12
+    }
+  ],
+  "column": "MOIS_INFRACTION",
   "writeVariablesInOutput": false,
-  "filterSplits": [],
-  "enableVariables": false
+  "filterSplits": [
+    {
+      "outputIndex": 0,
+      "filter": {}
+    }
+  ],
+  "enableVariables": false,
+  "mode": "VALUES"
 }
