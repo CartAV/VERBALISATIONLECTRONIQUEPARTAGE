@@ -1546,6 +1546,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\nand \"VOIE_INFRACTION\" like \u0027%VERTE%\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"CODE_INSEE_INFRACTION\" \u003d \u002776165\u0027\nand \"VOIE_INFRACTION\" like \u0027%VERTE%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "3llls3LWY9Vv",
+        "runOn": 1497254221583,
+        "runIn": 661,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "PcJqZVs8nCseqUrz",
+        "hash": "dbcc780e50143cfd80b8770b6748bf66",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select distinct(\"MOIS_INFRACTION\") from \"public\".\"2015_pve_sr\"",
+        "expandedSql": "select distinct(\"MOIS_INFRACTION\") from \"public\".\"2015_pve_sr\""
       }
     ],
     "cpvy6hvjesq": [
