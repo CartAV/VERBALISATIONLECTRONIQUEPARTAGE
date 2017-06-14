@@ -20,7 +20,7 @@
   "steps": [
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "usePythonUnicode": true,
         "stopOnError": true,
