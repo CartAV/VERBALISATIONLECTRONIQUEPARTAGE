@@ -10,6 +10,13 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "2014_2015_pve_sr_regions_very_light",
+          "objectType": "DATASET"
+        },
+        "modes": []
       }
     ]
   },
@@ -21,6 +28,16 @@
         "rules": [
           {
             "targetProject": "VERBALISATIONLECTRONIQUEDSCR",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "2014_2015_pve_sr_regions_very_light",
+        "rules": [
+          {
+            "targetProject": "BASESDEPRODUCTION",
             "appearOnFlow": true
           }
         ]
@@ -83,11 +100,11 @@
   "name": "verbalisation électronique - geo",
   "projectStatus": "Draft",
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1491393482970
+    "lastModifiedOn": 1497456043467
   },
   "description": "Le projet vise à assurer la préparation de données de verbalisation pour les finalités de décisionnel géographique et de corrélation avec l\u0027accidentalité.",
   "shortDesc": "The project *verbalisation électronique - partage* was created by Fabien Antoine on Dec 29th 2016",
