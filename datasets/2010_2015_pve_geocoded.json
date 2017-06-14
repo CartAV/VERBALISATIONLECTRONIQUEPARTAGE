@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1497446414267
+    "lastModifiedOn": 1497446798254
   },
   "creationTag": {
     "versionNumber": 0,
@@ -629,7 +629,7 @@
       },
       {
         "name": "ban_housenumber",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
