@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1497446226582
+    "lastModifiedOn": 1497446414267
   },
   "creationTag": {
     "versionNumber": 0,
@@ -65,7 +65,7 @@
       },
       {
         "name": "ANNEE_PERMIS_CONTREVENANT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -125,13 +125,13 @@
       },
       {
         "name": "AGE_CONTREVENANT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "ANNEE_NAISSANCE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -143,7 +143,7 @@
       },
       {
         "name": "ID_FAMILLE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -155,7 +155,7 @@
       },
       {
         "name": "ID_CLASSE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -167,7 +167,7 @@
       },
       {
         "name": "CODE_NATURE_INFRA",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -179,25 +179,25 @@
       },
       {
         "name": "NBR_POINTS_RETIRES",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "MNT_AF_MINOREE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "MNT_AF",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "MNT_AF_MAJOREE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -233,7 +233,7 @@
       },
       {
         "name": "NUM_ARRONDISSEMENT",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -281,13 +281,13 @@
       },
       {
         "name": "VAL_VITESSE_RETENUE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "VAL_VITESSE_VLA",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -299,31 +299,31 @@
       },
       {
         "name": "DATE_JOUR_REEL_INFRACTION",
-        "type": "string",
+        "type": "date",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "ANNEE_INFRACTION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "MOIS_INFRACTION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "NUM_ANNEE_MOIS_INFRACTION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "SEMAINE_INFRACTION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -371,25 +371,25 @@
       },
       {
         "name": "DATE_JOUR_REEL_INTEGRATION",
-        "type": "string",
+        "type": "date",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "ANNEE_INTEGRATION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "MOIS_INTEGRATION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "SEMAINE_INTEGRATION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -407,7 +407,7 @@
       },
       {
         "name": "COD_ENTITE",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -425,7 +425,7 @@
       },
       {
         "name": "COD_CORPS",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -569,13 +569,13 @@
       },
       {
         "name": "bano_latitude",
-        "type": "string",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "bano_longitude",
-        "type": "string",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -587,13 +587,13 @@
       },
       {
         "name": "bano_postcode",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "bano_score",
-        "type": "string",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -629,7 +629,7 @@
       },
       {
         "name": "ban_housenumber",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -647,13 +647,13 @@
       },
       {
         "name": "ban_latitude",
-        "type": "string",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "ban_longitude",
-        "type": "string",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -665,13 +665,13 @@
       },
       {
         "name": "ban_postcode",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "ban_score",
-        "type": "string",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -683,6 +683,36 @@
       },
       {
         "name": "ban_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geo_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geo_score",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "latitude",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "longitude",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geo_source",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
