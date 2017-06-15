@@ -17,6 +17,10 @@
             "2010_2015_pve_sr": {
               "repartition": 10,
               "cache": false
+            },
+            "VERBALISATIONLECTRONIQUE.2010-2015_pve_sr": {
+              "repartition": 10,
+              "cache": false
             }
           }
         }
@@ -50,11 +54,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1497527713421
+    "lastModifiedOn": 1497527717649
   },
   "tags": [],
   "checklists": {
