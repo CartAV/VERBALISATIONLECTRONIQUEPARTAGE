@@ -1568,6 +1568,28 @@
         },
         "sql": "select distinct(\"MOIS_INFRACTION\") from \"public\".\"2015_pve_sr\"",
         "expandedSql": "select distinct(\"MOIS_INFRACTION\") from \"public\".\"2015_pve_sr\""
+      },
+      {
+        "mode": "SQL",
+        "id": "QcMdLA5pt0RQ",
+        "runOn": 1497533676256,
+        "runIn": 262,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "ZpdRyp4GJRyZjjRy",
+        "hash": "036ca1e374e93c920c05edbe20f60be9",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select distinct(\"COD_UNITE_PN\") from \"public\".\"2015_pve_sr\"",
+        "expandedSql": "select distinct(\"COD_UNITE_PN\") from \"public\".\"2015_pve_sr\""
       }
     ],
     "cpvy6hvjesq": [
