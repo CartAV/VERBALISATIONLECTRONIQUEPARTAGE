@@ -1590,6 +1590,28 @@
         },
         "sql": "select distinct(\"COD_UNITE_PN\") from \"public\".\"2015_pve_sr\"",
         "expandedSql": "select distinct(\"COD_UNITE_PN\") from \"public\".\"2015_pve_sr\""
+      },
+      {
+        "mode": "SQL",
+        "id": "JrfEKB95afhp",
+        "runOn": 1497533684265,
+        "runIn": 75,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "rkqyIY9QGEyviHdW",
+        "hash": "22a920a5b68b852239f0ba334a87f287",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select distinct(\"COD_UNITE_PN\") from \"2010_2015_pve_sr_prepared\"",
+        "expandedSql": "select distinct(\"COD_UNITE_PN\") from \"2010_2015_pve_sr_prepared\""
       }
     ],
     "cpvy6hvjesq": [
