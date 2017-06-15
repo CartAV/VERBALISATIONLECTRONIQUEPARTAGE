@@ -1634,6 +1634,28 @@
         },
         "sql": "select distinct(\"COD_UNITE_PN\") from \"2010_2015_pve_sr_prepared\"\nwhere \"COD_UNITE_PN\" like \u002775%\u0027",
         "expandedSql": "select distinct(\"COD_UNITE_PN\") from \"2010_2015_pve_sr_prepared\"\nwhere \"COD_UNITE_PN\" like \u002775%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "3efRSnGzlkZz",
+        "runOn": 1497533714063,
+        "runIn": 227,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "2Z6xPhAJ39p3AA7Q",
+        "hash": "0df7f176fdc5458617e1afbf91c7828f",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select distinct(\"COD_UNITE_PN\") from \"2010_2015_pve_sr_prepared\"\nwhere \"COD_UNITE_PN\" like \u002775%6361\u0027",
+        "expandedSql": "select distinct(\"COD_UNITE_PN\") from \"2010_2015_pve_sr_prepared\"\nwhere \"COD_UNITE_PN\" like \u002775%6361\u0027"
       }
     ],
     "cpvy6hvjesq": [
