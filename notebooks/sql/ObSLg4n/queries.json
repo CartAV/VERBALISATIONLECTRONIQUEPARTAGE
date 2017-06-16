@@ -132,6 +132,28 @@
         },
         "sql": "select  \"result_name\", avg(result_score), min(result_score), \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr, result_name\norder by count Desc\n",
         "expandedSql": "select  \"result_name\", avg(result_score), min(result_score), \"VOIE_INFRACTION\" as gr, count(*) from \"2010_2015_pve_sr_regions_postgis\"\nwhere \"CODE_INSEE_INFRACTION\" \u003d \u002733063\u0027\ngroup by gr, result_name\norder by count Desc\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "14tYx5l5sqs4",
+        "runOn": 1497620288272,
+        "runIn": 1121,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "JQSZrG140NDO0GQT",
+        "hash": "764a21a287e9a23c6cbca1e25455ac4c",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from osm_routes_par_commune_geojson where false",
+        "expandedSql": "select * from osm_routes_par_commune_geojson where false"
       }
     ],
     "9vf923rlqfr": [
