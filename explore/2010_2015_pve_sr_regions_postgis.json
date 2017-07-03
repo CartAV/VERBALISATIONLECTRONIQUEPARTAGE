@@ -50,9 +50,7 @@
           "columnType": "NUMERICAL",
           "currentMode": "ALPHANUM",
           "sort": "count",
-          "selectedValues": {
-            "75OC321000": true
-          }
+          "selectedValues": {}
         },
         "alphanumFilter": {
           "type": "alphanum",
