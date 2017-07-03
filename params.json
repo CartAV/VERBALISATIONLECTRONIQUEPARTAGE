@@ -17,13 +17,6 @@
           "objectType": "DATASET"
         },
         "modes": []
-      },
-      {
-        "objectRef": {
-          "objectId": "2010_2015_pve_sr_regions_postgis",
-          "objectType": "DATASET"
-        },
-        "modes": []
       }
     ]
   },
@@ -54,7 +47,7 @@
         "localName": "2010_2015_pve_sr_regions_postgis",
         "rules": [
           {
-            "targetProject": "CROISEMENTACCIDENTSVERBALISATION",
+            "targetProject": "CROISEMENTACCIDENTSVERBALISATION_1",
             "appearOnFlow": true
           }
         ]
@@ -117,11 +110,11 @@
   "name": "verbalisation électronique - geo",
   "projectStatus": "Draft",
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1499088219065
+    "lastModifiedOn": 1499088266761
   },
   "description": "Le projet vise à assurer la préparation de données de verbalisation pour les finalités de décisionnel géographique et de corrélation avec l\u0027accidentalité.",
   "shortDesc": "The project *verbalisation électronique - partage* was created by Fabien Antoine on Dec 29th 2016",
