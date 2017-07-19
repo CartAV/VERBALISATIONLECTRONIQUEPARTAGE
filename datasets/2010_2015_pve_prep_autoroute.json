@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1500472448448
+    "lastModifiedOn": 1500478585948
   },
   "creationTag": {
     "versionNumber": 0,
@@ -694,6 +694,18 @@
       },
       {
         "name": "ban_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIBELLE_VOIE_RN",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
