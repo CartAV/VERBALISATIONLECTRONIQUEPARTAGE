@@ -90,6 +90,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%autoroute%\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%autoroute%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "5TaCO1jeMkYm",
+        "runOn": 1500471874828,
+        "runIn": 342,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "nHrPnjjvXc815iQf",
+        "hash": "a5753fccc911952c75301c167d10f58f",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%AUTOROUTE%\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%AUTOROUTE%\u0027"
       }
     ]
   }
