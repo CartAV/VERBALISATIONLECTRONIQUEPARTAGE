@@ -112,6 +112,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%AUTOROUTE%\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%AUTOROUTE%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "cnJlxIbMtC5p",
+        "runOn": 1500471883089,
+        "runIn": 211,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "MUp0pMMwmYaZQWrM",
+        "hash": "cf18420409af59478f3a808274518f81",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*) from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%AUTOROUTE%\u0027",
+        "expandedSql": "select count(*) from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%AUTOROUTE%\u0027"
       }
     ]
   }
