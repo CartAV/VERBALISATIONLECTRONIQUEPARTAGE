@@ -1,14 +1,28 @@
 {
   "connection": "datalabmaster",
   "name": "francis vertica",
-  "cells": [],
+  "cells": [
+    {
+      "id": "awpsglzqrpu",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1500471511046
+    "lastModifiedOn": 1500471514288
   },
   "creationTag": {
     "versionNumber": 0,
