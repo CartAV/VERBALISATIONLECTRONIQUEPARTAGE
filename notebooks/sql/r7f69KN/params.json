@@ -1,0 +1,24 @@
+{
+  "connection": "datalabmaster",
+  "name": "francis vertica",
+  "cells": [],
+  "automationLocal": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr"
+    },
+    "lastModifiedOn": 1500471511046
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr"
+    },
+    "lastModifiedOn": 1500471511046
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
