@@ -49,10 +49,10 @@
         "mode": "SQL",
         "id": "bNSUp2deT8hM",
         "runOn": 1500471578087,
-        "runIn": 358,
+        "runIn": 356,
         "runBy": "chabouisfr",
         "connection": "datalabmaster",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "H8BV3ffZRIlooYXd",
         "hash": "981fa19b64e98cfaabb09fbe2f80ee12",
         "querySettings": {
