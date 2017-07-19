@@ -22,6 +22,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\"",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\""
+      },
+      {
+        "mode": "SQL",
+        "id": "ODyFMSVyx9Qp",
+        "runOn": 1500471568524,
+        "runIn": 613,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "Q5ncrAzzFgrS2CPu",
+        "hash": "db7089b802d95fb51ac5c2b25b8c93b3",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_TYPE_VOIE\", count(*) from \"2010_2015_pve_sr_prepared\" group by \"LIBELLE_TYPE_VOIE\"",
+        "expandedSql": "select \"LIBELLE_TYPE_VOIE\", count(*) from \"2010_2015_pve_sr_prepared\" group by \"LIBELLE_TYPE_VOIE\""
       }
     ]
   }
