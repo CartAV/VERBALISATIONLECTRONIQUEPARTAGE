@@ -1,0 +1,64 @@
+{
+  "type": "shaker",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "engineParams": {
+      "spark": {
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true,
+        "sparkConfig": {
+          "inheritConf": "default",
+          "conf": []
+        },
+        "readParams": {
+          "map": {}
+        }
+      },
+      "hadoopConfigKeys": [],
+      "maxThreads": 8
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "2010_2015_pve_sr_pg",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "2010_2015_pve_prep_autoroute",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr"
+    },
+    "lastModifiedOn": 1500472448460
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chabouisfr"
+    },
+    "lastModifiedOn": 1500472448460
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
