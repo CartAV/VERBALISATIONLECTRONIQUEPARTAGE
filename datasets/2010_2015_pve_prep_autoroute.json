@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1500478585948
+    "lastModifiedOn": 1500478959351
   },
   "creationTag": {
     "versionNumber": 0,
@@ -92,6 +92,7 @@
       {
         "name": "COMMUNE_CONTREVENANT",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -104,6 +105,7 @@
       {
         "name": "CODE_INSEE_CONTREVENANT",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -406,6 +408,7 @@
       {
         "name": "COD_UNITE",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -430,6 +433,7 @@
       {
         "name": "LIB_COURT_ENTITE",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -466,6 +470,7 @@
       {
         "name": "COD_UNITE_PN",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -563,6 +568,7 @@
       {
         "name": "bano_housenumber",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -629,6 +635,7 @@
       {
         "name": "ban_citycode",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -640,7 +647,8 @@
       },
       {
         "name": "ban_housenumber",
-        "type": "bigint",
+        "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
