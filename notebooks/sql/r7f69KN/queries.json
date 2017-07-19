@@ -156,6 +156,28 @@
         },
         "sql": "select count(*) from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%NATIONALE%\u0027",
         "expandedSql": "select count(*) from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%NATIONALE%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "gm6zOrjcHm1O",
+        "runOn": 1500471912626,
+        "runIn": 270,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "9M46x1XtqDAt5Hbe",
+        "hash": "4e3150c252efd51214423c200c8f9981",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*) from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%ROUTE NATIONALE%\u0027",
+        "expandedSql": "select count(*) from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%ROUTE NATIONALE%\u0027"
       }
     ]
   }
