@@ -288,6 +288,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%A6%\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%A6%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "bIHDXDypAD7O",
+        "runOn": 1500472259558,
+        "runIn": 200,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "HxhQ3Utpl1hFqTES",
+        "hash": "21f8b9e30951deea9b99c6a802f1f61f",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%ROUTE NATIONALE%\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%ROUTE NATIONALE%\u0027"
       }
     ]
   }
