@@ -67,6 +67,30 @@
         "sql": "select \"LIBELLE_TYPE_VOIE\", count(*) from \"2010_2015_pve_sr_prepared\" group by \"LIBELLE_TYPE_VOIE\" order by count desc",
         "expandedSql": "select \"LIBELLE_TYPE_VOIE\", count(*) from \"2010_2015_pve_sr_prepared\" group by \"LIBELLE_TYPE_VOIE\" order by count desc"
       }
+    ],
+    "pu40x11rmld": [
+      {
+        "mode": "SQL",
+        "id": "xaIpwsKUYdLd",
+        "runOn": 1500471850738,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "hQcnGCtEsy8URhGh",
+        "hash": "82d346844175fb94d42c79c4f09eb907",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%autoroute%\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%autoroute%\u0027"
+      }
     ]
   }
 }
