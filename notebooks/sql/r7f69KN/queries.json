@@ -266,6 +266,28 @@
         },
         "sql": "select count(*) from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%A6%\u0027",
         "expandedSql": "select count(*) from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%A6%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "1Oev7F5CDBEo",
+        "runOn": 1500472029645,
+        "runIn": 256,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "zMVMjAfc3GoqmurF",
+        "hash": "228d4c1d0d0114d5c4bf46aa946f9a1e",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%A6%\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%A6%\u0027"
       }
     ]
   }
