@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "awpsglzqrpu": [
+      {
+        "mode": "SQL",
+        "id": "RLFhRD51JbPg",
+        "runOn": 1500471528118,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "3VUW2hsJ6URPxhFs",
+        "hash": "adb9c7cbb53c84cfe9548a3f6a17d0bb",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\"",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\""
+      }
+    ]
+  }
+}
