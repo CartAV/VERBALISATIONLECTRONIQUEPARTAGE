@@ -16,6 +16,10 @@
             "2010_2015_pve_sr_pg": {
               "repartition": 10,
               "cache": false
+            },
+            "2010_2015_pve_autoroute_coords_score": {
+              "repartition": 10,
+              "cache": false
             }
           }
         }
@@ -49,11 +53,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1500554358876
+    "lastModifiedOn": 1500554384550
   },
   "creationTag": {
     "versionNumber": 0,
