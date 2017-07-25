@@ -110,6 +110,28 @@
         },
         "sql": "select DISTINCT ON (\"LIBELLE_UNITE\") \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" order by \"LIBELLE_UNITE\"",
         "expandedSql": "select DISTINCT ON (\"LIBELLE_UNITE\") \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" order by \"LIBELLE_UNITE\""
+      },
+      {
+        "mode": "SQL",
+        "id": "UFoVzLFKDMwH",
+        "runOn": 1500979387860,
+        "runIn": 39890,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "P2MF9955x0BLc4OV",
+        "hash": "66ff370383c2249f296909ded140f11f",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" group by \"LIBELLE_UNITE\" order by \"LIBELLE_UNITE\"",
+        "expandedSql": "select \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" group by \"LIBELLE_UNITE\" order by \"LIBELLE_UNITE\""
       }
     ]
   }
