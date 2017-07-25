@@ -24,7 +24,7 @@
       "params": {
         "usePythonUnicode": true,
         "stopOnError": true,
-        "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    if row[\"distance_commune\"] \u003e 1000:\n        row[\"geo_score\"] \u003d 0\n    return row\n",
+        "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    if row[\"distance_commune\"] and float(row[\"distance_commune\"]) \u003e 1000.0:\n        row[\"geo_score\"] \u003d 0.0\n    return row\n",
         "mode": "ROW"
       },
       "type": "PythonUDF",
