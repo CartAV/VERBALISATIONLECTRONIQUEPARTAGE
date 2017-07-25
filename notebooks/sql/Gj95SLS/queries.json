@@ -88,6 +88,28 @@
         },
         "sql": "select \"ANNEE_INFRACTION\", count(*) from \"2014_2015_pve_sr_regions_very_light\" group by \"ANNEE_INFRACTION\"",
         "expandedSql": "select \"ANNEE_INFRACTION\", count(*) from \"2014_2015_pve_sr_regions_very_light\" group by \"ANNEE_INFRACTION\""
+      },
+      {
+        "mode": "SQL",
+        "id": "plcKZJM82Poj",
+        "runOn": 1500979335309,
+        "runIn": 39890,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "eC7JhF9CsEF2V0Ky",
+        "hash": "cbe7aab72ec0d8047199abaa3fcca476",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select DISTINCT ON (\"LIBELLE_UNITE\") \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" order by \"LIBELLE_UNITE\"",
+        "expandedSql": "select DISTINCT ON (\"LIBELLE_UNITE\") \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" order by \"LIBELLE_UNITE\""
       }
     ]
   }
