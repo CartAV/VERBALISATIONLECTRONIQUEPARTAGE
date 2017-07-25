@@ -286,6 +286,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d \u00272792405\u0027",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d \u00272792405\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "OlziG9Fwk2t2",
+        "runOn": 1500984338445,
+        "runIn": 1536,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "0t9zCySYEqroLHKq",
+        "hash": "cbd01241180f5e1d6eb1a648c87f409a",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_pg_prep\" where \"num_route_or_id\" \u003d \u00272792405\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_pg_prep\" where \"num_route_or_id\" \u003d \u00272792405\u0027"
       }
     ]
   }
