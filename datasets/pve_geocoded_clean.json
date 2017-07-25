@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1500990584172
+    "lastModifiedOn": 1500991083618
   },
   "creationTag": {
     "versionNumber": 0,
@@ -551,7 +551,7 @@
       },
       {
         "name": "bano_housenumber",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
