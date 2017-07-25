@@ -176,6 +176,28 @@
         },
         "sql": "with unite as (select \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" group by \"LIBELLE_UNITE\" order by \"LIBELLE_UNITE\") select count(*) from unite",
         "expandedSql": "with unite as (select \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" group by \"LIBELLE_UNITE\" order by \"LIBELLE_UNITE\") select count(*) from unite"
+      },
+      {
+        "mode": "SQL",
+        "id": "s7Idf57RSR9F",
+        "runOn": 1500983968181,
+        "runIn": 2434,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "GCWzZTeHFGNgFy1Y",
+        "hash": "102ac70175634e090b58db2154ef11b5",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002791\u0027 and num_route_com_id \u003d \u00272792405\u0027",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002791\u0027 and num_route_com_id \u003d \u00272792405\u0027"
       }
     ]
   }
