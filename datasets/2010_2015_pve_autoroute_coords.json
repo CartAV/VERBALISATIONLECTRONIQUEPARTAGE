@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1500542110072
+    "lastModifiedOn": 1500977334102
   },
   "creationTag": {
     "versionNumber": 0,
@@ -688,13 +688,13 @@
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_VOIE_RN",
+        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
+        "name": "LIBELLE_VOIE_RN",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -708,12 +708,6 @@
       {
         "name": "lon_pr",
         "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "pr_score",
-        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       }
