@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "chabouisfr"
     },
-    "lastModifiedOn": 1498123236220
+    "lastModifiedOn": 1500977451846
   },
   "creationTag": {
     "versionNumber": 0,
@@ -526,6 +526,12 @@
       },
       {
         "name": "PVE_ID",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
