@@ -198,6 +198,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002791\u0027 and num_route_com_id \u003d \u00272792405\u0027",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002791\u0027 and num_route_com_id \u003d \u00272792405\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "9HZZsvF6Zdr6",
+        "runOn": 1500983983881,
+        "runIn": 1558,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "v96WFW8HNsxY3SpK",
+        "hash": "9eae8bf41f40fd62a9315109c786ce9d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002791\u0027 and \"num_route_com_id\" \u003d \u00272792405\u0027",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002791\u0027 and \"num_route_com_id\" \u003d \u00272792405\u0027"
       }
     ]
   }
