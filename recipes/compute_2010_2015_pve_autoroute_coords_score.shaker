@@ -20,7 +20,7 @@
   "steps": [
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "expression": "if (and(isNonBlank(lat_pr),isNonBlank(lon_pr)),1.0,0)",
         "column": "pr_score"
