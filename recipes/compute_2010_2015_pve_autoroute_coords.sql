@@ -1,4 +1,4 @@
-SELECT DISTINCT ON (pve."PVE_ID") 
+SELECT DISTINCT ON (pve."PVE_ID")
     pve.*, b.lat as lat_pr, b.lon as lon_pr
     FROM "2010_2015_pve_prep_autoroute" pve
     LEFT JOIN "bornes_routes_2016_commune" b
