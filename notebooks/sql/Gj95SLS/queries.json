@@ -264,6 +264,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002791\u0027",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002791\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "gMrSVLKH2v3c",
+        "runOn": 1500984246931,
+        "runIn": 224,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "i1nximSJJn7jPtcP",
+        "hash": "8c90328d9a4ac456d7ae7a9b034447f6",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d \u00272792405\u0027",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d \u00272792405\u0027"
       }
     ]
   }
