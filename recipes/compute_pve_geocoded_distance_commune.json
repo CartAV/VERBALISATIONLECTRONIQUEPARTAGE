@@ -15,11 +15,11 @@
     "main": {
       "items": [
         {
-          "ref": "2010_2015_pve_geocoded",
+          "ref": "DATAPREPOPENDATAGEO.IGN_COMMUNE_FRANCE",
           "deps": []
         },
         {
-          "ref": "DATAPREPOPENDATAGEO.IGN_COMMUNE_FRANCE",
+          "ref": "2010_2015_pve_autoroute_coords_score",
           "deps": []
         }
       ]
@@ -36,11 +36,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1500988544879
+    "lastModifiedOn": 1501074033313
   },
   "creationTag": {
     "versionNumber": 0,
