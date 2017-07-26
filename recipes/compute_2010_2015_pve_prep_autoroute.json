@@ -16,6 +16,10 @@
             "2010_2015_pve_sr_pg": {
               "repartition": 10,
               "cache": false
+            },
+            "2010_2015_pve_sr_vertica": {
+              "repartition": 10,
+              "cache": false
             }
           }
         }
@@ -49,11 +53,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501073910901
+    "lastModifiedOn": 1501073918740
   },
   "creationTag": {
     "versionNumber": 0,
