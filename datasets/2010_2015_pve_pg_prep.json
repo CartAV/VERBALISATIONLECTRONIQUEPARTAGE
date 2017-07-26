@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
-      "login": "chabouisfr"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1500563157624
+    "lastModifiedOn": 1501074325382
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,7 +43,7 @@
     "normalizeDoubles": true,
     "table": "2010_2015_pve_pg_prep",
     "tableCreationMode": "auto",
-    "customPostWriteStatements": "CREATE index pve_pg_prep_departement_idx on \"2010_2015_pve_pg_prep\"(\"DEPARTEMENT_INFRACTION\")",
+    "customPostWriteStatements": "CREATE index pve_pg_prep_departement_idx on \"2010_2015_pve_pg_prep\"(\"DEPARTEMENT_INFRACTION\");\nCREATE index pve_pg_prep_insee_idx on \"2010_2015_pve_pg_prep\"(\"CODE_INSEE_INFRACTION\");",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
     "hasColsWithUnknownTz": false,
