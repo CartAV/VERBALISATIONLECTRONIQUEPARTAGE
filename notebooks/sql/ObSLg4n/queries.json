@@ -220,6 +220,28 @@
         },
         "sql": "create index prep_libelle_voie_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"LIBELLE_VOIE_RN\");\n",
         "expandedSql": "create index prep_libelle_voie_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"LIBELLE_VOIE_RN\");\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "eraSWzRRkZcc",
+        "runOn": 1501071321458,
+        "runIn": 352,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "UvL65H8ApCMspEYL",
+        "hash": "c13b5c38e7a21031a0472137db2d5d96",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_prep_autoroute\"(\"CODE_INSEE_INFRACTION\");\n--create index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\n--create index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");",
+        "expandedSql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_prep_autoroute\"(\"CODE_INSEE_INFRACTION\");\n--create index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\n--create index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");"
       }
     ],
     "9vf923rlqfr": [
