@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
-      "login": "chabouisfr"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1500977259027
+    "lastModifiedOn": 1501070717948
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,6 +43,7 @@
     "normalizeDoubles": true,
     "table": "2010_2015_pve_prep_autoroute",
     "tableCreationMode": "auto",
+    "customPostWriteStatements": "create index prep_autoroute_insee_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"CODE_INSEE_INFRACTION\");\ncreate index prep_libelle_voie_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"LIBELLE_VOIE_RN\");\ncreate index prep_libelle_type_voie_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
     "hasColsWithUnknownTz": false,
