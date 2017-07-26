@@ -33,18 +33,18 @@
     "output": {
       "items": [
         {
-          "ref": "2010_2015_pve_sr_geocoded_ban",
+          "ref": "2010_2015_pve_sr_geocoded_ban_vertical",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 20,
+    "versionNumber": 21,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501069973268
+    "lastModifiedOn": 1501070257627
   },
   "tags": [],
   "checklists": {
