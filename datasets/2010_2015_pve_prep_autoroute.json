@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501071309640
+    "lastModifiedOn": 1501076543287
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,7 +43,7 @@
     "normalizeDoubles": true,
     "table": "2010_2015_pve_prep_autoroute",
     "tableCreationMode": "auto",
-    "customPostWriteStatements": "create index prep_autoroute_insee_idx on \"2010_2015_pve_prep_autoroute\"(\"CODE_INSEE_INFRACTION\");\ncreate index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\ncreate index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");",
+    "customPostWriteStatements": "create index prep_autoroute_insee_idx on \"2010_2015_pve_prep_autoroute\"(\"CODE_INSEE_INFRACTION\");\ncreate index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\ncreate index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");\ncreate index prep_autoroute_pve_id_idx on \"2010_2015_pve_prep_autoroute\"(\"PVE_ID\");",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
     "hasColsWithUnknownTz": false,
