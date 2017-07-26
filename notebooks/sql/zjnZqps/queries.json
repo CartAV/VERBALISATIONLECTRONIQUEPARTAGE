@@ -1901,6 +1901,30 @@
         "sql": "select count(*), \"LIBELLE_FAMILLE\", \"VOIE_INFRACTION\"  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027\nand \"GENRE\" \u003d \u0027Bicyclette\u0027\ngroup by \"VOIE_INFRACTION\", \"LIBELLE_FAMILLE\"\norder by count desc",
         "expandedSql": "select count(*), \"LIBELLE_FAMILLE\", \"VOIE_INFRACTION\"  from \"2010_2015_pve_sr_prepared\"\nwhere \"CODE_INSEE_INFRACTION\" like \u002775%\u0027\nand \"GENRE\" \u003d \u0027Bicyclette\u0027\ngroup by \"VOIE_INFRACTION\", \"LIBELLE_FAMILLE\"\norder by count desc"
       }
+    ],
+    "hvn1jcdb22e": [
+      {
+        "mode": "SQL",
+        "id": "At4UQKWj108O",
+        "runOn": 1501070581614,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "h0jvKpkbqxXKhmbJ",
+        "hash": "b7b007e0baf7e1298b6601cce1499bd0",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"CODE_INSEE_INFRACTION\");",
+        "expandedSql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"CODE_INSEE_INFRACTION\");"
+      }
     ]
   }
 }
