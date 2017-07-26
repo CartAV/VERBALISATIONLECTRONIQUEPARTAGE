@@ -242,6 +242,28 @@
         },
         "sql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_prep_autoroute\"(\"CODE_INSEE_INFRACTION\");\n--create index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\n--create index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");",
         "expandedSql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_prep_autoroute\"(\"CODE_INSEE_INFRACTION\");\n--create index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\n--create index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");"
+      },
+      {
+        "mode": "SQL",
+        "id": "HAwI5rLlce8o",
+        "runOn": 1501071336170,
+        "runIn": 78,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "OdsGqf3RGYEitx65",
+        "hash": "b44730abf6f7f780296308345b8d1792",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "drop index prep_autoroute_insee_idx\n--create index prep_autoroute_insee_idx on \"2010_2015_pve_prep_autoroute\"(\"CODE_INSEE_INFRACTION\");\n--create index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\n--create index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");",
+        "expandedSql": "drop index prep_autoroute_insee_idx\n--create index prep_autoroute_insee_idx on \"2010_2015_pve_prep_autoroute\"(\"CODE_INSEE_INFRACTION\");\n--create index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\n--create index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");"
       }
     ],
     "9vf923rlqfr": [
