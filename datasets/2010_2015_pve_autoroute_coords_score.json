@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
-      "login": "chabouisfr"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1500977362526
+    "lastModifiedOn": 1501074147325
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,6 +43,7 @@
     "normalizeDoubles": true,
     "table": "2010_2015_pve_autoroute_coords_score",
     "tableCreationMode": "auto",
+    "customPostWriteStatements": "CREATE index pve_autoroute_coords_insee_idx on \"2010_2015_pve_autoroute_coords_score\"(\"CODE_INSEE_INFRACTION)",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
     "hasColsWithUnknownTz": false,
