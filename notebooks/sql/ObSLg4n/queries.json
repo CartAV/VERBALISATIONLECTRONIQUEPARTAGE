@@ -176,6 +176,28 @@
         },
         "sql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"CODE_INSEE_INFRACTION\");",
         "expandedSql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"CODE_INSEE_INFRACTION\");"
+      },
+      {
+        "mode": "SQL",
+        "id": "OinZdhGBzO5J",
+        "runOn": 1501071188803,
+        "runIn": 310752,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "w521OPm1nmKZAx26",
+        "hash": "dd7e22c1a1f13d428606d65260650a4e",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "create index bornes_routes_insee_idx on bornes_routes_2016_commune(\"INSEE_COM\");",
+        "expandedSql": "create index bornes_routes_insee_idx on bornes_routes_2016_commune(\"INSEE_COM\");"
       }
     ],
     "9vf923rlqfr": [
