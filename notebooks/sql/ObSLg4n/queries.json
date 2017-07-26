@@ -308,6 +308,28 @@
         },
         "sql": "\ncreate index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\n--create index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");",
         "expandedSql": "\ncreate index prep_libelle_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_VOIE_RN\");\n--create index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");"
+      },
+      {
+        "mode": "SQL",
+        "id": "0j5Xw4NKTX5J",
+        "runOn": 1501073708362,
+        "runIn": 162330,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "ywoidp9cc4BludEQ",
+        "hash": "d4be8bb6e803bfecff6b56b411458c91",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "\ncreate index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");",
+        "expandedSql": "\ncreate index prep_libelle_type_voie_idx on \"2010_2015_pve_prep_autoroute\"(\"LIBELLE_TYPE_VOIE_DEDUIT\");"
       }
     ],
     "9vf923rlqfr": [
