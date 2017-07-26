@@ -28,6 +28,19 @@
       "type": "CreateColumnWithGREL",
       "disabled": false,
       "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "usePythonUnicode": true,
+        "stopOnError": true,
+        "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027row\u0027 mode, the process function \n    # must return the full row.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    # You may modify the \u0027row\u0027 in place to\n    # keep the previous values of the row.\n    # Here, we simply add two new columns.\n    row[\"rowLength\"] \u003d len(row)\n    row[\"static_value\"] \u003d 42\n    return row\n",
+        "mode": "ROW"
+      },
+      "type": "PythonUDF",
+      "disabled": false,
+      "metaType": "PROCESSOR"
     }
   ],
   "exploreUIParams": {
