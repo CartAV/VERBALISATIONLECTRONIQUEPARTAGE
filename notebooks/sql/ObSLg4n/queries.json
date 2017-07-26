@@ -198,6 +198,28 @@
         },
         "sql": "create index bornes_routes_insee_idx on bornes_routes_2016_commune(\"INSEE_COM\");",
         "expandedSql": "create index bornes_routes_insee_idx on bornes_routes_2016_commune(\"INSEE_COM\");"
+      },
+      {
+        "mode": "SQL",
+        "id": "imRJ28VzlacW",
+        "runOn": 1501071214817,
+        "runIn": 290,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "YK3uRuN8lTqfxjcX",
+        "hash": "6680ba7bc3f380051309d5c5ecbdfdd6",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "create index prep_libelle_voie_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"LIBELLE_VOIE_RN\");\n",
+        "expandedSql": "create index prep_libelle_voie_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"LIBELLE_VOIE_RN\");\n"
       }
     ],
     "9vf923rlqfr": [
