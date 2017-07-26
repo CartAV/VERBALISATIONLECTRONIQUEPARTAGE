@@ -154,6 +154,28 @@
         },
         "sql": "select * from osm_routes_par_commune_geojson where false",
         "expandedSql": "select * from osm_routes_par_commune_geojson where false"
+      },
+      {
+        "mode": "SQL",
+        "id": "YFtOs8uATiFO",
+        "runOn": 1501070604235,
+        "runIn": 177,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "OvI50B1K24WLd7QJ",
+        "hash": "895e86618512c7bc97cd15cbd414c4e6",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"CODE_INSEE_INFRACTION\");",
+        "expandedSql": "create index prep_autoroute_insee_idx on \"2010_2015_pve_sr_geocoded_ban\"(\"CODE_INSEE_INFRACTION\");"
       }
     ],
     "9vf923rlqfr": [
