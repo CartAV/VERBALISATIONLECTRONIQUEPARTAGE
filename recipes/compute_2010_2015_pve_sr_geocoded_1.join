@@ -9,12 +9,7 @@
       }
     },
     {
-      "autoSelectColumns": false,
-      "index": 1,
-      "preFilter": {
-        "enabled": false,
-        "distinct": false
-      }
+      "index": 1
     }
   ],
   "joins": [
@@ -23,6 +18,9 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
         {
           "maxDistance": 1,
@@ -37,9 +35,6 @@
           }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "LEFT"
     }
   ],
