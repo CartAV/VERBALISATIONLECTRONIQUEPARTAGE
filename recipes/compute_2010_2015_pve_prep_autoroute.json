@@ -32,7 +32,7 @@
     "main": {
       "items": [
         {
-          "ref": "2010_2015_pve_sr_pg",
+          "ref": "2010_2015_pve_sr_vertica",
           "deps": []
         }
       ]
@@ -49,11 +49,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "chabouisfr"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1500977388362
+    "lastModifiedOn": 1501073910901
   },
   "creationTag": {
     "versionNumber": 0,
