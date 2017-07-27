@@ -352,6 +352,28 @@
         },
         "sql": "create index prep_autoroute_pve_id_idx on \"2010_2015_pve_prep_autoroute\"(\"PVE_ID\");",
         "expandedSql": "create index prep_autoroute_pve_id_idx on \"2010_2015_pve_prep_autoroute\"(\"PVE_ID\");"
+      },
+      {
+        "mode": "SQL",
+        "id": "URV8rLuFJDJe",
+        "runOn": 1501169526733,
+        "runIn": 280540,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "JbNpcOiWmVhhg0ff",
+        "hash": "25d8903a3050315d7613db8f8fc369ac",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select code_nature_infra, libelle_famille from \"public\".\"2010_2015_pve_pg_prep\" limit 10",
+        "expandedSql": "select code_nature_infra, libelle_famille from \"public\".\"2010_2015_pve_pg_prep\" limit 10"
       }
     ],
     "9vf923rlqfr": [
