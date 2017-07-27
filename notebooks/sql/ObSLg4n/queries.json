@@ -440,6 +440,28 @@
         },
         "sql": "select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10",
         "expandedSql": "select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "lYj8jdt6ITet",
+        "runOn": 1501169784875,
+        "runIn": 452,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "3GtDJqCCFGosIQKj",
+        "hash": "ce313e552940343c7494ab63212ef5d5",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "-- select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10\n\nselect distinct(\"FI_Libelle\") from public\".\"pve_stacked\"",
+        "expandedSql": "-- select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10\n\nselect distinct(\"FI_Libelle\") from public\".\"pve_stacked\""
       }
     ],
     "9vf923rlqfr": [
