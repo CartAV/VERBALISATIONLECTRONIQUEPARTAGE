@@ -25,6 +25,10 @@
             "pve_geocoded_clean": {
               "repartition": 10,
               "cache": false
+            },
+            "VERBALISATIONLECTRONIQUE.pve_cleaned": {
+              "repartition": 10,
+              "cache": false
             }
           }
         }
@@ -58,11 +62,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501174052265
+    "lastModifiedOn": 1501174057550
   },
   "tags": [],
   "checklists": {
