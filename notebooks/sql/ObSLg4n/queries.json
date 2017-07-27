@@ -396,6 +396,28 @@
         },
         "sql": "select \"CODE_NATURE_INFRA\", libelle_famille from \"public\".\"2010_2015_pve_pg_prep\" limit 10",
         "expandedSql": "select \"CODE_NATURE_INFRA\", libelle_famille from \"public\".\"2010_2015_pve_pg_prep\" limit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "qJiZ36B6uabJ",
+        "runOn": 1501169544253,
+        "runIn": 51,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "9VgnvnfaJwk1tC3w",
+        "hash": "0ef0f71c021d4870f1c2d77c34bf92f8",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_pg_prep\" limit 10",
+        "expandedSql": "select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_pg_prep\" limit 10"
       }
     ],
     "9vf923rlqfr": [
