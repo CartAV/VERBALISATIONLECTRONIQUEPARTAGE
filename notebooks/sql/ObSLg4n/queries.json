@@ -528,6 +528,28 @@
         },
         "sql": "select distinct(\"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\") from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10\n\n--select distinct(\"CODE_NATURE_INFRACTION\") from \"pve_stacked\"",
         "expandedSql": "select distinct(\"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\") from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10\n\n--select distinct(\"CODE_NATURE_INFRACTION\") from \"pve_stacked\""
+      },
+      {
+        "mode": "SQL",
+        "id": "63vHZyKrtMUc",
+        "runOn": 1501170726539,
+        "runIn": 61,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "WP1hhu7NlVvOWDhK",
+        "hash": "e58797eddbfe19d03f3e6ce1133ed06d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select distinct(\"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\") from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10\n\n--select distinct(\"CODE_NATURE_INFRACTION\") from \"pve_stacked\"",
+        "expandedSql": "select distinct(\"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\") from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10\n\n--select distinct(\"CODE_NATURE_INFRACTION\") from \"pve_stacked\""
       }
     ],
     "9vf923rlqfr": [
