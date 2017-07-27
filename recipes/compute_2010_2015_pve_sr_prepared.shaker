@@ -27,45 +27,15 @@
       "alwaysShowComment": false,
       "preview": false,
       "params": {
-        "matching": "SUBSTRING",
-        "stopAfterFirstMatch": false,
-        "appliesTo": "SINGLE_COLUMN",
-        "normalization": "EXACT",
+        "appliesTo": "COLUMNS",
         "columns": [
-          "ANNEE_NAISSANCE"
+          "MI_NomVoie",
+          "MI_NatureVoie",
+          "MI_Numero"
         ],
-        "mapping": [
-          {
-            "to": "-1",
-            "from": ""
-          }
-        ],
-        "output": ""
+        "keep": false
       },
-      "type": "FindReplace",
-      "disabled": false,
-      "metaType": "PROCESSOR"
-    },
-    {
-      "alwaysShowComment": false,
-      "preview": true,
-      "params": {
-        "matching": "SUBSTRING",
-        "stopAfterFirstMatch": false,
-        "appliesTo": "SINGLE_COLUMN",
-        "normalization": "EXACT",
-        "columns": [
-          "AGE_CONTREVENANT"
-        ],
-        "mapping": [
-          {
-            "to": "-1",
-            "from": ""
-          }
-        ],
-        "output": ""
-      },
-      "type": "FindReplace",
+      "type": "ColumnsSelector",
       "disabled": false,
       "metaType": "PROCESSOR"
     }
