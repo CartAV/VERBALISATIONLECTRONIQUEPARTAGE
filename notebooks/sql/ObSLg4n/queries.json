@@ -418,6 +418,28 @@
         },
         "sql": "select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_pg_prep\" limit 10",
         "expandedSql": "select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_pg_prep\" limit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "mJVP3uZQIK3J",
+        "runOn": 1501169638458,
+        "runIn": 62232,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "zA7cwMVeQGVpB8E5",
+        "hash": "6adbc5c037d995b5e36053eba94a9417",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10",
+        "expandedSql": "select \"CODE_NATURE_INFRA\", \"LIBELLE_FAMILLE\" from \"public\".\"2010_2015_pve_autoroute_coords\" limit 10"
       }
     ],
     "9vf923rlqfr": [
