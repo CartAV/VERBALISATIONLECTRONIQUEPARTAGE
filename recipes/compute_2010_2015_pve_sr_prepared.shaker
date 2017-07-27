@@ -29,6 +29,7 @@
       "params": {
         "appliesTo": "COLUMNS",
         "columns": [
+          "MI_CodePostal",
           "MI_NomVoie",
           "MI_NatureVoie",
           "MI_Numero"
