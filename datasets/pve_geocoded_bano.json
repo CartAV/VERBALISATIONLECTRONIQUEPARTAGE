@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501174378500
+    "lastModifiedOn": 1501174516915
   },
   "creationTag": {
     "versionNumber": 0,
@@ -99,12 +99,6 @@
         "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
-      },
-      {
-        "name": "MI_CodePostal",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
       },
       {
         "name": "VOIE_INFRACTION",
