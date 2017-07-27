@@ -21,6 +21,10 @@
             "VERBALISATIONLECTRONIQUE.2010-2015_pve_sr": {
               "repartition": 10,
               "cache": false
+            },
+            "pve_geocoded_clean": {
+              "repartition": 10,
+              "cache": false
             }
           }
         }
@@ -54,11 +58,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501173448441
+    "lastModifiedOn": 1501173465305
   },
   "tags": [],
   "checklists": {
