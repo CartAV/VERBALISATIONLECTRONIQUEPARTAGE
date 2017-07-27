@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 17,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501074325382
+    "lastModifiedOn": 1501146870109
   },
   "creationTag": {
     "versionNumber": 0,
@@ -745,6 +745,18 @@
       {
         "name": "geo_source",
         "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "distance_commune",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "CODE_COM",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
