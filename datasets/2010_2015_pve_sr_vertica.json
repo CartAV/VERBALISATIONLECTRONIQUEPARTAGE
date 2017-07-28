@@ -15,20 +15,14 @@
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
-    "dimensions": [
-      {
-        "name": "ANNEE",
-        "type": "value",
-        "params": {}
-      }
-    ]
+    "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501247957644
+    "lastModifiedOn": 1501248790671
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,7 +37,7 @@
   "params": {
     "connection": "datalabmaster",
     "mode": "table",
-    "partitioned": true,
+    "partitioned": false,
     "partitioningColumn": "ANNEE",
     "partitioningType": "custom",
     "normalizeDoubles": true,

@@ -37,13 +37,7 @@
       "items": [
         {
           "ref": "2010_2015_pve_sr_vertica",
-          "deps": [
-            {
-              "idim": "ANNEE",
-              "func": "all_available",
-              "params": {}
-            }
-          ]
+          "deps": []
         }
       ]
     }
@@ -59,11 +53,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501242645035
+    "lastModifiedOn": 1501248790701
   },
   "creationTag": {
     "versionNumber": 0,
