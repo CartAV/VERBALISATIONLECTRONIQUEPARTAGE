@@ -20,7 +20,13 @@
         },
         {
           "ref": "pve_geocoded_clean",
-          "deps": []
+          "deps": [
+            {
+              "idim": "ANNEE",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -36,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 30,
+    "versionNumber": 31,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501235275273
+    "lastModifiedOn": 1501242883230
   },
   "creationTag": {
     "versionNumber": 0,
