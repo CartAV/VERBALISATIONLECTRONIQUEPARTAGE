@@ -11,7 +11,13 @@
       "items": [
         {
           "ref": "2010_2015_pve_pg_prep",
-          "deps": []
+          "deps": [
+            {
+              "idim": "ANNEE",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         },
         {
           "ref": "DATAPREPOPENDATAGEO.departements_wgs84_postgis",
@@ -35,11 +41,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501237285689
+    "lastModifiedOn": 1501242901711
   },
   "creationTag": {
     "versionNumber": 0,
