@@ -17,6 +17,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -31,7 +32,6 @@
           }
         }
       ],
-      "rightLimit": {},
       "type": "LEFT"
     },
     {
@@ -39,6 +39,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 2,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -53,7 +54,6 @@
           }
         }
       ],
-      "rightLimit": {},
       "type": "LEFT"
     }
   ],
@@ -90,132 +90,7 @@
   "enableAutoCastInJoinConditions": false,
   "selectedColumns": [
     {
-      "name": "MOTIF_STATUT_DOSSIER",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_STATUT_DOSSIER",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "ANNEE_PERMIS_CONTREVENANT",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "PAYS_RESIDENCE_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "REGION_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "DEPARTEMENT_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COMMUNE_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_POSTAL_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_INSEE_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_NPAI",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "EST_TITULAIRE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "SEXE_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "AGE_CONTREVENANT",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "ANNEE_NAISSANCE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "COD_DISPOSITIF",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "ID_FAMILLE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_FAMILLE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "ID_CLASSE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_CLASSE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_NATURE_INFRA",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_NATURE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "NBR_POINTS_RETIRES",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MNT_AF_MINOREE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MNT_AF",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MNT_AF_MAJOREE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "REGION_INFRACTION",
+      "name": "PVE_ID",
       "table": 0,
       "type": "string"
     },
@@ -225,27 +100,7 @@
       "type": "string"
     },
     {
-      "name": "COMMUNE_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
       "name": "CODE_INSEE_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_POSTAL_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "NUM_ARRONDISSEMENT",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_TYPE_VOIE",
       "table": 0,
       "type": "string"
     },
@@ -260,92 +115,7 @@
       "type": "string"
     },
     {
-      "name": "LIBELLE_ENLEVEMENT_DEMANDE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_FICHE_IMMO_ETABLIE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_ECHANGE_PERMIS",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_INTERCEPTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "VAL_VITESSE_RETENUE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "VAL_VITESSE_VLA",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIB_TRANCHE_DEPASSEMENT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "DATE_JOUR_REEL_INFRACTION",
-      "table": 0,
-      "type": "date"
-    },
-    {
-      "name": "ANNEE_INFRACTION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MOIS_INFRACTION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "NUM_ANNEE_MOIS_INFRACTION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "SEMAINE_INFRACTION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
       "name": "LIBELLE_JOUR_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_NUIT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "SEMAINE_INFRAC",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "VACS_ZONE_A",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "VACS_ZONE_B",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "VACS_ZONE_C",
       "table": 0,
       "type": "string"
     },
@@ -355,117 +125,7 @@
       "type": "string"
     },
     {
-      "name": "DATE_JOUR_REEL_INTEGRATION",
-      "table": 0,
-      "type": "date"
-    },
-    {
-      "name": "ANNEE_INTEGRATION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MOIS_INTEGRATION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "SEMAINE_INTEGRATION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "COD_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COD_ENTITE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIB_ENTITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_COURT_ENTITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COD_CORPS",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
       "name": "LIBELLE_CORPS",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_COURT_CORPS",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_ETAT_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_TYPE_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COD_UNITE_PN",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COD_DEPARTEMENT_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_DEPARTEMENT_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_REGION_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_ZONE_CRS",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_ZONE_PAF",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MARQUE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "TYPE_PLAQUE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "NATIONALITE_PLAQUE",
       "table": 0,
       "type": "string"
     },
@@ -475,17 +135,7 @@
       "type": "string"
     },
     {
-      "name": "GENRE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "REGROUPEMENT_GENRE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "PVE_ID",
+      "name": "LIBELLE_FAMILLE",
       "table": 0,
       "type": "string"
     },
