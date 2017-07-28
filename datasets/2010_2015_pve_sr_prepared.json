@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501174443110
+    "lastModifiedOn": 1501241546615
   },
   "creationTag": {
     "versionNumber": 0,
@@ -64,12 +64,6 @@
       },
       {
         "name": "AC_Pays",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "FI_Libelle",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
