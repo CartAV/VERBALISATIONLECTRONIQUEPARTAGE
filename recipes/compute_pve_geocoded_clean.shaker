@@ -1,22 +1,22 @@
 {
   "explorationFilters": [],
   "maxProcessedMemTableBytes": -1,
+  "analysisColumnData": {},
   "columnsSelection": {
     "mode": "ALL"
   },
-  "analysisColumnData": {},
   "globalSearchQuery": "",
   "vizSampling": {
     "_refreshTrigger": 0,
     "autoRefreshSample": false
   },
   "origin": "PREPARE_RECIPE",
+  "sorting": [],
   "coloring": {
     "individualColumns": [],
     "scheme": "MEANING_AND_STATUS",
     "valueColoringMode": "HASH"
   },
-  "sorting": [],
   "steps": [
     {
       "alwaysShowComment": false,
@@ -28,8 +28,8 @@
         "mode": "ROW"
       },
       "type": "PythonUDF",
-      "metaType": "PROCESSOR",
-      "disabled": false
+      "disabled": false,
+      "metaType": "PROCESSOR"
     }
   ],
   "exploreUIParams": {
@@ -38,20 +38,20 @@
   "previewMode": "ALL_ROWS",
   "explorationSampling": {
     "_refreshTrigger": 0,
+    "autoRefreshSample": false,
     "selection": {
-      "maxStoredBytes": -1,
-      "maxRecords": 10000,
       "targetRatio": 0.02,
+      "maxRecords": 10000,
+      "maxStoredBytes": -1,
       "partitionSelectionMethod": "ALL",
       "withinFirstN": -1,
-      "latestPartitionsN": 1,
       "samplingMethod": "HEAD_SEQUENTIAL",
+      "latestPartitionsN": 1,
       "maxReadUncompressedBytes": -1,
       "filter": {
         "enabled": false,
         "distinct": false
       }
-    },
-    "autoRefreshSample": false
+    }
   }
 }
