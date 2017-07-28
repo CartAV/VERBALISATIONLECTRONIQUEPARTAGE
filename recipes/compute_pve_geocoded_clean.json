@@ -33,7 +33,13 @@
       "items": [
         {
           "ref": "pve_geocoded_distance_commune",
-          "deps": []
+          "deps": [
+            {
+              "idim": "ANNEE",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -49,11 +55,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501234032463
+    "lastModifiedOn": 1501242861270
   },
   "creationTag": {
     "versionNumber": 0,
