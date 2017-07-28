@@ -15,20 +15,14 @@
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
-    "dimensions": [
-      {
-        "name": "ANNEE",
-        "type": "value",
-        "params": {}
-      }
-    ]
+    "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501242883197
+    "lastModifiedOn": 1501248726254
   },
   "creationTag": {
     "versionNumber": 0,
@@ -44,7 +38,7 @@
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
     "connection": "postgis",
     "mode": "table",
-    "partitioned": true,
+    "partitioned": false,
     "partitioningColumn": "ANNEE",
     "partitioningType": "custom",
     "normalizeDoubles": true,
