@@ -46,7 +46,13 @@
       "items": [
         {
           "ref": "VERBALISATIONLECTRONIQUE.pve_cleaned",
-          "deps": []
+          "deps": [
+            {
+              "idim": "ANNEE",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -62,11 +68,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501174498702
+    "lastModifiedOn": 1501242443110
   },
   "tags": [],
   "checklists": {
