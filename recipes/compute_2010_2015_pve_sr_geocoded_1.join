@@ -18,6 +18,9 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
         {
           "maxDistance": 1,
@@ -32,9 +35,6 @@
           }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "LEFT"
     }
   ],
@@ -68,132 +68,32 @@
   "enableAutoCastInJoinConditions": false,
   "selectedColumns": [
     {
-      "name": "MOTIF_STATUT_DOSSIER",
+      "name": "PVE_ID",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "LIBELLE_STATUT_DOSSIER",
+      "name": "CI_Libelle",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "ANNEE_PERMIS_CONTREVENANT",
+      "name": "AC_Pays",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "FI_Libelle",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "NI_CodeNatinf",
       "table": 0,
       "type": "bigint"
     },
     {
-      "name": "PAYS_RESIDENCE_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "REGION_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "DEPARTEMENT_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COMMUNE_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_POSTAL_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_INSEE_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_NPAI",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "EST_TITULAIRE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "SEXE_CONTREVENANT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "AGE_CONTREVENANT",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "ANNEE_NAISSANCE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "COD_DISPOSITIF",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "ID_FAMILLE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_FAMILLE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "ID_CLASSE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_CLASSE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_NATURE_INFRA",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_NATURE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "NBR_POINTS_RETIRES",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MNT_AF_MINOREE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MNT_AF",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MNT_AF_MAJOREE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "REGION_INFRACTION",
+      "name": "NI_Qualification",
       "table": 0,
       "type": "string"
     },
@@ -203,27 +103,7 @@
       "type": "string"
     },
     {
-      "name": "COMMUNE_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
       "name": "CODE_INSEE_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_POSTAL_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "NUM_ARRONDISSEMENT",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_TYPE_VOIE",
       "table": 0,
       "type": "string"
     },
@@ -238,62 +118,57 @@
       "type": "string"
     },
     {
-      "name": "LIBELLE_ENLEVEMENT_DEMANDE",
+      "name": "MI_RepereKilometrique",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "LIBELLE_FICHE_IMMO_ETABLIE",
+      "name": "MI_BisTer",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "LIBELLE_ECHANGE_PERMIS",
+      "name": "MI_SensCirculation",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "LIBELLE_INTERCEPTION",
+      "name": "MI_Pays",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "VAL_VITESSE_RETENUE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "VAL_VITESSE_VLA",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIB_TRANCHE_DEPASSEMENT",
+      "name": "TYPEVOIE_Libelle",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "DATE_JOUR_REEL_INFRACTION",
+      "name": "MIFVAO_CoordSite",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MIFVAO_CoordGPSLatitude",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MIFVAO_CoordGPSLongitude",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "MI_DateHeureInfraction",
       "table": 0,
       "type": "date"
     },
     {
-      "name": "ANNEE_INFRACTION",
+      "name": "ANNEE",
       "table": 0,
       "type": "bigint"
     },
     {
-      "name": "MOIS_INFRACTION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "NUM_ANNEE_MOIS_INFRACTION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "SEMAINE_INFRACTION",
+      "name": "MOIS",
       "table": 0,
       "type": "bigint"
     },
@@ -303,147 +178,22 @@
       "type": "string"
     },
     {
-      "name": "LIBELLE_NUIT",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "SEMAINE_INFRAC",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "VACS_ZONE_A",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "VACS_ZONE_B",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "VACS_ZONE_C",
-      "table": 0,
-      "type": "string"
-    },
-    {
       "name": "LIBELLE_PLAGE_HORAIRE",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "DATE_JOUR_REEL_INTEGRATION",
-      "table": 0,
-      "type": "date"
-    },
-    {
-      "name": "ANNEE_INTEGRATION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MOIS_INTEGRATION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "SEMAINE_INTEGRATION",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "COD_UNITE",
+      "name": "UNITE_Code",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "LIBELLE_UNITE",
+      "name": "UNITE_Libelle",
       "table": 0,
       "type": "string"
-    },
-    {
-      "name": "COD_ENTITE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIB_ENTITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_COURT_ENTITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COD_CORPS",
-      "table": 0,
-      "type": "bigint"
     },
     {
       "name": "LIBELLE_CORPS",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_COURT_CORPS",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_ETAT_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_TYPE_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COD_UNITE_PN",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COD_DEPARTEMENT_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_DEPARTEMENT_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_REGION_UNITE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_ZONE_CRS",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_ZONE_PAF",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MARQUE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "TYPE_PLAQUE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "NATIONALITE_PLAQUE",
       "table": 0,
       "type": "string"
     },
@@ -453,42 +203,12 @@
       "type": "string"
     },
     {
-      "name": "GENRE",
+      "name": "MIFVAO_VehiculePaysImmatriculation",
       "table": 0,
       "type": "string"
     },
     {
-      "name": "REGROUPEMENT_GENRE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "PVE_ID",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_city",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_citycode",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_context",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_housenumber",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_id",
+      "name": "LIBELLE_FAMILLE",
       "table": 0,
       "type": "string"
     },
@@ -508,53 +228,13 @@
       "type": "float"
     },
     {
-      "name": "bano_name",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_postcode",
-      "table": 0,
-      "type": "string"
-    },
-    {
       "name": "bano_score",
       "table": 0,
       "type": "float"
     },
     {
-      "name": "bano_street",
-      "table": 0,
-      "type": "string"
-    },
-    {
       "name": "bano_type",
       "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "ban_city",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "ban_citycode",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "ban_context",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "ban_housenumber",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "ban_id",
-      "table": 1,
       "type": "string"
     },
     {
@@ -573,24 +253,9 @@
       "type": "float"
     },
     {
-      "name": "ban_name",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "ban_postcode",
-      "table": 1,
-      "type": "string"
-    },
-    {
       "name": "ban_score",
       "table": 1,
       "type": "float"
-    },
-    {
-      "name": "ban_street",
-      "table": 1,
-      "type": "string"
     },
     {
       "name": "ban_type",
