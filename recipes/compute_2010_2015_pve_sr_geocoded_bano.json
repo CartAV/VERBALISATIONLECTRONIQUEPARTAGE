@@ -25,7 +25,13 @@
       "items": [
         {
           "ref": "2010_2015_pve_sr_prepared",
-          "deps": []
+          "deps": [
+            {
+              "idim": "ANNEE",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -41,11 +47,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 44,
+    "versionNumber": 45,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1497352870520
+    "lastModifiedOn": 1501242572663
   },
   "creationTag": {
     "versionNumber": 0,

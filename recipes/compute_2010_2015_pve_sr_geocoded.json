@@ -24,7 +24,13 @@
       "items": [
         {
           "ref": "2010_2015_pve_sr_prepared",
-          "deps": []
+          "deps": [
+            {
+              "idim": "ANNEE",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -40,11 +46,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 25,
+    "versionNumber": 26,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501241936265
+    "lastModifiedOn": 1501242572657
   },
   "tags": [],
   "checklists": {

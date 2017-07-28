@@ -15,14 +15,20 @@
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
-    "dimensions": []
+    "dimensions": [
+      {
+        "name": "ANNEE",
+        "type": "value",
+        "params": {}
+      }
+    ]
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501241546615
+    "lastModifiedOn": 1501242572633
   },
   "creationTag": {
     "versionNumber": 0,
@@ -37,7 +43,8 @@
   "params": {
     "connection": "datalabmaster",
     "mode": "table",
-    "partitioned": false,
+    "partitioned": true,
+    "partitioningColumn": "ANNEE",
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "table": "2010_2015_pve_sr_prepared",
@@ -245,23 +252,40 @@
           "level": 0
         },
         "configuration": {}
+      },
+      {
+        "type": "partitioning",
+        "enabled": true,
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "meta": {
+          "name": "Partitioning statistics",
+          "level": 1
+        },
+        "configuration": {}
       }
     ],
     "engineConfig": {
       "padRunsWithMetrics": false,
       "hive": {
         "active": true,
-        "extraConf": [],
-        "addDkuUdf": false
+        "extraConf": []
       },
       "basic": {},
       "dss": {
         "active": true,
         "selection": {
-          "samplingMethod": "FULL",
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
           "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "samplingMethod": "FULL",
           "maxRecords": 10000,
-          "targetRatio": 0.02
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
         }
       },
       "sql": {
@@ -273,6 +297,7 @@
       "python": {}
     },
     "displayedState": {
+      "columns": [],
       "metrics": [
         "basic:COUNT_COLUMNS",
         "records:COUNT_RECORDS"
