@@ -15,14 +15,20 @@
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
-    "dimensions": []
+    "dimensions": [
+      {
+        "name": "ANNEE",
+        "type": "value",
+        "params": {}
+      }
+    ]
   },
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501237283443
+    "lastModifiedOn": 1501242922569
   },
   "creationTag": {
     "versionNumber": 0,
@@ -36,7 +42,8 @@
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
     "connection": "postgis",
     "mode": "table",
-    "partitioned": false,
+    "partitioned": true,
+    "partitioningColumn": "ANNEE",
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "table": "2010_2015_pve_sr_regions_postgis",
@@ -233,7 +240,18 @@
     ]
   },
   "metrics": {
-    "probes": [],
+    "probes": [
+      {
+        "type": "partitioning",
+        "enabled": true,
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "meta": {
+          "name": "Partitioning statistics",
+          "level": 1
+        },
+        "configuration": {}
+      }
+    ],
     "engineConfig": {
       "padRunsWithMetrics": false,
       "hive": {

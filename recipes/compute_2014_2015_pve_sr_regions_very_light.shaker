@@ -1,22 +1,22 @@
 {
   "explorationFilters": [],
   "maxProcessedMemTableBytes": -1,
-  "analysisColumnData": {},
   "columnsSelection": {
     "mode": "ALL"
   },
+  "analysisColumnData": {},
   "globalSearchQuery": "",
   "vizSampling": {
     "_refreshTrigger": 0,
     "autoRefreshSample": false
   },
   "origin": "PREPARE_RECIPE",
-  "sorting": [],
   "coloring": {
     "individualColumns": [],
     "scheme": "MEANING_AND_STATUS",
     "valueColoringMode": "HASH"
   },
+  "sorting": [],
   "steps": [
     {
       "alwaysShowComment": false,
@@ -44,8 +44,8 @@
         "keep": true
       },
       "type": "ColumnsSelector",
-      "disabled": false,
-      "metaType": "PROCESSOR"
+      "metaType": "PROCESSOR",
+      "disabled": false
     },
     {
       "alwaysShowComment": false,
@@ -53,8 +53,8 @@
       "params": {
         "matching": "SUBSTRING",
         "stopAfterFirstMatch": false,
-        "appliesTo": "SINGLE_COLUMN",
         "normalization": "EXACT",
+        "appliesTo": "SINGLE_COLUMN",
         "columns": [
           "LIBELLE_JOUR_INFRACTION"
         ],
@@ -91,8 +91,8 @@
         "output": ""
       },
       "type": "FindReplace",
-      "disabled": false,
-      "metaType": "PROCESSOR"
+      "metaType": "PROCESSOR",
+      "disabled": false
     },
     {
       "alwaysShowComment": false,
@@ -102,15 +102,15 @@
         "max": "2030-01-01",
         "booleanMode": "AND",
         "appliesTo": "SINGLE_COLUMN",
+        "action": "KEEP_ROW",
         "columns": [
           "DATE_JOUR_REEL_INFRACTION"
         ],
-        "action": "KEEP_ROW",
         "timezone_id": "UTC"
       },
       "type": "FilterOnDateRange",
-      "disabled": false,
-      "metaType": "PROCESSOR"
+      "metaType": "PROCESSOR",
+      "disabled": false
     }
   ],
   "exploreUIParams": {
@@ -119,20 +119,20 @@
   "previewMode": "ALL_ROWS",
   "explorationSampling": {
     "_refreshTrigger": 2,
-    "autoRefreshSample": false,
     "selection": {
-      "targetRatio": 0.02,
-      "maxRecords": 100,
       "maxStoredBytes": -1,
+      "maxRecords": 100,
+      "targetRatio": 0.02,
       "partitionSelectionMethod": "ALL",
       "withinFirstN": -1,
-      "samplingMethod": "HEAD_SEQUENTIAL",
       "latestPartitionsN": 1,
+      "samplingMethod": "HEAD_SEQUENTIAL",
       "maxReadUncompressedBytes": -1,
       "filter": {
         "enabled": false,
         "distinct": false
       }
-    }
+    },
+    "autoRefreshSample": false
   }
 }

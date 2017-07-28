@@ -33,7 +33,13 @@
       "items": [
         {
           "ref": "2010_2015_pve_sr_regions_postgis",
-          "deps": []
+          "deps": [
+            {
+              "idim": "ANNEE",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         }
       ]
     }
@@ -49,11 +55,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501237490617
+    "lastModifiedOn": 1501242922604
   },
   "creationTag": {
     "versionNumber": 0,
