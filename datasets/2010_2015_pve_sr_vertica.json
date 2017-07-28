@@ -15,14 +15,20 @@
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
-    "dimensions": []
+    "dimensions": [
+      {
+        "name": "ANNEE",
+        "type": "value",
+        "params": {}
+      }
+    ]
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501232141439
+    "lastModifiedOn": 1501242645009
   },
   "creationTag": {
     "versionNumber": 0,
@@ -37,7 +43,8 @@
   "params": {
     "connection": "datalabmaster",
     "mode": "table",
-    "partitioned": false,
+    "partitioned": true,
+    "partitioningColumn": "ANNEE",
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "table": "2010_2015_pve_sr_vertica",
@@ -305,6 +312,16 @@
         "meta": {
           "name": "Record count",
           "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "partitioning",
+        "enabled": true,
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "meta": {
+          "name": "Partitioning statistics",
+          "level": 1
         },
         "configuration": {}
       }
