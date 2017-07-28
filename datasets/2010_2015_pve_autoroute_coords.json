@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501248762254
+    "lastModifiedOn": 1501248851712
   },
   "creationTag": {
     "versionNumber": 0,
@@ -66,12 +66,6 @@
       },
       {
         "name": "AC_Pays",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "FI_Libelle",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -287,13 +281,13 @@
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
+        "name": "LIBELLE_VOIE_RN",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_VOIE_RN",
+        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
