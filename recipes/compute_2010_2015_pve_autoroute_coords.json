@@ -16,7 +16,13 @@
       "items": [
         {
           "ref": "2010_2015_pve_prep_autoroute",
-          "deps": []
+          "deps": [
+            {
+              "idim": "ANNEE",
+              "func": "all_available",
+              "params": {}
+            }
+          ]
         },
         {
           "ref": "DATAPREPOPENDATAGEO.bornes_routes_2016_commune",
@@ -36,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501076022945
+    "lastModifiedOn": 1501242704438
   },
   "creationTag": {
     "versionNumber": 0,
