@@ -18,7 +18,6 @@
           "ref": "2010_2015_pve_prep_autoroute",
           "deps": [
             {
-              "out": "2010_2015_pve_autoroute_coords",
               "idim": "ANNEE",
               "func": "all_available",
               "params": {}
@@ -43,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501242765112
+    "lastModifiedOn": 1501242788168
   },
   "creationTag": {
     "versionNumber": 0,
