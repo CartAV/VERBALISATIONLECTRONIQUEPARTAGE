@@ -40,6 +40,26 @@
       "type": "ColumnsSelector",
       "disabled": false,
       "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "matchingMode": "FULL_STRING",
+        "values": [
+          "2016"
+        ],
+        "booleanMode": "AND",
+        "normalizationMode": "EXACT",
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "ANNEE"
+        ],
+        "action": "KEEP_ROW"
+      },
+      "type": "FilterOnValue",
+      "disabled": false,
+      "metaType": "PROCESSOR"
     }
   ],
   "exploreUIParams": {
