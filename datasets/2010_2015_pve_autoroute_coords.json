@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501248851712
+    "lastModifiedOn": 1501512430343
   },
   "creationTag": {
     "versionNumber": 0,
@@ -197,6 +197,12 @@
         "maxLength": -1
       },
       {
+        "name": "CORPSUNITE_Code",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "LIBELLE_CORPS",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -281,13 +287,13 @@
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_VOIE_RN",
+        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
+        "name": "LIBELLE_VOIE_RN",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
