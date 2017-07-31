@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501505559656
+    "lastModifiedOn": 1501505584500
   },
   "creationTag": {
     "versionNumber": 0,
@@ -160,43 +160,7 @@
         "maxLength": -1
       },
       {
-        "name": "lon",
-        "type": "double",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "CODE_REG",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "X_CHF_LIEU",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "NOM_CHF",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "Y_CHF_LIEU",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "ID_GEOFLA",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "CODE_CHF",
         "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -216,24 +180,6 @@
       {
         "name": "NOM_REG",
         "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "Y_CENTROID",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "X_CENTROID",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "lat",
-        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
