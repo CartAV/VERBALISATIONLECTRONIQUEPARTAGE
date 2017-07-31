@@ -18,6 +18,9 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
         {
           "maxDistance": 1,
@@ -32,9 +35,6 @@
           }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "LEFT"
     }
   ],
@@ -184,6 +184,11 @@
     },
     {
       "name": "UNITE_Libelle",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "CORPSUNITE_Code",
       "table": 0,
       "type": "string"
     },
