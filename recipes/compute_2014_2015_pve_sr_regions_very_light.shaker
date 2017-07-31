@@ -22,6 +22,33 @@
       "alwaysShowComment": false,
       "preview": false,
       "params": {
+        "renamings": [
+          {
+            "to": "DATE_JOUR_REEL_INFRACTION",
+            "from": "MI_DateHeureInfraction"
+          },
+          {
+            "to": "ANNEE_INFRACTION",
+            "from": "ANNEE"
+          },
+          {
+            "to": "LIBELLE_UNITE",
+            "from": "UNITE_Libelle"
+          },
+          {
+            "to": "CODE_UNITE",
+            "from": "UNITE_Code"
+          }
+        ]
+      },
+      "type": "ColumnRenamer",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
         "appliesTo": "COLUMNS",
         "columns": [
           "LIBELLE_FAMILLE",
@@ -61,31 +88,31 @@
         "mapping": [
           {
             "to": "Lundi",
-            "from": "LUNDI"
+            "from": "1"
           },
           {
             "to": "Mardi",
-            "from": "MARDI"
+            "from": "2"
           },
           {
             "to": "Mercredi",
-            "from": "MERCREDI"
+            "from": "3"
           },
           {
             "to": "Jeudi",
-            "from": "JEUDI"
+            "from": "4"
           },
           {
             "to": "Vendredi",
-            "from": "VENDREDI"
+            "from": "5"
           },
           {
             "to": "Samedi",
-            "from": "SAMEDI"
+            "from": "6"
           },
           {
             "to": "Dimanche",
-            "from": "DIMANCHE"
+            "from": "7"
           }
         ],
         "output": ""
@@ -96,7 +123,7 @@
     },
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "min": "2015-01-01T00:00:00",
         "max": "2030-01-01",
