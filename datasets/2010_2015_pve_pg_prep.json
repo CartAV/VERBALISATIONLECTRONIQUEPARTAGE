@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501248712389
+    "lastModifiedOn": 1501519626324
   },
   "creationTag": {
     "versionNumber": 0,
@@ -67,12 +67,6 @@
       },
       {
         "name": "AC_Pays",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "FI_Libelle",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -199,6 +193,12 @@
       },
       {
         "name": "UNITE_Libelle",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "CORPSUNITE_Code",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
