@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501248700220
+    "lastModifiedOn": 1501505559656
   },
   "creationTag": {
     "versionNumber": 0,
@@ -82,6 +82,18 @@
         "maxLength": -1
       },
       {
+        "name": "MI_DateHeureInfraction",
+        "type": "date",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "ANNEE",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "LIBELLE_JOUR_INFRACTION",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -89,6 +101,18 @@
       },
       {
         "name": "LIBELLE_PLAGE_HORAIRE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "UNITE_Code",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "UNITE_Libelle",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -112,12 +136,6 @@
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "INSEE_COM",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -132,12 +150,6 @@
       {
         "name": "num_route_com_id",
         "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "distance",
-        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
