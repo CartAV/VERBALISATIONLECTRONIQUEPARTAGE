@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501248812960
+    "lastModifiedOn": 1501506720503
   },
   "creationTag": {
     "versionNumber": 0,
@@ -195,6 +195,12 @@
       },
       {
         "name": "UNITE_Libelle",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "CORPSUNITE_Code",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
