@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501506251828
+    "lastModifiedOn": 1501506320865
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,13 +54,13 @@
     "columns": [
       {
         "name": "DEPARTEMENT_INFRACTION",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "CODE_INSEE_INFRACTION",
-        "type": "bigint",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
