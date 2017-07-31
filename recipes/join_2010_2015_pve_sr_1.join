@@ -180,37 +180,7 @@
       "type": "string"
     },
     {
-      "name": "lon",
-      "table": 1,
-      "type": "double"
-    },
-    {
       "name": "CODE_REG",
-      "table": 1,
-      "type": "bigint"
-    },
-    {
-      "name": "X_CHF_LIEU",
-      "table": 1,
-      "type": "bigint"
-    },
-    {
-      "name": "NOM_CHF",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "Y_CHF_LIEU",
-      "table": 1,
-      "type": "bigint"
-    },
-    {
-      "name": "ID_GEOFLA",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "CODE_CHF",
       "table": 1,
       "type": "bigint"
     },
@@ -228,21 +198,6 @@
       "name": "NOM_REG",
       "table": 1,
       "type": "string"
-    },
-    {
-      "name": "Y_CENTROID",
-      "table": 1,
-      "type": "bigint"
-    },
-    {
-      "name": "X_CENTROID",
-      "table": 1,
-      "type": "bigint"
-    },
-    {
-      "name": "lat",
-      "table": 1,
-      "type": "double"
     },
     {
       "alias": "nom_circonscription_police",
