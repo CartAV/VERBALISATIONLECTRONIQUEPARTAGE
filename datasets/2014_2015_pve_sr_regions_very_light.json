@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501248689449
+    "lastModifiedOn": 1501506251828
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,13 +54,25 @@
     "columns": [
       {
         "name": "DEPARTEMENT_INFRACTION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "CODE_INSEE_INFRACTION",
-        "type": "string",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "DATE_JOUR_REEL_INFRACTION",
+        "type": "date",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "ANNEE_INFRACTION",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -72,6 +84,12 @@
       },
       {
         "name": "LIBELLE_PLAGE_HORAIRE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIBELLE_UNITE",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -125,25 +143,7 @@
         "maxLength": -1
       },
       {
-        "name": "ANNEE_INFRACTION",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DATE_JOUR_REEL_INFRACTION",
-        "type": "date",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "LIB_COURT_CORPS",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "LIBELLE_UNITE",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
