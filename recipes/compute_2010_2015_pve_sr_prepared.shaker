@@ -43,11 +43,12 @@
     },
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "matchingMode": "FULL_STRING",
         "values": [
-          "2016"
+          "2016",
+          "2017"
         ],
         "booleanMode": "AND",
         "normalizationMode": "EXACT",
