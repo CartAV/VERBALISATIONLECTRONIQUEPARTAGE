@@ -19,13 +19,14 @@
   },
   "steps": [
     {
-      "alwaysShowComment": false,
+      "alwaysShowComment": true,
       "preview": false,
       "params": {
         "expression": "distance_commune \u003e 1000",
         "clearColumn": "num_route_com_id",
         "action": "CLEAR_CELL"
       },
+      "comment": "Ne pas afficher les routes trop loin de leur commune",
       "type": "FilterOnCustomFormula",
       "disabled": false,
       "metaType": "PROCESSOR"
