@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501519646053
+    "lastModifiedOn": 1503914015625
   },
   "creationTag": {
     "versionNumber": 0,
@@ -156,6 +156,12 @@
       {
         "name": "num_route_com_id",
         "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "distance",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
