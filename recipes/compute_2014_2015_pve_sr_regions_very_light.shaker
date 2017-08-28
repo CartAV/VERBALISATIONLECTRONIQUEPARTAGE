@@ -22,6 +22,18 @@
       "alwaysShowComment": false,
       "preview": false,
       "params": {
+        "expression": "distance_commune \u003e 1000",
+        "clearColumn": "num_route_com_id",
+        "action": "CLEAR_CELL"
+      },
+      "type": "FilterOnCustomFormula",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
         "renamings": [
           {
             "to": "DATE_JOUR_REEL_INFRACTION",
