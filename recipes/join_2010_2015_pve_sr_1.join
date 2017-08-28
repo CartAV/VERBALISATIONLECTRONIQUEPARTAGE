@@ -17,6 +17,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -31,7 +32,6 @@
           }
         }
       ],
-      "rightLimit": {},
       "type": "LEFT"
     },
     {
@@ -39,6 +39,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 2,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -53,7 +54,6 @@
           }
         }
       ],
-      "rightLimit": {},
       "type": "LEFT"
     }
   ],
@@ -161,6 +161,11 @@
     },
     {
       "name": "LIBELLE_FAMILLE",
+      "table": 0,
+      "type": "string"
+    },
+    {
+      "name": "LIBELLE_TYPE_VOIE_DEDUIT",
       "table": 0,
       "type": "string"
     },
