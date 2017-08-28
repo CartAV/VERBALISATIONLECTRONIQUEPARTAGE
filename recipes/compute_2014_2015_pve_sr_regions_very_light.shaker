@@ -79,7 +79,8 @@
           "LIBELLE_UNITE",
           "LIBELLE_PLAGE_HORAIRE",
           "nom_circonscription_police",
-          "num_route_com_id"
+          "num_route_com_id",
+          "LIBELLE_TYPE_VOIE_DEDUIT"
         ],
         "keep": true
       },
