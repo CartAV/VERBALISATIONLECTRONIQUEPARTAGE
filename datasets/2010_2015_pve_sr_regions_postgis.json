@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1503914015625
+    "lastModifiedOn": 1503915246794
   },
   "creationTag": {
     "versionNumber": 0,
@@ -142,6 +142,12 @@
         "maxLength": -1
       },
       {
+        "name": "distance_commune",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "INSEE_COM",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -156,12 +162,6 @@
       {
         "name": "num_route_com_id",
         "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "distance",
-        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
