@@ -1100,6 +1100,28 @@
         },
         "sql": "\n\nselect  distinct(\"VOIE_INFRACTION\") from \"2010_2015_pve_sr_vertica\"\nwhere VOIE_INFRACTION like \u0027%BONIE%\u0027\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
         "expandedSql": "\n\nselect  distinct(\"VOIE_INFRACTION\") from \"2010_2015_pve_sr_vertica\"\nwhere VOIE_INFRACTION like \u0027%BONIE%\u0027\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
+      },
+      {
+        "mode": "SQL",
+        "id": "pg3nV1j2BevX",
+        "runOn": 1504009656111,
+        "runIn": 563,
+        "runBy": "grabenertr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "xKL8RXbzTQAyVOpo",
+        "hash": "eb0fe83eff5267ca6023787c3410345d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "\n\nselect  distinct(\"VOIE_INFRACTION\") from \"2010_2015_pve_sr_vertica\"\nwhere VOIE_INFRACTION like \u0027A%\u0027\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null",
+        "expandedSql": "\n\nselect  distinct(\"VOIE_INFRACTION\") from \"2010_2015_pve_sr_vertica\"\nwhere VOIE_INFRACTION like \u0027A%\u0027\n\n\n--AND \"ANNEE_INFRACTION\" \u003d 2013\n--group by \"LIBELLE_FAMILLE\"\n--update \"2010_2015_pve_sr_prepared\" set AGE_CONTREVENANT \u003d -1 where AGE_CONTREVENANT is null"
       }
     ],
     "iy2e671qkn": [
