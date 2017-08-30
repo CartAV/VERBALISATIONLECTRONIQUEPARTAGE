@@ -974,6 +974,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect count(*), num_route_or_id from \"2014_2015_pve_sr_regions_very_light\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027\nand \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect count(*), num_route_or_id from \"2014_2015_pve_sr_regions_very_light\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027\nand \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "GaF6ncYgN4nY",
+        "runOn": 1504084811021,
+        "runIn": 229,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "gtzWv5KV0A2eZdao",
+        "hash": "22101cf85b107dcaa8065ea5d080e4c8",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect num_route_or_id from \"2014_2015_pve_sr_regions_very_light\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027\nand \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect num_route_or_id from \"2014_2015_pve_sr_regions_very_light\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027\nand \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027"
       }
     ]
   }
