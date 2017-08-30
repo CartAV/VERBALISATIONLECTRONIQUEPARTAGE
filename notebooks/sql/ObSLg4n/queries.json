@@ -1221,10 +1221,10 @@
         "mode": "SQL",
         "id": "wieayWSRzFTt",
         "runOn": 1504095474386,
-        "runIn": 39413,
+        "runIn": 36389,
         "runBy": "grabenertr",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "KCPzCWDU3hi2YsEE",
         "hash": "1d3a31716a04d93744b99270040f3b61",
         "querySettings": {
