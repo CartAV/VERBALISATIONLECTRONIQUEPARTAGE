@@ -1062,6 +1062,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2014_2015_pve_sr_regions_very_light\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027\nand \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nAND num_route_or_id like \u0027%Porge%\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2014_2015_pve_sr_regions_very_light\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027\nand \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nAND num_route_or_id like \u0027%Porge%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "bQPVq4QoDuuX",
+        "runOn": 1504084933202,
+        "runIn": 38112,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "L7KUNhTHs0si2WF9",
+        "hash": "0e29f161809adc0603ead23db0804f43",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2014_2015_pve_sr_regions_postgis\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027\nand \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nAND num_route_or_id like \u0027%Porge%\u0027",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2014_2015_pve_sr_regions_postgis\"\nwhere \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027\nand \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nAND num_route_or_id like \u0027%Porge%\u0027"
       }
     ]
   }
