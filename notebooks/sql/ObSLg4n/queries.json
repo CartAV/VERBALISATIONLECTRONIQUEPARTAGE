@@ -1150,6 +1150,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"pve_geocoded_clean\"\nwhere \"PVE_ID\" \u003d \u002789709191\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"pve_geocoded_clean\"\nwhere \"PVE_ID\" \u003d \u002789709191\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "p1fKfZXTlwsK",
+        "runOn": 1504095224480,
+        "runIn": 33803,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "jvBUrAXJfecy7Atj",
+        "hash": "5b4cf39d2565b223fd503f8a79c2d44b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"pve_geocoded_clean\"\nwhere \"PVE_ID\" \u003d \u002789709191\u0027\nAND \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nAND \"VOIE_INFRACTION\" like \u0027%Thouars%\u0027",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"pve_geocoded_clean\"\nwhere \"PVE_ID\" \u003d \u002789709191\u0027\nAND \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nAND \"VOIE_INFRACTION\" like \u0027%Thouars%\u0027"
       }
     ]
   }
