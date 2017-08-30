@@ -1238,6 +1238,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"pve_geocoded_clean\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nAND \"VOIE_INFRACTION\" like \u0027%Naudet%\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"pve_geocoded_clean\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nAND \"VOIE_INFRACTION\" like \u0027%Naudet%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "zq8sYdAcZQZR",
+        "runOn": 1504095522791,
+        "runIn": 36389,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "edEcKckJbj8AN7aR",
+        "hash": "59b6e0f053fc081d549575510f2dae5b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"pve_geocoded_clean\"\nwhere\n-- \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\n \"VOIE_INFRACTION\" like \u0027%Naudet%\u0027",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"pve_geocoded_clean\"\nwhere\n-- \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\n \"VOIE_INFRACTION\" like \u0027%Naudet%\u0027"
       }
     ]
   }
