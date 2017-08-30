@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 24,
+    "versionNumber": 25,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1503935114333
+    "lastModifiedOn": 1504085975414
   },
   "creationTag": {
     "versionNumber": 0,
@@ -143,6 +143,18 @@
       },
       {
         "name": "LIBELLE_TYPE_VOIE_DEDUIT",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geo_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geo_source",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
