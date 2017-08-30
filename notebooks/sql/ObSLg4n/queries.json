@@ -1326,6 +1326,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2014_2015_pve_sr_regions_very_light\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nand \"num_route_or_id\" like \u0027%Naudet%\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2014_2015_pve_sr_regions_very_light\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nand \"num_route_or_id\" like \u0027%Naudet%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "Ig7SsqTIoT70",
+        "runOn": 1504096822256,
+        "runIn": 36762,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "042dbIeUcF72QOpH",
+        "hash": "02684aa41fd89e2914e68da2d9439ace",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nand \"num_route_or_id\" like \u0027%Naudet%\u0027",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autoroute\u0027\nand \"num_route_or_id\" like \u0027%Naudet%\u0027"
       }
     ]
   }
