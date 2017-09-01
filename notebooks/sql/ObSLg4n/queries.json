@@ -1480,6 +1480,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Route Départementale\u0027\nand \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\nand num_route_or_id \u003d \u0027D 160\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Route Départementale\u0027\nand \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\nand num_route_or_id \u003d \u0027D 160\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "s6rFFRf9OHQC",
+        "runOn": 1504278085221,
+        "runIn": 43765,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "TtAo6v0cywZpCCLG",
+        "hash": "f1c6f83890cdd33f12e274f1375cdc95",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autre Route\u0027\nand \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\nand num_route_or_id \u003d \u0027D 160\u0027",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Autre Route\u0027\nand \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\nand num_route_or_id \u003d \u0027D 160\u0027"
       }
     ]
   }
