@@ -1436,6 +1436,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Route Départementale\u0027\nand \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Route Départementale\u0027\nand \"DEPARTEMENT_INFRACTION\" \u003d \u002733\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "BAHLUg9B7rEX",
+        "runOn": 1504274500650,
+        "runIn": 747,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "ybe95rbTpVV7KKuX",
+        "hash": "69a103f68797372c27069edcd10e7378",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Route Départementale\u0027\nand \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n \"LIBELLE_TYPE_VOIE_DEDUIT\" \u003d \u0027Route Départementale\u0027\nand \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027"
       }
     ]
   }
