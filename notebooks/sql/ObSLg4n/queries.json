@@ -1529,10 +1529,10 @@
         "mode": "SQL",
         "id": "XEmFc9fYelEs",
         "runOn": 1504279945594,
-        "runIn": 42455,
+        "runIn": 43927,
         "runBy": "grabenertr",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "7O5hXU3UWlqSLrqj",
         "hash": "15b5d2a128b50214bbca489c7c079f5a",
         "querySettings": {
