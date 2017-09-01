@@ -1546,6 +1546,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n  \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\nand num_route_or_id like \u0027%D 160%\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n  \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\nand num_route_or_id like \u0027%D 160%\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "5IajgCiaDnqn",
+        "runOn": 1504280047193,
+        "runIn": 43927,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "rcTqkXtlgEXnctvw",
+        "hash": "9f4ee0c19b33670bb976cb61307a37a7",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n  \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\nand num_route_or_id like \u0027%D%160%\u0027",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\nselect * from \"2010_2015_pve_sr_regions_postgis\"\nwhere\n  \"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\nand num_route_or_id like \u0027%D%160%\u0027"
       }
     ]
   }
