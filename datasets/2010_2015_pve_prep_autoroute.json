@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501512421693
+    "lastModifiedOn": 1504517230186
   },
   "creationTag": {
     "versionNumber": 0,
@@ -292,13 +292,13 @@
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
+        "name": "LIBELLE_VOIE_RN",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_VOIE_RN",
+        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
