@@ -13,7 +13,7 @@ LEFT JOIN LATERAL (SELECT "INSEE_COM", num_route_or_id, num_route_com_id, st_dis
            AND (
                (pve."LIBELLE_TYPE_VOIE_DEDUIT" = 'Autoroute' AND routes.cat_route_osm = 'autoroute')
             OR (pve."LIBELLE_TYPE_VOIE_DEDUIT" = 'Route Nationale' AND routes.cat_route_osm = 'route principale')
-            OR (pve."LIBELLE_TYPE_VOIE_DEDUIT" NOT in ('Autoroute', 'Route Nationale', 'Route Départementale')))
+            OR (pve."LIBELLE_TYPE_VOIE_DEDUIT" NOT in ('Autoroute', 'Route Nationale')))
      ORDER BY distance
     LIMIT 1) as nearest_route
 ON true
