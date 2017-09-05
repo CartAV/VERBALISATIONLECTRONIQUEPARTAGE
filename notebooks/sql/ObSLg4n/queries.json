@@ -1612,6 +1612,28 @@
         },
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\n--select * from \"2010_2015_pve_sr_regions_postgis\"\n--where\n  --\"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\n--and num_route_or_id like \u0027%D 54\u0027\n\nselect * from \"2010_2015_pve_prep_autoroute\"\nwhere \"PVE_ID\" \u003d \u0027101745582\u0027",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\n--select * from \"2010_2015_pve_sr_regions_postgis\"\n--where\n  --\"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\n--and num_route_or_id like \u0027%D 54\u0027\n\nselect * from \"2010_2015_pve_prep_autoroute\"\nwhere \"PVE_ID\" \u003d \u0027101745582\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "suwd8CzLwlwW",
+        "runOn": 1504606616454,
+        "runIn": 393,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "mv6v5BpArjishzhL",
+        "hash": "15e3499fcd6bb93fbe054574527deac9",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\n--select * from \"2010_2015_pve_sr_regions_postgis\"\n--where\n  --\"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\n--and num_route_or_id like \u0027%D 54\u0027\n\n--select * from \"2010_2015_pve_prep_autoroute\"\n--where \"PVE_ID\" \u003d \u0027101745582\u0027\n\nupdate \"2014_2015_pve_sr_regions_very_light\" set \"LIBELLE_TYPE_VOIE_DEDUIT\"  \u003d \u0027Autre Route\u0027 where \"LIBELLE_TYPE_VOIE_DEDUIT\" is null",
+        "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\n--select * from \"2010_2015_pve_sr_regions_postgis\"\n--where\n  --\"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\n--and num_route_or_id like \u0027%D 54\u0027\n\n--select * from \"2010_2015_pve_prep_autoroute\"\n--where \"PVE_ID\" \u003d \u0027101745582\u0027\n\nupdate \"2014_2015_pve_sr_regions_very_light\" set \"LIBELLE_TYPE_VOIE_DEDUIT\"  \u003d \u0027Autre Route\u0027 where \"LIBELLE_TYPE_VOIE_DEDUIT\" is null"
       }
     ]
   }
