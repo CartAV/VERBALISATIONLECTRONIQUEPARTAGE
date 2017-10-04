@@ -1635,6 +1635,30 @@
         "sql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\n--select * from \"2010_2015_pve_sr_regions_postgis\"\n--where\n  --\"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\n--and num_route_or_id like \u0027%D 54\u0027\n\n--select * from \"2010_2015_pve_prep_autoroute\"\n--where \"PVE_ID\" \u003d \u0027101745582\u0027\n\nupdate \"2014_2015_pve_sr_regions_very_light\" set \"LIBELLE_TYPE_VOIE_DEDUIT\"  \u003d \u0027Autre Route\u0027 where \"LIBELLE_TYPE_VOIE_DEDUIT\" is null",
         "expandedSql": "--create index pve_num_route_idx on \"2010_2015_pve_sr_regions_postgis\"(\"num_route_or_id\")\n--create index pve_dep_idx on \"2010_2015_pve_sr_regions_postgis\"(\"DEPARTEMENT_INFRACTION\")\n--analyse\n\n--select * from \"2010_2015_pve_sr_regions_postgis\"\n--where\n  --\"DEPARTEMENT_INFRACTION\" \u003d \u002744\u0027\n--and num_route_or_id like \u0027%D 54\u0027\n\n--select * from \"2010_2015_pve_prep_autoroute\"\n--where \"PVE_ID\" \u003d \u0027101745582\u0027\n\nupdate \"2014_2015_pve_sr_regions_very_light\" set \"LIBELLE_TYPE_VOIE_DEDUIT\"  \u003d \u0027Autre Route\u0027 where \"LIBELLE_TYPE_VOIE_DEDUIT\" is null"
       }
+    ],
+    "2ezp6i3cfr1": [
+      {
+        "mode": "SQL",
+        "id": "vIgbYgI74ZQI",
+        "runOn": 1507118112409,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "QMT1OTj8qIHSyyYA",
+        "hash": "447420d8ec8cc4da7d319a7352d9771e",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*) from \"2010_2015_pve_sr_regions_postgis\" group by  \"DEPARTEMENT_INFRACTION\", \"num_route_com_id\"",
+        "expandedSql": "select count(*) from \"2010_2015_pve_sr_regions_postgis\" group by  \"DEPARTEMENT_INFRACTION\", \"num_route_com_id\""
+      }
     ]
   }
 }
