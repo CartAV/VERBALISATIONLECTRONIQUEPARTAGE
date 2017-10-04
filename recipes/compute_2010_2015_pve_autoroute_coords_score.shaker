@@ -31,7 +31,7 @@
     },
     {
       "alwaysShowComment": false,
-      "preview": true,
+      "preview": false,
       "params": {
         "usePythonUnicode": true,
         "stopOnError": true,
@@ -39,6 +39,54 @@
         "mode": "ROW"
       },
       "type": "PythonUDF",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "matching": "PATTERN",
+        "stopAfterFirstMatch": false,
+        "appliesTo": "SINGLE_COLUMN",
+        "normalization": "EXACT",
+        "columns": [
+          "CODE_INSEE_INFRACTION"
+        ],
+        "mapping": [
+          {
+            "to": "13055",
+            "from": "132[01][0-9]"
+          }
+        ],
+        "output": ""
+      },
+      "comment": "Arrondissements de marseille",
+      "type": "FindReplace",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "matching": "PATTERN",
+        "stopAfterFirstMatch": false,
+        "appliesTo": "SINGLE_COLUMN",
+        "normalization": "EXACT",
+        "columns": [
+          "CODE_INSEE_INFRACTION"
+        ],
+        "mapping": [
+          {
+            "to": "69123",
+            "from": "6938[1-9]"
+          }
+        ],
+        "output": ""
+      },
+      "comment": "Arrondissements de Lyon",
+      "type": "FindReplace",
       "disabled": false,
       "metaType": "PROCESSOR"
     }
