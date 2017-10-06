@@ -355,6 +355,30 @@
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%A6 A%\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"voie_infraction\" like \u0027%A6 A%\u0027"
       }
+    ],
+    "29erc5c8wie": [
+      {
+        "mode": "SQL",
+        "id": "jJWsWDLO1ni6",
+        "runOn": 1507279573988,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "flzqbrYc8Q2FH982",
+        "hash": "141d9629eed357e97fcd42c6e7c21ce2",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_geocoded_ban_vertical\" where \"ban_city\" \u003d \u0027Marseille\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_geocoded_ban_vertical\" where \"ban_city\" \u003d \u0027Marseille\u0027"
+      }
     ]
   }
 }
