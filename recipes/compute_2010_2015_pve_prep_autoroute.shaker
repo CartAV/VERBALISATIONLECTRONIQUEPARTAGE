@@ -19,7 +19,7 @@
   },
   "steps": [
     {
-      "alwaysShowComment": false,
+      "alwaysShowComment": true,
       "preview": true,
       "params": {
         "usePythonUnicode": true,
