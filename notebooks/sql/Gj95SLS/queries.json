@@ -420,6 +420,28 @@
         },
         "sql": "select * from \"2010_2015_pve_pg_prep\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027",
         "expandedSql": "select * from \"2010_2015_pve_pg_prep\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "o9es0nMNnADx",
+        "runOn": 1507281635229,
+        "runIn": 292806,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "uSv7QmOEF2zX4joj",
+        "hash": "1b571d314681ed06db60be41e796e634",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027"
       }
     ]
   }
