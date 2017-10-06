@@ -816,6 +816,28 @@
         },
         "sql": "select * from \"pve_geocoded_distance_commune\" where \"CODE_INSEE_INFRACTION\"\u003d\u002713055\u0027 limit 10",
         "expandedSql": "select * from \"pve_geocoded_distance_commune\" where \"CODE_INSEE_INFRACTION\"\u003d\u002713055\u0027 limit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "59sjmdX8bU37",
+        "runOn": 1507297332673,
+        "runIn": 162577,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "uI65x2gLMgaL4zz1",
+        "hash": "85c018b848246ac6d5cb3eb5c30a9b3c",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select p.*, c.\"INSEE_COM\" from \"pve_geocoded_distance_commune\" as p, \"public\".\"ign_commune_france\" as c \nwhere p.\"CODE_INSEE_INFRACTION\"\u003d\u002713055\u0027 \nand st_distance(st_makepoint(c.latitude, c.longitude), c.the_geom) \u003d 0\nand c.\"INSEE_COM\" !\u003d 13055\nlimit 10",
+        "expandedSql": "select p.*, c.\"INSEE_COM\" from \"pve_geocoded_distance_commune\" as p, \"public\".\"ign_commune_france\" as c \nwhere p.\"CODE_INSEE_INFRACTION\"\u003d\u002713055\u0027 \nand st_distance(st_makepoint(c.latitude, c.longitude), c.the_geom) \u003d 0\nand c.\"INSEE_COM\" !\u003d 13055\nlimit 10"
       }
     ]
   }
