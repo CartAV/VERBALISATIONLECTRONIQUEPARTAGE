@@ -400,6 +400,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027Marseille\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027Marseille\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "kvMO4X9wPe7W",
+        "runOn": 1507280152145,
+        "runIn": 741,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "nM4hrjxHuYdwwnoR",
+        "hash": "ba1ad414a8f958cc41d05ff9c152b1f6",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002713\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002713\u0027"
       }
     ]
   }
