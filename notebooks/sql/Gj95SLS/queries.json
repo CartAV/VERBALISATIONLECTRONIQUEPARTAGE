@@ -706,6 +706,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d \u0027\u0027",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d \u0027\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "w5vzBGGpKSOJ",
+        "runOn": 1507293138282,
+        "runIn": 518,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "tgFZ4n0gPvGcEnKz",
+        "hash": "11fa93030cb1001b50505662041f2628",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d \u0027\u0027",
+        "expandedSql": "select count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d \u0027\u0027"
       }
     ]
   }
