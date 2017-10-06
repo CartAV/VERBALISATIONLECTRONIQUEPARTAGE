@@ -603,10 +603,10 @@
         "mode": "SQL",
         "id": "mST0I9LE3yYU",
         "runOn": 1507281947084,
-        "runIn": 261,
+        "runIn": 329,
         "runBy": "chabouisfr",
         "connection": "datalabmaster",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "qxWq8QFZGnT5bQhK",
         "hash": "8ec8bd794d261c4f7dc8d346142a8d90",
         "querySettings": {
