@@ -508,6 +508,28 @@
         },
         "sql": "select \"CODE_INSEE_INFRACTION, count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\"",
         "expandedSql": "select \"CODE_INSEE_INFRACTION, count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\""
+      },
+      {
+        "mode": "SQL",
+        "id": "266fAHBjZ0Tk",
+        "runOn": 1507281737948,
+        "runIn": 91,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "sjyNnxnITFf6CEAd",
+        "hash": "9b133c30b5b99d81d2e7e6abea14b991",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"CODE_INSEE_INFRACTION\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\"",
+        "expandedSql": "select \"CODE_INSEE_INFRACTION\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\""
       }
     ]
   }
