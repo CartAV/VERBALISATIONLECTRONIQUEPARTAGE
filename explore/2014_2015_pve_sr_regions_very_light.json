@@ -22,10 +22,10 @@
             "mode": "\u0026\u0026",
             "conditions": [
               {
-                "input": "DEPARTEMENT_INFRACTION",
+                "input": "nom_circonscription_police",
                 "operator": "contains",
                 "col": "CODE_INSEE_INFRACTION",
-                "string": "13",
+                "string": "MARSEILLE",
                 "num": 0.0
               }
             ]
@@ -40,7 +40,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1
+      "_refreshTrigger": 2
     },
     "vizSampling": {
       "autoRefreshSample": false,
