@@ -44,6 +44,17 @@
       "metaType": "PROCESSOR"
     },
     {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "outputColumn": "CODE_INSEE_INFRACTION_AVEC_ARRONDISSEMENTS",
+        "inputColumn": "CODE_INSEE_INFRACTION"
+      },
+      "type": "ColumnCopier",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
       "alwaysShowComment": true,
       "preview": false,
       "params": {
@@ -64,7 +75,7 @@
       },
       "comment": "Arrondissements de marseille",
       "type": "FindReplace",
-      "disabled": true,
+      "disabled": false,
       "metaType": "PROCESSOR"
     },
     {
@@ -88,7 +99,7 @@
       },
       "comment": "Arrondissements de Lyon",
       "type": "FindReplace",
-      "disabled": true,
+      "disabled": false,
       "metaType": "PROCESSOR"
     }
   ],
