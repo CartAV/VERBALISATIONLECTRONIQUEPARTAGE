@@ -618,6 +618,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"latitude\" is NULL",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"latitude\" is NULL"
+      },
+      {
+        "mode": "SQL",
+        "id": "kJGl3c1fy4Q6",
+        "runOn": 1507293029419,
+        "runIn": 511,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "0oQBPIH1zQVAPYZ1",
+        "hash": "a61d3c0827a341bfe1cf7a3ae4c9495c",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"latitude\" \u003d NULL",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"latitude\" \u003d NULL"
       }
     ]
   }
