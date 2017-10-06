@@ -375,6 +375,30 @@
         "sql": "select count(*), \"CODE_INSEE_INFRACTION\" from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002713\u0027 group by \"CODE_INSEE_INFRACTION\"",
         "expandedSql": "select count(*), \"CODE_INSEE_INFRACTION\" from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002713\u0027 group by \"CODE_INSEE_INFRACTION\""
       }
+    ],
+    "3wv2iboxvcf": [
+      {
+        "mode": "SQL",
+        "id": "670AVRWbvDug",
+        "runOn": 1507279553090,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "HLLGk7cuk0aqgJBj",
+        "hash": "df1c808d8c3f89b5744b0b2ad80b85c3",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_geocoded_ban_vertical\" where \"ban_city\" \u003d \u0027Marseille\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_geocoded_ban_vertical\" where \"ban_city\" \u003d \u0027Marseille\u0027"
+      }
     ]
   }
 }
