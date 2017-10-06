@@ -662,6 +662,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_regions_postgis\" where \"latitude\" \u003d NULL",
         "expandedSql": "select * from \"2010_2015_pve_sr_regions_postgis\" where \"latitude\" \u003d NULL"
+      },
+      {
+        "mode": "SQL",
+        "id": "bFynsKUZlWWR",
+        "runOn": 1507293101601,
+        "runIn": 66,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "AlSuZXmST4kPPcBT",
+        "hash": "1490af4f957431d8e11699a003c0e64c",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d NULL",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"num_route_or_id\" \u003d NULL"
       }
     ]
   }
