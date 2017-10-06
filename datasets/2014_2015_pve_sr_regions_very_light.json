@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "chabouisfr"
     },
-    "lastModifiedOn": 1503936037596
+    "lastModifiedOn": 1507278591637
   },
   "creationTag": {
     "versionNumber": 0,
@@ -44,6 +44,7 @@
     "normalizeDoubles": true,
     "table": "2014_2015_pve_sr_regions_very_light",
     "tableCreationMode": "auto",
+    "customPostWriteStatements": "CREATE INDEX ON \"2014_2015_pve_sr_regions_very_light\" (\"DEPARTEMENT_INFRACTION\", \"CODE_INSEE_INFRACTION\", \"nom_circonscription_police\")",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
     "hasColsWithUnknownTz": false,
