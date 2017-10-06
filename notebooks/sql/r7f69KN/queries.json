@@ -378,6 +378,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_geocoded_ban_vertical\" where \"ban_city\" \u003d \u0027Marseille\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_geocoded_ban_vertical\" where \"ban_city\" \u003d \u0027Marseille\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "hDg5JzhZfvQo",
+        "runOn": 1507280105971,
+        "runIn": 326,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "r48PNsQZ10QFeQwl",
+        "hash": "6e1b6c9c8948d6d20048ca99645ded0d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027Marseille\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027Marseille\u0027"
       }
     ]
   }
