@@ -43,7 +43,7 @@
       "metaType": "PROCESSOR"
     },
     {
-      "alwaysShowComment": false,
+      "alwaysShowComment": true,
       "preview": false,
       "params": {
         "matching": "PATTERN",
@@ -63,11 +63,11 @@
       },
       "comment": "Arrondissements de marseille",
       "type": "FindReplace",
-      "disabled": false,
+      "disabled": true,
       "metaType": "PROCESSOR"
     },
     {
-      "alwaysShowComment": false,
+      "alwaysShowComment": true,
       "preview": false,
       "params": {
         "matching": "PATTERN",
@@ -87,7 +87,7 @@
       },
       "comment": "Arrondissements de Lyon",
       "type": "FindReplace",
-      "disabled": false,
+      "disabled": true,
       "metaType": "PROCESSOR"
     }
   ],
