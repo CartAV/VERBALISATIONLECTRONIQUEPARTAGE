@@ -664,6 +664,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_vertica\" where \"pve_id\" \u003d \u0027100278933\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_vertica\" where \"pve_id\" \u003d \u0027100278933\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "rycknGaP5nrg",
+        "runOn": 1507296385530,
+        "runIn": 115,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "BYjfLpF279tSL7ww",
+        "hash": "805ae78677bff1c6edfde5e7f81faacd",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"VOIE_INFRACTION\n\" from \"2010_2015_pve_sr_vertica\" where \"pve_id\" \u003d \u0027100278933\u0027",
+        "expandedSql": "select \"VOIE_INFRACTION\n\" from \"2010_2015_pve_sr_vertica\" where \"pve_id\" \u003d \u0027100278933\u0027"
       }
     ]
   }
