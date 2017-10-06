@@ -442,6 +442,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "HPExh49C0hmm",
+        "runOn": 1507281720260,
+        "runIn": 22749,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "cqCBU73dkcOcMo98",
+        "hash": "a7743691fce082a19d19153951ba6826",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select CODE_INSEE_INFRACTION, count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027 group by CODE_INSEE_INFRACTION",
+        "expandedSql": "select CODE_INSEE_INFRACTION, count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"nom_circonscription_police\" \u003d \u0027MARSEILLE\u0027 group by CODE_INSEE_INFRACTION"
       }
     ]
   }
