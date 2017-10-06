@@ -669,10 +669,10 @@
         "mode": "SQL",
         "id": "rycknGaP5nrg",
         "runOn": 1507296385530,
-        "runIn": 115,
+        "runIn": 92,
         "runBy": "chabouisfr",
         "connection": "datalabmaster",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "BYjfLpF279tSL7ww",
         "hash": "805ae78677bff1c6edfde5e7f81faacd",
         "querySettings": {
