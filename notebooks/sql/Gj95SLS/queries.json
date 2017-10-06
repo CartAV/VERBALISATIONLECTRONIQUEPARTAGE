@@ -574,6 +574,28 @@
         },
         "sql": "select \"CODE_INSEE_INFRACTION\", count(*) from \"pve_geocoded_distance_commune\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\"",
         "expandedSql": "select \"CODE_INSEE_INFRACTION\", count(*) from \"pve_geocoded_distance_commune\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\""
+      },
+      {
+        "mode": "SQL",
+        "id": "wHhyIntXtwnr",
+        "runOn": 1507283650752,
+        "runIn": 169184,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "EK3cobBEbgZBsRae",
+        "hash": "34813507c6157f583ebed34594a24b5a",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"CODE_INSEE_INFRACTION\", count(*) from \"2010_2015_pve_autoroute_coords\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\"",
+        "expandedSql": "select \"CODE_INSEE_INFRACTION\", count(*) from \"2010_2015_pve_autoroute_coords\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\""
       }
     ]
   }
