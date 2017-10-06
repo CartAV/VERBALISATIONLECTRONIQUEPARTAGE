@@ -40,6 +40,7 @@
         "pythonSourceCode": "def process(row):\n    if row[\"geo_source\"] in [\"ban + citycode\", \"bano + name\"] and row[\"geo_type\"] not in [\"housenumber\", \"street\"]:\n        row[\"num_route_com_id\"] \u003d None\n    return row\n",
         "mode": "ROW"
       },
+      "comment": "supprimer les PVE dont le niveau de géocodage est moins précis que la rue",
       "type": "PythonUDF",
       "disabled": false,
       "metaType": "PROCESSOR"
