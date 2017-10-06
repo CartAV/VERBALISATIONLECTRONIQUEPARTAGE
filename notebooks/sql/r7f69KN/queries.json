@@ -444,6 +444,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_prepared\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_prepared\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "LXABRwXF1iH3",
+        "runOn": 1507280490689,
+        "runIn": 208,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "YY6kty441CIl4yKy",
+        "hash": "be95deac7127b19c251d00658e02e62b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027"
       }
     ]
   }
