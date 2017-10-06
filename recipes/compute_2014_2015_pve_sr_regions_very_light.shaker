@@ -32,7 +32,7 @@
       "metaType": "PROCESSOR"
     },
     {
-      "alwaysShowComment": false,
+      "alwaysShowComment": true,
       "preview": false,
       "params": {
         "usePythonUnicode": true,
