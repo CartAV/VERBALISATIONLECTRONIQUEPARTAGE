@@ -34,13 +34,13 @@
         "partitionSelectionMethod": "ALL",
         "latestPartitionsN": 1,
         "samplingMethod": "HEAD_SEQUENTIAL",
-        "maxRecords": 1000,
+        "maxRecords": 10000,
         "targetRatio": 0.02,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 2
+      "_refreshTrigger": 3
     },
     "vizSampling": {
       "autoRefreshSample": false,
