@@ -838,6 +838,28 @@
         },
         "sql": "select p.*, c.\"INSEE_COM\" from \"pve_geocoded_distance_commune\" as p, \"public\".\"ign_commune_france\" as c \nwhere p.\"CODE_INSEE_INFRACTION\"\u003d\u002713055\u0027 \nand st_distance(st_makepoint(c.latitude, c.longitude), c.the_geom) \u003d 0\nand c.\"INSEE_COM\" !\u003d 13055\nlimit 10",
         "expandedSql": "select p.*, c.\"INSEE_COM\" from \"pve_geocoded_distance_commune\" as p, \"public\".\"ign_commune_france\" as c \nwhere p.\"CODE_INSEE_INFRACTION\"\u003d\u002713055\u0027 \nand st_distance(st_makepoint(c.latitude, c.longitude), c.the_geom) \u003d 0\nand c.\"INSEE_COM\" !\u003d 13055\nlimit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "O6JRuN7r6H8n",
+        "runOn": 1507297358210,
+        "runIn": 440,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "j4MtyYpHJcBnJv6a",
+        "hash": "c2afcbd0e8c13e029b6d1f090cc4ec71",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select p.*, c.\"INSEE_COM\" from \"pve_geocoded_distance_commune\" as p, \"public\".\"ign_commune_france\" as c \nwhere p.\"CODE_INSEE_INFRACTION\"\u003d\u002713055\u0027 \nand st_distance(st_makepoint(p.\"latitude\", p.\"longitude\"), c.\"the_geom\") \u003d 0\nand c.\"INSEE_COM\" !\u003d 13055\nlimit 10",
+        "expandedSql": "select p.*, c.\"INSEE_COM\" from \"pve_geocoded_distance_commune\" as p, \"public\".\"ign_commune_france\" as c \nwhere p.\"CODE_INSEE_INFRACTION\"\u003d\u002713055\u0027 \nand st_distance(st_makepoint(p.\"latitude\", p.\"longitude\"), c.\"the_geom\") \u003d 0\nand c.\"INSEE_COM\" !\u003d 13055\nlimit 10"
       }
     ]
   }
