@@ -750,6 +750,28 @@
         },
         "sql": "select * from \"2010_2015_pve_autoroute_coords_score\" limit 10",
         "expandedSql": "select * from \"2010_2015_pve_autoroute_coords_score\" limit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "CZPbclg0Srns",
+        "runOn": 1507295578869,
+        "runIn": 57,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "pnzFQMUopBW9EcT9",
+        "hash": "4babb03506abab5c37d0b8125870b4f4",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"pve_geocoded_distance_commune\" limit 10",
+        "expandedSql": "select * from \"pve_geocoded_distance_commune\" limit 10"
       }
     ]
   }
