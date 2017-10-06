@@ -576,6 +576,28 @@
         },
         "sql": "select CODE_INSEE_INFRACTION, count(*) from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027PARIS\u0027 group by CODE_INSEE_INFRACTION order by count desc",
         "expandedSql": "select CODE_INSEE_INFRACTION, count(*) from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027PARIS\u0027 group by CODE_INSEE_INFRACTION order by count desc"
+      },
+      {
+        "mode": "SQL",
+        "id": "iDin2m3u4cqN",
+        "runOn": 1507281844482,
+        "runIn": 269,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "0pp2MNrjkxHHGMgK",
+        "hash": "036b56eb01dac636ae431a24f8d85427",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select CODE_INSEE_INFRACTION, count(*) from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027 group by CODE_INSEE_INFRACTION order by count desc",
+        "expandedSql": "select CODE_INSEE_INFRACTION, count(*) from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027 group by CODE_INSEE_INFRACTION order by count desc"
       }
     ]
   }
