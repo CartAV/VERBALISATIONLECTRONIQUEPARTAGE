@@ -352,6 +352,28 @@
         },
         "sql": "select count(*), \"CODE_INSEE_INFRACTION\" from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \"13\" group by \"CODE_INSEE_INFRACTION\"",
         "expandedSql": "select count(*), \"CODE_INSEE_INFRACTION\" from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \"13\" group by \"CODE_INSEE_INFRACTION\""
+      },
+      {
+        "mode": "SQL",
+        "id": "AmYWHEYWDUJW",
+        "runOn": 1507277780446,
+        "runIn": 63,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "Ofczm1kNb757rwtY",
+        "hash": "bb8414d3e28cb84e44e4075f0b8b80c5",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*), \"CODE_INSEE_INFRACTION\" from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002713\u0027 group by \"CODE_INSEE_INFRACTION\"",
+        "expandedSql": "select count(*), \"CODE_INSEE_INFRACTION\" from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002713\u0027 group by \"CODE_INSEE_INFRACTION\""
       }
     ]
   }
