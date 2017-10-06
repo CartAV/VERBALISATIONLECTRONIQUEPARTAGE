@@ -596,6 +596,28 @@
         },
         "sql": "select \"CODE_INSEE_INFRACTION\", count(*) from \"2010_2015_pve_autoroute_coords\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\"",
         "expandedSql": "select \"CODE_INSEE_INFRACTION\", count(*) from \"2010_2015_pve_autoroute_coords\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027MARSEILLE\u0027 group by \"CODE_INSEE_INFRACTION\""
+      },
+      {
+        "mode": "SQL",
+        "id": "bo73temoDbjL",
+        "runOn": 1507293019306,
+        "runIn": 104384,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "9aV3QiI2L2mlY3IW",
+        "hash": "537feb1b25d4069acc461d3f9d5e5e8d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"latitude\" is NULL",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"latitude\" is NULL"
       }
     ]
   }
