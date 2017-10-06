@@ -488,6 +488,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027LYON\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027LYON\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "DF839Vo1bPNN",
+        "runOn": 1507280655950,
+        "runIn": 294,
+        "runBy": "chabouisfr",
+        "connection": "datalabmaster",
+        "state": "RUNNING",
+        "futureId": "dntlHYaAxrM0pSwj",
+        "hash": "6ef43bafad54eda99fc76705a65a0f29",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select CODE_INSEE_INFRACTION, count(*) from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027LYON\u0027 group by CODE_INSEE_INFRACTION order by count",
+        "expandedSql": "select CODE_INSEE_INFRACTION, count(*) from \"2010_2015_pve_sr_vertica\" where \"LIB_LOCALITE_INFRACTION\" \u003d \u0027LYON\u0027 group by CODE_INSEE_INFRACTION order by count"
       }
     ]
   }
