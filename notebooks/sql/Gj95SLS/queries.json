@@ -772,6 +772,28 @@
         },
         "sql": "select * from \"pve_geocoded_distance_commune\" limit 10",
         "expandedSql": "select * from \"pve_geocoded_distance_commune\" limit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "ftmit0YQ8alC",
+        "runOn": 1507295606173,
+        "runIn": 952,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "dX9k7xaYtisjkxJh",
+        "hash": "4697531a94055d43faecca415d80bb69",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"pve_geocoded_distance_commune\" where \"CODE_INSEE_INFRACTION\" limit 10",
+        "expandedSql": "select * from \"pve_geocoded_distance_commune\" where \"CODE_INSEE_INFRACTION\" limit 10"
       }
     ]
   }
