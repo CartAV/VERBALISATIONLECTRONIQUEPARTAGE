@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "chabouisfr"
     },
-    "lastModifiedOn": 1501512301181
+    "lastModifiedOn": 1507284085736
   },
   "creationTag": {
     "versionNumber": 0,
@@ -226,6 +226,12 @@
         "maxLength": 16200
       },
       {
+        "name": "bano_citycode",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
         "name": "bano_label",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -251,6 +257,12 @@
       },
       {
         "name": "bano_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "ban_citycode",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
