@@ -1703,6 +1703,30 @@
         "sql": "select count(distinct(\"num_route_com_id\")), \"DEPARTEMENT_INFRACTION\" from \"2010_2015_pve_sr_regions_postgis\" group by  \"DEPARTEMENT_INFRACTION\" order by count DESC",
         "expandedSql": "select count(distinct(\"num_route_com_id\")), \"DEPARTEMENT_INFRACTION\" from \"2010_2015_pve_sr_regions_postgis\" group by  \"DEPARTEMENT_INFRACTION\" order by count DESC"
       }
+    ],
+    "d536nd8i1s6": [
+      {
+        "mode": "SQL",
+        "id": "pw6HEM6sKufO",
+        "runOn": 1507567428387,
+        "runIn": -1,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "kHAGYZrYQ9YoSXMc",
+        "hash": "0c37aaaef1467c4d4e7f2f6960c8138e",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"ANNEE_INFRACTION\" \u003d \u00272016\u0027\n",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"ANNEE_INFRACTION\" \u003d \u00272016\u0027\n"
+      }
     ]
   }
 }
