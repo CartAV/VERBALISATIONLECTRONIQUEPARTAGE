@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
-      "login": "chabouisfr"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1507305072706
+    "lastModifiedOn": 1507566351188
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,12 +91,6 @@
       },
       {
         "name": "CODE_INSEE_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "CODE_INSEE_INFRACTION_AVEC_ARRONDISSEMENTS",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
