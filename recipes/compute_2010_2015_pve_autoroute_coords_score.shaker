@@ -51,7 +51,7 @@
         "inputColumn": "CODE_INSEE_INFRACTION"
       },
       "type": "ColumnCopier",
-      "disabled": false,
+      "disabled": true,
       "metaType": "PROCESSOR"
     },
     {
