@@ -1792,6 +1792,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_regions_postgis\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"num_route_com_id\" \u003d \u0027Rue du Général de Gaulle97411\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_regions_postgis\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"num_route_com_id\" \u003d \u0027Rue du Général de Gaulle97411\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "qsUGY9OywHcP",
+        "runOn": 1507568338386,
+        "runIn": 58219,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "J3HT4ysMoZYP8Ojv",
+        "hash": "a29bb2155eb0fb0764ab2adcc7efd69a",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"pve_geocoded_clean\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"num_route_com_id\" \u003d \u0027Rue du Général de Gaulle97411\u0027",
+        "expandedSql": "select * from \"pve_geocoded_clean\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"num_route_com_id\" \u003d \u0027Rue du Général de Gaulle97411\u0027"
       }
     ]
   }
