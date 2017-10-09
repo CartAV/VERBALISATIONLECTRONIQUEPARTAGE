@@ -1836,6 +1836,28 @@
         },
         "sql": "select * from \"2010_2015_pve_sr_regions_postgis\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"num_route_com_id\" \u003d \u0027Rue du Général de Gaulle97411\u0027",
         "expandedSql": "select * from \"2010_2015_pve_sr_regions_postgis\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"num_route_com_id\" \u003d \u0027Rue du Général de Gaulle97411\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "p83HpJ9sej8H",
+        "runOn": 1507568583202,
+        "runIn": 64893,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "1MgLlFybMpscpMoT",
+        "hash": "94794b9314e66b46b7f24001b90a7800",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"pve_geocoded_distance_commune\" where\n\"PVE_ID\" in (\u002784901542\u0027, \u0027111567690\u0027, \u002765791603\u0027)",
+        "expandedSql": "select * from \"pve_geocoded_distance_commune\" where\n\"PVE_ID\" in (\u002784901542\u0027, \u0027111567690\u0027, \u002765791603\u0027)"
       }
     ]
   }
