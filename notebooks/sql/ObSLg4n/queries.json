@@ -1726,6 +1726,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"ANNEE_INFRACTION\" \u003d \u00272016\u0027\n",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"ANNEE_INFRACTION\" \u003d \u00272016\u0027\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "A1AWWMNQi7Sc",
+        "runOn": 1507567469663,
+        "runIn": 4190,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "j38kMY9Th6wkO9nY",
+        "hash": "2c2eba2cc967d5e770a64d410cd716fd",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"ANNEE_INFRACTION\" \u003d \u00272016\u0027\nAND \"LIBELLE_JOUR_INFRACTION\" \u003d \u0027Vendredi\u0027\nAND \"LIBELLE_PLAGE_HORAIRE\" \u003d \u002704 - 05 h\u0027",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"ANNEE_INFRACTION\" \u003d \u00272016\u0027\nAND \"LIBELLE_JOUR_INFRACTION\" \u003d \u0027Vendredi\u0027\nAND \"LIBELLE_PLAGE_HORAIRE\" \u003d \u002704 - 05 h\u0027"
       }
     ]
   }
