@@ -18,6 +18,9 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "on": [
         {
           "maxDistance": 1,
@@ -32,9 +35,6 @@
           }
         }
       ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
       "type": "LEFT"
     }
   ],
@@ -213,11 +213,6 @@
       "type": "string"
     },
     {
-      "name": "bano_citycode",
-      "table": 0,
-      "type": "string"
-    },
-    {
       "name": "bano_label",
       "table": 0,
       "type": "string"
@@ -240,11 +235,6 @@
     {
       "name": "bano_type",
       "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "ban_citycode",
-      "table": 1,
       "type": "string"
     },
     {
