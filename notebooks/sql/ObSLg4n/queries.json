@@ -1748,6 +1748,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"ANNEE_INFRACTION\" \u003d \u00272016\u0027\nAND \"LIBELLE_JOUR_INFRACTION\" \u003d \u0027Vendredi\u0027\nAND \"LIBELLE_PLAGE_HORAIRE\" \u003d \u002704 - 05 h\u0027",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"ANNEE_INFRACTION\" \u003d \u00272016\u0027\nAND \"LIBELLE_JOUR_INFRACTION\" \u003d \u0027Vendredi\u0027\nAND \"LIBELLE_PLAGE_HORAIRE\" \u003d \u002704 - 05 h\u0027"
+      },
+      {
+        "mode": "SQL",
+        "id": "eKkdFdlHd42M",
+        "runOn": 1507567912173,
+        "runIn": 164394,
+        "runBy": "grabenertr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "H45ZAFU6r1F4HPDJ",
+        "hash": "c1010735b24aff3744adacb067e4e173",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2010_2015_pve_sr_regions_postgis\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"num_route_come_id\" \u003d \u0027Rue du Général de Gaulle97411\u0027",
+        "expandedSql": "select * from \"2010_2015_pve_sr_regions_postgis\" where\n\"DEPARTEMENT_INFRACTION\" \u003d \u002793\u0027\nAND \"num_route_come_id\" \u003d \u0027Rue du Général de Gaulle97411\u0027"
       }
     ]
   }
