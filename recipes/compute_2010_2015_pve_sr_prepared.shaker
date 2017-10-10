@@ -49,8 +49,7 @@
         "values": [
           "2016",
           "2017",
-          "2015",
-          "2014"
+          "2015"
         ],
         "booleanMode": "AND",
         "normalizationMode": "EXACT",
@@ -61,7 +60,7 @@
         "action": "KEEP_ROW"
       },
       "type": "FilterOnValue",
-      "disabled": true,
+      "disabled": false,
       "metaType": "PROCESSOR"
     }
   ],
