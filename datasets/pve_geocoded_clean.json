@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501519604133
+    "lastModifiedOn": 1507726454645
   },
   "creationTag": {
     "versionNumber": 0,
@@ -245,6 +245,12 @@
         "maxLength": -1
       },
       {
+        "name": "bano_postcode",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "bano_score",
         "type": "double",
         "timestampNoTzAsDate": false,
@@ -252,6 +258,12 @@
       },
       {
         "name": "bano_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "ban_citycode",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
