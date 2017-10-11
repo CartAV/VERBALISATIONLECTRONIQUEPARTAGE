@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1501519110038
+    "lastModifiedOn": 1507725358794
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,7 +54,7 @@
     "columns": [
       {
         "name": "PVE_ID",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -144,13 +144,13 @@
       },
       {
         "name": "MIFVAO_CoordGPSLatitude",
-        "type": "string",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "MIFVAO_CoordGPSLongitude",
-        "type": "string",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -174,7 +174,7 @@
       },
       {
         "name": "LIBELLE_JOUR_INFRACTION",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -245,6 +245,12 @@
         "maxLength": -1
       },
       {
+        "name": "bano_postcode",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "bano_score",
         "type": "double",
         "timestampNoTzAsDate": false,
@@ -252,6 +258,12 @@
       },
       {
         "name": "bano_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "ban_citycode",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
