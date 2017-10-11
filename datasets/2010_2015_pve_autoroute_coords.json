@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
-      "login": "chabouisfr"
+      "login": "grabenertr"
     },
-    "lastModifiedOn": 1507291456816
+    "lastModifiedOn": 1507721183803
   },
   "creationTag": {
     "versionNumber": 0,
@@ -227,12 +227,6 @@
         "maxLength": -1
       },
       {
-        "name": "bano_citycode",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "bano_label",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -247,6 +241,12 @@
       {
         "name": "bano_longitude",
         "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "bano_postcode",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
