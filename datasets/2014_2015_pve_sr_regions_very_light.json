@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1507890214023
+    "lastModifiedOn": 1507906777162
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,7 +54,13 @@
     "userModified": false,
     "columns": [
       {
-        "name": "num_route_com_id",
+        "name": "DEPARTEMENT_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "CODE_INSEE_INFRACTION",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -72,49 +78,19 @@
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_UNITE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "LIBELLE_FAMILLE",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "NOM_REG",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "DEPARTEMENT_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "num_route_or_id",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "CODE_INSEE_INFRACTION",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "geojson",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
         "name": "LIBELLE_JOUR_INFRACTION",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIBELLE_PLAGE_HORAIRE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "LIBELLE_UNITE",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -132,13 +108,37 @@
         "maxLength": -1
       },
       {
-        "name": "LIB_COURT_CORPS",
+        "name": "LIBELLE_FAMILLE",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_PLAGE_HORAIRE",
+        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "num_route_or_id",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "num_route_com_id",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geojson",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "NOM_REG",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -150,7 +150,7 @@
         "maxLength": -1
       },
       {
-        "name": "LIBELLE_TYPE_VOIE_DEDUIT",
+        "name": "LIB_COURT_CORPS",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
