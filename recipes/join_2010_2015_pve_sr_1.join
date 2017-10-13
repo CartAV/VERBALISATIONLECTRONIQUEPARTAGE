@@ -17,6 +17,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 1,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -31,7 +32,6 @@
           }
         }
       ],
-      "rightLimit": {},
       "type": "LEFT"
     },
     {
@@ -39,6 +39,7 @@
       "outerJoinOnTheLeft": true,
       "table2": 2,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "on": [
         {
           "maxDistance": 1,
@@ -53,7 +54,6 @@
           }
         }
       ],
-      "rightLimit": {},
       "type": "LEFT"
     }
   ],
@@ -170,9 +170,19 @@
       "type": "string"
     },
     {
+      "name": "latitude",
+      "table": 0,
+      "type": "double"
+    },
+    {
       "name": "geo_type",
       "table": 0,
       "type": "string"
+    },
+    {
+      "name": "longitude",
+      "table": 0,
+      "type": "double"
     },
     {
       "name": "geo_source",
