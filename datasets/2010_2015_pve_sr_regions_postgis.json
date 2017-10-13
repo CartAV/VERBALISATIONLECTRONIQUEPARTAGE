@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 25,
+    "versionNumber": 26,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1504085975414
+    "lastModifiedOn": 1507888846686
   },
   "creationTag": {
     "versionNumber": 0,
@@ -148,8 +148,20 @@
         "maxLength": -1
       },
       {
+        "name": "latitude",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
         "name": "geo_type",
         "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "longitude",
+        "type": "double",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
