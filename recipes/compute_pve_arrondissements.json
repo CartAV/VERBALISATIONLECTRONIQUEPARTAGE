@@ -17,6 +17,10 @@
         {
           "ref": "2010_2015_pve_sr_regions_postgis",
           "deps": []
+        },
+        {
+          "ref": "DATAPREPOPENDATAGEO.IGN_COMMUNE_FRANCE",
+          "deps": []
         }
       ]
     }
@@ -32,11 +36,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1507888673365
+    "lastModifiedOn": 1507888706528
   },
   "creationTag": {
     "versionNumber": 0,
