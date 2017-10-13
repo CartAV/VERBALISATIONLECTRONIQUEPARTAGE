@@ -76,6 +76,19 @@
       "alwaysShowComment": false,
       "preview": false,
       "params": {
+        "usePythonUnicode": true,
+        "stopOnError": true,
+        "pythonSourceCode": "def process(row):\n    if row[\"code_arrondissement\"]:\n        row[\"CODE_INSEE_INFRACTION\"] \u003d row[\"code_arrondissement\"]\n    return row",
+        "mode": "ROW"
+      },
+      "type": "PythonUDF",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
         "appliesTo": "COLUMNS",
         "columns": [
           "LIBELLE_FAMILLE",
