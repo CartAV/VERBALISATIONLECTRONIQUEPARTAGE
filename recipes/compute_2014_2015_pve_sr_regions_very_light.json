@@ -16,6 +16,10 @@
             "2010_2015_pve_sr_regions_postgis": {
               "repartition": 10,
               "cache": false
+            },
+            "pve_arrondissements": {
+              "repartition": 10,
+              "cache": false
             }
           }
         }
@@ -49,11 +53,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1507890202246
+    "lastModifiedOn": 1507890214795
   },
   "creationTag": {
     "versionNumber": 0,
