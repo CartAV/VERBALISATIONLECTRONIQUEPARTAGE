@@ -1038,6 +1038,28 @@
         },
         "sql": "select \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" where \"LIBELLE_UNITE\" like \u0027%(Marseille)%\u0027 group by \"LIBELLE_UNITE\"",
         "expandedSql": "select \"LIBELLE_UNITE\" from \"2014_2015_pve_sr_regions_very_light\" where \"LIBELLE_UNITE\" like \u0027%(Marseille)%\u0027 group by \"LIBELLE_UNITE\""
+      },
+      {
+        "mode": "SQL",
+        "id": "lbIBLOUcV2QZ",
+        "runOn": 1508421834931,
+        "runIn": 43105,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "vEfstpwc3Uc0458b",
+        "hash": "b2a2505fce0f4702ab8bfa61cd70c39c",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"LIBELLE_UNITE\" like \u0027%(Marseille)%\u0027 group by \"LIBELLE_UNITE\"",
+        "expandedSql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"LIBELLE_UNITE\" like \u0027%(Marseille)%\u0027 group by \"LIBELLE_UNITE\""
       }
     ]
   }
