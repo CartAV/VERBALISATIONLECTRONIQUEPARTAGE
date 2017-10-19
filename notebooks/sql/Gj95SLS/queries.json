@@ -911,10 +911,10 @@
         "mode": "SQL",
         "id": "FfZyHUFXOhRp",
         "runOn": 1508421438658,
-        "runIn": 140,
+        "runIn": 1834,
         "runBy": "chabouisfr",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "Eh7yruFc5HsshkM7",
         "hash": "87a7b03bb198b5e50e96acad00375565",
         "querySettings": {
