@@ -906,6 +906,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" limit 10;",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" limit 10;"
+      },
+      {
+        "mode": "SQL",
+        "id": "FfZyHUFXOhRp",
+        "runOn": 1508421438658,
+        "runIn": 140,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "Eh7yruFc5HsshkM7",
+        "hash": "87a7b03bb198b5e50e96acad00375565",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"LIBELLE_UNITE\" like \u0027%(Marseille)%\u0027",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"LIBELLE_UNITE\" like \u0027%(Marseille)%\u0027"
       }
     ]
   }
