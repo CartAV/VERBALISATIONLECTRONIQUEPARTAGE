@@ -1148,6 +1148,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" limit 10",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" limit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "9XhBrNZWyzgu",
+        "runOn": 1508858227205,
+        "runIn": 123,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "51C84MQJwXwHiuIM",
+        "hash": "ad5629559900f4e25492d97551af2f00",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"departement_infraction\" \u003d 75",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"departement_infraction\" \u003d 75"
       }
     ]
   }
