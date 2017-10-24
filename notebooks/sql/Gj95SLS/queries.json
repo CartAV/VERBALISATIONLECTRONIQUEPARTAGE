@@ -1219,10 +1219,10 @@
         "mode": "SQL",
         "id": "VUemyn5BoN89",
         "runOn": 1508858260764,
-        "runIn": 120,
+        "runIn": 178,
         "runBy": "chabouisfr",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "1v4S7MbVZ61cgtVv",
         "hash": "3d83eacc4f7254db2d20d5b1813a644b",
         "querySettings": {
