@@ -1087,10 +1087,10 @@
         "mode": "SQL",
         "id": "KrCsaSiuRGob",
         "runOn": 1508858173169,
-        "runIn": 46644,
+        "runIn": 366,
         "runBy": "chabouisfr",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "agUkBbgvgcD2BpP1",
         "hash": "c12258395a1ba5034b759e244ffc3203",
         "querySettings": {
