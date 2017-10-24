@@ -1280,6 +1280,28 @@
         },
         "sql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027 GROUP BY \"LIBELLE_UNITE\" ORDER BY \"COUNT\" ASC",
         "expandedSql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027 GROUP BY \"LIBELLE_UNITE\" ORDER BY \"COUNT\" ASC"
+      },
+      {
+        "mode": "SQL",
+        "id": "uNCbnkrBerdh",
+        "runOn": 1508858382507,
+        "runIn": 55,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "iuCEMyfoXCiWRDxB",
+        "hash": "f6cda5e6611664f2194695223cff5799",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027 GROUP BY \"LIBELLE_UNITE\" ORDER BY \"count\" ASC",
+        "expandedSql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027 GROUP BY \"LIBELLE_UNITE\" ORDER BY \"count\" ASC"
       }
     ]
   }
