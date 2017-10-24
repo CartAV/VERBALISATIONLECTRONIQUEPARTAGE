@@ -1082,6 +1082,28 @@
         },
         "sql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"LIBELLE_UNITE\" like \u0027%Ãš%\u0027 group by \"LIBELLE_UNITE\"",
         "expandedSql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"LIBELLE_UNITE\" like \u0027%Ãš%\u0027 group by \"LIBELLE_UNITE\""
+      },
+      {
+        "mode": "SQL",
+        "id": "KrCsaSiuRGob",
+        "runOn": 1508858173169,
+        "runIn": 46644,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "agUkBbgvgcD2BpP1",
+        "hash": "c12258395a1ba5034b759e244ffc3203",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"CODE_DEPT\" \u003d 75",
+        "expandedSql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"CODE_DEPT\" \u003d 75"
       }
     ]
   }
