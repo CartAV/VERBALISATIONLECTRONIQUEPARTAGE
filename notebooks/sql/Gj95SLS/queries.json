@@ -1214,6 +1214,28 @@
         },
         "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d 75",
         "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d 75"
+      },
+      {
+        "mode": "SQL",
+        "id": "VUemyn5BoN89",
+        "runOn": 1508858260764,
+        "runIn": 120,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "1v4S7MbVZ61cgtVv",
+        "hash": "3d83eacc4f7254db2d20d5b1813a644b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027",
+        "expandedSql": "select * from \"2014_2015_pve_sr_regions_very_light\" where \"DEPARTEMENT_INFRACTION\" \u003d \u002775\u0027"
       }
     ]
   }
