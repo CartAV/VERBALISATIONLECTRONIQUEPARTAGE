@@ -1104,6 +1104,28 @@
         },
         "sql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"CODE_DEPT\" \u003d 75",
         "expandedSql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"CODE_DEPT\" \u003d 75"
+      },
+      {
+        "mode": "SQL",
+        "id": "d2bqxGSI8cOK",
+        "runOn": 1508858181152,
+        "runIn": 366,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "cVXZo4eoZjQ76qkr",
+        "hash": "0ec2e30ae0fe92a333dc3c46f608a8ed",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"DEP\" \u003d 75",
+        "expandedSql": "select \"LIBELLE_UNITE\", count(*) from \"2014_2015_pve_sr_regions_very_light\" where \"DEP\" \u003d 75"
       }
     ]
   }
