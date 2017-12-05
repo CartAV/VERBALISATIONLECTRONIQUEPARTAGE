@@ -1,0 +1,24 @@
+{
+  "projectKey": "VERBALISATIONLECTRONIQUEPARTAGE",
+  "id": "pve_update_geo",
+  "type": "step_based",
+  "name": "pve_update_geo",
+  "active": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa"
+    },
+    "lastModifiedOn": 1512495182730
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": []
+  },
+  "automationLocal": false
+}
