@@ -22,11 +22,12 @@
             "mode": "\u0026\u0026",
             "conditions": [
               {
-                "input": "nom_circonscription_police",
-                "operator": "contains",
+                "input": "DATE_JOUR_REEL_INFRACTION",
+                "operator": "\u003e\u003d [date]",
                 "col": "CODE_INSEE_INFRACTION",
-                "string": "MARSEILLE",
-                "num": 0.0
+                "num": 0.0,
+                "date": "2017-10-01",
+                "time": "00:00"
               }
             ]
           }
@@ -40,7 +41,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 3
+      "_refreshTrigger": 7
     },
     "vizSampling": {
       "autoRefreshSample": false,
