@@ -3,22 +3,59 @@
   "id": "pve_update_geo",
   "type": "step_based",
   "name": "pve_update_geo",
-  "active": false,
+  "active": true,
+  "runAsUser": "antoinefa",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1512495182730
+    "lastModifiedOn": 1512495258915
   },
   "checklists": {
     "checklists": []
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "wl2J3RgO",
+      "type": "ds_modified",
+      "name": "pve_cleaned",
+      "delay": 3600,
+      "active": true,
+      "params": {
+        "watches": [
+          {
+            "type": "DATASET",
+            "projectKey": "VERBALISATIONLECTRONIQUE",
+            "itemId": "pve_cleaned",
+            "partitionsSpec": ""
+          }
+        ]
+      }
+    }
+  ],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "build_0_true_d_2014_2015_pve_sr_regions_very_light",
+        "type": "build_flowitem",
+        "name": "build dataset 2014_2015_pve_sr_regions_very_light",
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "2014_2015_pve_sr_regions_very_light",
+              "partitionsSpec": ""
+            }
+          ],
+          "jobType": "RECURSIVE_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false
 }
