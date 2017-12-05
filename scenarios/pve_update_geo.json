@@ -6,11 +6,11 @@
   "active": true,
   "runAsUser": "antoinefa",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1512495258915
+    "lastModifiedOn": 1512495489251
   },
   "checklists": {
     "checklists": []
@@ -21,7 +21,7 @@
       "id": "wl2J3RgO",
       "type": "ds_modified",
       "name": "pve_cleaned",
-      "delay": 3600,
+      "delay": 300,
       "active": true,
       "params": {
         "watches": [
