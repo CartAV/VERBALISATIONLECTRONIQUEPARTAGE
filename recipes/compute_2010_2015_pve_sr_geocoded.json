@@ -5,13 +5,13 @@
   "params": {
     "customConfig": {
       "server_address": "http://datalab-ban",
-      "concurent_requests": 10.0,
+      "concurent_requests": 8.0,
       "prefix": "ban_",
       "columns": [
         "VOIE_INFRACTION"
       ],
       "city_code": "CODE_INSEE_INFRACTION",
-      "error_col": "ban_error",
+      "error_col": "",
       "timeout": 10000.0,
       "lines_per_request": 1000.0
     }
@@ -42,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 40,
+    "versionNumber": 41,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515609288494
+    "lastModifiedOn": 1515609359434
   },
   "tags": [],
   "checklists": {
