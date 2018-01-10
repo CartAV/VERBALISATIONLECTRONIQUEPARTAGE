@@ -12,7 +12,7 @@
       ],
       "city_code": "CODE_INSEE_INFRACTION",
       "error_col": "ban_error",
-      "timeout": 2000.0,
+      "timeout": 10000.0,
       "lines_per_request": 1000.0
     }
   },
@@ -42,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 39,
+    "versionNumber": 40,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515608800734
+    "lastModifiedOn": 1515609288494
   },
   "tags": [],
   "checklists": {
