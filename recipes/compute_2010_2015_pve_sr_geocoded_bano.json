@@ -5,7 +5,7 @@
   "params": {
     "customConfig": {
       "server_address": "http://datalab-bano",
-      "concurent_requests": 8.0,
+      "concurent_requests": 10.0,
       "prefix": "bano_",
       "columns": [
         "VOIE_INFRACTION",
@@ -13,7 +13,7 @@
       ],
       "city_code": "",
       "timeout": 10000.0,
-      "lines_per_request": 500.0
+      "lines_per_request": 10000.0
     }
   },
   "customMeta": {
@@ -42,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 54,
+    "versionNumber": 55,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515609260019
+    "lastModifiedOn": 1515609271463
   },
   "creationTag": {
     "versionNumber": 0,
