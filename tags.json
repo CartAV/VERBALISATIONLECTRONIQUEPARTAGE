@@ -9,8 +9,14 @@
     "creator_grabenertr": {
       "color": "#a088bd"
     },
-    "creator:antoinefa": {},
-    "creator:grabenertr": {},
-    "creator:chabouisfr": {}
+    "creator:antoinefa": {
+      "color": "#0f6d82"
+    },
+    "creator:grabenertr": {
+      "color": "#123883"
+    },
+    "creator:chabouisfr": {
+      "color": "#90a8b7"
+    }
   }
 }
