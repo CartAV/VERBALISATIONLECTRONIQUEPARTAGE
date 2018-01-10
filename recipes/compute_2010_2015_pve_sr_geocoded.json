@@ -5,7 +5,7 @@
   "params": {
     "customConfig": {
       "server_address": "http://datalab-ban",
-      "concurent_requests": 10.0,
+      "concurent_requests": 1.0,
       "prefix": "ban_",
       "columns": [
         "VOIE_INFRACTION"
@@ -42,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 35,
+    "versionNumber": 36,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515607435221
+    "lastModifiedOn": 1515607467415
   },
   "tags": [],
   "checklists": {
