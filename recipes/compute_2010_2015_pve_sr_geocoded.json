@@ -11,6 +11,7 @@
         "VOIE_INFRACTION"
       ],
       "city_code": "CODE_INSEE_INFRACTION",
+      "error_col": "ban_error",
       "timeout": 2000.0,
       "lines_per_request": 1000.0
     }
@@ -41,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 31,
+    "versionNumber": 32,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515607231714
+    "lastModifiedOn": 1515607399732
   },
   "tags": [],
   "checklists": {
