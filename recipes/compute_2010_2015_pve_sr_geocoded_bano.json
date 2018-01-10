@@ -20,6 +20,7 @@
     "kv": {}
   },
   "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
   "inputs": {
     "input": {
       "items": [
@@ -34,18 +35,18 @@
     "output": {
       "items": [
         {
-          "ref": "pve_geocoded_bano",
+          "ref": "pve_geo_test",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 47,
+    "versionNumber": 48,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "antoinefa"
     },
-    "lastModifiedOn": 1501506969790
+    "lastModifiedOn": 1515605978933
   },
   "creationTag": {
     "versionNumber": 0,
