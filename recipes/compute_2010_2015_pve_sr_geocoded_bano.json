@@ -12,6 +12,7 @@
         "LIB_LOCALITE_INFRACTION"
       ],
       "city_code": "",
+      "error_col": "bano_err",
       "timeout": 10000.0,
       "lines_per_request": 10000.0
     }
@@ -42,11 +43,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 57,
+    "versionNumber": 58,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515609302264
+    "lastModifiedOn": 1515609314081
   },
   "creationTag": {
     "versionNumber": 0,
