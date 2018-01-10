@@ -34,6 +34,10 @@
         },
         "partitionSelectionMethod": "ALL",
         "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
         "samplingMethod": "HEAD_SEQUENTIAL",
         "maxRecords": 10000,
         "targetRatio": 0.02,
@@ -53,36 +57,36 @@
     "globalSearchQuery": "",
     "explorationFilters": [
       {
-        "column": "LIBELLE_PLAGE_HORAIRE",
-        "type": "columnFilter",
-        "currentMode": "FACET",
         "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "LIBELLE_PLAGE_HORAIRE",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {}
-        },
         "alphanumFilter": {
-          "type": "alphanum",
           "column": "LIBELLE_PLAGE_HORAIRE",
-          "values": [],
           "params": {
             "mode": "full_string",
             "normalization": "exact"
-          }
+          },
+          "type": "alphanum",
+          "values": []
         },
+        "column": "LIBELLE_PLAGE_HORAIRE",
+        "currentMode": "FACET",
+        "facet": {
+          "column": "LIBELLE_PLAGE_HORAIRE",
+          "columnType": "ALPHANUM",
+          "currentMode": "ALPHANUM",
+          "selectedValues": {},
+          "sort": "count",
+          "type": "facet"
+        },
+        "type": "columnFilter",
         "validityFilter": {
-          "type": "validity",
           "column": "LIBELLE_PLAGE_HORAIRE",
           "params": {
-            "type": "Text",
-            "ok": true,
+            "empty": true,
             "nok": true,
-            "empty": true
-          }
+            "ok": true,
+            "type": "Text"
+          },
+          "type": "validity"
         }
       }
     ],
@@ -101,6 +105,10 @@
           },
           "partitionSelectionMethod": "ALL",
           "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
           "samplingMethod": "FULL",
           "maxRecords": 10000,
           "targetRatio": 0.02,
@@ -119,6 +127,9 @@
           {
             "column": "DATE_JOUR_REEL_INFRACTION",
             "type": "DATE",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
             "dateParams": {
               "mode": "MONTH"
             },
@@ -129,30 +140,32 @@
             "isA": "dimension",
             "possibleSorts": [
               {
-                "type": "NATURAL",
                 "label": "Natural ordering",
-                "sortAscending": true
+                "sortAscending": true,
+                "type": "NATURAL"
               },
               {
-                "type": "AGGREGATION",
+                "label": "Count of records, descending",
                 "measureIdx": 0,
-                "label": "Count of records, descending"
+                "type": "AGGREGATION"
               },
               {
-                "type": "AGGREGATION",
-                "measureIdx": 0,
                 "label": "Count of records, ascending",
-                "sortAscending": true
+                "measureIdx": 0,
+                "sortAscending": true,
+                "type": "AGGREGATION"
               }
             ],
             "sort": {
-              "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "type": "NATURAL"
             }
           }
         ],
         "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
         "genericMeasures": [
           {
             "function": "COUNT",
@@ -162,7 +175,7 @@
             "displayAxis": "axis1",
             "displayType": "column",
             "computeMode": "NORMAL",
-            "computeModeDim": 0
+            "computeModeDim": 1
           }
         ],
         "xDimension": [],
@@ -189,17 +202,37 @@
         "smoothing": true,
         "showLegend": true,
         "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": false,
         "strokeWidth": 1,
+        "fillOpacity": 0.5,
+        "showXAxisLabel": false,
+        "showYAxisLabel": false,
         "hexbinRadius": 20,
         "hexbinNumber": 20,
         "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": false,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
         "colorOptions": {
           "singleColor": "#659a88",
           "transparency": 0.75,
           "colorPalette": "default",
-          "ccScaleMode": "NORMAL"
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
         },
-        "colorPaletteType": "LINEAR",
         "bubblesOptions": {
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
@@ -224,8 +257,10 @@
         },
         "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAfUlEQVRoge3UMQ6AIBBFQW7iMb2YvVeztTEBZBc08xK7H2EsLEWSJrftx3l/Zt+nqxbAE/hTHwG4cgsMvGjAlVtg4MR6ES1bYODEgAO2wMCJAQdsgYETAw7YAgMnBhywBQZO7PPgp4Nq9lFbYOAX/QI84qDR7+69x/S/9ApdcKeDuP7lNDMAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
-        "useLiveProcessingIfAvailable": true
-      }
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
     }
   ]
 }
