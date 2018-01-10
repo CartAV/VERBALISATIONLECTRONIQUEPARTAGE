@@ -35,18 +35,18 @@
     "output": {
       "items": [
         {
-          "ref": "pve_geo_test",
+          "ref": "pve_geocoded_bano",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 49,
+    "versionNumber": 50,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515605990446
+    "lastModifiedOn": 1515606254253
   },
   "creationTag": {
     "versionNumber": 0,
