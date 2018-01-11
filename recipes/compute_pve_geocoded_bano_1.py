@@ -81,7 +81,6 @@ def adresse_submit(df,i=0,schema_check=[]):
     global maxtries
     string_io = StringIO.StringIO()
     data, cols = datas()
-    print data, cols
     response = None
     if not isinstance(df,pd.DataFrame):
         return df
