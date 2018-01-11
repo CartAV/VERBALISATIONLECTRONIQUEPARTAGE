@@ -125,7 +125,7 @@ def geocode(ids, ods):
     process_queue = Queue(threads)
     for chunk in dataset_iter:
         process_queue.put(chunk)
-        thread = multiprocessing(target=adresse_submit, args=(process_queue.get(),ow))
+        thread = multiprocessing(target=adresse_submit, args=[process_queue.get(),ow])
         thread.start()
         j += lines_per_request
     ow.close()
