@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515666762733
+    "lastModifiedOn": 1515667115714
   },
   "creationTag": {
     "versionNumber": 0,
@@ -228,7 +228,7 @@
         "maxLength": -1
       },
       {
-        "name": "bano_err_",
+        "name": "bano_error",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
