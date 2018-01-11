@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515659080970
+    "lastModifiedOn": 1515681965992
   },
   "creationTag": {
     "versionNumber": 0,
@@ -60,6 +60,12 @@
   "schema": {
     "userModified": false,
     "columns": [
+      {
+        "name": "index",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
       {
         "name": "PVE_ID",
         "type": "string",
@@ -235,6 +241,12 @@
         "maxLength": 16200
       },
       {
+        "name": "bano_error",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
         "name": "bano_city",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -248,12 +260,6 @@
       },
       {
         "name": "bano_context",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
-        "name": "bano_err_",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
