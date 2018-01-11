@@ -37,9 +37,9 @@ error_col = '{}{}'.format(output_prefix,error_prefix) if error_prefix else None
 
 
 # Process config
-lines_per_request = 1000
+lines_per_request = 500
 verbosechunksize = 2000
-threads = 10
+threads = 8
 timeout = 60
 maxtries = 3
 limit = None
