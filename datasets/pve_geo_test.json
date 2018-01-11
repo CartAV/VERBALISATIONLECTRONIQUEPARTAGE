@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515656512710
+    "lastModifiedOn": 1515660888552
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,19 +57,19 @@
         "name": "PVE_ID",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "CI_Libelle",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "AC_Pays",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "NI_CodeNatinf",
@@ -81,83 +81,79 @@
         "name": "NI_Qualification",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "DEPARTEMENT_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "CODE_INSEE_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "VOIE_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "LIB_LOCALITE_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MI_RepereKilometrique",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MI_BisTer",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MI_SensCirculation",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MI_Pays",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "TYPEVOIE_Libelle",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MIFVAO_CoordSite",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MIFVAO_CoordGPSLatitude",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MIFVAO_CoordGPSLongitude",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MI_DateHeureInfraction",
@@ -181,55 +177,55 @@
         "name": "LIBELLE_JOUR_INFRACTION",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "LIBELLE_PLAGE_HORAIRE",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "UNITE_Code",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "UNITE_Libelle",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "CORPSUNITE_Code",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "LIBELLE_CORPS",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "COD_GENRE",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "MIFVAO_VehiculePaysImmatriculation",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "LIBELLE_FAMILLE",
         "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "bano_city",
@@ -245,6 +241,12 @@
       },
       {
         "name": "bano_context",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "bano_err_",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -269,13 +271,13 @@
       },
       {
         "name": "bano_latitude",
-        "type": "float",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
         "name": "bano_longitude",
-        "type": "float",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
@@ -293,7 +295,7 @@
       },
       {
         "name": "bano_score",
-        "type": "float",
+        "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
