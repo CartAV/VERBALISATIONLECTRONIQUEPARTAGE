@@ -16,7 +16,7 @@ import sys, time, traceback
 PROXY_OPEN_LAB = 'proxy-1:3128'
 PROXY_PRIVATE_LAB = 'localhost:3128'
 
-SERVER_OPEN_LAB = 'http://datalab-bano'
+SERVER_OPEN_LAB = 'http://datalab-ban'
 SERVER_PRIVATE_LAB = 'http://adresse.datalab.mi'
 SERVER_GOUV_FR = 'http://api-adresse.data.gouv.fr'
 
@@ -26,9 +26,9 @@ http_proxy = None #PROXY_OPEN_LAB if OPEN_LAB else PROXY_PRIVATE_LAB
 server_address = SERVER_OPEN_LAB if OPEN_LAB else SERVER_PRIVATE_LAB
 
 # Input fields configuration
-columns = ['VOIE_INFRACTION', 'LIB_LOCALITE_INFRACTION']
+columns = ['VOIE_INFRACTION']
 post_code = []
-city_code = []
+city_code = ['CODE_INSEE_INFRACTION']
 # Ouput fields configuration
 output_prefix = 'bano_'
 error_prefix = 'error'
