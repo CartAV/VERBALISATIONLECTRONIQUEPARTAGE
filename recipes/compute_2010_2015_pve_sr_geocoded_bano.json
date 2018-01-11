@@ -14,7 +14,7 @@
       "city_code": "",
       "error_col": "",
       "timeout": 10000.0,
-      "lines_per_request": 1000.0
+      "lines_per_request": 200.0
     }
   },
   "customMeta": {
@@ -43,11 +43,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 61,
+    "versionNumber": 62,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515654615769
+    "lastModifiedOn": 1515656488380
   },
   "creationTag": {
     "versionNumber": 0,
