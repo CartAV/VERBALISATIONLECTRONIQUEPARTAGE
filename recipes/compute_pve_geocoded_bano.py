@@ -41,7 +41,7 @@ verbosechunksize = 2000
 threads = 10
 timeout = 10
 maxtries = 2
-limit = 10000
+limit = None
 
 
 def err():
