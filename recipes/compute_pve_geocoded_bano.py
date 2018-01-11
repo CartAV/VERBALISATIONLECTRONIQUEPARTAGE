@@ -1,3 +1,4 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 from multiprocessing import Process, Queue
 import dataiku
@@ -60,7 +61,7 @@ def adresse_submit(df, writer):
     string_io = StringIO.StringIO()
     i += lines_per_request
     data, cols = datas()
-    if not isinstance(df,pd.DataFrame): 
+    if not isinstance(df,pd.DataFrame):
         return df
     df[cols].to_csv(string_io, encoding="utf-8", index=False)
     kwargs = {
@@ -90,7 +91,7 @@ def adresse_submit(df, writer):
         df['result_score'] = -1
         if error_col:
             df["{}{}".format(output_prefix, error_prefix)] = "HTTP Status: {}".format(response.status_code)
-    writer.write_dataframe(df)        
+    writer.write_dataframe(df)
     return df
 
 def grouper(iterable, n, fillvalue=None):
@@ -131,4 +132,4 @@ def geocode(ids, ods):
 
 ids = dataiku.Dataset("pve_sr_month")
 ods = dataiku.Dataset("pve_geocoded_bano")
-geocode(ids, ods)    
+geocode(ids, ods)
