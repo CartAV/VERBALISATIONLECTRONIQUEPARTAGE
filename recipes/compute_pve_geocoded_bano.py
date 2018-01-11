@@ -54,7 +54,7 @@ def datas():
         cols.append(city_code)
     return (result, cols)
 
-def adresse_submit(df, writer):
+def adresse_submit(df, queue, writer):
     """Does the actual request to the geocoding server"""
     global i
     verbosechunksize = 2000
@@ -92,6 +92,7 @@ def adresse_submit(df, writer):
         if error_col:
             df["{}{}".format(output_prefix, error_prefix)] = "HTTP Status: {}".format(response.status_code)
     writer.write_dataframe(df)
+    queue.get()
     return df
 
 def grouper(iterable, n, fillvalue=None):
@@ -122,10 +123,10 @@ def geocode(ids, ods):
     # Then the full pass
     dataset_iter = ids.iter_dataframes(chunksize=lines_per_request, infer_with_pandas=False)
     j = 0
-    process_queue = Queue(threads)
+    queue = Queue(threads)
     for chunk in dataset_iter:
-        process_queue.put(chunk)
-        thread = multiprocessing(target=adresse_submit, args=[process_queue.get(),ow])
+        queue.put("lock")
+        thread = multiprocessing(target=adresse_submit, args=[chunk,queue,ow])
         thread.start()
         j += lines_per_request
     ow.close()
