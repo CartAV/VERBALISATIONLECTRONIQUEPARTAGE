@@ -1,3 +1,4 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 from multiprocessing import Process, Queue
 import dataiku
@@ -9,6 +10,7 @@ import logging
 import pandas as pd
 import requests
 import StringIO
+import sys, time, traceback
 
 # Proxy and server  config
 
@@ -30,16 +32,25 @@ post_code = []
 city_code = []
 # Ouput fields configuration
 output_prefix = 'bano_'
-error_prefix = 'err_'
+error_prefix = 'error'
+error_col = '{}{}'.format(output_prefix,error_prefix) if error_prefix else None
 
 
 # Process config
-lines_per_request = 500
+lines_per_request = 10000
 verbosechunksize = 2000
-threads = 1
-timeout = 1000
+threads = 10
+timeout = 1
+maxtries = 2
+limit = 10000
 
-i = 0
+
+def err():
+	#exc_info=sys.exc_info()
+	exc_type, exc_obj, exc_tb = sys.exc_info()
+	return
+	#return "{}".format(traceback.print_exception(*exc_info))
+
 
 def datas():
     """Returns the columns composing the address"""
@@ -53,19 +64,27 @@ def datas():
         cols.append(city_code)
     return (result, cols)
 
-def process_chunk(df,queue,writer):
-    writer.write_dataframe(adresse_submit(df))
-    queue.get()
+def process_chunk(i,df,process_queue,write_queue,schema_check=[]):
+    try:
+        df = adresse_submit(df,i,schema_check)
+        if ((((i+1)*lines_per_request) % verbosechunksize) == 0):
+            print("chunk {}-{} ok".format(i*lines_per_request+1,(i+1)*lines_per_request))
+    except:
+        exc_type, exc_obj, exc_tb = sys.exc_info()
+        # error = "{} : {} line {}".format(str(exc_type),exc_obj,exc_tb.tb_lineno)
+        logging.warning("chunk {}-{} failed - {}".format(i*lines_per_request+1,(i+1)*lines_per_request,traceback.print_exception(exc_type, exc_obj, exc_tb)))
+    write_queue.put(df)
+    process_queue.get(i)
 
-def adresse_submit(df):
+def adresse_submit(df,i=0,schema_check=[]):
     """Does the actual request to the geocoding server"""
-    global i
-    verbosechunksize = 2000
+    global maxtries
     string_io = StringIO.StringIO()
-    i += lines_per_request
     data, cols = datas()
+    response = None
     if not isinstance(df,pd.DataFrame):
         return df
+    df.reset_index(inplace=True)
     df[cols].to_csv(string_io, encoding="utf-8", index=False)
     kwargs = {
         'data': data,
@@ -75,25 +94,49 @@ def adresse_submit(df):
     }
     if http_proxy:
         kwargs['proxies'] = {'http': http_proxy}
-    response = requests.post(**kwargs)
-    error_col = 'result_{}'.format(error_prefix) if error_prefix else None
-    if response.status_code == 200:
+
+    tries=1
+    failed=True
+    while ((failed == True) & (tries <= maxtries)):
+        try:
+            response = requests.post(**kwargs)
+            status_code = response.status_code
+        except requests.exceptions.ReadTimeout:
+            status_code = "timeout"
+        if status_code == 200:
+            failed=False
+        else:
+            #logging.warning("{}".format(tries))
+            tries += 1
+            if (tries <= maxtries):
+                time.sleep(3 ** (tries-1))
+    if (failed == False):
         content = StringIO.StringIO(response.content.decode('utf-8-sig'))
         result = pd.read_csv(content, dtype=object)
+
         if error_col:
-            result[error_col] = None
+            df[error_col] = None
         result = result.rename(columns={'longitude': 'result_longitude',
                                         'latitude': 'result_latitude'})
-        diff = result.axes[1].difference(df.axes[1])
-        for new_column in diff:
-            if new_column.startswith("result_"):
-                df[new_column.replace("result_", output_prefix)] = result[new_column]
-    else:
-        logging.warning("Chunk %r to %r: no valid response",
-                        i-lines_per_request, i)
-        df['result_score'] = -1
+        if (tries>1):
+            loggin.warning("chunk {}-{} needed {} tries".format(tries,i*lines_per_request+1,(i+1)*lines_per_request))
+        diff = [x for x in result.axes[1].difference(df.axes[1]) if x.startswith('result_')]
+        for result_column in diff:
+            if result_column.startswith("result_"):
+                new_column=result_column.replace("result_", output_prefix)
+                df[new_column] = result[result_column]
+
+    if (failed == True):
+        tries -= 1
+        logging.warning("chunk {}-{} failed after {} tries".format(i*lines_per_request+1,(i+1)*lines_per_request,tries))
+        df[output_prefix+'score'] = -1
         if error_col:
-            df["{}{}".format(output_prefix, error_prefix)] = "HTTP Status: {}".format(response.status_code)
+            df[error_col] = "HTTP Status: {}".format(status_code)
+        if (len(schema_check)>len(df.axes[1])):
+            diff = [x for x in schema_check.difference(df.axes[1])]
+            for col in diff:
+                df[col]=None
+
     return df
 
 def grouper(iterable, n, fillvalue=None):
@@ -122,16 +165,26 @@ def geocode(ids, ods):
     ods.write_schema_from_dataframe(geocoded)
     ow = ods.get_writer()
     # Then the full pass
-    dataset_iter = ids.iter_dataframes(chunksize=lines_per_request, infer_with_pandas=False)
-    j = 0
-    queue = Queue(threads)
-    for chunk in dataset_iter:
-        queue.put("lock")
-        thread = Process(target=process_chunk, args=[chunk,queue,ow])
+    dataset_iter = ids.iter_dataframes(chunksize=lines_per_request, infer_with_pandas=False, limit=limit)
+    process_queue = Queue(threads)
+    write_queue = Queue()
+    for i,chunk in enumerate(dataset_iter):
+        process_queue.put(i)
+        thread = Process(target=process_chunk, args=[i,chunk,process_queue,write_queue,output_index])
         thread.start()
-        j += lines_per_request
+        while (write_queue.qsize() > 0):
+            ow.write_dataframe(write_queue.get())
+
+    print "waiting {} chunk processes".format(process_queue.qsize())
+    while (process_queue.qsize() > 0):
+        time.sleep(1)
+
+    print "flushing {} chunks".format(write_queue.qsize())
+    while (write_queue.qsize() > 0):
+        ow.write_dataframe(write_queue.get())
+
     ow.close()
 
 ids = dataiku.Dataset("pve_sr_month")
-ods = dataiku.Dataset("pve_geocoded_bano")
+ods = dataiku.Dataset("pve_geo_test")
 geocode(ids, ods)
