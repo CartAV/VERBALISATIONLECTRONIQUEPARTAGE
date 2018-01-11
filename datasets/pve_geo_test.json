@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515662425613
+    "lastModifiedOn": 1515666762733
   },
   "creationTag": {
     "versionNumber": 0,
@@ -223,6 +223,12 @@
       },
       {
         "name": "LIBELLE_FAMILLE",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "bano_err_",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
