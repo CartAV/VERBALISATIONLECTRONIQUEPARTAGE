@@ -69,7 +69,7 @@
           "maxReadUncompressedBytes": -1
         },
         "autoRefreshSample": false,
-        "_refreshTrigger": 1
+        "_refreshTrigger": 2
       },
       "def": {
         "type": "grouped_columns",
@@ -208,7 +208,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAwElEQVRoQ+3TOxWDUBRE0TwP6XGDFSTgBR30KEAGNQJoWCnTzXBnQcGhHj5vJ6d9Xna16nm7cV6qz7h6/3ff+nUaDud+Duxo/bb8wq5YYc9fWsCjYQHpb0LDrlhhT8MCHg0LSDTsIqX2NCxI0rCARMMuUmpPw4IkDQtINOwipfY0LEjSsIBEwy5Sak/DgiQNC0g07CKl9jQsSNKwgETDLlJqT8OCJA0LSDTsIqX2jzSc+vi7nlNu+K4PTb3ndQc+AQWV/CkMHI/CAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAATElEQVRoge3PMQ0AIBAEwSvwgUxaRNG/tddARUhmkxUwie6a69Srs2sAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA0v6rQZqc8zHVAg5MAAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
