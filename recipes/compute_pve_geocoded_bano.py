@@ -15,11 +15,11 @@ import StringIO
 PROXY_OPEN_LAB = 'proxy-1:3128'
 PROXY_PRIVATE_LAB = 'localhost:3128'
 
-SERVER_OPEN_LAB = 'http://datalab-ban'
+SERVER_OPEN_LAB = 'http://datalab-bano'
 SERVER_PRIVATE_LAB = 'http://adresse.datalab.mi'
 SERVER_GOUV_FR = 'http://api-adresse.data.gouv.fr'
 
-OPEN_LAB = False
+OPEN_LAB = True
 
 http_proxy = PROXY_OPEN_LAB if OPEN_LAB else PROXY_PRIVATE_LAB
 server_address = SERVER_OPEN_LAB if OPEN_LAB else SERVER_PRIVATE_LAB
@@ -53,7 +53,7 @@ def datas():
         cols.append(city_code)
     return (result, cols)
 
-def adresse_submit(df):
+def adresse_submit(df, writer):
     """Does the actual request to the geocoding server"""
     global i
     verbosechunksize = 2000
@@ -90,6 +90,7 @@ def adresse_submit(df):
         df['result_score'] = -1
         if error_col:
             df["{}{}".format(output_prefix, error_prefix)] = "HTTP Status: {}".format(response.status_code)
+    writer.write_dataframe(df)        
     return df
 
 def grouper(iterable, n, fillvalue=None):
@@ -122,12 +123,10 @@ def geocode(ids, ods):
     j = 0
     process_queue = Queue(threads)
     for chunk in dataset_iter:
-        try:
-            thread = multiprocessing(target=adresse_submit, args=(chunk,queue))
-            ow.write_dataframe(s)
-            j += lines_per_request
-        except Exception as exc:
-            logging.warning("chunk %r to %r generated an exception: %r\n%r", j, j + lines_per_request, exc, s)
+        process_queue.put(chunk)
+        thread = multiprocessing(target=adresse_submit, args=(process_queue.get(),ow))
+        thread.start()
+        j += lines_per_request
     ow.close()
 
 ids = dataiku.Dataset("pve_sr_month")
