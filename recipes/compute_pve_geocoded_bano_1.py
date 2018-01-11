@@ -1,3 +1,4 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 from multiprocessing import Process, Queue
 import dataiku
@@ -27,8 +28,8 @@ server_address = SERVER_OPEN_LAB if OPEN_LAB else SERVER_PRIVATE_LAB
 
 # Input fields configuration
 columns = ['VOIE_INFRACTION']
-post_code = []
-city_code = ['CODE_INSEE_INFRACTION']
+post_code = None
+city_code = 'CODE_INSEE_INFRACTION'
 # Ouput fields configuration
 output_prefix = 'ban_'
 error_prefix = 'error'
@@ -36,11 +37,11 @@ error_col = '{}{}'.format(output_prefix,error_prefix) if error_prefix else None
 
 
 # Process config
-lines_per_request = 1000
+lines_per_request = 500
 verbosechunksize = 2000
-threads = 10
-timeout = 30
-maxtries = 2
+threads = 8
+timeout = 60
+maxtries = 3
 limit = None
 
 
@@ -80,6 +81,7 @@ def adresse_submit(df,i=0,schema_check=[]):
     global maxtries
     string_io = StringIO.StringIO()
     data, cols = datas()
+    print data, cols
     response = None
     if not isinstance(df,pd.DataFrame):
         return df
