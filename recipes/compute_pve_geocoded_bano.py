@@ -185,5 +185,5 @@ def geocode(ids, ods):
     ow.close()
 
 ids = dataiku.Dataset("pve_sr_month")
-ods = dataiku.Dataset("pve_geo_test")
+ods = dataiku.Dataset("pve_geocoded_bano")
 geocode(ids, ods)
