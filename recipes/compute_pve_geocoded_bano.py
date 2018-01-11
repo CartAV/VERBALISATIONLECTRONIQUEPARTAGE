@@ -1,4 +1,3 @@
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 from multiprocessing import Process, Queue
 import dataiku
