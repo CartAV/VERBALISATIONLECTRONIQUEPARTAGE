@@ -27,8 +27,8 @@ server_address = SERVER_OPEN_LAB if OPEN_LAB else SERVER_PRIVATE_LAB
 
 # Input fields configuration
 columns = ['VOIE_INFRACTION', 'LIB_LOCALITE_INFRACTION']
-post_code = None
-city_code = None
+post_code = []
+city_code = []
 # Ouput fields configuration
 output_prefix = 'bano_'
 error_prefix = 'err_'
@@ -57,7 +57,6 @@ def datas():
 def process_chunk(df,queue,writer):
     writer.write_dataframe(adresse_submit(df))
     queue.get()
-
 
 def adresse_submit(df):
     """Does the actual request to the geocoding server"""
