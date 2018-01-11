@@ -26,11 +26,11 @@ http_proxy = PROXY_OPEN_LAB if OPEN_LAB else PROXY_PRIVATE_LAB
 server_address = SERVER_OPEN_LAB if OPEN_LAB else SERVER_PRIVATE_LAB
 
 # Input fields configuration
-columns = ['ADRE_L_NUM', 'ADRE_L_NOM_VOIE', 'ADRE_cmne_l_nom']
-post_code = 'ADRE_l_cmne_copo'
-city_code = 'ADRE_cmne_c_insee' # None
+columns = ['VOIE_INFRACTION', 'LIB_LOCALITE_INFRACTION']
+post_code = None
+city_code = None
 # Ouput fields configuration
-output_prefix = 'ban_'
+output_prefix = 'bano_'
 error_prefix = 'err_'
 
 
