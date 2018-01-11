@@ -6,7 +6,7 @@
         "input": "MI_DateHeureInfraction",
         "col": "CI_Libelle",
         "num": 0,
-        "time": "23:00",
+        "time": "22:59",
         "date": "2017-10-31",
         "operator": "\u003e\u003d [date]"
       }
