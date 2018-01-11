@@ -30,7 +30,7 @@ columns = ['VOIE_INFRACTION']
 post_code = []
 city_code = ['CODE_INSEE_INFRACTION']
 # Ouput fields configuration
-output_prefix = 'bano_'
+output_prefix = 'ban_'
 error_prefix = 'error'
 error_col = '{}{}'.format(output_prefix,error_prefix) if error_prefix else None
 
@@ -39,7 +39,7 @@ error_col = '{}{}'.format(output_prefix,error_prefix) if error_prefix else None
 lines_per_request = 1000
 verbosechunksize = 2000
 threads = 10
-timeout = 10
+timeout = 30
 maxtries = 2
 limit = None
 
@@ -185,5 +185,5 @@ def geocode(ids, ods):
     ow.close()
 
 ids = dataiku.Dataset("pve_sr_month")
-ods = dataiku.Dataset("pve_geocoded_bano")
+ods = dataiku.Dataset("2010_2015_pve_sr_geocoded_ban_vertical")
 geocode(ids, ods)
