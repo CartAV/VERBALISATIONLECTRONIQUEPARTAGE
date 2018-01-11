@@ -1,4 +1,23 @@
 {
-  "enabled": false,
+  "enabled": true,
+  "uiData": {
+    "conditions": [
+      {
+        "time": "00:00",
+        "num": 0,
+        "col": "CI_Libelle",
+        "input": "MI_DateHeureInfraction",
+        "date": "2017-11-01",
+        "operator": "\u003e\u003d [date]"
+      }
+    ],
+    "mode": "\u0026\u0026"
+  },
+  "$status": {
+    "message": "Filter expression is invalid",
+    "fullyTranslated": false,
+    "ok": false,
+    "validated": true
+  },
   "distinct": false
 }
