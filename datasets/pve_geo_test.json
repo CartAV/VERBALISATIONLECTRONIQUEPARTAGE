@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515667115714
+    "lastModifiedOn": 1515668133374
   },
   "creationTag": {
     "versionNumber": 0,
@@ -53,6 +53,12 @@
   "schema": {
     "userModified": false,
     "columns": [
+      {
+        "name": "index",
+        "type": "bigint",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
       {
         "name": "PVE_ID",
         "type": "string",
