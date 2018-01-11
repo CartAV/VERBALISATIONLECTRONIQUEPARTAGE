@@ -13,16 +13,26 @@
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
   },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
   "partitioning": {
     "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "antoinefa"
     },
-    "lastModifiedOn": 1501506974348
+    "lastModifiedOn": 1515659080970
   },
   "creationTag": {
     "versionNumber": 0,
@@ -83,28 +93,24 @@
       {
         "name": "DEPARTEMENT_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
         "name": "CODE_INSEE_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
         "name": "VOIE_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
         "name": "LIB_LOCALITE_INFRACTION",
         "type": "string",
-        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -247,6 +253,12 @@
         "maxLength": 16200
       },
       {
+        "name": "bano_err_",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
         "name": "bano_housenumber",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -266,15 +278,15 @@
       },
       {
         "name": "bano_latitude",
-        "type": "float",
+        "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "bano_longitude",
-        "type": "float",
+        "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "bano_name",
@@ -290,9 +302,9 @@
       },
       {
         "name": "bano_score",
-        "type": "float",
+        "type": "string",
         "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "maxLength": 16200
       },
       {
         "name": "bano_street",
