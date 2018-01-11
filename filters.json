@@ -18,12 +18,10 @@
         },
         "downstreamPredecessorsIds": [],
         "datasetTypes": [],
-        "recipeTypes": [
-          "python"
-        ]
+        "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "recipeType:python"
+      "query": ""
     }
   ]
 }
