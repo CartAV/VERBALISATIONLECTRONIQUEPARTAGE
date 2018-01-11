@@ -1,3 +1,4 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 from multiprocessing import Process, Queue
 import dataiku
@@ -39,8 +40,8 @@ error_col = '{}{}'.format(output_prefix,error_prefix) if error_prefix else None
 lines_per_request = 1000
 verbosechunksize = 2000
 threads = 10
-timeout = 30
-maxtries = 2
+timeout = 60
+maxtries = 3
 limit = None
 
 
