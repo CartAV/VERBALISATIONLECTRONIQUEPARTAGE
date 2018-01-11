@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515607013063
+    "lastModifiedOn": 1515656512710
   },
   "creationTag": {
     "versionNumber": 0,
@@ -232,79 +232,79 @@
         "maxLength": 16200
       },
       {
-        "name": "ban_city",
+        "name": "bano_city",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_citycode",
+        "name": "bano_citycode",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_context",
+        "name": "bano_context",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_housenumber",
+        "name": "bano_housenumber",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_id",
+        "name": "bano_id",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_label",
+        "name": "bano_label",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_latitude",
+        "name": "bano_latitude",
         "type": "float",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_longitude",
+        "name": "bano_longitude",
         "type": "float",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_name",
+        "name": "bano_name",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_postcode",
+        "name": "bano_postcode",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_score",
+        "name": "bano_score",
         "type": "float",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_street",
+        "name": "bano_street",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "ban_type",
+        "name": "bano_type",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
