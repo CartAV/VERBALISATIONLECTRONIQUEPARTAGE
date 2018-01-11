@@ -22,7 +22,7 @@ SERVER_GOUV_FR = 'http://api-adresse.data.gouv.fr'
 
 OPEN_LAB = True
 
-http_proxy = PROXY_OPEN_LAB if OPEN_LAB else PROXY_PRIVATE_LAB
+http_proxy = None #PROXY_OPEN_LAB if OPEN_LAB else PROXY_PRIVATE_LAB
 server_address = SERVER_OPEN_LAB if OPEN_LAB else SERVER_PRIVATE_LAB
 
 # Input fields configuration
