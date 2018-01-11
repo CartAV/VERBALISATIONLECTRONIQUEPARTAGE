@@ -3,11 +3,11 @@
   "uiData": {
     "conditions": [
       {
-        "time": "00:00",
-        "num": 0,
-        "col": "CI_Libelle",
         "input": "MI_DateHeureInfraction",
-        "date": "2017-11-01",
+        "col": "CI_Libelle",
+        "num": 0,
+        "time": "23:00",
+        "date": "2017-10-31",
         "operator": "\u003e\u003d [date]"
       }
     ],
