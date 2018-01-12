@@ -1,12 +1,12 @@
 {
-  "enabled": true,
+  "enabled": false,
   "uiData": {
     "conditions": [
       {
-        "time": "22:59",
-        "num": 0,
-        "col": "CI_Libelle",
         "input": "MI_DateHeureInfraction",
+        "col": "CI_Libelle",
+        "num": 0,
+        "time": "22:59",
         "date": "2017-11-30",
         "operator": "\u003e\u003d [date]"
       }
