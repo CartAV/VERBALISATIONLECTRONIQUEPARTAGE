@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1519380623762
+    "lastModifiedOn": 1519381485687
   },
   "creationTag": {
     "versionNumber": 0,
@@ -62,9 +62,9 @@
     "columns": [
       {
         "name": "index",
-        "type": "string",
+        "type": "bigint",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "PVE_ID",
@@ -170,9 +170,9 @@
       },
       {
         "name": "MI_DateHeureInfraction",
-        "type": "string",
+        "type": "date",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "ANNEE",
