@@ -6,14 +6,19 @@
   "active": true,
   "runAsUser": "antoinefa",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1512495489251
+    "lastModifiedOn": 1519381438588
   },
   "checklists": {
     "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
   },
   "tags": [],
   "triggers": [
@@ -32,6 +37,10 @@
             "partitionsSpec": ""
           }
         ]
+      },
+      "graceDelaySettings": {
+        "delay": 150,
+        "checkAgainAfterGraceDelay": false
       }
     }
   ],
