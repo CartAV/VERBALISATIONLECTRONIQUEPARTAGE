@@ -49,7 +49,10 @@
         "values": [
           "2016",
           "2017",
-          "2015"
+          "2015",
+          "2018",
+          "2019",
+          "2020"
         ],
         "booleanMode": "AND",
         "normalizationMode": "EXACT",
@@ -79,6 +82,10 @@
       "withinFirstN": -1,
       "samplingMethod": "HEAD_SEQUENTIAL",
       "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
       "maxReadUncompressedBytes": -1,
       "filter": {
         "enabled": false,
