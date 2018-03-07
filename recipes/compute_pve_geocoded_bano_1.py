@@ -162,7 +162,7 @@ def geocode(ids, ods):
     floats = [output_prefix + column for column in ['longitude', 'latitude', 'score']]
     for column in output_index.difference(initial_index):
         schema.append({'name': column, 'type': 'float' if column in floats else 'string'})
-    ods.write_schema_from_dataframe(geocoded)
+    ods.write_schema(schema)
     ow = ods.get_writer()
     # Then the full pass
     dataset_iter = ids.iter_dataframes(chunksize=lines_per_request, infer_with_pandas=False, limit=limit)
