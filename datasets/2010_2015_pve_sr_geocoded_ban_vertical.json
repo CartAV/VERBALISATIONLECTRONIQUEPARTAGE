@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1519381485065
+    "lastModifiedOn": 1521018789180
   },
   "creationTag": {
     "versionNumber": 0,
@@ -60,12 +60,6 @@
   "schema": {
     "userModified": false,
     "columns": [
-      {
-        "name": "index",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
       {
         "name": "PVE_ID",
         "type": "string",
@@ -99,24 +93,28 @@
       {
         "name": "DEPARTEMENT_INFRACTION",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
         "name": "CODE_INSEE_INFRACTION",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
         "name": "VOIE_INFRACTION",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
       {
         "name": "LIB_LOCALITE_INFRACTION",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
       },
@@ -241,12 +239,6 @@
         "maxLength": 16200
       },
       {
-        "name": "ban_error",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": 16200
-      },
-      {
         "name": "ban_city",
         "type": "string",
         "timestampNoTzAsDate": false,
@@ -260,6 +252,12 @@
       },
       {
         "name": "ban_context",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "ban_error",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
@@ -284,15 +282,15 @@
       },
       {
         "name": "ban_latitude",
-        "type": "string",
+        "type": "float",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "ban_longitude",
-        "type": "string",
+        "type": "float",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "ban_name",
@@ -308,9 +306,9 @@
       },
       {
         "name": "ban_score",
-        "type": "string",
+        "type": "float",
         "timestampNoTzAsDate": false,
-        "maxLength": 16200
+        "maxLength": -1
       },
       {
         "name": "ban_street",
@@ -320,6 +318,12 @@
       },
       {
         "name": "ban_type",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 16200
+      },
+      {
+        "name": "index",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": 16200
