@@ -2019,10 +2019,10 @@
         "mode": "SQL",
         "id": "B16euisDgOXx",
         "runOn": 1530693481413,
-        "runIn": 133,
+        "runIn": 76,
         "runBy": "antoinefa",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "lHMzf5cg",
         "hash": "b4348a49e30c37fa0a2cac687fa0d3b8",
         "querySettings": {
