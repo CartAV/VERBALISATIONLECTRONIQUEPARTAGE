@@ -1859,6 +1859,30 @@
         "sql": "select * from \"pve_geocoded_distance_commune\" where\n\"PVE_ID\" in (\u002784901542\u0027, \u0027111567690\u0027, \u002765791603\u0027)",
         "expandedSql": "select * from \"pve_geocoded_distance_commune\" where\n\"PVE_ID\" in (\u002784901542\u0027, \u0027111567690\u0027, \u002765791603\u0027)"
       }
+    ],
+    "hdz390g6son": [
+      {
+        "mode": "SQL",
+        "id": "nzGIQY1wSNLm",
+        "runOn": 1530691391922,
+        "runIn": -1,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "1qmkXfSx",
+        "hash": "62e28cb22d095b3a56a1da18d4f1e360",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "CREATE index IF NOT EXISTS pve_pg_prep_departement_idx on \"2010_2015_pve_pg_prep\"(\"DEPARTEMENT_INFRACTION\")",
+        "expandedSql": "CREATE index IF NOT EXISTS pve_pg_prep_departement_idx on \"2010_2015_pve_pg_prep\"(\"DEPARTEMENT_INFRACTION\")"
+      }
     ]
   }
 }
