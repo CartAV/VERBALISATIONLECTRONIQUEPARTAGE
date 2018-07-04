@@ -1909,10 +1909,10 @@
         "mode": "SQL",
         "id": "DnrHQLsaHxnN",
         "runOn": 1530693056253,
-        "runIn": 22,
+        "runIn": 53,
         "runBy": "antoinefa",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "jtwVW5Na",
         "hash": "b8dd7fe6857555a2ca83aa5bbfe44b6e",
         "querySettings": {
