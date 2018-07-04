@@ -1931,10 +1931,10 @@
         "mode": "SQL",
         "id": "m347u8JyAhHF",
         "runOn": 1530693143548,
-        "runIn": 53,
+        "runIn": 48,
         "runBy": "antoinefa",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "5eRofIxY",
         "hash": "c02b207ab3e9e56de6343e7203364d3e",
         "querySettings": {
