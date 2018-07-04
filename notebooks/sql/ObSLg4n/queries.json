@@ -1992,6 +1992,28 @@
         },
         "sql": "SELECT version();",
         "expandedSql": "SELECT version();"
+      },
+      {
+        "mode": "SQL",
+        "id": "Jb9DD7vCQddt",
+        "runOn": 1530693462031,
+        "runIn": 61,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "bWWTibnQ",
+        "hash": "794ba4361a2e6ec4bacc95d35fa781ea",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "DO $$\nBEGIN\n\nIF to_regclass(\u0027pve_pg_prep_departement_idx\u0027) IS NULL THEN\n    CREATE INDEX \u0027pve_pg_prep_departement_idx\u0027 ON \"2010_2015_pve_pg_prep\" (\"DEPARTEMENT_INFRACTION\");\nEND IF;\n\nEND$$;\n",
+        "expandedSql": "DO $$\nBEGIN\n\nIF to_regclass(\u0027pve_pg_prep_departement_idx\u0027) IS NULL THEN\n    CREATE INDEX \u0027pve_pg_prep_departement_idx\u0027 ON \"2010_2015_pve_pg_prep\" (\"DEPARTEMENT_INFRACTION\");\nEND IF;\n\nEND$$;\n"
       }
     ]
   }
