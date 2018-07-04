@@ -1953,10 +1953,10 @@
         "mode": "SQL",
         "id": "hs3rqitRQ3P2",
         "runOn": 1530693157330,
-        "runIn": 48,
+        "runIn": 82,
         "runBy": "antoinefa",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "nvca4red",
         "hash": "b8dd7fe6857555a2ca83aa5bbfe44b6e",
         "querySettings": {
