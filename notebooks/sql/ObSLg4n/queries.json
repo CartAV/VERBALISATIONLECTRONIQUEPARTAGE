@@ -2014,6 +2014,28 @@
         },
         "sql": "DO $$\nBEGIN\n\nIF to_regclass(\u0027pve_pg_prep_departement_idx\u0027) IS NULL THEN\n    CREATE INDEX \u0027pve_pg_prep_departement_idx\u0027 ON \"2010_2015_pve_pg_prep\" (\"DEPARTEMENT_INFRACTION\");\nEND IF;\n\nEND$$;\n",
         "expandedSql": "DO $$\nBEGIN\n\nIF to_regclass(\u0027pve_pg_prep_departement_idx\u0027) IS NULL THEN\n    CREATE INDEX \u0027pve_pg_prep_departement_idx\u0027 ON \"2010_2015_pve_pg_prep\" (\"DEPARTEMENT_INFRACTION\");\nEND IF;\n\nEND$$;\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "B16euisDgOXx",
+        "runOn": 1530693481413,
+        "runIn": 133,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "lHMzf5cg",
+        "hash": "b4348a49e30c37fa0a2cac687fa0d3b8",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "DO $$\nBEGIN\n\nIF to_regclass(\u0027pve_pg_prep_departement_idx\u0027) IS NULL THEN\n    CREATE INDEX pve_pg_prep_departement_idx ON \"2010_2015_pve_pg_prep\" (\"DEPARTEMENT_INFRACTION\");\nEND IF;\n\nEND$$;\n",
+        "expandedSql": "DO $$\nBEGIN\n\nIF to_regclass(\u0027pve_pg_prep_departement_idx\u0027) IS NULL THEN\n    CREATE INDEX pve_pg_prep_departement_idx ON \"2010_2015_pve_pg_prep\" (\"DEPARTEMENT_INFRACTION\");\nEND IF;\n\nEND$$;\n"
       }
     ]
   }
