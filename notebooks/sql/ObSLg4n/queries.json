@@ -1882,6 +1882,28 @@
         },
         "sql": "CREATE index IF NOT EXISTS pve_pg_prep_departement_idx on \"2010_2015_pve_pg_prep\"(\"DEPARTEMENT_INFRACTION\")",
         "expandedSql": "CREATE index IF NOT EXISTS pve_pg_prep_departement_idx on \"2010_2015_pve_pg_prep\"(\"DEPARTEMENT_INFRACTION\")"
+      },
+      {
+        "mode": "SQL",
+        "id": "clrCc0AGORHk",
+        "runOn": 1530691398582,
+        "runIn": 131,
+        "runBy": "antoinefa",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "9YJ2WKe7",
+        "hash": "192d41af302ec493fd7692ad3e70045c",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "CREATE index  pve_pg_prep_departement_idx on \"2010_2015_pve_pg_prep\"(\"DEPARTEMENT_INFRACTION\")",
+        "expandedSql": "CREATE index  pve_pg_prep_departement_idx on \"2010_2015_pve_pg_prep\"(\"DEPARTEMENT_INFRACTION\")"
       }
     ]
   }
