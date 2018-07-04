@@ -1975,10 +1975,10 @@
         "mode": "SQL",
         "id": "SUFOT6TioKOf",
         "runOn": 1530693232048,
-        "runIn": 82,
+        "runIn": 61,
         "runBy": "antoinefa",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "67CobUSo",
         "hash": "75037d7a498b0540f77a69d1f8ac1622",
         "querySettings": {
