@@ -134,10 +134,14 @@
         "preventOverride": false
       }
     },
+    "container": {
+      "containerMode": "NONE"
+    },
     "datasetsCreationSettings": {
       "useGlobal": true,
       "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
-      "virtualizable": false
+      "virtualizable": false,
+      "allowUploadsWithoutConnection": true
     },
     "hiveEngineCreationSettings": {
       "useGlobal": true,
@@ -149,7 +153,14 @@
     "impalaEngineCreationSettings": {
       "useGlobal": true,
       "streamMode": true
-    }
+    },
+    "wikiSettings": {
+      "promoted": false
+    },
+    "cluster": {
+      "clusterMode": "INHERIT"
+    },
+    "path": "/CartAV"
   },
   "name": "verbalisation électronique - geo",
   "projectStatus": "Draft",
@@ -204,11 +215,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "antoinefa"
     },
-    "lastModifiedOn": 1515654631138
+    "lastModifiedOn": 1533462268533
   },
   "description": "Le projet vise à assurer la préparation de données de verbalisation pour les finalités de décisionnel géographique et de corrélation avec l\u0027accidentalité.",
   "shortDesc": "The project *verbalisation électronique - partage* was created by Fabien Antoine on Dec 29th 2016",
