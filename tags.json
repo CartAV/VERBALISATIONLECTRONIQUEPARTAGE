@@ -1,6 +1,12 @@
 {
   "tags": {
+    "creator:grabenertr": {
+      "color": "#123883"
+    },
     "creator_antoinefa": {
+      "color": "#1ac2ab"
+    },
+    "recipe-editor": {
       "color": "#1ac2ab"
     },
     "creator_chabouisfr": {
@@ -12,12 +18,8 @@
     "creator:antoinefa": {
       "color": "#0f6d82"
     },
-    "creator:grabenertr": {
-      "color": "#123883"
-    },
     "creator:chabouisfr": {
       "color": "#90a8b7"
-    },
-    "recipe-editor": {}
+    }
   }
 }
