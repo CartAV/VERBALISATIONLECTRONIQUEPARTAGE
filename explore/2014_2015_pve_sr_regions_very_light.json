@@ -140,26 +140,26 @@
             "isA": "dimension",
             "possibleSorts": [
               {
+                "type": "NATURAL",
                 "label": "Natural ordering",
-                "sortAscending": true,
-                "type": "NATURAL"
+                "sortAscending": true
               },
               {
-                "label": "Count of records, descending",
+                "type": "AGGREGATION",
                 "measureIdx": 0,
-                "type": "AGGREGATION"
+                "label": "Count of records, descending"
               },
               {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
                 "label": "Count of records, ascending",
-                "measureIdx": 0,
-                "sortAscending": true,
-                "type": "AGGREGATION"
+                "sortAscending": true
               }
             ],
             "sort": {
+              "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "type": "NATURAL"
+              "sortAscending": true
             }
           }
         ],
