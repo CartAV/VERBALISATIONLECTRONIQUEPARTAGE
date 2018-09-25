@@ -16,7 +16,7 @@ import sys, time, traceback
 
 PROXY_OPEN_LAB = 'proxy-1:3128'
 PROXY_PRIVATE_LAB = 'localhost:3128'
-
+os.environ['http_proxy'] = ''
 SERVER_OPEN_LAB = 'http://datalab-ban'
 SERVER_PRIVATE_LAB = 'http://adresse.datalab.mi'
 SERVER_GOUV_FR = 'http://api-adresse.data.gouv.fr'
