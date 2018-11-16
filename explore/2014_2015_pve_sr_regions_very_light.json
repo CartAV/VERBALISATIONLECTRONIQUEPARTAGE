@@ -116,7 +116,7 @@
           "maxReadUncompressedBytes": -1
         },
         "autoRefreshSample": false,
-        "_refreshTrigger": 1
+        "_refreshTrigger": 2
       },
       "def": {
         "type": "grouped_columns",
@@ -260,7 +260,7 @@
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
       },
-      "maxDataBytes": 157286400
+      "maxDataBytes": -1
     }
   ]
 }
