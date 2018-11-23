@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
-      "login": "dupontlau"
+      "login": "antoinefa"
     },
-    "lastModifiedOn": 1542963233622
+    "lastModifiedOn": 1542966888208
   },
   "creationTag": {
     "versionNumber": 0,
@@ -205,69 +205,69 @@
         "maxLength": 16200
       },
       {
-        "name": "bano_city",
+        "name": "ban_city",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_citycode",
+        "name": "ban_citycode",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_context",
+        "name": "ban_context",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_error",
+        "name": "ban_error",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_housenumber",
+        "name": "ban_housenumber",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_id",
+        "name": "ban_id",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_label",
+        "name": "ban_label",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_latitude",
+        "name": "ban_latitude",
         "type": "float"
       },
       {
-        "name": "bano_longitude",
+        "name": "ban_longitude",
         "type": "float"
       },
       {
-        "name": "bano_name",
+        "name": "ban_name",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_postcode",
+        "name": "ban_postcode",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_score",
+        "name": "ban_score",
         "type": "float"
       },
       {
-        "name": "bano_street",
+        "name": "ban_street",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "bano_type",
+        "name": "ban_type",
         "type": "string",
         "maxLength": 16200
       },
@@ -277,7 +277,7 @@
         "maxLength": 16200
       }
     ],
-    "userModified": true
+    "userModified": false
   },
   "metrics": {
     "probes": [
