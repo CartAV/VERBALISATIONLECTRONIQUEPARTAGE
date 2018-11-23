@@ -6,6 +6,7 @@
     "kv": {}
   },
   "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
   "inputs": {
     "main": {
       "items": [
@@ -31,11 +32,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "dupontlau"
     },
-    "lastModifiedOn": 1507568813788
+    "lastModifiedOn": 1542963244892
   },
   "creationTag": {
     "versionNumber": 0,

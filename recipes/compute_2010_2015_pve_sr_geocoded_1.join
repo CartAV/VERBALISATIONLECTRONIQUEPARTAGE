@@ -1,276 +1,484 @@
 {
-  "virtualInputs": [
-    {
-      "autoSelectColumns": false,
-      "index": 0,
-      "preFilter": {
-        "enabled": false,
-        "distinct": false
-      }
-    },
-    {
-      "index": 1
-    }
-  ],
   "joins": [
     {
-      "table1": 0,
-      "outerJoinOnTheLeft": true,
       "table2": 1,
+      "table1": 0,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
       "on": [
         {
-          "maxDistance": 1,
           "column1": {
             "name": "PVE_ID",
             "table": 0
           },
-          "type": "EQ",
           "column2": {
             "name": "PVE_ID",
             "table": 1
-          }
+          },
+          "maxDistance": 1,
+          "type": "EQ"
         }
-      ],
-      "rightLimit": {
-        "decisionColumn": {}
-      },
-      "type": "LEFT"
+      ]
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "PVE_ID",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "CI_Libelle",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "AC_Pays",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "NI_CodeNatinf",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "NI_Qualification",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "DEPARTEMENT_INFRACTION",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "CODE_INSEE_INFRACTION",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "VOIE_INFRACTION",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "LIB_LOCALITE_INFRACTION",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MI_RepereKilometrique",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MI_BisTer",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MI_SensCirculation",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MI_Pays",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "TYPEVOIE_Libelle",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordSite",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordGPSLatitude",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_CoordGPSLongitude",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MI_DateHeureInfraction",
+      "type": "date",
+      "table": 0
+    },
+    {
+      "name": "ANNEE",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "MOIS",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_JOUR_INFRACTION",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_PLAGE_HORAIRE",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "UNITE_Code",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "UNITE_Libelle",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "CORPSUNITE_Code",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_CORPS",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "COD_GENRE",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "MIFVAO_VehiculePaysImmatriculation",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "LIBELLE_FAMILLE",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "bano_label",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "bano_latitude",
+      "type": "float",
+      "table": 0
+    },
+    {
+      "name": "bano_longitude",
+      "type": "float",
+      "table": 0
+    },
+    {
+      "name": "bano_postcode",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "bano_score",
+      "type": "float",
+      "table": 0
+    },
+    {
+      "name": "bano_type",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "ban_citycode",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "ban_label",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "ban_latitude",
+      "type": "float",
+      "table": 1
+    },
+    {
+      "name": "ban_longitude",
+      "type": "float",
+      "table": 1
+    },
+    {
+      "name": "ban_score",
+      "type": "float",
+      "table": 1
+    },
+    {
+      "name": "ban_type",
+      "type": "string",
+      "table": 1
     }
   ],
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
       "hiveconf": [],
+      "inheritConf": "default",
       "addDkuUdf": false,
-      "executionEngine": "HIVECLI_LOCAL",
-      "inheritConf": "default"
+      "executionEngine": "HIVECLI_LOCAL"
     },
     "impala": {
       "forceStreamMode": true
     },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
     "sparkSQL": {
       "pipelineAllowMerge": true,
-      "sparkConfig": {
-        "inheritConf": "default",
-        "conf": []
-      },
       "pipelineAllowStart": true,
-      "overwriteOutputSchema": false,
+      "useGlobalMetastore": false,
       "readParams": {
         "map": {}
       },
-      "useGlobalMetastore": false
-    },
-    "lowerCaseSchemaIfEngineRequiresIt": true
-  },
-  "postFilter": {},
-  "enableAutoCastInJoinConditions": false,
-  "selectedColumns": [
-    {
-      "name": "PVE_ID",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CI_Libelle",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "AC_Pays",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "NI_CodeNatinf",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "NI_Qualification",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "DEPARTEMENT_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CODE_INSEE_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "VOIE_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIB_LOCALITE_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MI_RepereKilometrique",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MI_BisTer",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MI_SensCirculation",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MI_Pays",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "TYPEVOIE_Libelle",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MIFVAO_CoordSite",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MIFVAO_CoordGPSLatitude",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MIFVAO_CoordGPSLongitude",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MI_DateHeureInfraction",
-      "table": 0,
-      "type": "date"
-    },
-    {
-      "name": "ANNEE",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "MOIS",
-      "table": 0,
-      "type": "bigint"
-    },
-    {
-      "name": "LIBELLE_JOUR_INFRACTION",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_PLAGE_HORAIRE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "UNITE_Code",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "UNITE_Libelle",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "CORPSUNITE_Code",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_CORPS",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "COD_GENRE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "MIFVAO_VehiculePaysImmatriculation",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "LIBELLE_FAMILLE",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_label",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_latitude",
-      "table": 0,
-      "type": "float"
-    },
-    {
-      "name": "bano_longitude",
-      "table": 0,
-      "type": "float"
-    },
-    {
-      "name": "bano_postcode",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "bano_score",
-      "table": 0,
-      "type": "float"
-    },
-    {
-      "name": "bano_type",
-      "table": 0,
-      "type": "string"
-    },
-    {
-      "name": "ban_citycode",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "ban_label",
-      "table": 1,
-      "type": "string"
-    },
-    {
-      "name": "ban_latitude",
-      "table": 1,
-      "type": "float"
-    },
-    {
-      "name": "ban_longitude",
-      "table": 1,
-      "type": "float"
-    },
-    {
-      "name": "ban_score",
-      "table": 1,
-      "type": "float"
-    },
-    {
-      "name": "ban_type",
-      "table": 1,
-      "type": "string"
+      "overwriteOutputSchema": false,
+      "sparkConfig": {
+        "conf": [],
+        "inheritConf": "default"
+      }
     }
-  ]
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 0
+    },
+    {
+      "index": 1
+    }
+  ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "PVE_ID",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "CI_Libelle",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "AC_Pays",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "NI_CodeNatinf",
+            "type": "bigint"
+          },
+          {
+            "name": "NI_Qualification",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "meaning": "Text",
+            "name": "DEPARTEMENT_INFRACTION",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "meaning": "Text",
+            "name": "CODE_INSEE_INFRACTION",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "meaning": "Text",
+            "name": "VOIE_INFRACTION",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "meaning": "Text",
+            "name": "LIB_LOCALITE_INFRACTION",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MI_RepereKilometrique",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MI_BisTer",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MI_SensCirculation",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MI_Pays",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "TYPEVOIE_Libelle",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MIFVAO_CoordSite",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MIFVAO_CoordGPSLatitude",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MIFVAO_CoordGPSLongitude",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MI_DateHeureInfraction",
+            "type": "date"
+          },
+          {
+            "name": "ANNEE",
+            "type": "bigint"
+          },
+          {
+            "name": "MOIS",
+            "type": "bigint"
+          },
+          {
+            "name": "LIBELLE_JOUR_INFRACTION",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "LIBELLE_PLAGE_HORAIRE",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "UNITE_Code",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "UNITE_Libelle",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "CORPSUNITE_Code",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "LIBELLE_CORPS",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "COD_GENRE",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "MIFVAO_VehiculePaysImmatriculation",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "LIBELLE_FAMILLE",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "bano_label",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "bano_latitude",
+            "type": "float"
+          },
+          {
+            "name": "bano_longitude",
+            "type": "float"
+          },
+          {
+            "name": "bano_postcode",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "bano_score",
+            "type": "float"
+          },
+          {
+            "name": "bano_type",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "ban_citycode",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "ban_label",
+            "type": "string",
+            "maxLength": 16200
+          },
+          {
+            "name": "ban_latitude",
+            "type": "float"
+          },
+          {
+            "name": "ban_longitude",
+            "type": "float"
+          },
+          {
+            "name": "ban_score",
+            "type": "float"
+          },
+          {
+            "name": "ban_type",
+            "type": "string",
+            "maxLength": 16200
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
+  "enableAutoCastInJoinConditions": false
 }
