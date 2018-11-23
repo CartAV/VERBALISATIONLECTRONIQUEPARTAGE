@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "dupontlau"
     },
-    "lastModifiedOn": 1542884236000
+    "lastModifiedOn": 1542963233622
   },
   "creationTag": {
     "versionNumber": 0,
@@ -46,16 +46,16 @@
   ],
   "params": {
     "connection": "datalabmaster",
+    "notReadyIfEmpty": false,
     "mode": "table",
-    "partitioned": false,
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "table": "pve_geocoded_bano",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
-    "hasColsWithUnknownTz": false,
-    "readColsWithUnknownTzAsDates": false
+    "readColsWithUnknownTzAsDates": false,
+    "readSQLDateColsAsDSSDates": true
   },
   "schema": {
     "columns": [
@@ -205,69 +205,69 @@
         "maxLength": 16200
       },
       {
-        "name": "ban_city",
+        "name": "bano_city",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_citycode",
+        "name": "bano_citycode",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_context",
+        "name": "bano_context",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_error",
+        "name": "bano_error",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_housenumber",
+        "name": "bano_housenumber",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_id",
+        "name": "bano_id",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_label",
+        "name": "bano_label",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_latitude",
+        "name": "bano_latitude",
         "type": "float"
       },
       {
-        "name": "ban_longitude",
+        "name": "bano_longitude",
         "type": "float"
       },
       {
-        "name": "ban_name",
+        "name": "bano_name",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_postcode",
+        "name": "bano_postcode",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_score",
+        "name": "bano_score",
         "type": "float"
       },
       {
-        "name": "ban_street",
+        "name": "bano_street",
         "type": "string",
         "maxLength": 16200
       },
       {
-        "name": "ban_type",
+        "name": "bano_type",
         "type": "string",
         "maxLength": 16200
       },
@@ -277,7 +277,7 @@
         "maxLength": 16200
       }
     ],
-    "userModified": false
+    "userModified": true
   },
   "metrics": {
     "probes": [
@@ -319,6 +319,10 @@
           },
           "partitionSelectionMethod": "ALL",
           "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
           "samplingMethod": "FULL",
           "maxRecords": -1,
           "targetRatio": 0.02,
