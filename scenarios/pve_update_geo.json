@@ -6,11 +6,11 @@
   "active": true,
   "runAsUser": "antoinefa",
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
-      "login": "antoinefa"
+      "login": "dupontlau"
     },
-    "lastModifiedOn": 1519381438588
+    "lastModifiedOn": 1542963007717
   },
   "checklists": {
     "checklists": []
@@ -51,6 +51,12 @@
         "id": "build_0_true_d_2014_2015_pve_sr_regions_very_light",
         "type": "build_flowitem",
         "name": "build dataset 2014_2015_pve_sr_regions_very_light",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "resetScenarioStatus": false,
         "params": {
           "builds": [
             {
