@@ -24,7 +24,7 @@ post_code = []
 city_code = []
 
 # Ouput fields configuration
-output_prefix = 'ban_'
+output_prefix = 'bano_'
 error_prefix = 'error'
 error_col = '{}{}'.format(output_prefix,error_prefix) if error_prefix else None
 
