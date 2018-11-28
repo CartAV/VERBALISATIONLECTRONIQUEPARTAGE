@@ -60,11 +60,11 @@
               "emptyBinsMode": "ZEROS"
             },
             "dateParams": {
-              "mode": "DAY_OF_WEEK"
+              "mode": "MONTH"
             },
             "maxValues": 0,
             "generateOthersCategory": true,
-            "oneTickPerBin": false,
+            "oneTickPerBin": true,
             "filters": [],
             "isA": "dimension",
             "possibleSorts": [
@@ -166,6 +166,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
@@ -183,6 +184,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABE0lEQVRoge3QTU7DMBAF4GFFN6xALXJi5xQ9Q/ecgD1CEX/2AvUQnKDqil0EeITEKldjQ5Dl2E4CKEnRe5KVyjOZzhciZLoUhuupdxg1MXDfDyENb/52Ic3P/gLN79BSTb/S9inXfBHti8wI3afwqdk/SmqB1N3Y4L79nZkTuHme372tpebHgwD7fd+1y92iMFwDPBDszvgVFGCAAQYYYIABBhhggAEGGGCAAQb4sMGhPwZ4hmD3ADwFODZXGfvRBXZrPlga3vxbcGG49sGhMwgsSqvcox7sXpRWERHlNzYTpVVS89at+Xer+2p5pl9P/Jr/jiitErcvkoiO/Hqr7+vQ9ftxdlWdujNbPQiCIAiCzCKfQLKKNcH7IH8AAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
