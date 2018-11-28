@@ -682,6 +682,28 @@
         },
         "sql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC",
         "expandedSql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC"
+      },
+      {
+        "mode": "SQL",
+        "id": "7bWQIqJHq2pA",
+        "runOn": 1543418213941,
+        "runIn": 122429,
+        "runBy": "dupontlau",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "vCOyBf7m",
+        "hash": "8156d3f1ef671b2e9b9bc6c455924726",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"pve_geocoded_distance_commune\"\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC",
+        "expandedSql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"pve_geocoded_distance_commune\"\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC"
       }
     ],
     "9vf923rlqfr": [
