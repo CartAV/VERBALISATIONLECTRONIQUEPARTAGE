@@ -46,17 +46,89 @@
   "charts": [
     {
       "copySelectionFromScript": true,
-      "engineType": "LINO",
+      "engineType": "SQL",
+      "refreshableSelection": {
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        },
+        "autoRefreshSample": false,
+        "_refreshTrigger": 1
+      },
       "def": {
         "type": "grouped_columns",
         "variant": "normal",
-        "name": "New chart",
+        "name": "Count by MOIS",
         "userEditedName": false,
-        "genericDimension0": [],
+        "genericDimension0": [
+          {
+            "column": "MOIS",
+            "type": "NUMERICAL",
+            "numParams": {
+              "mode": "TREAT_AS_ALPHANUM",
+              "nbBins": "10",
+              "binSize": 100,
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 12,
+            "generateOthersCategory": false,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count of records, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Count of records, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
         "genericDimension1": [],
         "facetDimension": [],
         "animationDimension": [],
-        "genericMeasures": [],
+        "genericMeasures": [
+          {
+            "function": "COUNT",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
         "xDimension": [],
         "yDimension": [],
         "uaXDimension": [],
@@ -74,6 +146,16 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
+        "filters": [
+          {
+            "filterType": "NUMERICAL_FACET",
+            "column": "ANNEE",
+            "columnType": "NUMERICAL",
+            "isA": "filter",
+            "excludedValues": {},
+            "explicitExclude": false
+          }
+        ],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -115,6 +197,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
@@ -132,6 +215,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAATUlEQVRoge3PsQ3AIAADQTbJmCxGn9VSsQJErzvJvX8MOp653r3bX44QXCe4TnCd4DrBdYLrBNcJrhNcJ7hOcJ3gOsF1gusE1wkG4Oc+9R7JfN6YkFsAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
