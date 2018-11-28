@@ -616,6 +616,28 @@
         },
         "sql": "SELECT DISTINCT MOIS, ANNEE\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\n",
         "expandedSql": "SELECT DISTINCT MOIS, ANNEE\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "q3Yg2YycvTiK",
+        "runOn": 1543417642238,
+        "runIn": 228,
+        "runBy": "dupontlau",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "6wDKQZn5",
+        "hash": "bbadb3c8063fb0bc0576a66175b58582",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT \"ANNEE\" || \"MOIS\" AS period, COUNT(*)\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\nGROUP BY period\nORDER BY period DESC",
+        "expandedSql": "SELECT \"ANNEE\" || \"MOIS\" AS period, COUNT(*)\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\nGROUP BY period\nORDER BY period DESC"
       }
     ],
     "9vf923rlqfr": [
