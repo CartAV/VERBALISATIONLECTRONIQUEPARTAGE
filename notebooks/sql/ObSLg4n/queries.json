@@ -709,10 +709,10 @@
         "mode": "SQL",
         "id": "R2HlpRDndbmv",
         "runOn": 1543418231454,
-        "runIn": 122429,
+        "runIn": 212,
         "runBy": "dupontlau",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "EFtxxCpB",
         "hash": "845aec1b3044dcc4f4705ba81094f49f",
         "querySettings": {
