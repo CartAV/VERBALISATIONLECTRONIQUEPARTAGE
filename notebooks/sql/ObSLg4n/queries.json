@@ -770,6 +770,28 @@
         },
         "sql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"2010_2015_pve_pg_prep\"\nWHERE \"ANNEE\" \u003d 2018\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC\n",
         "expandedSql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"2010_2015_pve_pg_prep\"\nWHERE \"ANNEE\" \u003d 2018\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "OTFj2lY1X223",
+        "runOn": 1543419147510,
+        "runIn": 297497,
+        "runBy": "dupontlau",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "xHySLfbP",
+        "hash": "46dc0738de1b05e05a62664599b595e7",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"2010_2015_pve_sr_regions_postgis\"\nWHERE \"ANNEE\" \u003d 2018\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC\n",
+        "expandedSql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"2010_2015_pve_sr_regions_postgis\"\nWHERE \"ANNEE\" \u003d 2018\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC\n"
       }
     ],
     "9vf923rlqfr": [
