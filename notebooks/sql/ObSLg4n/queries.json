@@ -660,6 +660,28 @@
         },
         "sql": "SELECT STR(\"ANNEE\") || STR(\"MOIS\") AS period, COUNT(*)\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\nGROUP BY period\nORDER BY period DESC",
         "expandedSql": "SELECT STR(\"ANNEE\") || STR(\"MOIS\") AS period, COUNT(*)\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\nGROUP BY period\nORDER BY period DESC"
+      },
+      {
+        "mode": "SQL",
+        "id": "xYbVc4gcKvIh",
+        "runOn": 1543417675640,
+        "runIn": 85,
+        "runBy": "dupontlau",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "C8yprAhq",
+        "hash": "01d10c67880db662e6781a46d771d72a",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC",
+        "expandedSql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"public\".\"2010_2015_pve_autoroute_coords\"\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC"
       }
     ],
     "9vf923rlqfr": [
