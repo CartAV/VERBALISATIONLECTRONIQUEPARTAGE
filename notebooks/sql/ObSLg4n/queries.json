@@ -748,6 +748,28 @@
         },
         "sql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"pve_geocoded_distance_commune\"\nWHERE \"ANNEE\" \u003d 2018\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC\n",
         "expandedSql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"pve_geocoded_distance_commune\"\nWHERE \"ANNEE\" \u003d 2018\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "NwrPkl7wlVcV",
+        "runOn": 1543418425767,
+        "runIn": 81718,
+        "runBy": "dupontlau",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "Fi7fTHbu",
+        "hash": "2b5d9e20b30e7b4536c24cf49cad704a",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"2010_2015_pve_pg_prep\"\nWHERE \"ANNEE\" \u003d 2018\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC\n",
+        "expandedSql": "SELECT \"ANNEE\", \"MOIS\", COUNT(*)\nFROM \"2010_2015_pve_pg_prep\"\nWHERE \"ANNEE\" \u003d 2018\nGROUP BY \"ANNEE\", \"MOIS\"\nORDER BY \"ANNEE\", \"MOIS\" DESC\n"
       }
     ],
     "9vf923rlqfr": [
