@@ -85,7 +85,7 @@
               "emptyBinsMode": "ZEROS"
             },
             "maxValues": 100,
-            "generateOthersCategory": true,
+            "generateOthersCategory": false,
             "oneTickPerBin": false,
             "filters": [],
             "isA": "dimension",
@@ -206,7 +206,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAYUlEQVRoge3PsQ2AMAxE0SyCGDOLAS2rsUGqGF/xvuTS0r0x1Nc5r3d13fu2BwwcPOSvn5KAgft+SgIGzv055v0AA4eOBwYGBgZOHg8MDAwMnDweGBgYGDh5PHAVWJLU1Ad6Em5jRo5uMgAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAXUlEQVRoge3PsQ3AIBAEQRpBlEljQOrW3IEjo79gVvrwpZvWVNeY6/m66n2/BwwcPCTlp899gIFDxwMDAwMDJ48HBgYGBk4eDwwMDAycPB4YGBgYOHk88C2wJKmoFxfZ3A1eUhtdAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
